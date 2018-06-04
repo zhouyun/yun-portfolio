@@ -83,7 +83,7 @@ class Home extends Component {
         <div className="project-section">
           <div className="img-block" src={logo}>
             <img className="background-cloud" src="svg/pinkcloud.svg"/>
-            <div>2013-present</div>
+            <div >2013-present</div>
           </div>
           <div className="text-block">
             <div className="project-title">Graphic Design Collection +</div>
