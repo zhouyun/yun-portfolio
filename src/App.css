@@ -22,21 +22,138 @@
   font-size: large;
 }
 
-.SNS-bar {
-  display: inline-block;
+.profile {
+  width: 48%;
+  margin: 0px auto;
+  padding: 80px 15px 20px;
+}
+.Hi-Im-Yun {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #44424d;
 }
 
-.project-section {
-  height: 300px;
-  .img-block {
-    float: left;
-    width: 50%;
-  }
-  .text-block {
-    float: right;
-    width: 50%;
-  }
+.UI-designer-Be {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #44424d;
 }
+.quote {
+  margin-left: -49px;
+  margin-top: -20px;
+  margin-right: 10px;
+  width: 29px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.sns-section {
+  display: inline-block;
+}
+.sns-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+
+}
+.project-section {
+  height: 550px;
+  width: 1280px;
+  margin: 20px 3%;
+  width: 94%;
+  padding: 58px 5%;
+}
+.project-new-year-section {
+  /*background-color: #b9d8fe;*/
+  overflow:hidden;
+
+}
+.project-new-year-section:hover {
+  background: -moz-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 6s ease;
+  -moz-animation: Gradient 6s ease;
+  animation: Gradient 6s ease;
+}
+.project-new-year-section123:hover {
+  /*background-image:radial-gradient(circle at 30px 50px,#b9d8fe 30%,#fff 40%);*/
+  -webkit-animation: Radial 1s ease;
+  -moz-animation: Radial 1s ease;
+  animation: Radial 1s ease;
+  background-color: #b9d8fe;
+
+}
+@keyframes Radial { 
+  0%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 30%,#fff 40%);}
+  5%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 50%,#fff 40%);}
+  20%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 200%,#fff 50%);}
+  50%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 800%);}
+  100%{background-color: #b9d8fe;}
+}
+@keyframes Gradient { 
+  0%{background-position:100% 50%}
+  50%{background-position:40% 50%}
+  100%{background-position:20% 50%}
+}
+.project-image {
+  width: 100%;
+  margin-top: -450px;
+  position: relative;
+}
+/*.background-cloud:hover {
+  transform: scale(1.5);
+  position: relative;
+}*/
+.img-block {
+  float: left;
+  width: 50%;
+}
+.text-block {
+  float: right;
+  width: 50%;
+}
+.project-title {
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #44424d;
+}
+.project-description {
+    font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #44424d;
+}
+.view-case {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #44424d;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
