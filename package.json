@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kinoko0841.github.io/yun-portfolio/",
+  "homepage": "./",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "node-sass-chokidar": "^1.3.0",
