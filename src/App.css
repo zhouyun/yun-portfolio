@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -75,12 +76,11 @@
   width: 94%;
   padding: 58px 5%;
 }
-.project-new-year-section {
+.project-section {
   /*background-color: #b9d8fe;*/
   overflow:hidden;
-
 }
-.project-new-year-section:hover {
+.project-new-year-section-deprecated:hover {
   background: -moz-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -89,21 +89,40 @@
   -moz-animation: Gradient 6s ease;
   animation: Gradient 6s ease;
 }
-.project-new-year-section123:hover {
+.project-new-year-section-deprecated-2:hover {
   /*background-image:radial-gradient(circle at 30px 50px,#b9d8fe 30%,#fff 40%);*/
-  -webkit-animation: Radial 1s ease;
-  -moz-animation: Radial 1s ease;
-  animation: Radial 1s ease;
-  background-color: #b9d8fe;
+  -webkit-animation: Radial 2s;
+  -moz-animation: Radial 2s ease;
+  animation: Radial 2s ease;
+  /*background-color: #b9d8fe;*/
 
 }
+.project-section:hover .background-cloud{
+  -webkit-transform:scale(10);
+  -moz-transform:scale(10);
+  -ms-transform:scale(10);
+  transform:scale(10);
+  -webkit-transition:all 1s cubic-bezier(.55,.06,.68,.19) 0s;
+  -moz-transition:all 1s cubic-bezier(.55,.06,.68,.19) 0s;      
+  transition:all 1s cubic-bezier(.55,.06,.68,.19) 0s;
+
+}
+/*圆形发散*/
 @keyframes Radial { 
-  0%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 30%,#fff 40%);}
-  5%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 50%,#fff 40%);}
-  20%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 200%,#fff 50%);}
-  50%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 800%);}
+  0%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 30%,#fff 70%);}
+  30%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 50%,#fff 70%);}
+  100%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 60%,#fff 70%);}
+}
+/*渐变色*/
+@keyframes RadialColor { 
+  0%{background-image:radial-gradient(#b9d8fe 30%);}
+  20%{background-image:radial-gradient(#b9d8fe 50%);}
+  40%{background-image:radial-gradient(#b9d8fe 70%);}
+  60%{background-image:radial-gradient(#b9d8fe 90%);}
+  80%{background-image:radial-gradient(#b9d8fe 100%);}
   100%{background-color: #b9d8fe;}
 }
+/*颜色从左到右平铺*/
 @keyframes Gradient { 
   0%{background-position:100% 50%}
   50%{background-position:40% 50%}
@@ -114,15 +133,23 @@
   margin-top: -450px;
   position: relative;
 }
-/*.background-cloud:hover {
-  transform: scale(1.5);
+.background-cloud {
   position: relative;
-}*/
+}
+.green-cloud {
+  transform: rotate(176deg);
+  fill: #9fe6d7;
+}
+.purple-cloud {
+  transform: rotate(-205deg);
+  fill: #c5bfde;
+}
 .img-block {
   float: left;
   width: 50%;
 }
 .text-block {
+  position: relative;
   float: right;
   width: 50%;
 }

@@ -3,19 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 
 import {Header, Footer, Navbar} from './component';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
-import {About, Work, Palmdrive, GraphicDesign,Transaction} from './component';
+import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume} from './component';
 
 const App = () => (
   <Router>
     <div>
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/work/newyear" component={Work} />
-      <Route path="/work/palmdrive" component={Palmdrive} />
-      <Route path="/work/graphic" component={GraphicDesign} />
-      <Route path="/work/transaction" component={Transaction} />
+      <Route path="/about/" component={About} />
+      <Route path="/resume/" component={Resume} />
+      <Route path="/work/newyear/" component={Work} />
+      <Route path="/work/palmdrive/" component={Palmdrive} />
+      <Route path="/work/graphic/" component={GraphicDesign} />
+      <Route path="/work/transaction/" component={Transaction} />
     </div>
   </Router>
 );
@@ -60,7 +61,7 @@ class Home extends Component {
         </div>
         <div className="project-section project-palmdrive-section">
           <div className="img-block" src={logo}>
-            <img className="background-cloud" src="svg/bluecloud.svg"/>
+            <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
             <img className="project-image" src="home/group/group@3x.png"/>
           </div>
           <div className="text-block">
@@ -71,7 +72,7 @@ class Home extends Component {
         </div>
         <div className="project-section">
           <div className="img-block">
-            <img className="background-cloud" src="svg/bluecloud.svg"/>
+            <img className="background-cloud purple-cloud" src="svg/purplecloud.svg"/>
             <img className="project-image" src="home/group-3/group-3@3x.png"/>
           </div>
           <div className="text-block">

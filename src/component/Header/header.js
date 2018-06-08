@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { Link } from 'react-router-dom';
 import {
   Button,
   Collapse,
@@ -46,18 +46,18 @@ export class Header extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="/work/newyeareventsprint"> WORK1 </NavLink>
+                    <NavLink tag={Link} to="/work/newyear">New Year Sprint </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/work/palmdrive"> WORK2 </NavLink>
+                    <NavLink tag={Link} to="/work/palmdrive">Palmdrive Website </NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/about">- ABOUT -</NavLink>
+                <NavLink tag={Link} to="/about">- ABOUT -</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/resume">- RESUME -</NavLink>
+                <NavLink tag={Link} to="/resume">- RESUME -</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

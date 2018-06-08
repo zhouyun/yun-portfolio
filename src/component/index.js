@@ -7,7 +7,9 @@ import {Palmdrive} from './Work/palmdrive.js';
 import {GraphicDesign} from './Work/graphicDesign.js';
 import {Transaction} from './Work/transaction.js';
 import {About} from './About/about.js';
+import {Resume} from './Resume/resume.js';
 
+export {Resume};
 export {About};
 export {Work};
 export {Footer};
