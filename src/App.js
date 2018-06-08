@@ -6,14 +6,15 @@ import {Header, Footer, Navbar} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume} from './component';
-
-const App = () => (
-  <Router>
+import createHashHistory from 'history/createBrowserHistory'
+const history = createHashHistory()
+const App = ({history}) => (
+  <Router location={history}>
     <div>
       <Route exact path="/" component={Home} />
       <Route path="/about/" component={About} />
       <Route path="/resume/" component={Resume} />
-      <Route path="/work/newyear/" component={Work} />
+      <Route path="/work/newyear/" component={Work}/>
       <Route path="/work/palmdrive/" component={Palmdrive} />
       <Route path="/work/graphic/" component={GraphicDesign} />
       <Route path="/work/transaction/" component={Transaction} />
@@ -50,7 +51,7 @@ class Home extends Component {
         <div className="project-section project-new-year-section">
           <div className="img-block">
             <img className="background-cloud" src="svg/bluecloud.svg"/>
-            <img className="project-image" src="home/group-2/group-2@3x.png"/>
+            <img className="project-image" src="home/group-2/group-2@2x.png"/>
 
           </div>
           <div className="text-block">

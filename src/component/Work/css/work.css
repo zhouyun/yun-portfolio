@@ -27,10 +27,12 @@ p:last-of-type {
 
 .side-bar {
 	/*display: inline-block;*/
+  margin-top: 100px;
   float: left;
   position: fixed;
   top:10px;
-  width: 15%; 
+  /*width: 15%; */
+  width: 200px;
   background: #ffffff;
   z-index: 0;
   display: block;
@@ -39,6 +41,9 @@ p:last-of-type {
   -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.2s ease-out;  /* IE10? */
   transition: all 0.2s ease-out; 
+};/
+.activetab {
+  color: red;
 }
 .project-img-div-long {
   width: 100%;
@@ -53,8 +58,7 @@ p:last-of-type {
 	display: block;
 }
 .new-year-sprint {
-	margin-left: 35%;
-	/*float: left;*/
+	margin-left: 456px;
 	width:75%;
 }
 
