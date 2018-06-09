@@ -49,25 +49,23 @@ p:last-of-type {
   display: inline-block;
   height: 34px;
   padding-left: 23px;
-}
-.side-bar-index .active{
-  border-right: solid 2px black;
-  text-align: center;
-  width: 50px;
-  display: inline-block;
-  height: 34px;
-
+  opacity: 0.25;
 }
 .side-bar-index {
-  border-right: solid 2px black;
+  border-right: solid 2px rgba(68,66,77,0.25);
   text-align: center;
   width: 50px;
   display: inline-block;
   height: 34px;
-  display: none;
+  color:white;
 }
-.activetab {
-  color: red;
+
+.active-index {
+  border-right: solid 2px #44424d;
+  color: #44424d;
+}
+.active-link {
+  opacity: 1;
 }
 .project-img-div-long {
   width: 100%;

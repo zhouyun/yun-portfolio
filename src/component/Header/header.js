@@ -51,6 +51,15 @@ export class Header extends Component {
                   <DropdownItem>
                     <NavLink tag={Link} to="/work/palmdrive">Palmdrive Website </NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink tag={Link} to="/work/graphic">Transaction Management Design </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink tag={Link} to="/work/transaction">Graphic Design Collection + </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink tag={Link} to="/work/fruito">Fruito </NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>

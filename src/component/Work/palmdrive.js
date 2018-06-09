@@ -9,9 +9,10 @@ export class Palmdrive extends Component {
 	constructor(props) {
 	  super(props);
 	  this.handleScroll = this.handleScroll.bind(this);
-	  // this.setState({activeTab: tab});
+	  this.state = {
+	  	activeLink: 1
+    }
 	}
-
 	componentDidMount() {
 	  window.addEventListener('scroll', this.handleScroll);
 	};
@@ -21,9 +22,14 @@ export class Palmdrive extends Component {
 	};
 
 	handleScroll(event) {
-	  console.log('the scroll things', event)
 	  const numSec = document.getElementsByClassName("content-block").length;
-	  console.log(numSec);
+    for (var i=0; i < numSec; i++) {
+    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
+    	if(anchor_offset >= 0) {
+    		this.setState({activeLink: i+1});
+    		return;
+    	}
+		}
 	};
   render() {
     return (
@@ -34,32 +40,32 @@ export class Palmdrive extends Component {
 		      			Palmdrive Website
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">01</div>
-		      			<Link className="side-bar-link" to="#background">Background</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 1 ? 'active-link' : ''}" to="#background">Background</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">02</div>
-		      			<Link className="side-bar-link" to="#challenge">Deliver scalable information architecture</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 2 ? 'active-link' : ''}" to="#challenge">Deliver scalable information architecture</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">03</div>
-		      			<Link className="side-bar-link" to="#logic-comes">Fully responsive design and more</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 3 ? 'active-link' : ''}" to="#logic-comes">Fully responsive design and more</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">04</div>
-		      			<Link className="side-bar-link" to="#design-comes">Design for storytelling</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 4 ? 'active-link' : ''}" to="#design-comes">Design for storytelling</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">05</div>
-		      			<Link className="side-bar-link" to="#into-the-details">Design for what really matters</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 5 ? 'active-link' : ''}" to="#into-the-details">Design for what really matters</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">06</div>
-		      			<Link className="side-bar-link" to="#always-fun">Display with hierarchy</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 6 ? 'active-link' : ''}" to="#always-fun">Display with hierarchy</Link>
 		      		</div>
 		      		<div className="side-bar-row">
-		      			<div className="side-bar-index">07</div>
-		      			<Link className="side-bar-link" to="#hover-is">Repetitive element makes it consistent</Link>
+		      			<div className={`side-bar-index ${this.state.activeLink == 7 ? 'active-index' : ''}`}>07</div>
+		      			<Link className="side-bar-link {this.state.activeLink == 7 ? 'active-link' : ''}" to="#hover-is">Repetitive element makes it consistent</Link>
 		      		</div>
 		      	</Sidebar>
 		      </div>
