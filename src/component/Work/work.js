@@ -10,22 +10,22 @@ import classnames from 'classnames';
 import {Header, Footer, Navbar} from '../../component';
 
 export class Work extends Component {
-	 constructor(props) {
-    super(props);
+	 // constructor(props) {
+  //   super(props);
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      activeTab: '1'
-    };
-  }
+  //   this.toggle = this.toggle.bind(this);
+  //   this.state = {
+  //     activeTab: '1'
+  //   };
+  // }
 
-  toggle(tab) {
-    if (this.state.activeTab !== tab) {
-      this.setState({
-        activeTab: tab
-      });
-    }
-  }
+  // toggle(tab) {
+  //   if (this.state.activeTab !== tab) {
+  //     this.setState({
+  //       activeTab: tab
+  //     });
+  //   }
+  // }
   render() {
     return (
     	<div>
@@ -36,7 +36,7 @@ export class Work extends Component {
 		      		<div>
 		      			palmdrive website
 		      		</div>
-		      		<div className={classnames({ activetab: this.state.activeTab === '1' })}><div>01</div><Link to="#background">Background</Link></div>
+		      		<div><div>01</div><Link to="#background">Background</Link></div>
 		      		<div><div>02</div><Link to="#digital-rocks">Digital rocks</Link></div>
 		      		<div><div>03</div><Link to="#design-shape">The design shapes for the content</Link></div>
 		      		<div><div>04</div><Link to="#great-time">Design Shape</Link></div>

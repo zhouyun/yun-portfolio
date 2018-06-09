@@ -32,16 +32,40 @@ p:last-of-type {
   position: fixed;
   top:10px;
   /*width: 15%; */
-  width: 200px;
   background: #ffffff;
   z-index: 0;
-  display: block;
+  /*display: block;*/
   -moz-transition: all 0.2s ease-out;  /* FF4+ */
   -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
   -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.2s ease-out;  /* IE10? */
   transition: all 0.2s ease-out; 
-};/
+};
+.side-bar-row {
+  width: 180px; 
+
+}
+.side-bar-link {
+  display: inline-block;
+  height: 34px;
+  padding-left: 23px;
+}
+.side-bar-index .active{
+  border-right: solid 2px black;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  height: 34px;
+
+}
+.side-bar-index {
+  border-right: solid 2px black;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  height: 34px;
+  display: none;
+}
 .activetab {
   color: red;
 }

@@ -6,21 +6,61 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './css/work.css';
 
 export class Palmdrive extends Component {
+	constructor(props) {
+	  super(props);
+	  this.handleScroll = this.handleScroll.bind(this);
+	  // this.setState({activeTab: tab});
+	}
+
+	componentDidMount() {
+	  window.addEventListener('scroll', this.handleScroll);
+	};
+
+	componentWillUnmount() {
+	  window.removeEventListener('scroll', this.handleScroll);
+	};
+
+	handleScroll(event) {
+	  console.log('the scroll things', event)
+	  const numSec = document.getElementsByClassName("content-block").length;
+	  console.log(numSec);
+	};
   render() {
     return (
-      <div className="palmdrive">
+      <div className="work palmdrive">
       	<div className="side-bar">
 		      	<Sidebar>
 		      		<div>
 		      			Palmdrive Website
 		      		</div>
-		      		<div><div>01</div><Link to="#background">Background</Link></div>
-	      		<div><div>02</div><Link to="#challenge">Deliver scalable information architecture</Link></div>
-	      		<div><div>03</div><Link to="#logic-comes">Fully responsive design and more</Link></div>
-	      		<div><div>04</div><Link to="#design-comes">Design for storytelling</Link></div>
-	      		<div><div>05</div><Link to="#into-the-details">Design for what really matters</Link></div>
-	      		<div><div>06</div><Link to="#always-fun">Display with hierarchy</Link></div>
-	      		<div><div>07</div><Link to="#hover-is">Repetitive element makes it consistent</Link></div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">01</div>
+		      			<Link className="side-bar-link" to="#background">Background</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">02</div>
+		      			<Link className="side-bar-link" to="#challenge">Deliver scalable information architecture</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">03</div>
+		      			<Link className="side-bar-link" to="#logic-comes">Fully responsive design and more</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">04</div>
+		      			<Link className="side-bar-link" to="#design-comes">Design for storytelling</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">05</div>
+		      			<Link className="side-bar-link" to="#into-the-details">Design for what really matters</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">06</div>
+		      			<Link className="side-bar-link" to="#always-fun">Display with hierarchy</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className="side-bar-index">07</div>
+		      			<Link className="side-bar-link" to="#hover-is">Repetitive element makes it consistent</Link>
+		      		</div>
 		      	</Sidebar>
 		      </div>
 	      	<div className="new-year-sprint">
@@ -30,9 +70,9 @@ export class Palmdrive extends Component {
 	      		<span className="december-2016">
 	      			April 2016 - present
 	      		</span>
-	      		<div id={'background'}>
+	      		<section className="content-block" id={'background'}>
 		          <div className="section-title"> Background </div>
-		        </div>
+		        </section>
 	      		<p>
 	      			As more and more students know who we are and what we do through our website, properly presenting information and the timely updating become the goal of maintaining the website. 
 	      		</p>
@@ -50,9 +90,9 @@ export class Palmdrive extends Component {
 		          src='/image/desktop/newyear-display-1.png'
 		        />
 		        </div>
-	      		<div id={'digital-rocks'}>
-		          <div className="section-title" id="digital-rocks"> Deliver scalable information architecture </div>
-		        </div>
+	      		<section className="content-block" id={'challenge'}>
+		          <div className="section-title"> Deliver scalable information architecture </div>
+		        </section>
 	      		<p>
 	      			As our services are growing, to present information properly on the website can be challenging. So I divided the challenge into two parts —
 	      		</p>
@@ -68,17 +108,17 @@ export class Palmdrive extends Component {
 	      		<p>
 						All the efforts lead me to create a clear and scalable information architecture as the following.
 						</p>
-						<div id={'design-shape'}>
+						<section className="content-block" id={'logic-comes'}>
 		          <div className="section-title"> Fully responsive design and more </div>
-		        </div>
+		        </section>
 		        <p>
 		        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more detailed png version for the sales team for a consistent user experience.
  
 		        </p>
 		       
-						<div id={'great-time'}>
+						<section className="content-block" id={'design-comes'}>
 		        	<div className="section-title">Design for storytelling</div>
-		        </div>
+		        </section>
 		        <p>
 		        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and rephrased the copy. 
 		        </p>
@@ -100,28 +140,28 @@ export class Palmdrive extends Component {
 						<p>
 						With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in two weeks.
 						</p>
-		        <div id={'to-be-continue'}>
+		        <section className="content-block" id={'into-the-details'}>
 		        	<div className="section-title">Design for what really matters</div>
-		        </div>
+		        </section>
 		        <p>
 		        	As the google analytics showed, the Graduate Offer Showcase page had over 30% bounce rate which was far more than what our service team expect. To solve the problem, I redesigned the page with focusing on displaying our values and sharings.
 
 		        </p>
 		        <p>
 		        The results are prominent, the Monthly Bounce Rate on the page decreased by 75% and the pageviews share increased by 59%.
-				</p>
-		        <div id={'design-team-x'}>
+						</p>
+		        <section className="content-block" id={'always-fun'}>
 		        	<div className="section-title">Display with hierarchy</div>
-		        </div>
+		        </section>
 		        <p>
 		        	Analysing from the discussion with the Mentor Team, the problem of the previous mentor displaying page was how to highlight our mentors.
 		        </p>
 		        <p>
 		        In the redesign, mentors with strong background are displayed first. Users can filter mentors with majors in the second section.
-				</p>
-				<div id={'design-team-x'}>
+						</p>
+						<section className="content-block" id={'hover-is'}>
 		        	<div className="section-title">Repetitive element makes it consistent</div>
-		        </div>
+		        </section>
 		        <p>
 		        	For all the pages that I designed, I used repetitive elements to make the website as a whole.
 		        </p>
