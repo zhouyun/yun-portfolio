@@ -162,9 +162,11 @@
   width: 50%;
 }
 .text-block {
+  left: 8%;
   position: relative;
   float: right;
   width: 50%;
+  text-align: left;
 }
 .project-title {
   font-size: 28px;
@@ -176,7 +178,8 @@
   color: #44424d;
 }
 .project-description {
-    font-size: 14px;
+  margin-top:50px;
+  font-size: 14px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -185,6 +188,7 @@
   color: #44424d;
 }
 .view-case {
+  margin-top:145px;
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
@@ -193,9 +197,45 @@
   letter-spacing: normal;
   color: #44424d;
 }
-
+.graphic-label {
+  color: white;
+  background-color: #44424d;
+  position: relative;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: -350px;
+  width: 260px;
+  margin-left: 160px;
+}
+.Footer {
+  width: 100%;
+  /*padding: 10%;*/
+  text-align: left;
+  background-color: #44424d;
+  opacity: 0.1;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media (max-width: 767px){
+  .profile {
+    width: 90%;
+  }
+  .project-section {
+    width: 90%;
+
+  }
+  .text-block {
+    width: 90%;
+  }
+  .image-block {
+
+  }
+  .project-image {
+
+  }
+  
 }

@@ -85,7 +85,7 @@ class Home extends Component {
         <div className="project-section">
           <div className="img-block" src={logo}>
             <img className="background-cloud" src="svg/pinkcloud.svg"/>
-            <div >2013-present</div>
+            <div className="graphic-label">2013-present</div>
           </div>
           <div className="text-block">
             <div className="project-title">Graphic Design Collection +</div>
@@ -93,9 +93,6 @@ class Home extends Component {
             <div className="view-case">view case</div>
           </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
         <Footer/>
       </div>
     );
