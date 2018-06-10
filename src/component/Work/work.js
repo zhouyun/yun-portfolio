@@ -114,8 +114,13 @@ export class Work extends Component {
 						As the promotion would happen only on digital, I was so excited to start my design with no worries about the CMYK and print quality. First time I could use some real bold colors!
 						</p>
 	      		<p>
-						To be more festive, colorful confetti was added and I finished the key visual in 4 hours. `}
+						To be more festive, colorful confetti was added and I finished the key visual in 4 hours.
 						</p>
+						<div className="project-img-div-long">
+	      			<img
+		          src='/image/desktop/newyear-display-2.png'
+		        />
+		        </div>
 						<div className="content-block" id={'design-shape'}>
 		          <div className="section-title"> The design shapes for the content </div>
 		        </div>
