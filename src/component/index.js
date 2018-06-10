@@ -8,7 +8,9 @@ import {GraphicDesign} from './Work/graphicDesign.js';
 import {Transaction} from './Work/transaction.js';
 import {About} from './About/about.js';
 import {Resume} from './Resume/resume.js';
+import {SNSIcon} from './SNSIcon.js';
 
+export {SNSIcon};
 export {Resume};
 export {About};
 export {Work};

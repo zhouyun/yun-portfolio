@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {Header, Footer, Navbar} from './component';
+import {Header, Footer, Navbar, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume} from './component';
@@ -35,11 +35,11 @@ class Home extends Component {
           </div>
           <div className="UI-designer-Be">A UX/UI designer. Believe in relationships with people. Think with writing and sketch. Learn by making stuff. Currently located in Bay Area, CA.</div>
         </div>
-        <div className="sns-section">
-          <img className="sns-icon" src="svg/linkedin.svg" href=""/>
-          <img className="sns-icon" src="svg/dribbble.svg" href=""/>
-          <img className="sns-icon" src="svg/medium.svg" href=""/>
-          <img className="sns-icon" src="svg/ins.svg" href=""/>
+        <SNSIcon/>
+        <div className="divider">
+          <div>-WORK-</div>
+          <div>-ABOUT-</div>
+          <div>-RESUME-</div>
         </div>
         {/*<div className="project-section">
                   <div className="img-block" src={logo}>
@@ -57,7 +57,11 @@ class Home extends Component {
           <div className="text-block">
             <div className="project-title">New Year Event Sprint</div>
             <div className="project-description">A branding event from scratch to the end in 2 weeks</div>
-            <div className="view-case">view case</div>
+            <div className="view-case">
+              <Link to="/work/newyear" className="view-case-description">view case</Link>
+              <div className="view-case-arrow"></div>
+              <div className="view-case-arrow-head">></div>
+            </div>
           </div>
         </div>
         <div className="project-section project-palmdrive-section">
@@ -68,7 +72,11 @@ class Home extends Component {
           <div className="text-block">
             <div className="project-title">Palmdrive Website</div>
             <div className="project-description">Official website of Palmdrive</div>
-            <div className="view-case">view case</div>
+            <div className="view-case">
+              <Link to="/work/palmdrive" className="view-case-description">view case</Link>
+              <div className="view-case-arrow"></div>
+              <div className="view-case-arrow-head">></div>
+            </div>
           </div>
         </div>
         <div className="project-section">
@@ -79,7 +87,11 @@ class Home extends Component {
           <div className="text-block">
             <div className="project-title">Transaction Management Design</div>
             <div className="project-description">Transaction Management is one of the five core functions of Pefin, a web-based financial tool</div>
-            <div className="view-case">view case</div>
+            <div className="view-case">
+              <Link to="/work/transaction" className="view-case-description">view case</Link>
+              <div className="view-case-arrow"></div>
+              <div className="view-case-arrow-head">></div>
+            </div>
           </div>
         </div>
         <div className="project-section">
@@ -90,7 +102,11 @@ class Home extends Component {
           <div className="text-block">
             <div className="project-title">Graphic Design Collection +</div>
             <div className="project-description">A showcase of some other projects I worked on and shipped from 2013 till now</div>
-            <div className="view-case">view case</div>
+            <div className="view-case">
+              <Link to="/work/graphic" className="view-case-description">view case</Link>
+              <div className="view-case-arrow"></div>
+              <div className="view-case-arrow-head">></div>
+            </div>
           </div>
         </div>
         <Footer/>

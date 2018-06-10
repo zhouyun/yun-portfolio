@@ -3,6 +3,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.header-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -27,6 +33,21 @@
   width: 48%;
   margin: 0px auto;
   padding: 80px 15px 20px;
+}
+.divider{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 75px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #44424d;
+  justify-content: space-between;
 }
 .Hi-Im-Yun {
   font-family: 'Montserrat', sans-serif;
@@ -187,15 +208,38 @@
   letter-spacing: normal;
   color: #44424d;
 }
+.view-case-description {
+  display: inline-block;
+
+}
 .view-case {
   margin-top:145px;
   font-size: 14px;
   font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #44424d;
+  cursor: pointer;
+  cursor: hand;
+}
+.view-case-arrow {
+  line-height: 14px;
+  vertical-align: middle;
+  /*border-bottom: solid 1px #44424d;*/
+  height: 1px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 30px;
+  border-top: solid 1px #44424d;
+}
+
+.view-case:hover .view-case-arrow {
+  line-height: 14px;
+  display: inline-block;
+  width: 50px;
+}
+.view-case-arrow-head {
+  display: inline-block;
+  font-weight: 500;
+  vertical-align: middle;
 }
 .graphic-label {
   color: white;
@@ -208,11 +252,13 @@
   margin-left: 160px;
 }
 .Footer {
+  margin-top: 100px;
   width: 100%;
-  /*padding: 10%;*/
-  text-align: left;
-  background-color: #44424d;
-  opacity: 0.1;
+  padding: 3%;
+  text-align: right;
+  font-size: 14px;
+  background-color: rgba(68,66,77,0.1);
+  /*opacity: 0.1;*/
 }
 
 @keyframes App-logo-spin {

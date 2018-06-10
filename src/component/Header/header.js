@@ -32,7 +32,7 @@ export class Header extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="header-nav">
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">
             <img src="svg/logo.svg"/>
