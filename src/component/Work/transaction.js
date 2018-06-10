@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
+import {Header, Footer, Navbar} from '../../component';
 
 import { HashLink as Link } from 'react-router-hash-link';
 import {Sidebar} from '../';
@@ -7,25 +8,75 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
 
 export class Transaction extends Component {
+	constructor(props) {
+	  super(props);
+	  this.handleScroll = this.handleScroll.bind(this);
+	  this.state = {
+	  	activeLink: 1
+    }
+	}
+
+	componentDidMount() {
+	  window.addEventListener('scroll', this.handleScroll);
+	};
+
+	componentWillUnmount() {
+	  window.removeEventListener('scroll', this.handleScroll);
+	};
+
+	handleScroll(event) {
+	  const numSec = document.getElementsByClassName("content-block").length;
+    for (var i=1; i <= numSec; i++) {
+    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
+    	if(anchor_offset > 0) {
+    		this.setState({activeLink: i});
+    		return;
+    	}
+		}
+	};
   render() {
     return (
       <div className="transaction">
       	<div className="side-bar">
-	      	<Sidebar>
-	      		<div>
-	      			Transaction Management Design
-	      		</div>
-	      		<div><div>01</div><Link to="#background">Background</Link></div>
-	      		<div><div>02</div><Link to="#challenge">The challenge</Link></div>
-	      		<div><div>03</div><Link to="#logic-comes">Logic comes the first</Link></div>
-	      		<div><div>04</div><Link to="#design-comes">Design comes the next</Link></div>
-	      		<div><div>05</div><Link to="#into-the-details">Into the details</Link></div>
-	      		<div><div>06</div><Link to="#always-fun">It’s always fun to play with data</Link></div>
-	      		<div><div>07</div><Link to="#hover-is">"Hover" is better than "click and clear"</Link></div>
-	      		<div><div>08</div><Link to="#making-pixels">Making pixels perfect</Link></div>
-	      	</Sidebar>
+      	<Sidebar>
+      		<div className="project-link">
+      			Transaction Management Design
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 1 ? 'active-link' : ''}`} to="#background">Background</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 2 ? 'active-link' : ''}`} to="#challenge">The challenge</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 3 ? 'active-link' : ''}`} to="#logic-comes">Logic comes the first</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 4 ? 'active-link' : ''}`} to="#design-comes">Design comes the next</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 5 ? 'active-link' : ''}`} to="#into-the-details">Into the details</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 6 ? 'active-link' : ''}`} to="#always-fun">It’s always fun to play with data</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 7 ? 'active-index' : ''}`}>07</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 7 ? 'active-link' : ''}`} to="#hover-is">"Hover" is better than "click and clear"</Link>
+      		</div>
+      		<div className="side-bar-row">
+      			<div className={`side-bar-index ${this.state.activeLink == 8 ? 'active-index' : ''}`}>08</div>
+      			<Link className={`side-bar-link ${this.state.activeLink == 8 ? 'active-link' : ''}`} to="#making-pixels">Making pixels perfect</Link>
+      		</div>
+      	</Sidebar>
 	      </div>
-      	<div className="transaction-management-design">
+      	<div className="main transaction-management-design">
       		<h3>
       			Transaction Management Design
       		</h3>

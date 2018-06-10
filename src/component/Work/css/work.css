@@ -65,6 +65,7 @@ p:last-of-type {
   color: #44424d;
 }
 .active-link {
+  color: #44424d;
   opacity: 1;
 }
 .project-img-div-long {
@@ -79,7 +80,7 @@ p:last-of-type {
 	z-index: -1;
 	display: block;
 }
-.new-year-sprint {
+.main {
 	margin-left: 456px;
 	width:75%;
 }
@@ -119,6 +120,10 @@ p:last-of-type {
 @media (max-width: 767px){
   .side-bar {
     display: none;
+  }
+
+  .main {
+    margin-left: 10%;
   }
   
   img {

@@ -10,22 +10,32 @@ import classnames from 'classnames';
 import {Header, Footer, Navbar} from '../../component';
 
 export class Work extends Component {
-	 // constructor(props) {
-  //   super(props);
+	constructor(props) {
+	  super(props);
+	  this.handleScroll = this.handleScroll.bind(this);
+	  this.state = {
+	  	activeLink: 1
+    }
+	}
 
-  //   this.toggle = this.toggle.bind(this);
-  //   this.state = {
-  //     activeTab: '1'
-  //   };
-  // }
+	componentDidMount() {
+	  window.addEventListener('scroll', this.handleScroll);
+	};
 
-  // toggle(tab) {
-  //   if (this.state.activeTab !== tab) {
-  //     this.setState({
-  //       activeTab: tab
-  //     });
-  //   }
-  // }
+	componentWillUnmount() {
+	  window.removeEventListener('scroll', this.handleScroll);
+	};
+
+	handleScroll(event) {
+	  const numSec = document.getElementsByClassName("content-block").length;
+    for (var i=1; i <= numSec; i++) {
+    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
+    	if(anchor_offset > 0) {
+    		this.setState({activeLink: i});
+    		return;
+    	}
+		}
+	};
   render() {
     return (
     	<div>
@@ -33,25 +43,43 @@ export class Work extends Component {
 	      <div className="work">
 	      	<div className="side-bar">
 		      	<Sidebar>
-		      		<div>
+		      		<div className="project-link">
 		      			palmdrive website
 		      		</div>
-		      		<div><div>01</div><Link to="#background">Background</Link></div>
-		      		<div><div>02</div><Link to="#digital-rocks">Digital rocks</Link></div>
-		      		<div><div>03</div><Link to="#design-shape">The design shapes for the content</Link></div>
-		      		<div><div>04</div><Link to="#great-time">Design Shape</Link></div>
-		      		<div><div>05</div><Link to="#to-be-continue">Design Shape</Link></div>
-		      		<div><div>06</div><Link to="#design-team-x">Design Shape</Link></div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 1 ? 'active-link' : ''}`} to="#background">Background</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 2 ? 'active-link' : ''}`} to="#digital-rocks">Digital rocks</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 3 ? 'active-link' : ''}`} to="#design-shape">The design shapes for the content</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 4 ? 'active-link' : ''}`} to="#great-time">They had a great time</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 5 ? 'active-link' : ''}`} to="#to-be-continue">To be continued</Link>
+		      		</div>
+		      		<div className="side-bar-row">
+		      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
+		      			<Link className={`side-bar-link ${this.state.activeLink == 6 ? 'active-link' : ''}`} to="#design-team-x">Design Team X Marketing Team</Link>
+		      		</div>
 		      	</Sidebar>
 		      </div>
-	      	<div className="new-year-sprint">
+	      	<div className="main">
 	      		<h3>
 	      			New Year Event Sprint
 	      		</h3>
 	      		<span className="december-2016">
 	      			December 2016
 	      		</span>
-	      		<div id={'background'}>
+	      		<div className="content-block" id={'background'}>
 		          <div className="section-title"> Background </div>
 		        </div>
 	      		<p>
@@ -73,7 +101,7 @@ export class Work extends Component {
 		          src='/image/desktop/newyear-display-1.png'
 		        />
 		        </div>
-	      		<div id={'digital-rocks'}>
+	      		<div className="content-block" id={'digital-rocks'}>
 		          <div className="section-title" id="digital-rocks"> Digital rocks </div>
 		        </div>
 	      		<p>
@@ -88,7 +116,7 @@ export class Work extends Component {
 	      		<p>
 						To be more festive, colorful confetti was added and I finished the key visual in 4 hours. `}
 						</p>
-						<div id={'design-shape'}>
+						<div className="content-block" id={'design-shape'}>
 		          <div className="section-title"> The design shapes for the content </div>
 		        </div>
 		        <p>
@@ -109,7 +137,7 @@ export class Work extends Component {
 		        <p>
 		        	With all the effort, we got over 200 replies on the first day which was much higher than our expectation according to our previous experience.
 		        </p>
-						<div id={'great-time'}>
+						<div className="content-block" id={'great-time'}>
 		        	<div className="section-title">They had a great time</div>
 		        </div>
 		        <p>
@@ -134,14 +162,14 @@ export class Work extends Component {
 							</li>
 						</ol>
 
-		        <div id={'to-be-continue'}>
+		        <div className="content-block" id={'to-be-continue'}>
 		        	<div className="section-title">To be continued</div>
 		        </div>
 		        <p>
 		        	To make the event official and accessible by larger audience, I created a website for promotion and check in so we could collect the data automatically for later analytics.
 		        </p>
 		        <p>Two weeks later, we host another New Year event at Sunnyvale.</p>
-		        <div id={'design-team-x'}>
+		        <div className="content-block" id={'design-team-x'}>
 		        	<div className="section-title">Design Team X Marketing Team</div>
 		        </div>
 		        <p>
