@@ -2,31 +2,81 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {Header, Footer, Navbar, SNSIcon} from './component';
+import {Header, Footer, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume} from './component';
 import createHashHistory from 'history/createBrowserHistory'
-const history = createHashHistory()
+const history = createHashHistory();
+
+class ScrollTopTop extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      shouldDisplay: false,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this._handleScroll);
+    this._handleScroll();
+  }
+
+  componentWillUnmount(): void {
+    window.removeEventListener('scroll', this._handleScroll);
+  }
+
+  _handleScroll = (): void => {
+    if (window.pageYOffset > 200 && !this.state.shouldDisplay) {
+      this.setState({shouldDisplay: true});
+    } else if (window.pageYOffset <= 200 && this.state.shouldDisplay) {
+      this.setState({shouldDisplay: false});
+    }
+  };
+
+  _handleClick = (): void => {
+    window.scroll({top:0, behavior: 'smooth'})
+    setTimeout(
+      () => this.setState({shouldDisplay: false}),
+      100,
+    );
+  };
+
+  render() {
+    return (
+      <div
+        onClick={this._handleClick}
+        className={`scroll-to-top-root ${this.state.shouldDisplay ? '' : 'hidden_elem'}`}>
+          <img
+          className="project-img-long"
+          src='/image/desktop/up-1.png'
+        />
+      </div>
+    );
+  }
+}
 const App = ({history}) => (
-  <Router location={history}>
-    <div>
-      <Route exact path="/" component={Home} />
-      <Route path="/about/" component={About} />
-      <Route path="/resume/" component={Resume} />
-      <Route path="/work/newyear/" component={Work}/>
-      <Route path="/work/palmdrive/" component={Palmdrive} />
-      <Route path="/work/graphic/" component={GraphicDesign} />
-      <Route path="/work/transaction/" component={Transaction} />
-    </div>
-  </Router>
+  <div>
+    <Header/>
+    <Router location={history}>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/about/" component={About} />
+        <Route path="/resume/" component={Resume} />
+        <Route path="/work/newyear/" component={Work}/>
+        <Route path="/work/palmdrive/" component={Palmdrive} />
+        <Route path="/work/graphic/" component={GraphicDesign} />
+        <Route path="/work/transaction/" component={Transaction} />
+        <ScrollTopTop/>
+      </div>
+    </Router>
+    <Footer/>
+  </div>
 );
 
 class Home extends Component {
   render() {
     return (
       <div className="App">
-        <Header></Header>
         <div className="profile">
           <div className="Hi-Im-Yun">
             <h1><span>
@@ -109,7 +159,6 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <Footer/>
       </div>
     );
   }

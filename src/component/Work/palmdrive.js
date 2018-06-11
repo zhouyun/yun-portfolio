@@ -7,71 +7,44 @@ import './css/work.css';
 import {Header, Footer, Navbar} from '../../component';
 
 export class Palmdrive extends Component {
-	constructor(props) {
-	  super(props);
-	  this.handleScroll = this.handleScroll.bind(this);
-	  this.state = {
-	  	activeLink: 1
-    }
-	}
-	componentDidMount() {
-	  window.addEventListener('scroll', this.handleScroll);
-	};
-
-	componentWillUnmount() {
-	  window.removeEventListener('scroll', this.handleScroll);
-	};
-
-	handleScroll(event) {
-	  const numSec = document.getElementsByClassName("content-block").length;
-    for (var i=1; i <= numSec; i++) {
-    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
-    	if(anchor_offset > 0) {
-    		this.setState({activeLink: i});
-    		return;
-    	}
-		}
-	};
   render() {
+		var previous_page = "< New Year Event Sprint";
     return (
     	<div>
-    		<Header></Header>
 	      <div className="work palmdrive">
-	      	<div className="side-bar">
-			      	<Sidebar>
-			      		<div className="project-link">
-			      			Palmdrive Website
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 1 ? 'active-link' : ''}`} to="#background">Background</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 2 ? 'active-link' : ''}`} to="#challenge">Deliver scalable information architecture</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 3 ? 'active-link' : ''}`} to="#logic-comes">Fully responsive design and more</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 4 ? 'active-link' : ''}`} to="#design-comes">Design for storytelling</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 5 ? 'active-link' : ''}`} to="#into-the-details">Design for what really matters</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 6 ? 'active-link' : ''}`} to="#always-fun">Display with hierarchy</Link>
-			      		</div>
-			      		<div className="side-bar-row">
-			      			<div className={`side-bar-index ${this.state.activeLink == 7 ? 'active-index' : ''}`}>07</div>
-			      			<Link className={`side-bar-link ${this.state.activeLink == 7 ? 'active-link' : ''}`} to="#hover-is">Repetitive element makes it consistent</Link>
-			      		</div>
-			      	</Sidebar>
-			      </div>
+					<Sidebar
+						title={'Palmdrive Website'}
+						items={[
+							{
+								text: "Background",
+								anchor: "#background",
+							},
+							{
+								text: "Deliver scalable information architecture",
+								anchor: "#challenge",
+							},
+							{
+								text: "Fully responsive design and more",
+								anchor: "#logic-comes",
+							},
+							{
+								text: "Design for storytelling",
+								anchor: "#design-comes",
+							},
+							{
+								text: "Design for what really matters",
+								anchor: "#into-the-details",
+							},
+							{
+								text: "Display with hierarchy",
+								anchor: "#always-fun",
+							},
+							{
+								text: "Repetitive element makes it consistent",
+								anchor: "#hover-is",
+							}
+						]}
+					/>
 		      	<div className="main">
 		      		<h3>
 		      			Palmdrive Website
@@ -83,22 +56,22 @@ export class Palmdrive extends Component {
 			          <div className="section-title"> Background </div>
 			        </section>
 		      		<p>
-		      			As more and more students know who we are and what we do through our website, properly presenting information and the timely updating become the goal of maintaining the website. 
+		      			As more and more students know who we are and what we do through our website, properly presenting information and the timely updating become the goal of maintaining the website.
 		      		</p>
-		      		
+
 			        <div className="section-sub-title"> My Role </div>
 		      		<p>
-		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including information architect maintain, copy editing, website design, project management and cross-teams coordinating. 
+		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including information architect maintain, copy editing, website design, project management and cross-teams coordinating.
 		      		</p>
+              <div className="project-img-div-long">
+                <img
+                className="project-img-long"
+                src='/palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display.png'
+              />
+              </div>
 		      		<p>
 		      			Some of them are displayed below. They show the design strategy I came up with when I did the work.
 		      		</p>
-		          <div className="project-img-div-long">
-		      			<img
-		      			className="project-img-long"
-			          src='/image/desktop/newyear-display-1.png'
-			        />
-			        </div>
 		      		<section className="content-block" id={'challenge'}>
 			          <div className="section-title"> Deliver scalable information architecture </div>
 			        </section>
@@ -108,7 +81,7 @@ export class Palmdrive extends Component {
 		      		<p>
 		      			1. How to group the information logically and clearly
 		      		</p>
-		      		<p>     		
+		      		<p>
 						2. How to present information accurately and logically on each page
 							</p>
 		      		<p>
@@ -117,24 +90,30 @@ export class Palmdrive extends Component {
 		      		<p>
 							All the efforts lead me to create a clear and scalable information architecture as the following.
 							</p>
+              <div className="project-img-div-long">
+                <img
+                className="project-img-long"
+                src='/palmdrive/bitmap_2018-05-31/bitmap.png'
+              />
+              </div>
 							<section className="content-block" id={'logic-comes'}>
 			          <div className="section-title"> Fully responsive design and more </div>
 			        </section>
 			        <p>
 			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more detailed png version for the sales team for a consistent user experience.
-	 
+
 			        </p>
-			       
+
 							<section className="content-block" id={'design-comes'}>
 			        	<div className="section-title">Design for storytelling</div>
 			        </section>
 			        <p>
-			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and rephrased the copy. 
+			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and rephrased the copy.
 			        </p>
 			        <p>
-			        	The content focused on 
+			        	The content focused on
 			        </p>
-			      
+
 							<ol>
 								<li>
 								what High School applicants care about the most — our strength
@@ -174,9 +153,23 @@ export class Palmdrive extends Component {
 			        <p>
 			        	For all the pages that I designed, I used repetitive elements to make the website as a whole.
 			        </p>
-			       
+
 		      	</div>
 	      </div>
+				<div>
+					<div className="previous-page">
+						<Link to="/work/newyear">
+							<div className="project-index">Previous Project</div>
+							<div>{previous_page}</div>
+						</Link>
+					</div>
+					<div className="next-page">
+						<Link to="/work/transaction">
+							<div className="project-index">Next Project</div>
+							<div>Transaction Management Design ></div>
+						</Link>
+					</div>
+				</div>
 	    </div>
     );
   }

@@ -8,75 +8,49 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
 
 export class Transaction extends Component {
-	constructor(props) {
-	  super(props);
-	  this.handleScroll = this.handleScroll.bind(this);
-	  this.state = {
-	  	activeLink: 1
-    }
-	}
-
-	componentDidMount() {
-	  window.addEventListener('scroll', this.handleScroll);
-	};
-
-	componentWillUnmount() {
-	  window.removeEventListener('scroll', this.handleScroll);
-	};
-
-	handleScroll(event) {
-	  const numSec = document.getElementsByClassName("content-block").length;
-    for (var i=1; i <= numSec; i++) {
-    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
-    	if(anchor_offset > 0) {
-    		this.setState({activeLink: i});
-    		return;
-    	}
-		}
-	};
   render() {
+		var previous_page = "< Palmdrive Website";
     return (
-      <div className="transaction">
-      	<div className="side-bar">
-      	<Sidebar>
-      		<div className="project-link">
-      			Transaction Management Design
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 1 ? 'active-link' : ''}`} to="#background">Background</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 2 ? 'active-link' : ''}`} to="#challenge">The challenge</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 3 ? 'active-link' : ''}`} to="#logic-comes">Logic comes the first</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 4 ? 'active-link' : ''}`} to="#design-comes">Design comes the next</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 5 ? 'active-link' : ''}`} to="#into-the-details">Into the details</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 6 ? 'active-link' : ''}`} to="#always-fun">It’s always fun to play with data</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 7 ? 'active-index' : ''}`}>07</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 7 ? 'active-link' : ''}`} to="#hover-is">"Hover" is better than "click and clear"</Link>
-      		</div>
-      		<div className="side-bar-row">
-      			<div className={`side-bar-index ${this.state.activeLink == 8 ? 'active-index' : ''}`}>08</div>
-      			<Link className={`side-bar-link ${this.state.activeLink == 8 ? 'active-link' : ''}`} to="#making-pixels">Making pixels perfect</Link>
-      		</div>
-      	</Sidebar>
-	      </div>
-      	<div className="main transaction-management-design">
+			<div>
+      <div className="work transaction">
+				<Sidebar
+					title={'Transaction Management Design'}
+					items={[
+						{
+							text: "Background",
+							anchor: "#background",
+						},
+						{
+							text: "The challenge",
+							anchor: "#challenge",
+						},
+						{
+							text: "Logic comes the first",
+							anchor: "#logic-comes",
+						},
+						{
+							text: "Design comes the next",
+							anchor: "#design-comes",
+						},
+						{
+							text: "Into the details",
+							anchor: "#into-the-details",
+						},
+						{
+							text: "It’s always fun to play with data",
+							anchor: "#always-fun",
+						},
+						{
+							text: "\"Hover\" is better than \"click and clear\"",
+							anchor: "#hover-is",
+						},
+						{
+							text: "Making pixels perfect",
+							anchor: "#making-pixels",
+						}
+					]}
+				/>
+      	<div className="main">
       		<h3>
       			Transaction Management Design
       		</h3>
@@ -87,18 +61,18 @@ export class Transaction extends Component {
 	          <div className="section-title"> Background </div>
 	        </div>
       		<p>
-      			Perfin is a personal financial software company. It was founded in 2011 and is headquartered in New York.  
+      			Perfin is a personal financial software company. It was founded in 2011 and is headquartered in New York.
 
       		</p>
-      		
+
 	        <div className="section-sub-title"> My Role </div>
       		<p>
-      			I worked at Pefin s a UX/UI designer for six months. 
+      			I worked at Pefin s a UX/UI designer for six months.
       		</p>
       		<p>
-      			I was in charge of improving transaction experience by introducing filters and trending data visualization. 
+      			I was in charge of improving transaction experience by introducing filters and trending data visualization.
       		</p>
-      		
+
           <div className="project-img-div-long">
       			<img
       			className="project-img-long"
@@ -112,14 +86,14 @@ export class Transaction extends Component {
       		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to figure out the logic behind the chosen filters.
 
       		</p>
-      		
+
 					<div id={'logic-comes'}>
 	          <div className="section-title"> Logic comes the first </div>
 	        </div>
 	        <p>
 	        	To make the logic clear, I created two kinds of filter pools. One was for “Must-have” tags, and the other was for “May-have” tags. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
 	        </p>
-	      
+
 					<div id={'design-comes'}>
 	        	<div className="section-title">Design comes the next</div>
 	        </div>
@@ -129,7 +103,7 @@ export class Transaction extends Component {
 	        <p>
 	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a web version of Excel. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
 	        </p>
-	        
+
 
 	        <div id={'into-the-details'}>
 	        	<div className="section-title">Into the details</div>
@@ -140,7 +114,7 @@ export class Transaction extends Component {
 	        <div className="section-sub-title"> 1. Space is better than lines.</div>
 	         <p>
 	        	I removed the boxes around elements to make a cleaner user interface.
-	        </p> 
+	        </p>
 	        <div className="section-sub-title"> 2. Different sizes for different layers.</div>
 	         <p>
 	        	Users could get a clearer picture of what transactions were made each day by viewing the bubble tree.
@@ -169,6 +143,21 @@ export class Transaction extends Component {
 	        </p>
       	</div>
       </div>
+			<div>
+				<div className="previous-page">
+					<Link to="/work/palmdrive">
+						<div className="project-index">Previous Project</div>
+						<div>{previous_page}</div>
+					</Link>
+				</div>
+				<div className="next-page">
+					<Link to="/work/graphic/">
+						<div className="project-index">Next Project</div>
+						<div>Graphic Design Collection + ></div>
+					</Link>
+				</div>
+			</div>
+		</div>
     );
   }
 }

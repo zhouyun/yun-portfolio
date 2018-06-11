@@ -1,5 +1,5 @@
 .work {
-  padding: 28px 5%; 
+  padding: 28px 5%;
   width: 80%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -8,10 +8,10 @@ a {
   color:inherit;
 }
 
-a:hover 
+a:hover
 {
-	 text-decoration:none; 
-	 cursor:pointer;  
+	 text-decoration:none;
+	 cursor:pointer;
 }
 
 p {
@@ -26,55 +26,69 @@ p:last-of-type {
 }
 
 .side-bar {
-	/*display: inline-block;*/
+  padding: 12px;
+  border-radius: 3px;
   margin-top: 100px;
-  float: left;
   position: fixed;
-  top:10px;
-  /*width: 15%; */
+  top: 10px;
   background: #ffffff;
-  z-index: 0;
-  /*display: block;*/
+  z-index: 10;
   -moz-transition: all 0.2s ease-out;  /* FF4+ */
   -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
   -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.2s ease-out;  /* IE10? */
-  transition: all 0.2s ease-out; 
-};
-.side-bar-row {
-  width: 180px; 
-
+  transition: all 0.2s ease-out;
 }
+
+.side-bar-header {
+  max-width: 220px;
+  padding-bottom: 24px;
+}
+
+.side-bar-item {
+  align-items: center;
+  display: flex;
+  width: 220px;
+}
+
 .side-bar-link {
-  display: inline-block;
-  height: 34px;
-  padding-left: 23px;
+  border-left: solid 2px rgba(68,66,77,0.25);
+  padding: 8px 0px 8px 24px;
   opacity: 0.25;
 }
+
 .side-bar-index {
-  border-right: solid 2px rgba(68,66,77,0.25);
   text-align: center;
-  width: 50px;
-  display: inline-block;
-  height: 34px;
-  color:white;
+  color: white;
+  min-width: 36px;
+}
+
+/**
+ * If it's already active, hover should
+ * not trigger highlight
+ */
+.side-bar-link.active-link:hover {
+  cursor: default;
+  color: black;
 }
 
 .active-index {
-  border-right: solid 2px #44424d;
   color: #44424d;
 }
+
 .active-link {
+  border-left: solid 2px #44424d;
   color: #44424d;
   opacity: 1;
 }
+
 .project-img-div-long {
   width: 100%;
   margin: 40px 0px 10px 0px;
   overflow: visible;
   direction: rtl;
   background-color: #ffffff;
-  position: relative;   
+  position: relative;
 }
 .project-img-long {
 	z-index: -1;
@@ -83,6 +97,7 @@ p:last-of-type {
 .main {
 	margin-left: 456px;
 	width:75%;
+  margin-top: 100px;
 }
 
 .december-2016 {
@@ -115,6 +130,24 @@ p:last-of-type {
   letter-spacing: normal;
   color: #44424d;
 }
+.previous-page {
+  display:inline-block;
+  position: absolute;
+  left: 500px;
+}
+.next-page {
+  display:inline-block;
+  position: absolute;
+  right: 12%;
+  text-align:right
+}
+.project-index {
+  font-size: 10px;
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 
 @media (max-width: 767px){
@@ -125,7 +158,7 @@ p:last-of-type {
   .main {
     margin-left: 10%;
   }
-  
+
   img {
   	width: 100%;
   }
