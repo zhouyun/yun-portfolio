@@ -63,15 +63,15 @@ export class Palmdrive extends Component {
 		      		<p>
 		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including information architect maintain, copy editing, website design, project management and cross-teams coordinating.
 		      		</p>
+              <div className="project-img-div-long">
+                <img
+                className="project-img-long"
+                src='/palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display.png'
+              />
+              </div>
 		      		<p>
 		      			Some of them are displayed below. They show the design strategy I came up with when I did the work.
 		      		</p>
-		          <div className="project-img-div-long">
-		      			<img
-		      			className="project-img-long"
-			          src='/image/desktop/newyear-display-1.png'
-			        />
-			        </div>
 		      		<section className="content-block" id={'challenge'}>
 			          <div className="section-title"> Deliver scalable information architecture </div>
 			        </section>
@@ -90,6 +90,12 @@ export class Palmdrive extends Component {
 		      		<p>
 							All the efforts lead me to create a clear and scalable information architecture as the following.
 							</p>
+              <div className="project-img-div-long">
+                <img
+                className="project-img-long"
+                src='/palmdrive/bitmap_2018-05-31/bitmap.png'
+              />
+              </div>
 							<section className="content-block" id={'logic-comes'}>
 			          <div className="section-title"> Fully responsive design and more </div>
 			        </section>

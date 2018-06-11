@@ -90,7 +90,7 @@ export class Work extends Component {
 						</p>
 						<div className="project-img-div-long">
 	      			<img
-		          src='/image/desktop/newyear-display-2.png'
+		          src='/new year/artboard-16_2018-06-08/artboard-16.png'
 		        />
 		        </div>
 						<div className="content-block" id={'design-shape'}>
@@ -102,6 +102,11 @@ export class Work extends Component {
 		        <p>
 							On Weibo and Wechat Moment, we used 9 images with questions to interact with our followers. 9-image-display forms a whole picture, leading to big visual impact.
 		        </p>
+            <div className="project-img-div-long">
+              <img
+              src='/new year/artboard-16_2018-06-08/artboard-16.png'
+            />
+            </div>
 		        <p>
 		        	After that, we posted image with little poems to express our thanks and sincere invitation on Wechat Public Account. Our followers extracted the QR code to take the survey and sign up for the event.
 		        </p>
@@ -146,6 +151,11 @@ export class Work extends Component {
 		        	To make the event official and accessible by larger audience, I created a website for promotion and check in so we could collect the data automatically for later analytics.
 		        </p>
 		        <p>Two weeks later, we host another New Year event at Sunnyvale.</p>
+            <div className="project-img-div-long">
+              <img
+              src='/new year/dsc-01489_2018-06-08/dsc-01489.png'
+            />
+          </div>
 		        <div className="content-block" id={'design-team-x'}>
 		        	<div className="section-title">Design Team X Marketing Team</div>
 		        </div>

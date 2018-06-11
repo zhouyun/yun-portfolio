@@ -202,10 +202,6 @@
 
 .scroll-to-top-root {
   cursor: pointer;
-  width:100px;
-  height:100px;
-  border-radius: 50%;
-  border: 2px solid #44424d;
   position: fixed;
   background-color: white;
   top: 70%;

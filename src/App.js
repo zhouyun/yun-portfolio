@@ -46,8 +46,10 @@ class ScrollTopTop extends Component {
       <div
         onClick={this._handleClick}
         className={`scroll-to-top-root ${this.state.shouldDisplay ? '' : 'hidden_elem'}`}>
-        <div className="arrow-top"/>
-        <div className="to-top-arrow"/>
+          <img
+          className="project-img-long"
+          src='/image/desktop/up-1.png'
+        />
       </div>
     );
   }
