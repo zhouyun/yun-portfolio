@@ -10,68 +10,40 @@ import classnames from 'classnames';
 import {Header, Footer, Navbar} from '../../component';
 
 export class Work extends Component {
-	constructor(props) {
-	  super(props);
-	  this.handleScroll = this.handleScroll.bind(this);
-	  this.state = {
-	  	activeLink: 1
-    }
-	}
-
-	componentDidMount() {
-	  window.addEventListener('scroll', this.handleScroll);
-	};
-
-	componentWillUnmount() {
-	  window.removeEventListener('scroll', this.handleScroll);
-	};
-
-	handleScroll(event) {
-	  const numSec = document.getElementsByClassName("content-block").length;
-    for (var i=1; i <= numSec; i++) {
-    	const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
-    	if(anchor_offset > 0) {
-    		this.setState({activeLink: i});
-    		return;
-    	}
-		}
-	};
   render() {
+		var previous_page = "< Previous page";
     return (
     	<div>
-      	<Header></Header>
 	      <div className="work">
-	      	<div className="side-bar">
-		      	<Sidebar>
-		      		<div className="project-link">
-		      			palmdrive website
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 1 ? 'active-index' : ''}`}>01</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 1 ? 'active-link' : ''}`} to="#background">Background</Link>
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 2 ? 'active-index' : ''}`}>02</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 2 ? 'active-link' : ''}`} to="#digital-rocks">Digital rocks</Link>
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 3 ? 'active-index' : ''}`}>03</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 3 ? 'active-link' : ''}`} to="#design-shape">The design shapes for the content</Link>
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 4 ? 'active-index' : ''}`}>04</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 4 ? 'active-link' : ''}`} to="#great-time">They had a great time</Link>
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 5 ? 'active-index' : ''}`}>05</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 5 ? 'active-link' : ''}`} to="#to-be-continue">To be continued</Link>
-		      		</div>
-		      		<div className="side-bar-row">
-		      			<div className={`side-bar-index ${this.state.activeLink == 6 ? 'active-index' : ''}`}>06</div>
-		      			<Link className={`side-bar-link ${this.state.activeLink == 6 ? 'active-link' : ''}`} to="#design-team-x">Design Team X Marketing Team</Link>
-		      		</div>
-		      	</Sidebar>
-		      </div>
+					<Sidebar
+						title={'New Year Event Sprint'}
+						items={[
+							{
+								text: "Background",
+								anchor: "#background",
+							},
+							{
+								text: "Digital rocks",
+								anchor: "#digital-rocks",
+							},
+							{
+								text: "The design shapes for the content",
+								anchor: "#design-shape",
+							},
+							{
+								text: "They had a great time",
+								anchor: "#great-time",
+							},
+							{
+								text: "To be continued",
+								anchor: "#to-be-continue",
+							},
+							{
+								text: "Design Team X Marketing Team",
+								anchor: "#design-team-x",
+							},
+						]}
+					/>
 	      	<div className="main">
 	      		<h3>
 	      			New Year Event Sprint
@@ -83,10 +55,10 @@ export class Work extends Component {
 		          <div className="section-title"> Background </div>
 		        </div>
 	      		<p>
-	      			Different from the traditional international education agency who make profit by providing studying abroad related information, Palmdrive shares it for free. <span className="highlight">With the belief of helping more Chinese students study abroad, Palmdrive operates a platform for students who want to </span>study abroad with who studied abroad or is studying abroad. 
+	      			Different from the traditional international education agency who make profit by providing studying abroad related information, Palmdrive shares it for free. <span className="highlight">With the belief of helping more Chinese students study abroad, Palmdrive operates a platform for students who want to </span>study abroad with who studied abroad or is studying abroad.
 	      		</p>
 	      		<p>
-							In order to be known by the market, branding events were launched fast and massively. In this case, events for different marketing preferences were developed. 
+							In order to be known by the market, branding events were launched fast and massively. In this case, events for different marketing preferences were developed.
 	      		</p>
 	      		<p>
 							New Year Event was the first city event to offer an opportunity for Palmdrive to communicate with college students and add their belief to our brand.
@@ -105,10 +77,10 @@ export class Work extends Component {
 		          <div className="section-title" id="digital-rocks"> Digital rocks </div>
 		        </div>
 	      		<p>
-	      		With limit budget and time, we decided to cut off the printing part and promote the event only on digital platforms which would reduce the budget by 30% and preparation time by 50%. 
+	      		With limit budget and time, we decided to cut off the printing part and promote the event only on digital platforms which would reduce the budget by 30% and preparation time by 50%.
 	      		</p>
-	      		<p>     		
-						Moreover, it was easy for our targets to repost, @ their friends and interact with us on social media platforms, like Wechat. 
+	      		<p>
+						Moreover, it was easy for our targets to repost, @ their friends and interact with us on social media platforms, like Wechat.
 						</p>
 	      		<p>
 						As the promotion would happen only on digital, I was so excited to start my design with no worries about the CMYK and print quality. First time I could use some real bold colors!
@@ -125,7 +97,7 @@ export class Work extends Component {
 		          <div className="section-title"> The design shapes for the content </div>
 		        </div>
 		        <p>
-		        	To get a better promotion effect on different platforms, we customized copies. 
+		        	To get a better promotion effect on different platforms, we customized copies.
 		        </p>
 		        <p>
 							On Weibo and Wechat Moment, we used 9 images with questions to interact with our followers. 9-image-display forms a whole picture, leading to big visual impact.
@@ -178,10 +150,18 @@ export class Work extends Component {
 		        	<div className="section-title">Design Team X Marketing Team</div>
 		        </div>
 		        <p>
-		        	Aside the New Year Event, our design team collaborated with marketing team to launch other 136 branding events nationwide, deeply engaging more than 6,000 college students. To promote those events, we created posters, brochures, H5 ads, videos, web ads, web-based games and etc. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%. 
+		        	Aside the New Year Event, our design team collaborated with marketing team to launch other 136 branding events nationwide, deeply engaging more than 6,000 college students. To promote those events, we created posters, brochures, H5 ads, videos, web ads, web-based games and etc. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.
 		        </p>
 	      	</div>
 	      </div>
+				<div>
+					<div className="next-page">
+						<Link to="/work/palmdrive">
+							<div className="project-index">Next Project</div>
+							<div>Palmdrive Website ></div>
+						</Link>
+					</div>
+				</div>
 	    </div>
     );
   }
