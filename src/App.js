@@ -87,9 +87,9 @@ class Home extends Component {
         </div>
         <SNSIcon/>
         <div className="divider">
-          <div>-WORK-</div>
-          <div>-ABOUT-</div>
-          <div>-RESUME-</div>
+          <Link to="/work/newyear">-WORK-</Link>
+          <Link to="/about">-ABOUT-</Link>
+          <Link to="/resume">-RESUME-</Link>
         </div>
         {/*<div className="project-section">
                   <div className="img-block" src={logo}>
