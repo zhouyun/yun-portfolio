@@ -90,10 +90,7 @@ p:last-of-type {
   background-color: #ffffff;
   position: relative;
 }
-.project-img-long {
-	z-index: -1;
-	display: block;
-}
+
 .main {
 	margin-left: 456px;
 	width:75%;
