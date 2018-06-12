@@ -24,7 +24,16 @@ p {
 p:last-of-type {
 	margin-bottom: 20px;
 }
-
+h9{
+  font-size: 9px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #44424d;
+}
 .side-bar {
   padding: 12px;
   border-radius: 3px;

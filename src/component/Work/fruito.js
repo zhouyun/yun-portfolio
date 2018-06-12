@@ -313,28 +313,18 @@ export class Fruito extends Component {
               <div className="section-sub-title"> 3. Let the color shine </div>
               <p>I adjusted the color theme to be more contrast to emphasize the inviting fruits.
               </p>
+              <div className="section-sub-title"> 4. Tip for storage, also mark of storage</div>
+              <p>According the research, different fruits should be stored in different places. Fruits stored improperly ripen fast and then go bad easily. </p>
 
-
-
-
-
-
-              <section className="content-block" id={'always-fun'}>
-                <div className="section-title">Display with hierarchy</div>
-              </section>
-              <p>
-                with knowing what fruits they have, users could make reasonable fruits purchasing plan, which save both money and time.
-              </p>
-
-              <p>
-              In the redesign, mentors with strong background are displayed first. Users can filter mentors with majors in the second section.
-              </p>
-              <section className="content-block" id={'hover-is'}>
-                <div className="section-title">Repetitive element makes it consistent</div>
-              </section>
-              <p>
-                For all the pages that I designed, I used repetitive elements to make the website as a whole.
-              </p>
+              <p>By following the tips on storing fruits, the app remember your fruits location.</p>
+              <div className="section-sub-title"> 5. Deadline vs Status</div>
+              <p>It’s not easy to identify the date when fruits are not edible from the fruit status (left) according to the interviews. So I changed it to a suggested expiration date (right).</p>
+              <div className="section-sub-title"> 6. Search to add</div>
+              <p>With search auto completion，it’s more convienient to add fruit.</p>
+              <div className="section-sub-title"> 7. Fruit Eating Challenge vs Data Visualization </div>
+              <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to show fruits consumption history in a table, rather than accomplishment badges.</p>
+              <div className="section-sub-title"> 8. Simplifying the number system </div>
+              <p>The number increases by 0.1 if it is below 1 and 1 if it is above 1. Users can also select from a bunches of units for variety.</p>
             </div>
         </div>
         <div>

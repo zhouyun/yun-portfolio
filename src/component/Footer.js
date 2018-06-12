@@ -11,7 +11,10 @@ export class Footer extends Component {
           I appreciate your time for knowing me.<br/>More than that,
           I appreciate the possibility that we know each other.
 				</p>
+
         <SNSIcon/>
+        <h9>Copyright © 2018 Yun Zhou | Portfolio Version 4.0
+        </h9>
       </div>
     );
   }
