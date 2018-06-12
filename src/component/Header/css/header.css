@@ -1,3 +1,32 @@
 .nav-cloud-icon {
   padding-left:50px;
 }
+
+.header-nav,
+.header-nav-fixed {
+  width: 100%;
+  z-index: 100;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(239,239,239,1);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(239,239,239,1);
+  box-shadow: 0px 1px 10px 0px rgba(239,239,239,1);
+}
+
+.header-nav-fixed {
+  position: fixed;
+  top: -100px;
+  transition: top 0.5s ease-in;
+}
+
+.header-nav-fixed.slidein {
+  top: 0px;
+}
+
+.header-item {
+  margin: 0px 60px;
+  font-size: 13px;
+}
+
+div.navbar-collapse {
+  display: flex;
+  text-align: center;
+}
