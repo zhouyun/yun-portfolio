@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import {
   Button,
   Collapse,
@@ -21,23 +21,56 @@ export class Header extends Component {
     super(props);
 
     this.toggle = this.toggle.bind(this);
+    const {x, width} = this._computeIndicatorProp();
     this.state = {
       isOpen: false,
       isFixed: false,
+      indicatorOffset: x,
+      indicatorWidth: width,
     };
     this._navRoot = React.createRef();
     this._navPositioner = React.createRef();
   }
+
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
     });
   }
 
   componentDidMount(): void {
     window.addEventListener('scroll', this._handleNavePositioning);
+    window.addEventListener('popstate', this._handleIndicatorReposition);
+    window.addEventListener('resize', this._handleIndicatorReposition);
     this._handleNavePositioning();
+    setTimeout(() => this._handleIndicatorReposition(), 300);
   }
+
+  _handleIndicatorReposition = (): void => {
+    const {x, width} = this._computeIndicatorProp();
+    this.setState({
+      indicatorOffset: x,
+      indicatorWidth: width,
+    });
+  };
+
+  _getActiveTab(): string {
+    const hash = (window.location.hash || '').toLowerCase();
+    return hash.startsWith('#/resume') ? 'resume' : (
+      hash.startsWith('#/about') ? 'about' :
+      'work'
+    );
+  }
+
+  _computeIndicatorProp = (): void => {
+    const tab = this._getActiveTab();
+    const refItem = document.getElementById(tab);
+    if (refItem) {
+      const {x, width} = refItem.getBoundingClientRect();
+      return {x, width};
+    }
+    return {x: 0, width: 0};
+  };
 
   _handleNavePositioning = (): void => {
     const offsetTop = this._navRoot.current.getBoundingClientRect().top;
@@ -61,6 +94,8 @@ export class Header extends Component {
 
   componentWillUnmount(): void {
     window.removeEventListener('scroll', this._handleNavePositioning);
+    window.removeEventListener('popstate', this._handleIndicatorReposition);
+    window.removeEventListener('resize', this._handleIndicatorReposition);
   }
 
   _removeClass(node, className): void {
@@ -76,20 +111,23 @@ export class Header extends Component {
       <div ref={this._navRoot} className="header-nav">
         <div ref={this._navPositioner}>
           <Navbar color="white" light expand="md">
-            <NavbarBrand className="nav-cloud-icon" href="/">
-              <img src="svg/logo.svg"/>
-            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
+            <Collapse
+              className={`header-nav-${this.state.isOpen ? 'open' : 'collapse'}`}
+              isOpen={this.state.isOpen} navbar>
+              <div className="header-indicator" style={{
+                left: `${this.state.indicatorOffset}px`,
+                width: `${this.state.indicatorWidth}px`,
+              }}/>
               <Nav className="m-auto" navbar>
                 <NavItem>
-                  <NavLink className="header-item" tag={Link} to="/work/newyear">WORK</NavLink>
+                  <NavLink id="work" className="header-item" tag={Link} to="/">WORK</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="header-item" tag={Link} to="/about">ABOUT</NavLink>
+                  <NavLink id="about" className="header-item" tag={Link} to="/about">ABOUT</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="header-item" tag={Link} to="/resume">RESUME</NavLink>
+                  <NavLink id="resume" className="header-item" tag={Link} to="/resume">RESUME</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
