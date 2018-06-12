@@ -9,7 +9,7 @@ import './css/work.css';
 
 export class Transaction extends Component {
   render() {
-		var previous_page = "< Palmdrive Website";
+		var previous_page = "Palmdrive Website";
     return (
 			<div>
       <div className="work transaction">
@@ -143,17 +143,19 @@ export class Transaction extends Component {
 	        </p>
       	</div>
       </div>
-			<div>
+			<div className="pager-holder">
 				<div className="previous-page">
 					<Link to="/work/palmdrive">
 						<div className="project-index">Previous Project</div>
-						<div>{previous_page}</div>
+            <div className="project-arrow-reverse"/>
+						<div className="project-name">{previous_page}</div>
 					</Link>
 				</div>
 				<div className="next-page">
 					<Link to="/work/graphic/">
 						<div className="project-index">Next Project</div>
-						<div>Graphic Design Collection + ></div>
+						<div className="project-name">Graphic Design Collection +</div>
+            <div className="project-arrow"/>
 					</Link>
 				</div>
 			</div>

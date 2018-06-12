@@ -9,7 +9,7 @@ import './css/work.css';
 
 export class GraphicDesign extends Component {
   render() {
-    var previous_page = "< Transaction Management Design";
+    var previous_page = "Transaction Management Design";
     return (
       <div>
       <div className="work graphic-design">
@@ -103,15 +103,15 @@ export class GraphicDesign extends Component {
       		</span>
 	        <p>
 	        	The maze is to let two strangers interact with each other despite time and location. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
-
 	        </p>
       </div>
     </div>
-    <div>
+    <div className="pager-holder">
       <div className="previous-page">
         <Link to="/work/transaction">
           <div className="project-index">Previous Project</div>
-          <div>{previous_page}</div>
+          <div className="project-arrow-reverse"/>
+          <div className="project-name">{previous_page}</div>
         </Link>
       </div>
     </div>

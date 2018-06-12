@@ -146,6 +146,56 @@ p:last-of-type {
   padding-right: 15px;
 }
 
+.pager-holder {
+  padding: 36px 0px;
+}
+
+.project-name {
+  display: inline-block;
+}
+
+.project-arrow-reverse,
+.project-arrow {
+  display: inline-block;
+  transition: all 0.5s linear;
+  position: relative;
+  left: 0px;
+  border-width: 1.5px 0px 0px 1.5px;
+  border-style: solid;
+  color: #222222;
+  height: 10px;
+  width: 10px;
+}
+
+.project-arrow {
+  transform: rotate(135deg);
+  margin-left: 4px;
+}
+
+.project-arrow-reverse {
+  transform: rotate(-45deg);
+  margin-right: 4px;
+}
+
+.previous-page:hover .project-arrow-reverse {
+  left: -10px;
+}
+
+.next-page:hover .project-arrow {
+  left: 10px;
+}
+
+.previous-page:hover .project-name,
+.next-page:hover .project-name {
+  background: -moz-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,0) 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,0) 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(185,216,254,1) 50%, rgba(255,255,255,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 1s ease;
+  -moz-animation: Gradient 1s ease;
+  animation: Gradient 1s ease;
+
+}
 
 @media (max-width: 767px){
   .side-bar {
