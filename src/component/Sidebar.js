@@ -79,11 +79,13 @@ export class Sidebar extends Component {
   handleScroll = (): void => {
     const numSec = document.getElementsByClassName("content-block").length;
     for (let i = 1; i <= numSec; i ++) {
-      const anchor_offset = document.getElementsByClassName("content-block")[i].getBoundingClientRect().top;
-
-      if(anchor_offset > 0) {
-        this.setState({activeIndex: i});
-        return;
+      const ele = document.getElementsByClassName("content-block")[i];
+      if (ele && ele.getBoundingClientRect) {
+        const anchor_offset = ele.getBoundingClientRect().top;
+        if(anchor_offset > 100) {
+          this.setState({activeIndex: i});
+          return;
+        }
       }
     }
   };
