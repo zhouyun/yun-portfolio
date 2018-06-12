@@ -12,8 +12,7 @@ export class GraphicDesign extends Component {
     var previous_page = "Transaction Management Design";
     return (
       <div>
-      <div className="work graphic-design">
-      	<Sidebar
+        <Sidebar
           title={'Transaction Management Design'}
           items={[
             {
@@ -38,6 +37,7 @@ export class GraphicDesign extends Component {
             }
           ]}
         />
+      <div className="work graphic-design">
       	<div className="main">
       		<h3>
       			Graphic Design Collection +

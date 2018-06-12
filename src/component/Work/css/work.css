@@ -31,8 +31,7 @@ p:last-of-type {
   margin-top: 100px;
   position: fixed;
   top: 10px;
-  background: #ffffff;
-  z-index: 10;
+  left: 24px;
   -moz-transition: all 0.2s ease-out;  /* FF4+ */
   -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
   -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
@@ -43,6 +42,7 @@ p:last-of-type {
 .side-bar-header {
   max-width: 220px;
   padding-bottom: 24px;
+  font-weight: bold;
 }
 
 .side-bar-item {
