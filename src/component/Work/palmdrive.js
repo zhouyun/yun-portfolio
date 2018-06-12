@@ -8,7 +8,7 @@ import {Header, Footer, Navbar} from '../../component';
 
 export class Palmdrive extends Component {
   render() {
-		var previous_page = "< New Year Event Sprint";
+		var previous_page = "New Year Event Sprint";
     return (
     	<div>
 	      <div className="work palmdrive">
@@ -156,17 +156,19 @@ export class Palmdrive extends Component {
 
 		      	</div>
 	      </div>
-				<div>
+				<div className="pager-holder">
 					<div className="previous-page">
 						<Link to="/work/newyear">
 							<div className="project-index">Previous Project</div>
-							<div>{previous_page}</div>
+              <div className="project-arrow-reverse"/>
+              <div className="project-name">{previous_page}</div>
 						</Link>
 					</div>
 					<div className="next-page">
 						<Link to="/work/transaction">
 							<div className="project-index">Next Project</div>
-							<div>Transaction Management Design ></div>
+							<div className="project-name">Transaction Management Design</div>
+              <div className="project-arrow"/>
 						</Link>
 					</div>
 				</div>

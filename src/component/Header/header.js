@@ -39,7 +39,7 @@ export class Header extends Component {
   }
 
   componentDidMount(): void {
-    window.addEventListener('scroll', this._handleNavePositioning);
+    window.addEventListener('wheel', this._handleNavePositioning);
     window.addEventListener('popstate', this._handleIndicatorReposition);
     window.addEventListener('resize', this._handleIndicatorReposition);
     this._handleNavePositioning();
@@ -72,28 +72,34 @@ export class Header extends Component {
     return {x: 0, width: 0};
   };
 
-  _handleNavePositioning = (): void => {
+  _handleNavePositioning = (e): void => {
     const offsetTop = this._navRoot.current.getBoundingClientRect().top;
-    const token = this._token;
-    // from static to fixed
-    if (offsetTop < -60 && !this.state.isFixed) {
-      this.setState({isFixed: true}, () => {
-        this._addClass(this._navPositioner.current, 'header-nav-fixed');
-        setTimeout(() => {
-          this._addClass(this._navPositioner.current, 'slidein');
-        }, 200);
-      });
-    } else if (offsetTop >= -2 && this.state.isFixed) {
+    if (offsetTop >= -2 && this.state.isFixed) {
       // from fixed to static
       this.setState({isFixed: false}, () => {
         this._removeClass(this._navPositioner.current, 'header-nav-fixed');
         this._removeClass(this._navPositioner.current, 'slidein');
       });
+    } else {
+      if (e && e.deltaY < -10) {
+        if (!this.state.isFixed) {
+          this.setState({isFixed: true}, () => {
+            this._addClass(this._navPositioner.current, 'header-nav-fixed');
+          });
+        }
+        setTimeout(() => {
+          this._addClass(this._navPositioner.current, 'slidein');
+        }, 100);
+      }
+
+      if (e && e.deltaY > 0 && this.state.isFixed) {
+        this._removeClass(this._navPositioner.current, 'slidein');
+      }
     }
   };
 
   componentWillUnmount(): void {
-    window.removeEventListener('scroll', this._handleNavePositioning);
+    window.removeEventListener('wheel', this._handleNavePositioning);
     window.removeEventListener('popstate', this._handleIndicatorReposition);
     window.removeEventListener('resize', this._handleIndicatorReposition);
   }
@@ -103,7 +109,9 @@ export class Header extends Component {
   }
 
   _addClass(node, className): void {
-    node.className = (node.className || '').concat(` ${className}`).trim();
+    if ((node.className || '').indexOf(className) === -1) {
+      node.className = (node.className || '').concat(` ${className}`).trim();
+    }
   }
 
   render() {

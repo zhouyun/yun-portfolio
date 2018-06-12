@@ -164,11 +164,12 @@ export class Work extends Component {
 		        </p>
 	      	</div>
 	      </div>
-				<div>
+				<div className="pager-holder">
 					<div className="next-page">
 						<Link to="/work/palmdrive">
 							<div className="project-index">Next Project</div>
-							<div>Palmdrive Website ></div>
+							<div className="project-name">Palmdrive Website</div>
+              <div className="project-arrow"/>
 						</Link>
 					</div>
 				</div>
