@@ -11,40 +11,40 @@ export class Palmdrive extends Component {
 		var previous_page = "New Year Event Sprint";
     return (
     	<div>
+        <Sidebar
+          title={'Palmdrive Website'}
+          items={[
+            {
+              text: "Background",
+              anchor: "#background",
+            },
+            {
+              text: "Deliver scalable information architecture",
+              anchor: "#challenge",
+            },
+            {
+              text: "Fully responsive design and more",
+              anchor: "#logic-comes",
+            },
+            {
+              text: "Design for storytelling",
+              anchor: "#design-comes",
+            },
+            {
+              text: "Design for what really matters",
+              anchor: "#into-the-details",
+            },
+            {
+              text: "Display with hierarchy",
+              anchor: "#always-fun",
+            },
+            {
+              text: "Repetitive element makes it consistent",
+              anchor: "#hover-is",
+            }
+          ]}
+        />
 	      <div className="work palmdrive">
-					<Sidebar
-						title={'Palmdrive Website'}
-						items={[
-							{
-								text: "Background",
-								anchor: "#background",
-							},
-							{
-								text: "Deliver scalable information architecture",
-								anchor: "#challenge",
-							},
-							{
-								text: "Fully responsive design and more",
-								anchor: "#logic-comes",
-							},
-							{
-								text: "Design for storytelling",
-								anchor: "#design-comes",
-							},
-							{
-								text: "Design for what really matters",
-								anchor: "#into-the-details",
-							},
-							{
-								text: "Display with hierarchy",
-								anchor: "#always-fun",
-							},
-							{
-								text: "Repetitive element makes it consistent",
-								anchor: "#hover-is",
-							}
-						]}
-					/>
 		      	<div className="main">
 		      		<h3>
 		      			Palmdrive Website

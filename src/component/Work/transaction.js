@@ -12,44 +12,44 @@ export class Transaction extends Component {
 		var previous_page = "Palmdrive Website";
     return (
 			<div>
+        <Sidebar
+          title={'Transaction Management Design'}
+          items={[
+            {
+              text: "Background",
+              anchor: "#background",
+            },
+            {
+              text: "The challenge",
+              anchor: "#challenge",
+            },
+            {
+              text: "Logic comes the first",
+              anchor: "#logic-comes",
+            },
+            {
+              text: "Design comes the next",
+              anchor: "#design-comes",
+            },
+            {
+              text: "Into the details",
+              anchor: "#into-the-details",
+            },
+            {
+              text: "It’s always fun to play with data",
+              anchor: "#always-fun",
+            },
+            {
+              text: "\"Hover\" is better than \"click and clear\"",
+              anchor: "#hover-is",
+            },
+            {
+              text: "Making pixels perfect",
+              anchor: "#making-pixels",
+            }
+          ]}
+        />
       <div className="work transaction">
-				<Sidebar
-					title={'Transaction Management Design'}
-					items={[
-						{
-							text: "Background",
-							anchor: "#background",
-						},
-						{
-							text: "The challenge",
-							anchor: "#challenge",
-						},
-						{
-							text: "Logic comes the first",
-							anchor: "#logic-comes",
-						},
-						{
-							text: "Design comes the next",
-							anchor: "#design-comes",
-						},
-						{
-							text: "Into the details",
-							anchor: "#into-the-details",
-						},
-						{
-							text: "It’s always fun to play with data",
-							anchor: "#always-fun",
-						},
-						{
-							text: "\"Hover\" is better than \"click and clear\"",
-							anchor: "#hover-is",
-						},
-						{
-							text: "Making pixels perfect",
-							anchor: "#making-pixels",
-						}
-					]}
-				/>
       	<div className="main">
       		<h3>
       			Transaction Management Design

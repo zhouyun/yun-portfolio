@@ -14,36 +14,36 @@ export class Work extends Component {
 		var previous_page = "< Previous page";
     return (
     	<div>
+        <Sidebar
+          title={'New Year Event Sprint'}
+          items={[
+            {
+              text: "Background",
+              anchor: "#background",
+            },
+            {
+              text: "Digital rocks",
+              anchor: "#digital-rocks",
+            },
+            {
+              text: "The design shapes for the content",
+              anchor: "#design-shape",
+            },
+            {
+              text: "They had a great time",
+              anchor: "#great-time",
+            },
+            {
+              text: "To be continued",
+              anchor: "#to-be-continue",
+            },
+            {
+              text: "Design Team X Marketing Team",
+              anchor: "#design-team-x",
+            },
+          ]}
+        />
 	      <div className="work">
-					<Sidebar
-						title={'New Year Event Sprint'}
-						items={[
-							{
-								text: "Background",
-								anchor: "#background",
-							},
-							{
-								text: "Digital rocks",
-								anchor: "#digital-rocks",
-							},
-							{
-								text: "The design shapes for the content",
-								anchor: "#design-shape",
-							},
-							{
-								text: "They had a great time",
-								anchor: "#great-time",
-							},
-							{
-								text: "To be continued",
-								anchor: "#to-be-continue",
-							},
-							{
-								text: "Design Team X Marketing Team",
-								anchor: "#design-team-x",
-							},
-						]}
-					/>
 	      	<div className="main">
 	      		<h3>
 	      			New Year Event Sprint
