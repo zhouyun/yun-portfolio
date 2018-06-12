@@ -4,7 +4,7 @@ import './App.css';
 
 import {Header, Footer, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume} from './component';
+import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume,Fruito} from './component';
 import createHashHistory from 'history/createBrowserHistory'
 const history = createHashHistory();
 
@@ -55,26 +55,26 @@ class ScrollTopTop extends Component {
     );
   }
 }
-const App = ({history}) => {
-  return (
-    <div>
-      <Header/>
-      <Router location={history}>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/about/" component={About} />
-          <Route path="/resume/" component={Resume} />
-          <Route path="/work/newyear/" component={Work}/>
-          <Route path="/work/palmdrive/" component={Palmdrive} />
-          <Route path="/work/graphic/" component={GraphicDesign} />
-          <Route path="/work/transaction/" component={Transaction} />
-          <ScrollTopTop/>
-        </div>
-      </Router>
-      <Footer/>
-    </div>
-  );
-}
+
+const App = ({history}) => (
+  <div>
+    <Header/>
+    <Router location={history}>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/about/" component={About} />
+        <Route path="/resume/" component={Resume} />
+        <Route path="/work/newyear/" component={Work}/>
+        <Route path="/work/palmdrive/" component={Palmdrive} />
+        <Route path="/work/graphic/" component={GraphicDesign} />
+        <Route path="/work/transaction/" component={Transaction} />
+        <Route path="/work/fruito/" component={Fruito} />
+        <ScrollTopTop/>
+      </div>
+    </Router>
+    <Footer/>
+  </div>
+);
 
 class Home extends Component {
 

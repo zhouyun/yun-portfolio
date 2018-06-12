@@ -9,6 +9,7 @@ import {Transaction} from './Work/transaction.js';
 import {About} from './About/about.js';
 import {Resume} from './Resume/resume.js';
 import {SNSIcon} from './SNSIcon.js';
+import {Fruito} from './Work/fruito.js';
 
 export {SNSIcon};
 export {Resume};
@@ -21,3 +22,4 @@ export {Sidebar};
 export {Palmdrive};
 export {Transaction};
 export {GraphicDesign};
+export {Fruito};
