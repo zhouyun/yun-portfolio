@@ -8,7 +8,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
 
 export class GraphicDesign extends Component {
-  componentWillMount(): void {
+  componentDidMount(): void {
     window.scroll({top:0});
   }
 

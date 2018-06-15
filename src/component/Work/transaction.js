@@ -9,7 +9,7 @@ import './css/work.css';
 
 export class Transaction extends Component {
   componentWillMount(): void {
-    window.scroll({top:0});
+    window.scrollTo(0, 100);
   }
   render() {
 		var previous_page = "New Year Event Sprint";

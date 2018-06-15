@@ -3,7 +3,7 @@
 }
 
 .header-nav {
-  position: relative;
+  position: fixed;
 }
 
 .header-nav,

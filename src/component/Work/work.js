@@ -10,9 +10,10 @@ import classnames from 'classnames';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Work extends Component {
-  componentWillMount(): void {
+  componentDidMount(): void {
     window.scroll({top:0});
   }
+
   render() {
 		var previous_page = "Palmdrive Website";
     return (

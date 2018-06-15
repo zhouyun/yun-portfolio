@@ -7,7 +7,7 @@ import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Palmdrive extends Component {
-  componentWillMount(): void {
+  componentDidMount(): void {
     window.scroll({top:0});
   }
 

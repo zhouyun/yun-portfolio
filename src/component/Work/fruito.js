@@ -6,8 +6,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
+const CurrentAnchor = function(): string {
+  const parts = window.location.href.split('#');
+  return parts.length > 0 ? `${parts[parts.length -1]}` : 'NONE';
+}
+
 export class Fruito extends Component {
-  componentWillMount(): void {
+  componentDidMount(): void {
     window.scroll({top:0});
   }
 
