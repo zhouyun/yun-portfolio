@@ -49,7 +49,7 @@ class ScrollTopTop extends Component {
         <div className="scroll-to-top-background"/>
         <img
           className="project-img-long"
-          src='/image/desktop/up-1.png'
+          src='/image/desktop/up-1@2x.png'
         />
       </div>
     );
@@ -83,7 +83,7 @@ class Home extends Component {
       <div className="view-case">
         <div className="view-case-description">View case</div>
         <div className="view-case-arrow"></div>
-        <div className="view-case-arrow-head">></div>
+        <div className="view-case-arrow-head"></div>
       </div>
     );
   }
@@ -112,6 +112,32 @@ class Home extends Component {
                   Fruits Management App
                 </div>
               </div>*/}
+         <div className="project-section project-new-year-section">
+          <Link to="/work/fruito">
+            <div className="img-block">
+              <img className="background-cloud greenblue-cloud" src="svg/greenbluecloud.svg"/>
+              <img className="project-image" src="home/fruito/group-9@2x.png"/>
+            </div>
+            <div className="text-block">
+              <div className="project-title">Fruits Management App</div>
+              <div className="project-description">A fruit management ios app</div>
+              {this._renderArrow()}
+            </div>
+          </Link>
+        </div>     
+        <div className="project-section project-palmdrive-section">
+          <Link to="/work/palmdrive">
+            <div className="img-block" >
+              <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
+              <img className="project-image" src="home/group/group@2x.png"/>
+            </div>
+            <div className="text-block">
+              <div className="project-title">Palmdrive Website</div>
+              <div className="project-description">Official website of Palmdrive</div>
+              {this._renderArrow()}
+            </div>
+          </Link>
+        </div>
         <div className="project-section project-new-year-section">
           <Link to="/work/newyear">
             <div className="img-block">
@@ -125,35 +151,22 @@ class Home extends Component {
             </div>
           </Link>
         </div>
-        <div className="project-section project-palmdrive-section">
-          <Link to="/work/palmdrive">
-            <div className="img-block" src={logo}>
-              <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
-              <img className="project-image" src="home/group/group@3x.png"/>
-            </div>
-            <div className="text-block">
-              <div className="project-title">Palmdrive Website</div>
-              <div className="project-description">Official website of Palmdrive</div>
-              {this._renderArrow()}
-            </div>
-          </Link>
-        </div>
         <div className="project-section">
           <Link to="/work/transaction">
             <div className="img-block">
               <img className="background-cloud purple-cloud" src="svg/purplecloud.svg"/>
-              <img className="project-image" src="home/group-3/group-3@3x.png"/>
+              <img className="project-image" src="home/group-3/group-3@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">Transaction Management Design</div>
-              <div className="project-description">Transaction Management is one of the five core functions of Pefin, a web-based financial tool</div>
+              <div className="project-description">A web-based financial software</div>
               {this._renderArrow()}
             </div>
           </Link>
         </div>
         <div className="project-section">
           <Link to="/work/graphic">
-            <div className="img-block" src={logo}>
+            <div className="img-block" >
               <img className="background-cloud" src="svg/pinkcloud.svg"/>
               <div className="graphic-label">2013-present</div>
             </div>

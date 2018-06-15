@@ -3,17 +3,18 @@
 	margin-left: 40%; */
   font-family: 'Montserrat', sans-serif;
 }
-.Rectangle-4-Copy {
-	margin-top: 90px;
+.rectangle-resume {
 	margin-left: 40%;
-	text-align: center;
-	vertical-align: center;
-	line-height: normal;
-	padding: 14px;
+  margin-top: 80px;
+  text-align: center;
+  vertical-align: center;
+  line-height: normal;
+  padding: 14px;
   width: 230px;
   height: 49px;
   border-radius: 24.5px;
   border: solid 1px #44424d;
+  position: relative;
 }
 
 .resume-title {
@@ -37,7 +38,7 @@
 .resume-content {
 	width: 750px;
 	display: inline-block;
-	padding-bottom: 39px;
+	/*padding-bottom: 39px;*/
 }
 
 .resume-total {
@@ -58,8 +59,8 @@
 }
 
 .resume-content-location {
-	padding-top: 10px;
-	font-family: 'EB Garamond', sans-serif;
+	padding-top: 16px;
+	font-family: 'PT Serif', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
@@ -70,4 +71,5 @@
 }
 
 .resume-content-detail {
+	padding-bottom: 39px;
 }

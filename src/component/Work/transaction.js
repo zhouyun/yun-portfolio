@@ -9,7 +9,7 @@ import './css/work.css';
 
 export class Transaction extends Component {
   render() {
-		var previous_page = "Palmdrive Website";
+		var previous_page = "New Year Event Sprint";
     return (
 			<div>
         <Sidebar
@@ -57,6 +57,12 @@ export class Transaction extends Component {
       		<span className="June-2014-December-2015">
       			June 2014 - December 2015
       		</span>
+      		<div className="rectangle-button">
+		      		<a href="https://www.pefin.com/">
+		      		<div className="rectangle-button-bg"></div>
+		      		<div className="btn-text">Go to website</div>
+      				</a>
+      				</div>
       		<div id={'background'}>
 	          <div className="section-title"> Background </div>
 	        </div>
@@ -67,23 +73,22 @@ export class Transaction extends Component {
 
 	        <div className="section-sub-title"> My Role </div>
       		<p>
-      			I worked at Pefin s a UX/UI designer for six months.
+      			I worked at Pefin s a <span className="highlight-transaction">UX/UI designer</span> for six months.
       		</p>
       		<p>
-      			I was in charge of improving transaction experience by introducing filters and trending data visualization.
+      			I was in charge of improving transaction experience by <span className="highlight-transaction">introducing filters and trending data visualization</span>.
       		</p>
 
           <div className="project-img-div-long">
       			<img
-      			className="project-img-long"
-	          src='/image/desktop/newyear-display-1.png'
+	          src='/pefin/group-2@2x.png'
 	        />
 	        </div>
       		<div id={'challenge'}>
 	          <div className="section-title" id="challenge "> The challenge </div>
 	        </div>
       		<p>
-      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to figure out the logic behind the chosen filters.
+      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to <span className="highlight-transaction">figure out the logic</span> behind the chosen filters.
 
       		</p>
 
@@ -91,50 +96,84 @@ export class Transaction extends Component {
 	          <div className="section-title"> Logic comes the first </div>
 	        </div>
 	        <p>
-	        	To make the logic clear, I created two kinds of filter pools. One was for “Must-have” tags, and the other was for “May-have” tags. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
+	        	To make the logic clear, I created two kinds of filter pools. One was for <span className="highlight-transaction">“Must-have” tags</span>, and the other was for <span className="highlight-transaction">“May-have” tags</span>. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
 	        </p>
-
+	        <div className="project-img-div-long">
+      			<img
+	          src='/pefin/bitmap@2x.png'
+	        />
+	        </div>
+	         <h5>Quick sketch for different scenarios</h5>
 					<div id={'design-comes'}>
 	        	<div className="section-title">Design comes the next</div>
 	        </div>
+	         <div className="project-img-div-long">
+      			<img
+	          src='/pefin/bitmap/bitmap@2x.png'
+	        />
+	        </div>
+	        <h5>Traditional table lists and charts</h5>
 	        <p>
-	        	To make the logic clear, I created two kinds of filter pools. One was for “Must-have” tags, and the other was for “May-have” tags. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
+	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a <span className="highlight-transaction">web version of Excel</span>. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
 	        </p>
-	        <p>
-	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a web version of Excel. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
-	        </p>
-
+	        <div className="project-img-div-long">
+      			<img
+	          src='/pefin/whiteboard@2x.png'
+	        />
+	        </div>
 
 	        <div id={'into-the-details'}>
 	        	<div className="section-title">Into the details</div>
 	        </div>
 	        <p>
-	        	Tags shows below each transaction. Users click a tag to add as a filter and edit filters by clicking bubble to enter a edit mode.
+	        	<span className="highlight-transaction">Tags shows below each transaction.</span> Users click a tag to add as a filter and edit filters by clicking bubble to enter a edit mode.
 	        </p>
+	         <div className="project-img-div-long">
+      			<img
+	          src='/pefin/group@2x.png'
+	        />
+	        </div>
 	        <div className="section-sub-title"> 1. Space is better than lines.</div>
 	         <p>
 	        	I removed the boxes around elements to make a cleaner user interface.
 	        </p>
 	        <div className="section-sub-title"> 2. Different sizes for different layers.</div>
 	         <p>
-	        	Users could get a clearer picture of what transactions were made each day by viewing the bubble tree.
+	        	Users could get a clearer picture of what transactions were made each day by viewing the <span className="highlight-transaction">bubble tree</span>.
 	        </p>
 	        <div className="section-sub-title"> 3. Use colors properly.</div>
 	         <p>
-	        	I made a list of colors which complemented each other nicely. Moreover, any color could be told from others easily at the same time. After tags attaching to each transaction, users tended to click tags much more often than typing in a search bar. While people could only added filter by typing in a search bar when using Mint, our competitive product
+	        	I made a list of colors which complemented each other nicely. Moreover, any color could be told from others easily at the same time. After tags attaching to each transaction, users tended to <span className="highlight-transaction">click tags</span> much more often than <span className="highlight-transaction">typing in a search bar</span>. While people could only added filter by typing in a search bar when using Mint, our competitive product
 	        </p>
+	        <div className="project-img-div-long">
+      			<img
+	          src='/pefin/ui-exhibition@2x.png'
+	        />
+	        </div>
 	        <div id={'always-fun'}>
 	        	<div className="section-title">It’s always fun to play with data</div>
 	        </div>
 	        <p>
-	        	The webpages were designed with both bar and pie charts for different needs. 90% users interacted with both pie charts and bar charts. We also had bubble charts or not for a A/B testing, and we removed it for this version.
+	        	The webpages were designed with both <span className="highlight-transaction">bar and pie charts</span> for different needs. 90% users interacted with both pie charts and bar charts. We also had bubble charts or not for a A/B testing, and we removed it for this version.
 	        </p>
+	        <div className="project-img-div-long">
+      			<img
+	          src='/pefin/wireframe/bitmap@2x.png'
+	        />
+	        </div>
 	        <div id={'hover-is'}>
 	        	<div className="section-title">"Hover" is better than "click and clear"</div>
 	        </div>
+	        <div className="project-img-div-long">
+      			<img
+	          src='/pefin/wireframe/research@2x.png'
+	        />
+	        </div>
 	        <p>
-	        	TBased on the researches, I designed with a new feature which allows users to hover on a specific category to see its spending trends instead of clicking it to add a filter. It also saves time of clearing filter pool. In fact, users' interactions with the elements increased by 167% on this page. On iPad, users press instead of hovering.
+	        	Based on the researches, I designed with a new feature which allows users to <span className="highlight-transaction">hover</span> on a specific category to see its spending trends instead of <span className="highlight-transaction">clicking</span> it to add a filter. It also saves time of clearing filter pool. In fact, users' interactions with the elements <span className="highlight-transaction">increased by 167%</span> on this page. On iPad, users press instead of hovering.
 	        </p>
+	        <img class="image_carousel" src="pefin/pefin_ani.gif" width="500px" ></img>
+
 	         <div id={'making-pixels'}>
 	        	<div className="section-title">Making pixels perfect</div>
 	        </div>
@@ -144,14 +183,14 @@ export class Transaction extends Component {
       	</div>
       </div>
 			<div className="pager-holder">
-				<div className="previous-page">
-					<Link to="/work/palmdrive">
+				<div className="previous-page link-to-newyear">
+					<Link to="/work/newyear">
 						<div className="project-index">Previous Project</div>
             <div className="project-arrow-reverse"/>
 						<div className="project-name">{previous_page}</div>
 					</Link>
 				</div>
-				<div className="next-page">
+				<div className="next-page link-to-graphic">
 					<Link to="/work/graphic/">
 						<div className="project-index">Next Project</div>
 						<div className="project-name">Graphic Design Collection +</div>

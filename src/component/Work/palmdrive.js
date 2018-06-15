@@ -8,7 +8,7 @@ import {Header, Footer, Navbar} from '../../component';
 
 export class Palmdrive extends Component {
   render() {
-		var previous_page = "New Year Event Sprint";
+		var previous_page = "Fruits Management App";
     return (
     	<div>
         <Sidebar
@@ -20,27 +20,27 @@ export class Palmdrive extends Component {
             },
             {
               text: "Deliver scalable information architecture",
-              anchor: "#challenge",
+              anchor: "#deliver-scalable-information-architecture",
             },
             {
               text: "Fully responsive design and more",
-              anchor: "#logic-comes",
+              anchor: "#fully-responsive",
             },
             {
               text: "Design for storytelling",
-              anchor: "#design-comes",
+              anchor: "#design-for-storytelling",
             },
             {
               text: "Design for what really matters",
-              anchor: "#into-the-details",
+              anchor: "#design-for-what-really-matters",
             },
             {
               text: "Display with hierarchy",
-              anchor: "#always-fun",
+              anchor: "#display-with-hierarchy",
             },
             {
               text: "Repetitive element makes it consistent",
-              anchor: "#hover-is",
+              anchor: "#repetitive-element-makes-it-consistent",
             }
           ]}
         />
@@ -52,27 +52,31 @@ export class Palmdrive extends Component {
 		      		<span className="december-2016">
 		      			April 2016 - present
 		      		</span>
+		      		<div className="rectangle-button">
+		      		<a href="http://palmdrive.cn/">
+		      		<div className="rectangle-button-bg"></div>
+		      		<div className="btn-text">Go to website</div>
+      				</a></div>
 		      		<section className="content-block" id={'background'}>
 			          <div className="section-title"> Background </div>
 			        </section>
 		      		<p>
-		      			As more and more students know who we are and what we do through our website, properly presenting information and the timely updating become the goal of maintaining the website.
+		      			As more and more students know who we are and what we do through our website, <span className="highlight-palmdrive">properly presenting information and the timely updating</span> become the goal of maintaining the website.
 		      		</p>
 
 			        <div className="section-sub-title"> My Role </div>
 		      		<p>
-		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including information architect maintain, copy editing, website design, project management and cross-teams coordinating.
+		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including <span className="highlight-palmdrive">information architect maintain, copy editing, website design, project management and cross-teams coordinating</span>.
 		      		</p>
               <div className="project-img-div-long">
                 <img
-                className="project-img-long"
-                src='/palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display.png'
+                src='/palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display@2x.png'
               />
               </div>
 		      		<p>
 		      			Some of them are displayed below. They show the design strategy I came up with when I did the work.
 		      		</p>
-		      		<section className="content-block" id={'challenge'}>
+		      		<section className="content-block" id={'deliver-scalable-information-architecture'}>
 			          <div className="section-title"> Deliver scalable information architecture </div>
 			        </section>
 		      		<p>
@@ -82,33 +86,45 @@ export class Palmdrive extends Component {
 		      			1. How to group the information logically and clearly
 		      		</p>
 		      		<p>
-						2. How to present information accurately and logically on each page
+						2. How to present information accurately and reasonably on each page
 							</p>
 		      		<p>
-						To achieve that, I worked on understanding the business model by joining the sales and service training, as well as mentoring students myself. I was even honored the best student because of actively participation and high score in the test :)
+						To achieve that, I worked on understanding the business model by <span className="highlight-palmdrive">joining the sales and service training</span>, as well as <span className="highlight-palmdrive">mentoring students myself</span>. I was even honored the best student because of actively participation and high score in the test :)
 							</p>
 		      		<p>
-							All the efforts lead me to create a clear and scalable information architecture as the following.
+							All the efforts lead me to create a <span className="highlight-palmdrive">clear and scalable information architecture</span> as the following.
 							</p>
               <div className="project-img-div-long">
                 <img
-                className="project-img-long"
-                src='/palmdrive/bitmap_2018-05-31/bitmap.png'
+                src='/palmdrive/bitmap_2018-05-31/bitmap@2x.png'
               />
               </div>
-							<section className="content-block" id={'logic-comes'}>
+              <h5>The information architecture of present Palmdrive Website</h5>
+							<section className="content-block" id={'fully-responsive'}>
 			          <div className="section-title"> Fully responsive design and more </div>
 			        </section>
+			        <div className="content-link"><a href="http://palmdrive.cn/services"><u>Graduate Service page</u></a></div>
 			        <p>
-			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more detailed png version for the sales team for a consistent user experience.
+			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more <span className="highlight-palmdrive">detailed png version</span> for the sales team for a consistent user experience.
 
 			        </p>
-
-							<section className="content-block" id={'design-comes'}>
+			        <div className="mobile" >
+			        <iframe className="image_carousel" src="https://player.vimeo.com/video/275159126?background=1" width="216" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			        </div>
+			        <div className="web" >
+					<iframe className="image_carousel" src="https://player.vimeo.com/video/275158343?background=1" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>			       
+			        <div className="project-img-div-long">
+                <img
+                src='/palmdrive/invalid-name_2018-05-31/invalid-name@2x.png'
+              />
+              </div>
+						<section className="content-block" id={'design-for-storytelling'}>
 			        	<div className="section-title">Design for storytelling</div>
 			        </section>
+			        <div className="content-link"><a href="http://palmdrive.cn/highschool_services"><u>High School page</u></a></div>
 			        <p>
-			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and rephrased the copy.
+			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and <span className="highlight-palmdrive">rephrased the copy</span>.
 			        </p>
 			        <p>
 			        	The content focused on
@@ -126,49 +142,74 @@ export class Palmdrive extends Component {
 								</li>
 							</ol>
 							<p>
-							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in two weeks.
+							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <span className="highlight-palmdrive">two weeks</span>.
 							</p>
-			        <section className="content-block" id={'into-the-details'}>
+							
+              <img className="image_carousel" src="palmdrive/high-school-final2.0.gif" width="750px" ></img>
+						
+			        <section className="content-block" id={'design-for-what-really-matters'}>
 			        	<div className="section-title">Design for what really matters</div>
 			        </section>
+
+			        <div className="content-link"><a href="http://palmdrive.cn/graduate_showcase"><u>Graduate Offer Showcase page</u></a></div>
 			        <p>
-			        	As the google analytics showed, the Graduate Offer Showcase page had over 30% bounce rate which was far more than what our service team expect. To solve the problem, I redesigned the page with focusing on displaying our values and sharings.
+			        	As the google analytics showed, the Graduate Offer Showcase page had <span className="highlight-palmdrive">over 30% bounce rate</span> which was far more than what our service team expect. To solve the problem, I redesigned the page with focusing on <span className="highlight-palmdrive">displaying our values and sharings</span>.
 
 			        </p>
+			         <div className="project-img-div-long">
+                <img
+                src='/palmdrive/group-9@2x.png'
+              />
+              </div>
 			        <p>
-			        The results are prominent, the Monthly Bounce Rate on the page decreased by 75% and the pageviews share increased by 59%.
+			        The results are prominent, the Monthly Bounce Rate on the page <span className="highlight-palmdrive">decreased by 75%</span> and the pageviews share <span className="highlight-palmdrive">increased by 59%</span>.
 							</p>
-			        <section className="content-block" id={'always-fun'}>
+			        <section className="content-block" id={'display-with-hierarchy'}>
 			        	<div className="section-title">Display with hierarchy</div>
 			        </section>
+			         <div className="content-link"><a href="http://palmdrive.cn/mentors"><u>Mentor Page</u></a></div>
 			        <p>
-			        	Analysing from the discussion with the Mentor Team, the problem of the previous mentor displaying page was how to highlight our mentors.
+			        	Analysing from the discussion with the Mentor Team, the problem of the previous mentor displaying page was <span className="highlight-palmdrive">how to highlight our mentors</span>.
 			        </p>
 			        <p>
 			        In the redesign, mentors with strong background are displayed first. Users can filter mentors with majors in the second section.
-							</p>
-							<section className="content-block" id={'hover-is'}>
+					</p>
+					<div className="project-img-div-long">
+                <img
+                src='/palmdrive/group-8_2018-05-31/group-8@2x.png'
+              />
+              </div>
+							<section className="content-block" id={'repetitive-element-makes-it-consistent'}>
 			        	<div className="section-title">Repetitive element makes it consistent</div>
 			        </section>
 			        <p>
 			        	For all the pages that I designed, I used repetitive elements to make the website as a whole.
 			        </p>
-
+			        <div className="project-img-div-long">
+                <img
+                src='/palmdrive/group-4_2018-05-31/group-4@2x.png'
+              />
+              </div>
+              <div className="project-img-div-long">
+                <img
+                src='/palmdrive/group-6_2018-05-31/group-6@2x.png'
+              />
+              </div>
 		      	</div>
 	      </div>
 				<div className="pager-holder">
-					<div className="previous-page">
-						<Link to="/work/newyear">
+					<div className="previous-page link-to-fruito">
+						<Link to="/work/fruito">
 							<div className="project-index">Previous Project</div>
-              <div className="project-arrow-reverse"/>
-              <div className="project-name">{previous_page}</div>
+              				<div className="project-arrow-reverse"/>
+             				 <div className="project-name">{previous_page}</div>
 						</Link>
 					</div>
-					<div className="next-page">
-						<Link to="/work/transaction">
+					<div className="next-page link-to-newyear">
+						<Link to="/work/newyear">
 							<div className="project-index">Next Project</div>
-							<div className="project-name">Transaction Management Design</div>
-              <div className="project-arrow"/>
+							<div className="project-name">New Year Event Sprint</div>
+              				<div className="project-arrow"/>
 						</Link>
 					</div>
 				</div>
