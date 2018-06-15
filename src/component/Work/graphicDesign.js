@@ -49,7 +49,7 @@ export class GraphicDesign extends Component {
       		<span className="december-2016">
       			2013 - present
       		</span>
-          <p>Aside from designing for user interfaces, I also enjoy crafting <span className="highlight-graphic">brand identities, logos, illustrations and design you name it</span>. Here are a collection of design projects I love and did at work and in my spare time.</p>
+          <p>Aside from designing for user interfaces, I also enjoy crafting <HighLightOnVisible className="highlight-graphic">brand identities, logos, illustrations and design you name it</HighLightOnVisible>. Here are a collection of design projects I love and did at work and in my spare time.</p>
       		<div className="content-block" id={'palmdrive'}>
 	          <div className="section-title"> Graphic design collections for Palmdrive </div>
 	        </div>
@@ -89,7 +89,7 @@ export class GraphicDesign extends Component {
       			December 2017
       		</span>
       		<p>
-      		Wulnut English is a fast growing startup incubated by Palmdrive, focusing on English online tutoring. After launching the VIS, the Wulnut English’s followers has bumped up 20,000 on WeChat in 3 months. <span className="highlight-graphic"> Please contact me for VIS.</span>
+      		Wulnut English is a fast growing startup incubated by Palmdrive, focusing on English online tutoring. After launching the VIS, the Wulnut English’s followers has bumped up 20,000 on WeChat in 3 months. <HighLightOnVisible className="highlight-graphic"> Please contact me for VIS.</HighLightOnVisible>
       		</p>
       		<div className="project-img-div-long">
       			<img
@@ -106,7 +106,7 @@ export class GraphicDesign extends Component {
       		</span>
 
 	        <p>
-	        	Palmdrive Go is a startup incubated by Palmdrive. Its goal is to build a mentor community. I had a good time playing with <span className="highlight-graphic">Bilingual Lettering</span> on the logo design.
+	        	Palmdrive Go is a startup incubated by Palmdrive. Its goal is to build a mentor community. I had a good time playing with <HighLightOnVisible className="highlight-graphic">Bilingual Lettering</HighLightOnVisible> on the logo design.
 	        </p>
 	        <div className="project-img-div-long">
       			<img
@@ -122,7 +122,7 @@ export class GraphicDesign extends Component {
       			July 2017
       		</span>
 	        <p>
-	        	The t-shirt was a last minute design, but I am glad I could <span className="highlight-graphic">participate in my father’s youth</span> in this way.
+	        	The t-shirt was a last minute design, but I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
 	        </p>
 	        <div className="project-img-div-long">
       			<img
