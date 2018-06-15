@@ -9,6 +9,21 @@ import './css/work.css';
 
 export class GraphicDesign extends Component {
   componentDidMount(): void {
+    const parts = window.location.href.split('#');
+    const currentAnchor = parts.length > 0 ? `${parts[parts.length -1]}` : '';
+    const numSec = document.getElementsByClassName("content-block").length;
+    for (let i = 0; i < numSec; i ++) {
+      const el = document.getElementsByClassName("content-block")[i];
+      if (el && el.id === currentAnchor) {
+        setTimeout(
+          () => {
+            el.scrollIntoView({ block: 'center'});
+          },
+          150,
+        );
+        return;
+      }
+    }
     window.scroll({top:0});
   }
 

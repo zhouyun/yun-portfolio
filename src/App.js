@@ -6,8 +6,9 @@ import {Header, Footer, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume,Fruito} from './component';
 import createHashHistory from 'history/createBrowserHistory'
-const history = createHashHistory();
+const hashhistory = createHashHistory();
 
+window.history.scrollRestoration = 'manual';
 class ScrollTopTop extends Component {
   constructor(props) {
     super(props);
@@ -56,10 +57,10 @@ class ScrollTopTop extends Component {
   }
 }
 
-const App = ({history}) => (
+const App = ({hashhistory}) => (
   <div>
     <Header/>
-    <Router location={history}>
+    <Router location={hashhistory}>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/about/" component={About} />
@@ -77,7 +78,6 @@ const App = ({history}) => (
 );
 
 class Home extends Component {
-
   _renderArrow() {
     return (
       <div className="view-case">
@@ -124,7 +124,7 @@ class Home extends Component {
               {this._renderArrow()}
             </div>
           </Link>
-        </div>     
+        </div>
         <div className="project-section project-palmdrive-section">
           <Link to="/work/palmdrive">
             <div className="img-block" >

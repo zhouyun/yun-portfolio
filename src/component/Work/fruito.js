@@ -6,13 +6,23 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
-const CurrentAnchor = function(): string {
-  const parts = window.location.href.split('#');
-  return parts.length > 0 ? `${parts[parts.length -1]}` : 'NONE';
-}
-
 export class Fruito extends Component {
   componentDidMount(): void {
+    const parts = window.location.href.split('#');
+    const currentAnchor = parts.length > 0 ? `${parts[parts.length -1]}` : '';
+    const numSec = document.getElementsByClassName("content-block").length;
+    for (let i = 0; i < numSec; i ++) {
+      const el = document.getElementsByClassName("content-block")[i];
+      if (el && el.id === currentAnchor) {
+        setTimeout(
+          () => {
+            el.scrollIntoView({ block: 'center'});
+          },
+          150,
+        );
+        return;
+      }
+    }
     window.scroll({top:0});
   }
 

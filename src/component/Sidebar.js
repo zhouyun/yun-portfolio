@@ -61,27 +61,30 @@ class SidebarItem extends Component {
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
-    const initialIndex = props.items.findIndex(
-      item => item.anchor === CurrentAnchor(),
-    );
     this.state = {
-      activeIndex: initialIndex < 0 ? 1 : initialIndex + 1,
+      activeIndex: 1,
     };
   }
 
   componentDidMount() {
-    const initialIndex = this.props.items.findIndex(
-      item => item.anchor === CurrentAnchor(),
-    );
-    this.setState({
-      activeIndex: initialIndex < 0 ? 1 : initialIndex + 1,
-    });
     window.addEventListener('wheel', this.handleScroll);
+    this._handleInitial();
   };
 
   componentWillUnmount() {
     window.removeEventListener('wheel', this.handleScroll);
   };
+
+  _handleInitial(param) {
+    const initialIndex = this.props.items.findIndex(
+      item => item.anchor === CurrentAnchor(),
+    );
+    if (initialIndex >= 0) {
+      this.setState({
+        activeIndex: initialIndex + 1,
+      });
+    }
+  }
 
   handleScroll = (): void => {
     const numSec = document.getElementsByClassName("content-block").length;
