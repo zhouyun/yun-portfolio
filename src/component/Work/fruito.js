@@ -61,7 +61,7 @@ export class Fruito extends Component {
                 March 2015 - present
               </span>
               <p>Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.</p>
-              <p>To solve this problem, I created Fruito to <span className="highlight-fruito">improve fruits management experience</span> to prevent fruits waste.</p>
+              <p>To solve this problem, I created Fruito to <HighLightOnVisible className="highlight-fruito">improve fruits management experience</HighLightOnVisible> to prevent fruits waste.</p>
               <section className="content-block" id={'background'}>
                 <div className="section-title"> Background </div>
               </section>
@@ -69,7 +69,7 @@ export class Fruito extends Component {
                 The idea came from my roommate, Peipei [pay-pay] when we lived in New York.
               </p>
               <p>
-                As we were both far from home, newly moved to New York, and had busy study schedules, we went nuts everyday. Even worse Peipei’s parent constantly pushed her to eat veggies and fruits to stay healthy. She bought them every week but she forgot to eat them from time to time. So when she pull her black bananas out of the refrigerator with a desperate howl <span className="highlight-fruito">the third time that month</span>, I decided to do something.
+                As we were both far from home, newly moved to New York, and had busy study schedules, we went nuts everyday. Even worse Peipei’s parent constantly pushed her to eat veggies and fruits to stay healthy. She bought them every week but she forgot to eat them from time to time. So when she pull her black bananas out of the refrigerator with a desperate howl <HighLightOnVisible className="highlight-fruito">the third time that month</HighLightOnVisible>, I decided to do something.
               </p>
 
               <div className="section-sub-title"> My Role </div>
@@ -96,14 +96,14 @@ export class Fruito extends Component {
               src='/fruito/xmind/bitmap@2x.png'/>
               </div>
               <p>
-                The interview started from why people throw fruits away. Then I got <span className="highlight-fruito">a classic story</span> about fruits —
+                The interview started from why people throw fruits away. Then I got <HighLightOnVisible className="highlight-fruito">a classic story</HighLightOnVisible> about fruits —
               </p>
               <div className="project-img-div-long">
               <img
               src='/fruito/group-2@2x.png'/>
               </div>
               <p>
-                So <span className="highlight-fruito">people don’t love fruits as much as they think</span>.
+                So <HighLightOnVisible className="highlight-fruito">people don’t love fruits as much as they think</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
               <img
@@ -114,13 +114,13 @@ export class Fruito extends Component {
               <p>Valley:<br/>1. Forget about fruits after storing<br/>2. Finding fruits gone bad and throw them</p>
 
               <div className="section-sub-title">Method of exhaustion</div>
-              <p>According to the interviews, the reasons leading to fruits thrown away turned out to be <span className="highlight-fruito">tiny but varied</span>.</p>
+              <p>According to the interviews, the reasons leading to fruits thrown away turned out to be <HighLightOnVisible className="highlight-fruito">tiny but varied</HighLightOnVisible>.</p>
               <p>To understand what leads to the scenarios without stereotypes, I created a formula to help me.</p>
               <div className="project-img-div-long">
               <img
               src='/fruito/group@2x.png'/>
               </div>
-              <p>So any reasons <span className="highlight-fruito">encouraging</span> purchasing or <span className="highlight-fruito">discouraging</span> eating, storing and reusing could cause fruit wastes</p>
+              <p>So any reasons <HighLightOnVisible className="highlight-fruito">encouraging</HighLightOnVisible> purchasing or <HighLightOnVisible className="highlight-fruito">discouraging</HighLightOnVisible> eating, storing and reusing could cause fruit wastes</p>
               <p>The problems are:</p>
               <ol>
                 <li>
@@ -182,20 +182,20 @@ export class Fruito extends Component {
                 <div className="section-title"> Improve fruits management experience for everyone, everywhere </div>
               </section>
               <p>
-                As people interact with fruits at various locations, people <span className="highlight-fruito">should be able to use the tool anywhere</span>.
+                As people interact with fruits at various locations, people <HighLightOnVisible className="highlight-fruito">should be able to use the tool anywhere</HighLightOnVisible>.
               </p>
               <p>buying fruits — grocery stores<br/>
               storing fruits — home<br/>
               eating fruits — home/work/on the way<br/>
               throw fruits — home</p>
 
-              <p>So I decided to <span className="highlight-fruito">design an app</span> since people could use it everywhere. </p>
+              <p>So I decided to <HighLightOnVisible className="highlight-fruito">design an app</HighLightOnVisible> since people could use it everywhere. </p>
 
               <section className="content-block" id={'recap'}>
                 <div className="section-title">Recap the design challenge and metrics developing</div>
               </section>
               <p>
-                Before I could jump into designing the app, it was important to <span className="highlight-fruito">define success and understand the health of the fruits experience at scale</span>.
+                Before I could jump into designing the app, it was important to <HighLightOnVisible className="highlight-fruito">define success and understand the health of the fruits experience at scale</HighLightOnVisible>.
                 </p>
               <p>I created 3 metric, time spent on purchasing fruits, frequency to eat fruits, fruits waste ratio. Each metric was measured before a tester had used the app and after.
               </p>
@@ -228,18 +228,18 @@ export class Fruito extends Component {
                 <div className="section-title">Introducing Fruito</div>
               </section>
               <p>
-                In a fast-pasing world, everything seems out of control, Fruito <span className="highlight-fruito">gives your control back</span> by making fruits management smooth, effortless and flexible.
+                In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
               </p>
               <section className="content-block1" id={'into-the-details1'}>
                 <div className="section-title1">- Purchase reasonably -</div>
               </section>
               <div className="section-sub-title"> Keep track of fruits </div>
               <p>
-               with knowing what fruits they have, users could make <span className="highlight-fruito">reasonable fruits purchasing plan</span>, which save both money and time.
+               with knowing what fruits they have, users could make <HighLightOnVisible className="highlight-fruito">reasonable fruits purchasing plan</HighLightOnVisible>, which save both money and time.
               </p>
               <div className="section-sub-title"> Give advice about fruits purchase </div>
               <p>
-               with knowing how much fruits user’s body need, they could <span className="highlight-fruito">avoid over-purchasing</span>. The app also encourages to eat seasonal fruits.
+               with knowing how much fruits user’s body need, they could <HighLightOnVisible className="highlight-fruito">avoid over-purchasing</HighLightOnVisible>. The app also encourages to eat seasonal fruits.
               </p>
               <div className="project-img-div-long">
               <img
@@ -295,7 +295,7 @@ export class Fruito extends Component {
               </section>
               <div className="section-sub-title"> Start doing is more important than doing perfect. </div>
               <p>
-              I listed down several app features. The core was the <span className="highlight-fruito">tracking system of fruits</span>. There were two derived features, the <span className="highlight-fruito">reminder</span> and the <span className="highlight-fruito">eating summary</span>.
+              I listed down several app features. The core was the <HighLightOnVisible className="highlight-fruito">tracking system of fruits</HighLightOnVisible>. There were two derived features, the <HighLightOnVisible className="highlight-fruito">reminder</HighLightOnVisible> and the <HighLightOnVisible className="highlight-fruito">eating summary</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
               <img
@@ -303,7 +303,7 @@ export class Fruito extends Component {
               </div>
               <div className="section-sub-title"> Thinking about UI when doing UX </div>
               <p>
-              When it came to Fruito UI, <span className="highlight-fruito">three primary principles</span> directed the design style, according to the feedback that I took from the interviews:
+              When it came to Fruito UI, <HighLightOnVisible className="highlight-fruito">three primary principles</HighLightOnVisible> directed the design style, according to the feedback that I took from the interviews:
               <ol>
                 <li>Fruit colors to be visually appealing</li>
                 <li>Fruit shapes to be instinct</li>
@@ -311,7 +311,7 @@ export class Fruito extends Component {
               </ol>
               </p>
               <p>
-              So I drew a lot of vivid fruit icons to <span className="highlight-fruito">increase recognition</span>. Users that interact with them would feel they interact with real fruits.
+              So I drew a lot of vivid fruit icons to <HighLightOnVisible className="highlight-fruito">increase recognition</HighLightOnVisible>. Users that interact with them would feel they interact with real fruits.
               </p>
               <div className="project-img-div-long">
               <img
@@ -327,7 +327,7 @@ export class Fruito extends Component {
                 I proposed three ideas to record fruits purchase. After several testing with a developer, manual entry was adopted by fruito v1.0 since it was stable and reliable.
               </p>
               <p>
-              *In Fruito 2.0, we changed it to <span className="highlight-fruito">camera + fruit</span> since the image recognition accuracy has reached 95%.
+              *In Fruito 2.0, we changed it to <HighLightOnVisible className="highlight-fruito">camera + fruit</HighLightOnVisible> since the image recognition accuracy has reached 95%.
               </p>
               <div className="section-sub-title"> How to improve the manual entry - Show tappable seasonal fruits! </div>
               <p>
@@ -347,18 +347,18 @@ export class Fruito extends Component {
               <h5>Seasonal fruits of United States in general</h5>
               <div className="section-sub-title"> Getting hands messy </div>
               <p>
-              After trying out some sketches, I started to do the wireframes. The different greys helps me <span className="highlight-fruito">arranging the UI layers</span>.
+              After trying out some sketches, I started to do the wireframes. The different greys helps me <HighLightOnVisible className="highlight-fruito">arranging the UI layers</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
               <img
               src='/fruito/wireframe1/bitmap@2x.png'/>
               </div>
-              <p>According to the <span className="highlight-fruito"><a href="https://cloudup.com/cWi5XVaw2wV"><u>thumb zones map</u></a></span> by Luke Wroblewski, I arranged the fruit icons on the <span className="highlight-fruito">bottom of the screen</span>.</p>
+              <p>According to the <HighLightOnVisible className="highlight-fruito"><a href="https://cloudup.com/cWi5XVaw2wV"><u>thumb zones map</u></a></HighLightOnVisible> by Luke Wroblewski, I arranged the fruit icons on the <HighLightOnVisible className="highlight-fruito">bottom of the screen</HighLightOnVisible>.</p>
               <p>Seasonal fruits are set as a recommendation. The number of common seasonal fruits is around 6, the maximum is around 15.</p>
-              <p>Clicking on a fruit is an easy way to add the fruit. Time to add a non-seasonal fruit is 3-5s while time to add a seasonal one only takes <span className="highlight-fruito">1-3s</span>.</p>
+              <p>Clicking on a fruit is an easy way to add the fruit. Time to add a non-seasonal fruit is 3-5s while time to add a seasonal one only takes <HighLightOnVisible className="highlight-fruito">1-3s</HighLightOnVisible>.</p>
               <div className="section-sub-title"> Fruit status is the key </div>
               <p>
-              When adding fruits, status could be adjusted, so <span className="highlight-fruito">countdown clock of fruit freshness</span> could be seen anywhere anytime.
+              When adding fruits, status could be adjusted, so <HighLightOnVisible className="highlight-fruito">countdown clock of fruit freshness</HighLightOnVisible> could be seen anywhere anytime.
               </p>
               <div className="project-img-div-long">
               <img
@@ -366,7 +366,7 @@ export class Fruito extends Component {
               </div>
               <div className="section-sub-title"> Eating fruits could be fun </div>
               <p>
-              To make the interaction with fruits direct, I designed a <span className="highlight-fruito">mouth eating animation</span> to mimic the eating process.
+              To make the interaction with fruits direct, I designed a <HighLightOnVisible className="highlight-fruito">mouth eating animation</HighLightOnVisible> to mimic the eating process.
               </p>
               <div className="project-img-div-long">
               <img
@@ -375,18 +375,18 @@ export class Fruito extends Component {
               <div className="display-tittle"> / Reminder / </div>
               <div className="section-sub-title"> Be initiative </div>
               <p>
-              Reminder could be set to <span className="highlight-fruito">encourage and arrange</span> eating fruits.
+              Reminder could be set to <HighLightOnVisible className="highlight-fruito">encourage and arrange</HighLightOnVisible> eating fruits.
               </p>
               <div className="project-img-div-long">
               <img
               src='/fruito/wireframe4/bitmap@2x.png'/>
               </div>
               <p>
-              There are 3 kinds of reminder. The left one is to notify user when it’s time to <span className="highlight-fruito">eat</span> fruits. The middle one is to <span className="highlight-fruito">remind</span> user to buy fruits. The right one is to <span className="highlight-fruito">encourage</span> user to keep a fruit eating habit.
+              There are 3 kinds of reminder. The left one is to notify user when it’s time to <HighLightOnVisible className="highlight-fruito">eat</HighLightOnVisible> fruits. The middle one is to <HighLightOnVisible className="highlight-fruito">remind</HighLightOnVisible> user to buy fruits. The right one is to <HighLightOnVisible className="highlight-fruito">encourage</HighLightOnVisible> user to keep a fruit eating habit.
               </p>
               <div className="display-tittle"> / History & Accomplishment / </div>
               <p>
-              <span className="highlight-fruito">Rewarding is a great way to develop a habit.</span> I also designed some <span className="highlight-fruito">accomplishment badges</span> on the bottom of the screen for users to collect.
+              <HighLightOnVisible className="highlight-fruito">Rewarding is a great way to develop a habit.</HighLightOnVisible> I also designed some <HighLightOnVisible className="highlight-fruito">accomplishment badges</HighLightOnVisible> on the bottom of the screen for users to collect.
               </p>
               <div className="project-img-div-long">
               <img
@@ -427,7 +427,7 @@ export class Fruito extends Component {
               <div className="section-sub-title"> 1. Responsive app UI </div>
               <img className="image_carousel" src="fruito/little blue.gif" width="250px" ></img>
               <div className="section-sub-title"> 2. Little Blue vs The Mouth </div>
-              <p>I created a character with <span className="highlight-fruito">facial expressions</span> like blinking, opening mouth, and chewing that users could interact with.
+              <p>I created a character with <HighLightOnVisible className="highlight-fruito">facial expressions</HighLightOnVisible> like blinking, opening mouth, and chewing that users could interact with.
               </p>
               <div className="project-img-div-long">
               <img
@@ -450,25 +450,25 @@ export class Fruito extends Component {
               <div className="section-sub-title"> 4. Tip for storage, also mark of storage</div>
               <p>According the research, different fruits should be stored in different places. Fruits stored improperly ripen fast and then go bad easily. </p>
 
-              <p>By following the tips on storing fruits, the app <span className="highlight-fruito">remember your fruits location</span>.</p>
+              <p>By following the tips on storing fruits, the app <HighLightOnVisible className="highlight-fruito">remember your fruits location</HighLightOnVisible>.</p>
               <div className="project-img-div-long">
               <img
               src='/fruito/group-19@2x.png'/>
               </div>
               <div className="section-sub-title"> 5. Deadline vs Status</div>
-              <p>It’s not easy to identify the date when fruits are not edible from the fruit status (left) according to the interviews. So I changed it to a <span className="highlight-fruito">suggested expiration date</span> (right).</p>
+              <p>It’s not easy to identify the date when fruits are not edible from the fruit status (left) according to the interviews. So I changed it to a <HighLightOnVisible className="highlight-fruito">suggested expiration date</HighLightOnVisible> (right).</p>
               <div className="project-img-div-long">
               <img
               src='/fruito/group-15@2x.png'/>
               </div>
               <div className="section-sub-title"> 6. Search to add</div>
-              <p>With <span className="highlight-fruito">search auto completion</span>，it’s more convienient to add fruit.</p>
+              <p>With <HighLightOnVisible className="highlight-fruito">search auto completion</HighLightOnVisible>，it’s more convienient to add fruit.</p>
               <div className="project-img-div-long">
               <img
               src='/fruito/auto-search@2x.png'/>
               </div>
               <div className="section-sub-title"> 7. Fruit Eating Challenge vs Data Visualization </div>
-              <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to <span className="highlight-fruito">show fruits consumption history</span> in a table, rather than accomplishment badges.</p>
+              <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to <HighLightOnVisible className="highlight-fruito">show fruits consumption history</HighLightOnVisible> in a table, rather than accomplishment badges.</p>
               <div className="project-img-div-long">
               <img
               src='/fruito/group-17@2x.png'/>

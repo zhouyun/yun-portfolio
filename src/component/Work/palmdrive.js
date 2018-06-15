@@ -65,12 +65,12 @@ export class Palmdrive extends Component {
 			          <div className="section-title"> Background </div>
 			        </section>
 		      		<p>
-		      			As more and more students know who we are and what we do through our website, <span className="highlight-palmdrive">properly presenting information and the timely updating</span> become the goal of maintaining the website.
+		      			As more and more students know who we are and what we do through our website, <HighLightOnVisible className="highlight-palmdrive">properly presenting information and the timely updating</HighLightOnVisible> become the goal of maintaining the website.
 		      		</p>
 
 			        <div className="section-sub-title"> My Role </div>
 		      		<p>
-		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including <span className="highlight-palmdrive">information architect maintain, copy editing, website design, project management and cross-teams coordinating</span>.
+		      			I have maintained the website since I joined the Palmdrive ini April, 2016. The website had some ground work before I was in charge. To keep up with our expanding services, I redesigned the old pages and created new pages from time to time, including <HighLightOnVisible className="highlight-palmdrive">information architect maintain, copy editing, website design, project management and cross-teams coordinating</HighLightOnVisible>.
 		      		</p>
               <div className="project-img-div-long">
                 <img
@@ -93,10 +93,10 @@ export class Palmdrive extends Component {
 						2. How to present information accurately and reasonably on each page
 							</p>
 		      		<p>
-						To achieve that, I worked on understanding the business model by <span className="highlight-palmdrive">joining the sales and service training</span>, as well as <span className="highlight-palmdrive">mentoring students myself</span>. I was even honored the best student because of actively participation and high score in the test :)
+						To achieve that, I worked on understanding the business model by <HighLightOnVisible className="highlight-palmdrive">joining the sales and service training</HighLightOnVisible>, as well as <HighLightOnVisible className="highlight-palmdrive">mentoring students myself</HighLightOnVisible>. I was even honored the best student because of actively participation and high score in the test :)
 							</p>
 		      		<p>
-							All the efforts lead me to create a <span className="highlight-palmdrive">clear and scalable information architecture</span> as the following.
+							All the efforts lead me to create a <HighLightOnVisible className="highlight-palmdrive">clear and scalable information architecture</HighLightOnVisible> as the following.
 							</p>
               <div className="project-img-div-long">
                 <img
@@ -109,7 +109,7 @@ export class Palmdrive extends Component {
 			        </section>
 			        <div className="content-link"><a href="http://palmdrive.cn/services"><u>Graduate Service page</u></a></div>
 			        <p>
-			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more <span className="highlight-palmdrive">detailed png version</span> for the sales team for a consistent user experience.
+			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more <HighLightOnVisible className="highlight-palmdrive">detailed png version</HighLightOnVisible> for the sales team for a consistent user experience.
 
 			        </p>
 			        <div className="mobile" >
@@ -128,7 +128,7 @@ export class Palmdrive extends Component {
 			        </section>
 			        <div className="content-link"><a href="http://palmdrive.cn/highschool_services"><u>High School page</u></a></div>
 			        <p>
-			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and <span className="highlight-palmdrive">rephrased the copy</span>.
+			        	When I started to work with Tina, the Head of High School Application Department, on the High School service page, she had no idea what should be displayed on the page. After deep discussion with Tina about the high school service, I extracted the web content from the service brochure and <HighLightOnVisible className="highlight-palmdrive">rephrased the copy</HighLightOnVisible>.
 			        </p>
 			        <p>
 			        	The content focused on
@@ -146,7 +146,7 @@ export class Palmdrive extends Component {
 								</li>
 							</ol>
 							<p>
-							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <span className="highlight-palmdrive">two weeks</span>.
+							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <HighLightOnVisible className="highlight-palmdrive">two weeks</HighLightOnVisible>.
 							</p>
 
               <img className="image_carousel" src="palmdrive/high-school-final2.0.gif" width="750px" ></img>
@@ -157,7 +157,7 @@ export class Palmdrive extends Component {
 
 			        <div className="content-link"><a href="http://palmdrive.cn/graduate_showcase"><u>Graduate Offer Showcase page</u></a></div>
 			        <p>
-			        	As the google analytics showed, the Graduate Offer Showcase page had <span className="highlight-palmdrive">over 30% bounce rate</span> which was far more than what our service team expect. To solve the problem, I redesigned the page with focusing on <span className="highlight-palmdrive">displaying our values and sharings</span>.
+			        	As the google analytics showed, the Graduate Offer Showcase page had <HighLightOnVisible className="highlight-palmdrive">over 30% bounce rate</HighLightOnVisible> which was far more than what our service team expect. To solve the problem, I redesigned the page with focusing on <HighLightOnVisible className="highlight-palmdrive">displaying our values and sharings</HighLightOnVisible>.
 
 			        </p>
 			         <div className="project-img-div-long">
@@ -166,7 +166,7 @@ export class Palmdrive extends Component {
               />
               </div>
 			        <p>
-			        The results are prominent, the Monthly Bounce Rate on the page <span className="highlight-palmdrive">decreased by 75%</span> and the pageviews share <span className="highlight-palmdrive">increased by 59%</span>.
+			        The results are prominent, the Monthly Bounce Rate on the page <HighLightOnVisible className="highlight-palmdrive">decreased by 75%</HighLightOnVisible> and the pageviews share <HighLightOnVisible className="highlight-palmdrive">increased by 59%</HighLightOnVisible>.
 							</p>
 			        <section className="content-block" id={'display-with-hierarchy'}>
 			        	<div className="section-title">Display with hierarchy</div>

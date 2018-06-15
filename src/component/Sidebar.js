@@ -70,6 +70,7 @@ export class Sidebar extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
   };
 
   componentWillUnmount() {
@@ -82,7 +83,7 @@ export class Sidebar extends Component {
       const ele = document.getElementsByClassName("content-block")[i - 1];
       if (ele && ele.getBoundingClientRect) {
         const anchor_offset = ele.getBoundingClientRect().top;
-        if(anchor_offset > 0 && anchor_offset < 500) {
+        if(anchor_offset > 0 && anchor_offset < 300) {
           this.setState({activeIndex: i});
           return;
         }

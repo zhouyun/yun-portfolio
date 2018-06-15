@@ -76,10 +76,10 @@ export class Transaction extends Component {
 
 	        <div className="section-sub-title"> My Role </div>
       		<p>
-      			I worked at Pefin s a <span className="highlight-transaction">UX/UI designer</span> for six months.
+      			I worked at Pefin s a <HighLightOnVisible className="highlight-transaction">UX/UI designer</HighLightOnVisible> for six months.
       		</p>
       		<p>
-      			I was in charge of improving transaction experience by <span className="highlight-transaction">introducing filters and trending data visualization</span>.
+      			I was in charge of improving transaction experience by <HighLightOnVisible className="highlight-transaction">introducing filters and trending data visualization</HighLightOnVisible>.
       		</p>
 
           <div className="project-img-div-long">
@@ -91,7 +91,7 @@ export class Transaction extends Component {
 	          <div className="section-title" id="challenge "> The challenge </div>
 	        </div>
       		<p>
-      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to <span className="highlight-transaction">figure out the logic</span> behind the chosen filters.
+      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to <HighLightOnVisible className="highlight-transaction">figure out the logic</HighLightOnVisible> behind the chosen filters.
 
       		</p>
 
@@ -99,7 +99,7 @@ export class Transaction extends Component {
 	          <div className="section-title"> Logic comes the first </div>
 	        </div>
 	        <p>
-	        	To make the logic clear, I created two kinds of filter pools. One was for <span className="highlight-transaction">“Must-have” tags</span>, and the other was for <span className="highlight-transaction">“May-have” tags</span>. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
+	        	To make the logic clear, I created two kinds of filter pools. One was for <HighLightOnVisible className="highlight-transaction">“Must-have” tags</HighLightOnVisible>, and the other was for <HighLightOnVisible className="highlight-transaction">“May-have” tags</HighLightOnVisible>. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
 	        </p>
 	        <div className="project-img-div-long">
       			<img
@@ -117,7 +117,7 @@ export class Transaction extends Component {
 	        </div>
 	        <h5>Traditional table lists and charts</h5>
 	        <p>
-	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a <span className="highlight-transaction">web version of Excel</span>. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
+	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a <HighLightOnVisible className="highlight-transaction">web version of Excel</HighLightOnVisible>. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
 	        </p>
 	        <div className="project-img-div-long">
       			<img
@@ -129,7 +129,7 @@ export class Transaction extends Component {
 	        	<div className="section-title">Into the details</div>
 	        </div>
 	        <p>
-	        	<span className="highlight-transaction">Tags shows below each transaction.</span> Users click a tag to add as a filter and edit filters by clicking bubble to enter a edit mode.
+	        	<HighLightOnVisible className="highlight-transaction">Tags shows below each transaction.</HighLightOnVisible> Users click a tag to add as a filter and edit filters by clicking bubble to enter a edit mode.
 	        </p>
 	         <div className="project-img-div-long">
       			<img
@@ -142,11 +142,11 @@ export class Transaction extends Component {
 	        </p>
 	        <div className="section-sub-title"> 2. Different sizes for different layers.</div>
 	         <p>
-	        	Users could get a clearer picture of what transactions were made each day by viewing the <span className="highlight-transaction">bubble tree</span>.
+	        	Users could get a clearer picture of what transactions were made each day by viewing the <HighLightOnVisible className="highlight-transaction">bubble tree</HighLightOnVisible>.
 	        </p>
 	        <div className="section-sub-title"> 3. Use colors properly.</div>
 	         <p>
-	        	I made a list of colors which complemented each other nicely. Moreover, any color could be told from others easily at the same time. After tags attaching to each transaction, users tended to <span className="highlight-transaction">click tags</span> much more often than <span className="highlight-transaction">typing in a search bar</span>. While people could only added filter by typing in a search bar when using Mint, our competitive product
+	        	I made a list of colors which complemented each other nicely. Moreover, any color could be told from others easily at the same time. After tags attaching to each transaction, users tended to <HighLightOnVisible className="highlight-transaction">click tags</HighLightOnVisible> much more often than <HighLightOnVisible className="highlight-transaction">typing in a search bar</HighLightOnVisible>. While people could only added filter by typing in a search bar when using Mint, our competitive product
 	        </p>
 	        <div className="project-img-div-long">
       			<img
@@ -157,7 +157,7 @@ export class Transaction extends Component {
 	        	<div className="section-title">It’s always fun to play with data</div>
 	        </div>
 	        <p>
-	        	The webpages were designed with both <span className="highlight-transaction">bar and pie charts</span> for different needs. 90% users interacted with both pie charts and bar charts. We also had bubble charts or not for a A/B testing, and we removed it for this version.
+	        	The webpages were designed with both <HighLightOnVisible className="highlight-transaction">bar and pie charts</HighLightOnVisible> for different needs. 90% users interacted with both pie charts and bar charts. We also had bubble charts or not for a A/B testing, and we removed it for this version.
 	        </p>
 	        <div className="project-img-div-long">
       			<img
@@ -173,7 +173,7 @@ export class Transaction extends Component {
 	        />
 	        </div>
 	        <p>
-	        	Based on the researches, I designed with a new feature which allows users to <span className="highlight-transaction">hover</span> on a specific category to see its spending trends instead of <span className="highlight-transaction">clicking</span> it to add a filter. It also saves time of clearing filter pool. In fact, users' interactions with the elements <span className="highlight-transaction">increased by 167%</span> on this page. On iPad, users press instead of hovering.
+	        	Based on the researches, I designed with a new feature which allows users to <HighLightOnVisible className="highlight-transaction">hover</HighLightOnVisible> on a specific category to see its spending trends instead of <HighLightOnVisible className="highlight-transaction">clicking</HighLightOnVisible> it to add a filter. It also saves time of clearing filter pool. In fact, users' interactions with the elements <HighLightOnVisible className="highlight-transaction">increased by 167%</HighLightOnVisible> on this page. On iPad, users press instead of hovering.
 	        </p>
 	        <img class="image_carousel" src="pefin/pefin_ani.gif" width="500px" ></img>
 

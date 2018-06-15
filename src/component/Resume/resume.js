@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Sidebar} from '../';
+import {Sidebar,HighLightOnVisible} from '../';
 import './css/resume.css';
 
 export class Resume extends Component {
@@ -20,23 +20,23 @@ export class Resume extends Component {
             <div className="resume-content-title">Design Lead Manager | April 2016 – present</div>
             <div className="resume-content-location">Palmdrive – Sunnyvale, CA/Shanghai, China</div>
             <div className="resume-content-detail">
-              <p>In charge of <span className="highlight-general"> web pages design and design system refinement</span>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
+              <p>In charge of <HighLightOnVisible className="highlight-general"> web pages design and design system refinement</HighLightOnVisible>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
 
-              <p>Led <span className="highlight-general"> user experience design</span> for online products serving over 4,000 mentors and premium subscribers.</p>
+              <p>Led <HighLightOnVisible className="highlight-general"> user experience design</HighLightOnVisible> for online products serving over 4,000 mentors and premium subscribers.</p>
 
-              <p>Led <span className="highlight-general"> collateral materials, environmental graphics, and print advertising</span> for more than 130 branding events nationwide within one year, deeply engaging with more than 6,000 college students. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.</p>
+              <p>Led <HighLightOnVisible className="highlight-general"> collateral materials, environmental graphics, and print advertising</HighLightOnVisible> for more than 130 branding events nationwide within one year, deeply engaging with more than 6,000 college students. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.</p>
 
-              <p>Support <span className="highlight-general"> social media marketing campaigns</span> with digital ad layouts across multiple platforms (Tencent WeChat, Sina Weibo, Zhihu, Toutiao).</p>
+              <p>Support <HighLightOnVisible className="highlight-general"> social media marketing campaigns</HighLightOnVisible> with digital ad layouts across multiple platforms (Tencent WeChat, Sina Weibo, Zhihu, Toutiao).</p>
 
-              <p>Designed <span className="highlight-general"> logos and visual identity systems</span> for in-company startups, Wulnut English, Palmdrive Go, and Palmdrive Academy. Supported Wulnut English campaigns with digital/print products, that contributed to a <span className="highlight-general"> 280% revenue growth</span> within one year.</p>
+              <p>Designed <HighLightOnVisible className="highlight-general"> logos and visual identity systems</HighLightOnVisible> for in-company startups, Wulnut English, Palmdrive Go, and Palmdrive Academy. Supported Wulnut English campaigns with digital/print products, that contributed to a <HighLightOnVisible className="highlight-general"> 280% revenue growth</HighLightOnVisible> within one year.</p>
 
-              <p>Establish and host in-company design workshops to help teams follow Palmdrive style guide and improve reliability on our daily feeds for over <span className="highlight-general"> 400k followers</span>.</p>
+              <p>Establish and host in-company design workshops to help teams follow Palmdrive style guide and improve reliability on our daily feeds for over <HighLightOnVisible className="highlight-general"> 400k followers</HighLightOnVisible>.</p>
 
               <p>Build the design team from 0 to 4 and mentor designers on user-centered design, communication, time-management and career planning.</p>
 
-              <p>Reduced communication overhead by introducing transparent and standard work process that supported <span className="highlight-general"> 300% campaigns without new design hires</span> in 2017.</p>
+              <p>Reduced communication overhead by introducing transparent and standard work process that supported <HighLightOnVisible className="highlight-general"> 300% campaigns without new design hires</HighLightOnVisible> in 2017.</p>
 
-              <p>Manage <span className="highlight-general"> weekly design talks</span> to share project insights, improve current design and explore design for fun.</p>
+              <p>Manage <HighLightOnVisible className="highlight-general"> weekly design talks</HighLightOnVisible> to share project insights, improve current design and explore design for fun.</p>
             </div>
             <div className="resume-content">
               <div className="resume-content-title">Design Lead Manager | January 2015 – March 2016</div>
