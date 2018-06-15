@@ -35,6 +35,7 @@ class SidebarItem extends Component {
         <Link
           className={`side-bar-link ${isActive ? 'active-link' : ''}`}
           to={anchor}
+          scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
           onClick={(e) => {
             if(!isActive) {
               onClick(index);
