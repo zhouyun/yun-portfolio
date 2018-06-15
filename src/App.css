@@ -3,12 +3,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.header-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -90,13 +84,6 @@
   margin-right: 20px;
 
 }
-.project-section {
-  height: 550px;
-  width: 1280px;
-  margin: 20px 3%;
-  width: 94%;
-  padding: 58px 5%;
-}
 
 .highlight {
   background: -moz-linear-gradient(left, rgba(185,216,254,1) 50%, rgba(255,255,255,1) 50%); /* FF3.6-15 */
@@ -116,10 +103,18 @@
   /*background-color: #b9d8fe;*/
 
 }
+
 .project-section {
-  /*background-color: #b9d8fe;*/
+  display: block;
+  height: 550px;
+  width: 1280px;
+  margin: 30px 3%;
+  width: 94%;
+  padding: 58px 5%;
   overflow:hidden;
+  cursor: pointer;
 }
+
 .project-section .background-cloud{
   /*background-color: #b9d8fe;*/
   overflow:hidden;
@@ -128,27 +123,27 @@
   -ms-transform:scale(1);
   transform:scale(1);
   -webkit-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
-  -moz-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;      
+  -moz-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
   transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
 }
-.project-section:hover .background-cloud{
-  -webkit-transform:scale(5);
-  -moz-transform:scale(5);
-  -ms-transform:scale(5);
-  transform:scale(5);
+.project-section:hover .background-cloud {
+  -webkit-transform:scale(6);
+  -moz-transform:scale(6);
+  -ms-transform:scale(6);
+  transform:scale(6);
   -webkit-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
-  -moz-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;      
+  -moz-transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
   transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
 
 }
 /*圆形发散*/
-@keyframes Radial { 
+@keyframes Radial {
   0%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 30%,#fff 70%);}
   30%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 50%,#fff 70%);}
   100%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 60%,#fff 70%);}
 }
 /*渐变色*/
-@keyframes RadialColor { 
+@keyframes RadialColor {
   0%{background-image:radial-gradient(#b9d8fe 30%);}
   20%{background-image:radial-gradient(#b9d8fe 50%);}
   40%{background-image:radial-gradient(#b9d8fe 70%);}
@@ -157,14 +152,14 @@
   100%{background-color: #b9d8fe;}
 }
 /*颜色从左到右平铺*/
-@keyframes Gradient { 
+@keyframes Gradient {
   0%{background-position:100% 50%}
   50%{background-position:40% 50%}
   100%{background-position:20% 50%}
 }
 .project-image {
-  width: 100%;
-  margin-top: -450px;
+  zoom: 50%;
+  margin-top: -900px;
   position: relative;
 }
 .background-cloud {
@@ -189,6 +184,84 @@
   width: 50%;
   text-align: left;
 }
+.greenblue-cloud{
+  transform: rotate(176deg)
+}
+.scroll-to-top-root {
+  position: relative;
+  cursor: pointer;
+  position: fixed;
+  top: 70%;
+  right:5%;
+  z-index:100;
+  transition: all 0.2s ease-out;
+}
+
+.project-img-long {
+	z-index: 1;
+	display: block;
+  zoom: 50%;
+}
+
+.scroll-to-top-background {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.12;
+}
+
+.scroll-to-top-root:hover .scroll-to-top-background {
+  background: #44424d;
+}
+
+.scroll-to-top-root.hidden_elem {
+  transform: scale(0);
+}
+.sns-icon{
+  margin-top: -55px;
+}
+.sns-icon-bg{
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 0.12;
+}
+.sns-icon-style{
+  display:inline-block;
+}
+.sns-icon-style:hover .sns-icon-bg{
+  background: #44424d;
+}
+
+.arrow-top {
+  border:solid #44424d;
+  border-width: 0 3px 3px 0;
+  display:inline-block;
+  padding: 10px;
+  position:absolute;
+  top:20px;
+  left:35px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.to-top-arrow {
+  vertical-align: middle;
+  height: 50px;
+  display: inline-block;
+  width: 3px;
+  border-left: solid 3px #44424d;
+  position: absolute;
+  top:20px;
+  left:45px;
+}
+
 .project-title {
   font-size: 28px;
   font-weight: 500;
@@ -208,39 +281,45 @@
   letter-spacing: normal;
   color: #44424d;
 }
-.view-case-description {
-  display: inline-block;
 
-}
 .view-case {
-  margin-top:145px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-top: 120px;
   font-size: 14px;
-  font-weight: 500;
   color: #44424d;
-  cursor: pointer;
-  cursor: hand;
-}
-.view-case-arrow {
-  line-height: 14px;
-  vertical-align: middle;
-  /*border-bottom: solid 1px #44424d;*/
-  height: 1px;
-  margin-left: 10px;
-  display: inline-block;
-  width: 30px;
-  border-top: solid 1px #44424d;
 }
 
-.view-case:hover .view-case-arrow {
+.view-case-arrow {
+  margin-left: 8px;
+  height: 0px;
+  display: block;
+  width: 20px;
+  border-top: solid 1px #44424d;
+  transition: all 0.2s linear;
+}
+
+.project-section:hover .view-case-arrow {
   line-height: 14px;
   display: inline-block;
   width: 50px;
+  transition: all 0.5s linear;
 }
 .view-case-arrow-head {
   display: inline-block;
-  font-weight: 500;
-  vertical-align: middle;
+  transition: all 0.5s linear;
+  position: relative;
+  left: 0px;
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  color: #222222;
+  height: 9px;
+  width: 9px;
+  transform: rotate(135deg);
+  margin-left: -10px;
 }
+
 .graphic-label {
   color: white;
   background-color: #44424d;
@@ -250,15 +329,33 @@
   margin-top: -350px;
   width: 260px;
   margin-left: 160px;
+  font-style: italic;
+  text-align: right;
+  padding: 0 5px;
 }
-.Footer {
-  margin-top: 100px;
+
+.footer {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  margin-top: 48px;
   width: 100%;
-  padding: 3%;
   text-align: right;
   font-size: 14px;
-  background-color: rgba(68,66,77,0.1);
-  /*opacity: 0.1;*/
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.footer-copyright{
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #44424d;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
@@ -283,5 +380,5 @@
   .project-image {
 
   }
-  
+
 }

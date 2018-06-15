@@ -1,5 +1,129 @@
 .about {
 	margin-left: 40%;
   font-family: 'Montserrat', sans-serif;
-	
+
+}
+
+.A-designer {
+  width: 447px;
+  height: 27px;
+	margin-top: 80px;
+}
+
+.Believe-in-relations {
+	margin-top: 10px;
+  width: 750px;
+  height: 185px;
+}
+
+.about-content-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #44424d;
+}
+
+.about-content-text p {
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.about-content-text-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #44424d;
+}
+
+.Looking-for-full-tim {
+	padding-top: 25px;
+  width: 750px;
+  height: 58px;
+	font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #44424d;
+}
+
+.mask-image {
+	margin-top: 40px;
+}
+
+.Mask {
+  width: 450px;
+  height: 338px;
+  background-color: #d8d8d8;
+}
+
+.Fun-facts {
+	margin-top: 100px;
+  width: 292px;
+  height: 30px;
+}
+
+.I-have-been-in-choru {
+  width: 750px;
+  height: 160px;
+}
+
+.I-dont-drink-coffee {
+	margin-top: 63px;
+  width: 766px;
+  height: 46px;
+}
+
+.about-footer-info {
+	display:inline-block;
+	padding-top: 26px;
+  padding-bottom: 120px;
+}
+
+.about-footer-info-email {
+	display:inline-block;
+	width: 292px;
+}
+
+.about-footer-info-location {
+	display:inline-block;
+	width: 209px;
+}
+
+.about-footer-info-icon {
+	padding-right: 12px;
+  zoom: 50%;
+}
+
+.about-footer-info-name-text {
+	font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #44424d;
+}
+
+.about-footer-info-content-text {
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #44424d;
 }
