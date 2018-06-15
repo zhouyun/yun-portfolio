@@ -117,7 +117,7 @@ export class Header extends Component {
   render() {
     return (
       <div ref={this._navRoot} className="header-nav">
-        <div ref={this._navPositioner}>
+        <div ref={this._navPositioner} className="header-nav-positioner">
           <Navbar color="white" light expand="md">
             <NavbarToggler onClick={this.toggle} />
             <Collapse

@@ -2,12 +2,13 @@
   padding-left:50px;
 }
 
-.header-nav {
+.header-nav-positioner {
+  top: 0px;
   position: fixed;
 }
 
 .header-nav,
-.header-nav-fixed {
+.header-nav-positioner {
   width: 100%;
   z-index: 100;
   -webkit-box-shadow: 0px 1px 10px 0px rgba(239,239,239,1);
