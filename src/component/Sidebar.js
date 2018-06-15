@@ -83,7 +83,6 @@ export class Sidebar extends Component {
   };
 
   handleScroll = (): void => {
-    console.log('handling scroll');
     const numSec = document.getElementsByClassName("content-block").length;
     for (let i = 1; i <= numSec; i ++) {
       const ele = document.getElementsByClassName("content-block")[i - 1];
