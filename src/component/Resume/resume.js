@@ -7,7 +7,7 @@ export class Resume extends Component {
     return (
       <div className="resume">
         <div className="rectangle-resume">
-              <a href="https://www.pefin.com/">
+              <a href="resume6.4.pdf" target="blank">
               <div className="rectangle-button-bg"></div>
               <div className="btn-text">Download Resume PDF</div>
               </a>
