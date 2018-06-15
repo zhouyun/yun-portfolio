@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import {Header, Footer, Navbar} from '../../component';
+import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 import { HashLink as Link } from 'react-router-hash-link';
 import {Sidebar} from '../';
@@ -8,6 +8,10 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
 
 export class GraphicDesign extends Component {
+  componentWillMount(): void {
+    window.scroll({top:0});
+  }
+
   render() {
     var previous_page = "Transaction Management Design";
     return (
@@ -55,7 +59,7 @@ export class GraphicDesign extends Component {
       		<p>
       			I led a design team of 4 at Palmdrive to support a good number of campaigns and events over the last two years. Clean and minimal design are applied to build a up-scale branding. The following are highlights designed on my own.
       		</p>
-      		
+
           <div className="project-img-div-long">
       			<img
 	          src='/graphic/group-4@2x.png'
@@ -100,7 +104,7 @@ export class GraphicDesign extends Component {
 	        <span className="december-2016">
       			February 2018
       		</span>
-      		
+
 	        <p>
 	        	Palmdrive Go is a startup incubated by Palmdrive. Its goal is to build a mentor community. I had a good time playing with <span className="highlight-graphic">Bilingual Lettering</span> on the logo design.
 	        </p>
@@ -135,7 +139,7 @@ export class GraphicDesign extends Component {
 	        <p>
 	        	The maze is to let two strangers interact with each other despite time and location. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
 	        </p>
-          <iframe id="mazev" src="https://player.vimeo.com/video/91377740" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <iframe id="mazev" src="https://player.vimeo.com/video/91377740" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	        <h5>I gave the maze to a friend as a gift. While enjoy creating, I also enjoy sharing which doubles the happiness:)</h5>
       </div>
     </div>

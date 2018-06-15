@@ -39,10 +39,10 @@ export class Header extends Component {
   }
 
   componentDidMount(): void {
-    window.addEventListener('wheel', this._handleNavePositioning);
+    // window.addEventListener('wheel', this._handleNavPositioning);
     window.addEventListener('popstate', this._handleIndicatorReposition);
     window.addEventListener('resize', this._handleIndicatorReposition);
-    this._handleNavePositioning();
+    // this._handleNavPositioning();
     setTimeout(() => this._handleIndicatorReposition(), 300);
   }
 
@@ -72,34 +72,34 @@ export class Header extends Component {
     return {x: 0, width: 0};
   };
 
-  _handleNavePositioning = (e): void => {
-    const offsetTop = this._navRoot.current.getBoundingClientRect().top;
-    if (offsetTop >= -2 && this.state.isFixed) {
-      // from fixed to static
-      this.setState({isFixed: false}, () => {
-        this._removeClass(this._navPositioner.current, 'header-nav-fixed');
-        this._removeClass(this._navPositioner.current, 'slidein');
-      });
-    } else {
-      if (e && e.deltaY < -10) {
-        if (!this.state.isFixed) {
-          this.setState({isFixed: true}, () => {
-            this._addClass(this._navPositioner.current, 'header-nav-fixed');
-          });
-        }
-        setTimeout(() => {
-          this._addClass(this._navPositioner.current, 'slidein');
-        }, 100);
-      }
-
-      if (e && e.deltaY > 0 && this.state.isFixed) {
-        this._removeClass(this._navPositioner.current, 'slidein');
-      }
-    }
-  };
+  // _handleNavPositioning = (e): void => {
+  //   const offsetTop = this._navRoot.current.getBoundingClientRect().top;
+  //   if (offsetTop >= -2 && this.state.isFixed) {
+  //     // from fixed to static
+  //     this.setState({isFixed: false}, () => {
+  //       this._removeClass(this._navPositioner.current, 'header-nav-fixed');
+  //       this._removeClass(this._navPositioner.current, 'slidein');
+  //     });
+  //   } else {
+  //     if (e && e.deltaY < -10) {
+  //       if (!this.state.isFixed) {
+  //         this.setState({isFixed: true}, () => {
+  //           this._addClass(this._navPositioner.current, 'header-nav-fixed');
+  //         });
+  //       }
+  //       setTimeout(() => {
+  //         this._addClass(this._navPositioner.current, 'slidein');
+  //       }, 100);
+  //     }
+  //
+  //     if (e && e.deltaY > 0 && this.state.isFixed) {
+  //       this._removeClass(this._navPositioner.current, 'slidein');
+  //     }
+  //   }
+  // };
 
   componentWillUnmount(): void {
-    window.removeEventListener('wheel', this._handleNavePositioning);
+    // window.removeEventListener('wheel', this._handleNavPositioning);
     window.removeEventListener('popstate', this._handleIndicatorReposition);
     window.removeEventListener('resize', this._handleIndicatorReposition);
   }

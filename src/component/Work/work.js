@@ -7,9 +7,12 @@ import './css/work.css';
 import '../../App.css';
 
 import classnames from 'classnames';
-import {Header, Footer, Navbar} from '../../component';
+import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Work extends Component {
+  componentWillMount(): void {
+    window.scroll({top:0});
+  }
   render() {
 		var previous_page = "Palmdrive Website";
     return (
@@ -88,7 +91,7 @@ export class Work extends Component {
 						To be more festive, colorful confetti was added and I finished the key visual in <span className="highlight-newyear">4 hours</span>.
 						</p>
 						<div className="project-img-div-long">
-	      			<img 
+	      			<img
 		          src='/new year/artboard-16_2018-06-08/artboard-16@2x.png'
 		        />
 		        </div>
@@ -133,7 +136,7 @@ export class Work extends Component {
 		        <p>
 		        	With all the effort, we got <span className="highlight-newyear">over 200 replies</span> on the first day which was much higher than our expectation according to our previous experience.
 		        </p>
-		         
+
 						<div className="content-block" id={'great-time'}>
 		        	<div className="section-title">They had a great time</div>
 		        </div>

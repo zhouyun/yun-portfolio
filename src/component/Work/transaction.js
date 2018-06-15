@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import {Header, Footer, Navbar} from '../../component';
+import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 import { HashLink as Link } from 'react-router-hash-link';
 import {Sidebar} from '../';
@@ -8,6 +8,9 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
 
 export class Transaction extends Component {
+  componentWillMount(): void {
+    window.scroll({top:0});
+  }
   render() {
 		var previous_page = "New Year Event Sprint";
     return (

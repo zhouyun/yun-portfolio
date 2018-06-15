@@ -4,9 +4,13 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { HashLink as Link } from 'react-router-hash-link';
 
 import './css/work.css';
-import {Header, Footer, Navbar} from '../../component';
+import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Palmdrive extends Component {
+  componentWillMount(): void {
+    window.scroll({top:0});
+  }
+
   render() {
 		var previous_page = "Fruits Management App";
     return (
@@ -113,7 +117,7 @@ export class Palmdrive extends Component {
 			        </div>
 			        <div className="web" >
 					<iframe className="image_carousel" src="https://player.vimeo.com/video/275158343?background=1" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>			       
+					</div>
 			        <div className="project-img-div-long">
                 <img
                 src='/palmdrive/invalid-name_2018-05-31/invalid-name@2x.png'
@@ -144,9 +148,9 @@ export class Palmdrive extends Component {
 							<p>
 							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <span className="highlight-palmdrive">two weeks</span>.
 							</p>
-							
+
               <img className="image_carousel" src="palmdrive/high-school-final2.0.gif" width="750px" ></img>
-						
+
 			        <section className="content-block" id={'design-for-what-really-matters'}>
 			        	<div className="section-title">Design for what really matters</div>
 			        </section>
@@ -169,7 +173,8 @@ export class Palmdrive extends Component {
 			        </section>
 			         <div className="content-link"><a href="http://palmdrive.cn/mentors"><u>Mentor Page</u></a></div>
 			        <p>
-			        	Analysing from the discussion with the Mentor Team, the problem of the previous mentor displaying page was <span className="highlight-palmdrive">how to highlight our mentors</span>.
+			        	Analysing from the discussion with the Mentor Team,
+                the problem of the previous mentor displaying page was <HighLightOnVisible className="highlight-palmdrive">how to highlight our mentors</HighLightOnVisible>.
 			        </p>
 			        <p>
 			        In the redesign, mentors with strong background are displayed first. Users can filter mentors with majors in the second section.

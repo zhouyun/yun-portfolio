@@ -10,6 +10,7 @@ import {About} from './About/about.js';
 import {Resume} from './Resume/resume.js';
 import {SNSIcon} from './SNSIcon.js';
 import {Fruito} from './Work/fruito.js';
+import {HighLightOnVisible} from './HighLightOnVisible.js'
 
 export {SNSIcon};
 export {Resume};
@@ -23,3 +24,4 @@ export {Palmdrive};
 export {Transaction};
 export {GraphicDesign};
 export {Fruito};
+export {HighLightOnVisible};

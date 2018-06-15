@@ -4,9 +4,13 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { HashLink as Link } from 'react-router-hash-link';
 
 import './css/work.css';
-import {Header, Footer, Navbar} from '../../component';
+import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Fruito extends Component {
+  componentWillMount(): void {
+    window.scroll({top:0});
+  }
+
   render() {
     var previous_page = "Previous page";
     return (
@@ -99,7 +103,7 @@ export class Fruito extends Component {
               src='/fruito/group-2@2x.png'/>
               </div>
               <p>
-                So <span className="highlight-fruito">people don’t love fruits as much as they think</span>. 
+                So <span className="highlight-fruito">people don’t love fruits as much as they think</span>.
               </p>
               <div className="project-img-div-long">
               <img
@@ -108,7 +112,7 @@ export class Fruito extends Component {
               <h5>A map of the fruits eating broken into three phases: forming the eating, executing the eating and follow-up.</h5>
               <p>Peak:<br/>1. Purchasing<br/>2. Eating</p>
               <p>Valley:<br/>1. Forget about fruits after storing<br/>2. Finding fruits gone bad and throw them</p>
-              
+
               <div className="section-sub-title">Method of exhaustion</div>
               <p>According to the interviews, the reasons leading to fruits thrown away turned out to be <span className="highlight-fruito">tiny but varied</span>.</p>
               <p>To understand what leads to the scenarios without stereotypes, I created a formula to help me.</p>
@@ -193,7 +197,7 @@ export class Fruito extends Component {
               <p>
                 Before I could jump into designing the app, it was important to <span className="highlight-fruito">define success and understand the health of the fruits experience at scale</span>.
                 </p>
-              <p>I created 3 metric, time spent on purchasing fruits, frequency to eat fruits, fruits waste ratio. Each metric was measured before a tester had used the app and after. 
+              <p>I created 3 metric, time spent on purchasing fruits, frequency to eat fruits, fruits waste ratio. Each metric was measured before a tester had used the app and after.
               </p>
               <div className="project-img-div-long">
               <img
@@ -334,7 +338,7 @@ export class Fruito extends Component {
               src='/fruito/group-8@2x.png'/>
               </div>
               <p>
-              Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the database of United States in general. 
+              Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the database of United States in general.
               </p>
               <div className="project-img-div-long">
               <img
@@ -399,7 +403,7 @@ export class Fruito extends Component {
               With several UI iteration, I got some feedback to polish the UI. WholeFoods was a great place to do the prototype testing. 5 tests were completed in an hour.
               </p>
               <p>
-              The various colors of fruits really gave me a big challenge in finding the perfect color scheme. 
+              The various colors of fruits really gave me a big challenge in finding the perfect color scheme.
               </p>
               <div className="project-img-div-long">
               <img
