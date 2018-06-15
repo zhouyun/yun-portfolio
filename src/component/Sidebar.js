@@ -4,8 +4,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './Work/css/work.css';
 
 const CurrentAnchor = function(): string {
-  const url = window.location.href;
-  return url.substring(url.indexOf("#")+1) || '';
+  const parts = window.location.href.split('#');
+  return parts.length > 0 ? `#${parts[parts.length -1]}` : '';
 }
 
 // type Props = {
@@ -64,7 +64,7 @@ export class Sidebar extends Component {
       item => item.anchor === CurrentAnchor(),
     );
     this.state = {
-      activeIndex: initialIndex < 0 ? 1 : initialIndex,
+      activeIndex: initialIndex < 0 ? 1 : initialIndex + 1,
     };
   }
 
