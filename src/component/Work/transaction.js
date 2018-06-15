@@ -100,10 +100,10 @@ export class Transaction extends Component {
 
           <div className="project-img-div-long">
       			<img
-	          src='/pefin/group-2@2x.png'
+	          src='pefin/group-2@2x.png'
 	        />
 	        </div>
-      		<div id={'challenge'}>
+      		<div className="content-block" id={'challenge'}>
 	          <div className="section-title" id="challenge "> The challenge </div>
 	        </div>
       		<p>
@@ -111,7 +111,7 @@ export class Transaction extends Component {
 
       		</p>
 
-					<div id={'logic-comes'}>
+					<div className="content-block" id={'logic-comes'}>
 	          <div className="section-title"> Logic comes the first </div>
 	        </div>
 	        <p>
@@ -119,16 +119,16 @@ export class Transaction extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/pefin/bitmap@2x.png'
+	          src='pefin/bitmap@2x.png'
 	        />
 	        </div>
 	         <h5>Quick sketch for different scenarios</h5>
-					<div id={'design-comes'}>
+					<div className="content-block" id={'design-comes'}>
 	        	<div className="section-title">Design comes the next</div>
 	        </div>
 	         <div className="project-img-div-long">
       			<img
-	          src='/pefin/bitmap/bitmap@2x.png'
+	          src='pefin/bitmap/bitmap@2x.png'
 	        />
 	        </div>
 	        <h5>Traditional table lists and charts</h5>
@@ -137,11 +137,11 @@ export class Transaction extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/pefin/whiteboard@2x.png'
+	          src='pefin/whiteboard@2x.png'
 	        />
 	        </div>
 
-	        <div id={'into-the-details'}>
+	        <div className="content-block" id={'into-the-details'}>
 	        	<div className="section-title">Into the details</div>
 	        </div>
 	        <p>
@@ -149,7 +149,7 @@ export class Transaction extends Component {
 	        </p>
 	         <div className="project-img-div-long">
       			<img
-	          src='/pefin/group@2x.png'
+	          src='pefin/group@2x.png'
 	        />
 	        </div>
 	        <div className="section-sub-title"> 1. Space is better than lines.</div>
@@ -166,10 +166,10 @@ export class Transaction extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/pefin/ui-exhibition@2x.png'
+	          src='pefin/ui-exhibition@2x.png'
 	        />
 	        </div>
-	        <div id={'always-fun'}>
+	        <div className="content-block" id={'always-fun'}>
 	        	<div className="section-title">It’s always fun to play with data</div>
 	        </div>
 	        <p>
@@ -177,15 +177,15 @@ export class Transaction extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/pefin/wireframe/bitmap@2x.png'
+	          src='pefin/wireframe/bitmap@2x.png'
 	        />
 	        </div>
-	        <div id={'hover-is'}>
+	        <div className="content-block" id={'hover-is'}>
 	        	<div className="section-title">"Hover" is better than "click and clear"</div>
 	        </div>
 	        <div className="project-img-div-long">
       			<img
-	          src='/pefin/wireframe/research@2x.png'
+	          src='pefin/wireframe/research@2x.png'
 	        />
 	        </div>
 	        <p>
@@ -193,7 +193,7 @@ export class Transaction extends Component {
 	        </p>
 	        <img class="image_carousel" src="pefin/pefin_ani.gif" width="500px" ></img>
 
-	         <div id={'making-pixels'}>
+	         <div className="content-block" id={'making-pixels'}>
 	        	<div className="section-title">Making pixels perfect</div>
 	        </div>
 	        <p>

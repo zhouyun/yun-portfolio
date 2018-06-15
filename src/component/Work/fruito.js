@@ -216,27 +216,27 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/metric/bitmap@2x.png'/>
+              src='fruito/metric/bitmap@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-8@2x.png'/>
+              src='fruito/group-8@2x.png'/>
               </div>
               <p>
                 After all these research, the goal of the app became clear and specific. The app would help people with fruits management by giving full control of the fruits to users.
               </p>
               <ol>
                 <li>
-                Pre-hint about fruit <b>purchasing</b>
+                Pre-hint about fruit <HighLightOnVisible className="highlight-fruito">purchasing</HighLightOnVisible>
                 </li>
                 <li>
-                Keep tracking of <b>storing</b> fruits
+                Keep tracking of <HighLightOnVisible className="highlight-fruito">storing</HighLightOnVisible> fruits
                 </li>
                 <li>
-                More fun to <b>eat</b> fruits
+                More fun to <HighLightOnVisible className="highlight-fruito">eat</HighLightOnVisible> fruits
                 </li>
                 <li>
-                Tips for fruit <b>reuse</b>
+                Tips for fruit <HighLightOnVisible className="highlight-fruito">reuse</HighLightOnVisible>
                 </li>
               </ol>
               <section className="content-block" id={'introducing'}>
@@ -258,7 +258,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-22@2x.png'/>
+              src='fruito/group-22@2x.png'/>
               </div>
               <section className="content-block1" id={'into-the-details1'}>
                 <div className="section-title1">- Store properly -</div>
@@ -273,7 +273,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-21@2x.png'/>
+              src='fruito/group-21@2x.png'/>
               </div>
               <section className="content-block1" id={'into-the-details1'}>
                 <div className="section-title1">- Eat happily -</div>
@@ -292,7 +292,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-20@2x.png'/>
+              src='fruito/group-20@2x.png'/>
               </div>
               <section className="content-block1" id={'into-the-details1'}>
                 <div className="section-title1">- Reuse wisely -</div>
@@ -303,7 +303,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/i-phone-8-copy-27@2x.png'/>
+              src='fruito/i-phone-8-copy-27@2x.png'/>
               </div>
               <section className="content-block" id={'transfering-the-analytics-to-design'}>
                 <div className="section-title">Transfering the analytics to design</div>
@@ -314,7 +314,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-10@2x.png'/>
+              src='fruito/group-10@2x.png'/>
               </div>
               <div className="section-sub-title"> Thinking about UI when doing UX </div>
               <p>
@@ -330,13 +330,13 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-11@2x.png'/>
+              src='fruito/group-11@2x.png'/>
               </div>
               <div className="display-tittle">/ Fruits tracking system design /</div>
               <div className="section-sub-title"> How to record fruits purchase </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/bitmap@2x.png'/>
+              src='fruito/bitmap@2x.png'/>
               </div>
               <p>
                 I proposed three ideas to record fruits purchase. After several testing with a developer, manual entry was adopted by fruito v1.0 since it was stable and reliable.
@@ -350,14 +350,14 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-8@2x.png'/>
+              src='fruito/group-8@2x.png'/>
               </div>
               <p>
               Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the database of United States in general.
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/excel/bitmap@2x.png'/>
+              src='fruito/excel/bitmap@2x.png'/>
               </div>
               <h5>Seasonal fruits of United States in general</h5>
               <div className="section-sub-title"> Getting hands messy </div>
@@ -366,7 +366,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe1/bitmap@2x.png'/>
+              src='fruito/wireframe1/bitmap@2x.png'/>
               </div>
               <p>According to the <HighLightOnVisible className="highlight-fruito"><a href="https://cloudup.com/cWi5XVaw2wV"><u>thumb zones map</u></a></HighLightOnVisible> by Luke Wroblewski, I arranged the fruit icons on the <HighLightOnVisible className="highlight-fruito">bottom of the screen</HighLightOnVisible>.</p>
               <p>Seasonal fruits are set as a recommendation. The number of common seasonal fruits is around 6, the maximum is around 15.</p>
@@ -377,7 +377,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe2/bitmap@2x.png'/>
+              src='fruito/wireframe2/bitmap@2x.png'/>
               </div>
               <div className="section-sub-title"> Eating fruits could be fun </div>
               <p>
@@ -385,7 +385,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe3/bitmap@2x.png'/>
+              src='fruito/wireframe3/bitmap@2x.png'/>
               </div>
               <div className="display-tittle"> / Reminder / </div>
               <div className="section-sub-title"> Be initiative </div>
@@ -394,7 +394,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe4/bitmap@2x.png'/>
+              src='fruito/wireframe4/bitmap@2x.png'/>
               </div>
               <p>
               There are 3 kinds of reminder. The left one is to notify user when it’s time to <HighLightOnVisible className="highlight-fruito">eat</HighLightOnVisible> fruits. The middle one is to <HighLightOnVisible className="highlight-fruito">remind</HighLightOnVisible> user to buy fruits. The right one is to <HighLightOnVisible className="highlight-fruito">encourage</HighLightOnVisible> user to keep a fruit eating habit.
@@ -405,11 +405,11 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe5/bitmap@2x.png'/>
+              src='fruito/wireframe5/bitmap@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/wireframe@2x.png'/>
+              src='fruito/wireframe@2x.png'/>
               </div>
               <section className="content-block" id={'designing-with-users'}>
                 <div className="section-title">Designing with users</div>
@@ -422,19 +422,19 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-8-copy@2x.png'/>
+              src='fruito/group-8-copy@2x.png'/>
               </div>
               <p>
               Some user feedbacks to specific designs are as follows:
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-12@2x.png'/>
+              src='fruito/group-12@2x.png'/>
               </div>
               <div className="section-sub-title"> Refining the UI from the feedback </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-8-copy-2@2x.png'/>
+              src='fruito/group-8-copy-2@2x.png'/>
               </div>
               <p>
                 It was nice to have so much valuable feedback that I could digest with. More details were added to the next version.
@@ -446,21 +446,21 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-13@2x.png'/>
+              src='fruito/group-13@2x.png'/>
               </div>
               <p>
               With the introduction of Little Blue, it is easier for users to take suggestions or hints from it. Because with facial expressions, the words were more touching.
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-14@2x.png'/>
+              src='fruito/group-14@2x.png'/>
               </div>
               <div className="section-sub-title"> 3. Let the color shine </div>
               <p>I adjusted the color theme to be more contrast to emphasize the inviting fruits.
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/color/bitmap@2x.png'/>
+              src='fruito/color/bitmap@2x.png'/>
               </div>
               <div className="section-sub-title"> 4. Tip for storage, also mark of storage</div>
               <p>According the research, different fruits should be stored in different places. Fruits stored improperly ripen fast and then go bad easily. </p>
@@ -468,37 +468,37 @@ export class Fruito extends Component {
               <p>By following the tips on storing fruits, the app <HighLightOnVisible className="highlight-fruito">remember your fruits location</HighLightOnVisible>.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-19@2x.png'/>
+              src='fruito/group-19@2x.png'/>
               </div>
               <div className="section-sub-title"> 5. Deadline vs Status</div>
               <p>It’s not easy to identify the date when fruits are not edible from the fruit status (left) according to the interviews. So I changed it to a <HighLightOnVisible className="highlight-fruito">suggested expiration date</HighLightOnVisible> (right).</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-15@2x.png'/>
+              src='fruito/group-15@2x.png'/>
               </div>
               <div className="section-sub-title"> 6. Search to add</div>
               <p>With <HighLightOnVisible className="highlight-fruito">search auto completion</HighLightOnVisible>，it’s more convienient to add fruit.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/auto-search@2x.png'/>
+              src='fruito/auto-search@2x.png'/>
               </div>
               <div className="section-sub-title"> 7. Fruit Eating Challenge vs Data Visualization </div>
               <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to <HighLightOnVisible className="highlight-fruito">show fruits consumption history</HighLightOnVisible> in a table, rather than accomplishment badges.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-17@2x.png'/>
+              src='fruito/group-17@2x.png'/>
               </div>
               <div className="section-sub-title"> 8. Simplifying the number system </div>
               <p>The number increases by 0.1 if it is below 1 and 1 if it is above 1. Users can also select from a bunches of units for variety.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-18@2x.png'/>
+              src='fruito/group-18@2x.png'/>
               </div>
               <div className="section-sub-title"> 9. Celebrating for all interfaces </div>
               <p>I grouped interfaces into several categories so that they could be easily managed.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-7@2x.png'/>
+              src='fruito/group-7@2x.png'/>
               </div>
              <section className="content-block" id={'bring-it-to-reality'}>
                 <div className="section-title"> Bring it to reality</div>
@@ -506,7 +506,7 @@ export class Fruito extends Component {
               <p>Our team of two launched the Fruito 1.0 in 2015. With the feedback from the launching, we are actively building Fruito 2.0 in our leisure time. We will launch it this August :)</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/thesis@2x.png'/>
+              src='fruito/thesis@2x.png'/>
               </div>
               <h5>People are trying out Fruito on the beta version</h5>
               <div className="little-blue-blink">

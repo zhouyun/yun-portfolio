@@ -77,19 +77,19 @@ export class GraphicDesign extends Component {
 
           <div className="project-img-div-long">
       			<img
-	          src='/graphic/group-4@2x.png'
+	          src='graphic/group-4@2x.png'
 	        />
 	        </div>
 	        <h5>Palmdrive hiring Roll Up</h5>
 	        <div className="project-img-div-long">
       			<img
-	          src='/graphic/group-2@2x.png'
+	          src='graphic/group-2@2x.png'
 	        />
 	        </div>
 	        <h5>Palmdrive Undergraduate Brochure</h5>
 			   <div className="project-img-div-long">
       			<img
-	          src='/graphic/display-2-2@2x.png'
+	          src='graphic/display-2-2@2x.png'
 	        />
 	        </div>
 	        <h5>Thank You card for mid-autumn festival</h5>
@@ -108,7 +108,7 @@ export class GraphicDesign extends Component {
       		</p>
       		<div className="project-img-div-long">
       			<img
-	          src='/graphic/stationery-mockup-02@2x.png'
+	          src='graphic/stationery-mockup-02@2x.png'
 	        />
 	        </div>
 	        <h5>Wulnut English logo display</h5>
@@ -125,7 +125,7 @@ export class GraphicDesign extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/graphic/group-5@2x.png'
+	          src='graphic/group-5@2x.png'
 	        />
 	        </div>
 	        <h5>Responsive logo</h5>
@@ -141,7 +141,7 @@ export class GraphicDesign extends Component {
 	        </p>
 	        <div className="project-img-div-long">
       			<img
-	          src='/graphic/t-shirt/group@2x.png'
+	          src='graphic/t-shirt/group@2x.png'
 	        />
 	        </div>
 	        <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
