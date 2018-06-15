@@ -73,7 +73,7 @@ export class Work extends Component {
 	      		</p>
 	          <div className="project-img-div-long">
 	      			<img
-		          src='/image/desktop/display-1@2x.png'
+		          src='image/desktop/display-1@2x.png'
 		        />
 		        </div>
 	      		<div className="content-block" id={'digital-rocks'}>
@@ -93,7 +93,7 @@ export class Work extends Component {
 						</p>
 						<div className="project-img-div-long">
 	      			<img
-		          src='/new year/artboard-16_2018-06-08/artboard-16@2x.png'
+		          src='new year/artboard-16_2018-06-08/artboard-16@2x.png'
 		        />
 		        </div>
 						<div className="content-block" id={'design-shape'}>
@@ -107,7 +107,7 @@ export class Work extends Component {
 		        </p>
             <div className="project-img-div-long">
               <img
-              src='/new year/group@2x.png'
+              src='new year/group@2x.png'
             />
             </div>
 		        <p>
@@ -115,7 +115,7 @@ export class Work extends Component {
 		        </p>
 		        <div className="project-img-div-long">
               <img
-              src='/new year/group-5@2x.png'
+              src='new year/group-5@2x.png'
             />
             </div>
 		        <p>
@@ -123,7 +123,7 @@ export class Work extends Component {
 		        </p>
 		        <div className="project-img-div-long">
 		        <img
-              src='/new year/email-display@2x.png'
+              src='new year/email-display@2x.png'
             />
             </div>
 		        <p>
@@ -131,7 +131,7 @@ export class Work extends Component {
 		        </p>
 		         <div className="project-img-div-long">
 		        <img
-              src='/new year/group-2@2x.png'
+              src='new year/group-2@2x.png'
             />
             </div>
 		        <p>
@@ -146,7 +146,7 @@ export class Work extends Component {
 		        </p>
 		        <div className="project-img-div-long">
 		        <img
-              src='/new year/group-3@2x.png'
+              src='new year/group-3@2x.png'
             />
             </div>
             <h5>Photo credit Su</h5>
@@ -177,13 +177,13 @@ export class Work extends Component {
 		        </p>
 		        <div className="project-img-div-long">
 		        <img
-              src='/new year/group-4@2x.png'
+              src='new year/group-4@2x.png'
             />
             </div>
 		        <p>Two weeks later, we host another New Year event at Sunnyvale.</p>
             <div className="project-img-div-long">
               <img
-              src='/new year/dsc-01489_2018-06-08/dsc-01489@2x.png'
+              src='new year/dsc-01489_2018-06-08/dsc-01489@2x.png'
             />
           </div>
           <h5>Photo credit Yujia</h5>

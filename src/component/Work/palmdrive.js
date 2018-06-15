@@ -74,7 +74,7 @@ export class Palmdrive extends Component {
 		      		</p>
               <div className="project-img-div-long">
                 <img
-                src='/palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display@2x.png'
+                src='palmdrive/palmdrive-web-display_2018-05-31/palmdrive-web-display@2x.png'
               />
               </div>
 		      		<p>
@@ -100,7 +100,7 @@ export class Palmdrive extends Component {
 							</p>
               <div className="project-img-div-long">
                 <img
-                src='/palmdrive/bitmap_2018-05-31/bitmap@2x.png'
+                src='palmdrive/bitmap_2018-05-31/bitmap@2x.png'
               />
               </div>
               <h5>The information architecture of present Palmdrive Website</h5>
@@ -120,7 +120,7 @@ export class Palmdrive extends Component {
 					</div>
 			        <div className="project-img-div-long">
                 <img
-                src='/palmdrive/invalid-name_2018-05-31/invalid-name@2x.png'
+                src='palmdrive/invalid-name_2018-05-31/invalid-name@2x.png'
               />
               </div>
 						<section className="content-block" id={'design-for-storytelling'}>
@@ -162,7 +162,7 @@ export class Palmdrive extends Component {
 			        </p>
 			         <div className="project-img-div-long">
                 <img
-                src='/palmdrive/group-9@2x.png'
+                src='palmdrive/group-9@2x.png'
               />
               </div>
 			        <p>
@@ -181,7 +181,7 @@ export class Palmdrive extends Component {
 					</p>
 					<div className="project-img-div-long">
                 <img
-                src='/palmdrive/group-8_2018-05-31/group-8@2x.png'
+                src='palmdrive/group-8_2018-05-31/group-8@2x.png'
               />
               </div>
 							<section className="content-block" id={'repetitive-element-makes-it-consistent'}>
@@ -192,12 +192,12 @@ export class Palmdrive extends Component {
 			        </p>
 			        <div className="project-img-div-long">
                 <img
-                src='/palmdrive/group-4_2018-05-31/group-4@2x.png'
+                src='palmdrive/group-4_2018-05-31/group-4@2x.png'
               />
               </div>
               <div className="project-img-div-long">
                 <img
-                src='/palmdrive/group-6_2018-05-31/group-6@2x.png'
+                src='palmdrive/group-6_2018-05-31/group-6@2x.png'
               />
               </div>
 		      	</div>

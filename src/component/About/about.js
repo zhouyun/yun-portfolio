@@ -20,7 +20,7 @@ export class About extends Component {
         <div className="mask-image ">
           <img
             className="Mask"
-            src='/image/desktop/yun_image.jpg'
+            src='image/desktop/yun_image.jpg'
           />
         </div>
         <div className="Fun-facts about-content-text-bold"> Fun facts</div>
@@ -39,7 +39,7 @@ export class About extends Component {
             <div className="about-footer-info-name-text">
               <img
                 className="about-footer-info-icon"
-                src='/image/desktop/envelope-copy-2@2x.png'
+                src='image/desktop/envelope-copy-2@2x.png'
               />
               <span>EMAIL</span>
             </div>
@@ -49,7 +49,7 @@ export class About extends Component {
             <div className="about-footer-info-name-text">
               <img
                 className="about-footer-info-icon"
-                src='/image/desktop/call-answer@2x.png'
+                src='image/desktop/call-answer@2x.png'
               />
               <span>MOBILE</span>
 
@@ -60,7 +60,7 @@ export class About extends Component {
             <div className="about-footer-info-name-text">
               <img
                 className="about-footer-info-icon"
-                src='/image/desktop/maps-and-flags@2x.png'
+                src='image/desktop/maps-and-flags@2x.png'
               />
               <span>LOCATION</span>
 
