@@ -164,8 +164,9 @@ export class Palmdrive extends Component {
 							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <HighLightOnVisible className="highlight-palmdrive">two weeks</HighLightOnVisible>.
 							</p>
 
-              <img className="image_carousel" src="palmdrive/high-school-final2.0.gif" width="750px" ></img>
-
+               		<div>
+					<iframe className="image_carousel" src="https://player.vimeo.com/video/275326486?background=1" width="750" height="533" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 			        <section className="content-block" id={'design-for-what-really-matters'}>
 			        	<div className="section-title">Design for what really matters</div>
 			        </section>
