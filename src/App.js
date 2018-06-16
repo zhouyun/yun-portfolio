@@ -35,7 +35,7 @@ class ScrollTopTop extends Component {
   };
 
   _handleClick = (): void => {
-    window.scroll({top:0, behavior: 'smooth'})
+    window.scroll({top:0, behavior: 'smooth'});
     setTimeout(
       () => this.setState({shouldDisplay: false}),
       100,
@@ -78,6 +78,10 @@ const App = ({hashhistory}) => (
 );
 
 class Home extends Component {
+  componentDidMount() {
+    window.scroll({top:0});
+  }
+
   _renderArrow() {
     return (
       <div className="view-case">

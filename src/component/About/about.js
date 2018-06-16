@@ -4,6 +4,9 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/about.css';
 
 export class About extends Component {
+  componentDidMount() {
+    window.scroll({top:0});
+  }
   render() {
     return (
       <div className="about">

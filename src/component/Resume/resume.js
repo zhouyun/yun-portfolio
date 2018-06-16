@@ -3,6 +3,9 @@ import {Sidebar,HighLightOnVisible} from '../';
 import './css/resume.css';
 
 export class Resume extends Component {
+  componentDidMount() {
+    window.scroll({top:0});
+  }
   render() {
     return (
       <div className="resume">
