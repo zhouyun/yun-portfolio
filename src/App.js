@@ -50,7 +50,7 @@ class ScrollTopTop extends Component {
         <div className="scroll-to-top-background"/>
         <img
           className="project-img-long"
-          src='/image/desktop/up-1@2x.png'
+          src='image/desktop/up-1@2x.png'
         />
       </div>
     );

@@ -96,7 +96,7 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-9@2x.png'/>
+              src='fruito/group-9@2x.png'/>
               </div>
               <img className="fruito-display" src="fruito/fruito UI.gif" width="264px" ></img>
               <section className="content-block" id={'analysing-the-problem'}>
@@ -108,21 +108,21 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/xmind/bitmap@2x.png'/>
+              src='fruito/xmind/bitmap@2x.png'/>
               </div>
               <p>
                 The interview started from why people throw fruits away. Then I got <HighLightOnVisible className="highlight-fruito">a classic story</HighLightOnVisible> about fruits —
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-2@2x.png'/>
+              src='fruito/group-2@2x.png'/>
               </div>
               <p>
                 So <HighLightOnVisible className="highlight-fruito">people don’t love fruits as much as they think</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/artboard@2x.png'/>
+              src='fruito/artboard@2x.png'/>
               </div>
               <h5>A map of the fruits eating broken into three phases: forming the eating, executing the eating and follow-up.</h5>
               <p>Peak:<br/>1. Purchasing<br/>2. Eating</p>
@@ -133,7 +133,7 @@ export class Fruito extends Component {
               <p>To understand what leads to the scenarios without stereotypes, I created a formula to help me.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group@2x.png'/>
+              src='fruito/group@2x.png'/>
               </div>
               <p>So any reasons <HighLightOnVisible className="highlight-fruito">encouraging</HighLightOnVisible> purchasing or <HighLightOnVisible className="highlight-fruito">discouraging</HighLightOnVisible> eating, storing and reusing could cause fruit wastes</p>
               <p>The problems are:</p>
@@ -179,19 +179,19 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-3@2x.png'/>
+              src='fruito/group-3@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-4@2x.png'/>
+              src='fruito/group-4@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-5@2x.png'/>
+              src='fruito/group-5@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-6@2x.png'/>
+              src='fruito/group-6@2x.png'/>
               </div>
               <section className="content-block" id={'improve-fruits'}>
                 <div className="section-title"> Improve fruits management experience for everyone, everywhere </div>
