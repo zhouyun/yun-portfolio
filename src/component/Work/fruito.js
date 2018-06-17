@@ -6,13 +6,23 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
-const CurrentAnchor = function(): string {
-  const parts = window.location.href.split('#');
-  return parts.length > 0 ? `${parts[parts.length -1]}` : 'NONE';
-}
-
 export class Fruito extends Component {
   componentDidMount(): void {
+    const parts = window.location.href.split('#');
+    const currentAnchor = parts.length > 0 ? `${parts[parts.length -1]}` : '';
+    const numSec = document.getElementsByClassName("content-block").length;
+    for (let i = 0; i < numSec; i ++) {
+      const el = document.getElementsByClassName("content-block")[i];
+      if (el && el.id === currentAnchor) {
+        setTimeout(
+          () => {
+            el.scrollIntoView({ block: 'center'});
+          },
+          150,
+        );
+        return;
+      }
+    }
     window.scroll({top:0});
   }
 
@@ -84,9 +94,9 @@ export class Fruito extends Component {
               <p>
                 In Feb, 2018, I started to work on Fruito 2.0.
               </p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long fruito-gif">
               <img
-              src='/fruito/group-9@2x.png'/>
+              src='fruito/group-9@2x.png'/>
               </div>
               <img className="fruito-display" src="fruito/fruito UI.gif" width="264px" ></img>
               <section className="content-block" id={'analysing-the-problem'}>
@@ -98,21 +108,21 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/xmind/bitmap@2x.png'/>
+              src='fruito/xmind/bitmap@2x.png'/>
               </div>
               <p>
                 The interview started from why people throw fruits away. Then I got <HighLightOnVisible className="highlight-fruito">a classic story</HighLightOnVisible> about fruits —
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-2@2x.png'/>
+              src='fruito/group-2@2x.png'/>
               </div>
               <p>
                 So <HighLightOnVisible className="highlight-fruito">people don’t love fruits as much as they think</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/artboard@2x.png'/>
+              src='fruito/artboard@2x.png'/>
               </div>
               <h5>A map of the fruits eating broken into three phases: forming the eating, executing the eating and follow-up.</h5>
               <p>Peak:<br/>1. Purchasing<br/>2. Eating</p>
@@ -123,7 +133,7 @@ export class Fruito extends Component {
               <p>To understand what leads to the scenarios without stereotypes, I created a formula to help me.</p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group@2x.png'/>
+              src='fruito/group@2x.png'/>
               </div>
               <p>So any reasons <HighLightOnVisible className="highlight-fruito">encouraging</HighLightOnVisible> purchasing or <HighLightOnVisible className="highlight-fruito">discouraging</HighLightOnVisible> eating, storing and reusing could cause fruit wastes</p>
               <p>The problems are:</p>
@@ -169,19 +179,19 @@ export class Fruito extends Component {
               </p>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-3@2x.png'/>
+              src='fruito/group-3@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-4@2x.png'/>
+              src='fruito/group-4@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-5@2x.png'/>
+              src='fruito/group-5@2x.png'/>
               </div>
               <div className="project-img-div-long">
               <img
-              src='/fruito/group-6@2x.png'/>
+              src='fruito/group-6@2x.png'/>
               </div>
               <section className="content-block" id={'improve-fruits'}>
                 <div className="section-title"> Improve fruits management experience for everyone, everywhere </div>
@@ -235,7 +245,7 @@ export class Fruito extends Component {
               <p>
                 In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
               </p>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Purchase reasonably -</div>
               </section>
               <div className="section-sub-title"> Keep track of fruits </div>
@@ -250,7 +260,7 @@ export class Fruito extends Component {
               <img
               src='fruito/group-22@2x.png'/>
               </div>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Store properly -</div>
               </section>
               <div className="section-sub-title"> Give advice about how long the fruits could be kept </div>
@@ -265,7 +275,7 @@ export class Fruito extends Component {
               <img
               src='fruito/group-21@2x.png'/>
               </div>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Eat happily -</div>
               </section>
               <div className="section-sub-title"> Interactions with the character makes eating fun </div>

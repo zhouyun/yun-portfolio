@@ -9,6 +9,21 @@ import './css/work.css';
 
 export class GraphicDesign extends Component {
   componentDidMount(): void {
+    const parts = window.location.href.split('#');
+    const currentAnchor = parts.length > 0 ? `${parts[parts.length -1]}` : '';
+    const numSec = document.getElementsByClassName("content-block").length;
+    for (let i = 0; i < numSec; i ++) {
+      const el = document.getElementsByClassName("content-block")[i];
+      if (el && el.id === currentAnchor) {
+        setTimeout(
+          () => {
+            el.scrollIntoView({ block: 'center'});
+          },
+          150,
+        );
+        return;
+      }
+    }
     window.scroll({top:0});
   }
 
@@ -36,7 +51,7 @@ export class GraphicDesign extends Component {
               anchor: "#t-shirt",
             },
             {
-              text: "Design-it-yourself maze",
+              text: "Link Time",
               anchor: "#maze",
             }
           ]}
@@ -131,15 +146,15 @@ export class GraphicDesign extends Component {
 	        </div>
 	        <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
 	        <div className="content-block" id={'maze'}>
-	        	<div className="section-title">Design-it-yourself maze</div>
+	        	<div className="section-title">Link Time</div>
 	        </div>
 	        <span className="december-2016">
       			December 2013
       		</span>
 	        <p>
-	        	The maze is to let two strangers interact with each other despite time and location. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
+	        	Link Time let two strangers interact with each other despite time and location through the maze. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
 	        </p>
-          <iframe id="mazev" src="https://player.vimeo.com/video/91377740" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe className="mazev" src="https://player.vimeo.com/video/91377740" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	        <h5>I gave the maze to a friend as a gift. While enjoy creating, I also enjoy sharing which doubles the happiness:)</h5>
       </div>
     </div>

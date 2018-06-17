@@ -3,10 +3,14 @@ import {Sidebar,HighLightOnVisible} from '../';
 import './css/resume.css';
 
 export class Resume extends Component {
+  componentDidMount() {
+    window.scroll({top:0});
+  }
   render() {
     return (
-      <div className="resume">
-        <div className="rectangle-resume">
+      <div className="work">
+      <div className="main">
+        <div className="rectangle-button">
               <a href="resume6.4.pdf" target="blank">
               <div className="rectangle-button-bg"></div>
               <div className="btn-text">Download Resume PDF</div>
@@ -115,6 +119,7 @@ export class Resume extends Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       );

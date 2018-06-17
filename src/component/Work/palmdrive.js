@@ -8,6 +8,21 @@ import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 export class Palmdrive extends Component {
   componentDidMount(): void {
+    const parts = window.location.href.split('#');
+    const currentAnchor = parts.length > 0 ? `${parts[parts.length -1]}` : '';
+    const numSec = document.getElementsByClassName("content-block").length;
+    for (let i = 0; i < numSec; i ++) {
+      const el = document.getElementsByClassName("content-block")[i];
+      if (el && el.id === currentAnchor) {
+        setTimeout(
+          () => {
+            el.scrollIntoView({ block: 'center'});
+          },
+          150,
+        );
+        return;
+      }
+    }
     window.scroll({top:0});
   }
 
@@ -112,11 +127,11 @@ export class Palmdrive extends Component {
 			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more <HighLightOnVisible className="highlight-palmdrive">detailed png version</HighLightOnVisible> for the sales team for a consistent user experience.
 
 			        </p>
-			        <div className="mobile" >
-			        <iframe className="image_carousel" src="https://player.vimeo.com/video/275159126?background=1" width="216" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			        <div>
+			        <iframe className="image_carousel mobile" src="https://player.vimeo.com/video/275159126?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			        </div>
-			        <div className="web" >
-					<iframe className="image_carousel" src="https://player.vimeo.com/video/275158343?background=1" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			        <div>
+					<iframe className="image_carousel web" src="https://player.vimeo.com/video/275158343?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 			        <div className="project-img-div-long">
                 <img
@@ -149,8 +164,9 @@ export class Palmdrive extends Component {
 							With Tina’s fully trust and collaboration, the page design went smoothly and was delivered in <HighLightOnVisible className="highlight-palmdrive">two weeks</HighLightOnVisible>.
 							</p>
 
-              <img className="image_carousel" src="palmdrive/high-school-final2.0.gif" width="750px" ></img>
-
+               		<div>
+					<iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 			        <section className="content-block" id={'design-for-what-really-matters'}>
 			        	<div className="section-title">Design for what really matters</div>
 			        </section>

@@ -26,7 +26,7 @@
 .profile {
   width: 48%;
   margin: 0px auto;
-  padding: 80px 15px 20px;
+  padding: 120px 15px 20px;
 }
 .divider{
   display: flex;
@@ -44,7 +44,7 @@
   justify-content: space-between;
 }
 .Hi-Im-Yun {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Regular', sans-serif;
   font-size: 32px;
   font-weight: 500;
   font-style: normal;
@@ -263,9 +263,9 @@
 }
 
 .project-title {
+  font-family: "Montserrat-Regular";
   font-size: 28px;
   font-weight: 500;
-  font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
@@ -283,6 +283,7 @@
 }
 
 .view-case {
+  font-family: "Montserrat-Regular";
   display: flex;
   align-items: center;
   height: 60px;
@@ -363,22 +364,109 @@
   to { transform: rotate(360deg); }
 }
 
-@media (max-width: 767px){
+@media only screen and (max-width: 767px){
   .profile {
     width: 90%;
   }
   .project-section {
     width: 90%;
+    height: 450px;
+  }
 
-  }
-  .text-block {
-    width: 90%;
-  }
   .image-block {
 
   }
   .project-image {
 
   }
+  .work{
+    width: 100% !important;
+  }
+  .main{
+    margin-left: 5% !important;
+    width: 90% !important;
+  }
+  .mazev{
+    width: 100% !important;
+    height: auto  !important;
+  }
+ .navbar-light .navbar-toggler{
+  border-style: none ! important;
+  }
+  .about{
+    margin-left: 5% !important;
+    width: 90% ! important;
+  }
+  .about-footer-info-icon{
+    width: 25px;
+  }
+  .about-footer-info-content-text{
+    padding-top: 10px ! important;
+  }
+  .resume-title-text{
+    position: relative;
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+  }
+  .img-block{
+    width: 100% !important;
+  }
+  .nav-item{
+  margin: 20px 0;
+  }
+  .text-block{
+    width:100%;
+  }
+  .project-description{
+    margin-top:10px !important;
+  }
+  .view-case{
+    display: none;
+  }
+  .fruito-home{
+    width: 40%;
+    margin-top: -600px;
+  }
+  .palmdrive-home, .transaction-home, .newyear-home{
+    width: 80%;
+    margin-top: -600px;
+  }
+  .graphic-label{
+    margin-top:-200px;
+    margin-left:0;
+  }
+  .graphic-text{
+    margin-top: 150px;
+  }
+  .fruito-gif{
+    display:none;
+  }
+  .fruito-display{
+    margin: 0 !important;
+    display: block;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  }
+  .lbb{
+    width: 70px;
+    height: 80px;
+    margin-top: 10px !important;
+  }
+  .high-school-web{
+    width: 300px !important;
+    height:213px !important;
 
+  }
+  .web{
+    width: 320px !important;
+    height:193px !important;
+    margin-top: 0;
+    margin: 40px 0 !important;
+  }
+  .mobile{
+    width: 300px;
+    float:none !important;
+    margin: 0 !important;
+  }
 }

@@ -6,8 +6,9 @@ import {Header, Footer, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume,Fruito} from './component';
 import createHashHistory from 'history/createBrowserHistory'
-const history = createHashHistory();
+const hashhistory = createHashHistory();
 
+window.history.scrollRestoration = 'manual';
 class ScrollTopTop extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +35,7 @@ class ScrollTopTop extends Component {
   };
 
   _handleClick = (): void => {
-    window.scroll({top:0, behavior: 'smooth'})
+    window.scroll({top:0, behavior: 'smooth'});
     setTimeout(
       () => this.setState({shouldDisplay: false}),
       100,
@@ -49,17 +50,17 @@ class ScrollTopTop extends Component {
         <div className="scroll-to-top-background"/>
         <img
           className="project-img-long"
-          src='/image/desktop/up-1@2x.png'
+          src='image/desktop/up-1@2x.png'
         />
       </div>
     );
   }
 }
 
-const App = ({history}) => (
+const App = ({hashhistory}) => (
   <div>
     <Header/>
-    <Router location={history}>
+    <Router location={hashhistory}>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/about/" component={About} />
@@ -77,6 +78,9 @@ const App = ({history}) => (
 );
 
 class Home extends Component {
+  componentDidMount() {
+    window.scroll({top:0});
+  }
 
   _renderArrow() {
     return (
@@ -95,7 +99,7 @@ class Home extends Component {
           <div className="Hi-Im-Yun">
             <h1><span>
               <img className="quote" src="image/desktop/quote.svg"/>
-            </span>{"Hi I'm Yun"} </h1>
+            </span>{"Hi I'm Yun"}</h1>
           </div>
           <div className="UI-designer-Be">A UX/UI designer. Believe in relationships with people. Think with writing and sketch. Learn by making stuff. Currently located in Bay Area, CA.</div>
         </div>
@@ -116,7 +120,7 @@ class Home extends Component {
           <Link to="/work/fruito">
             <div className="img-block">
               <img className="background-cloud greenblue-cloud" src="svg/greenbluecloud.svg"/>
-              <img className="project-image" src="home/fruito/group-9@2x.png"/>
+              <img className="project-image fruito-home" src="home/fruito/group-9@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">Fruits Management App</div>
@@ -124,12 +128,12 @@ class Home extends Component {
               {this._renderArrow()}
             </div>
           </Link>
-        </div>     
+        </div>
         <div className="project-section project-palmdrive-section">
           <Link to="/work/palmdrive">
             <div className="img-block" >
               <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
-              <img className="project-image" src="home/group/group@2x.png"/>
+              <img className="project-image palmdrive-home" src="home/group/group@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">Palmdrive Website</div>
@@ -142,7 +146,7 @@ class Home extends Component {
           <Link to="/work/newyear">
             <div className="img-block">
               <img className="background-cloud" src="svg/bluecloud.svg"/>
-              <img className="project-image" src="home/group-2/group-2@2x.png"/>
+              <img className="project-image newyear-home" src="home/group-2/group-2@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">New Year Event Sprint</div>
@@ -155,7 +159,7 @@ class Home extends Component {
           <Link to="/work/transaction">
             <div className="img-block">
               <img className="background-cloud purple-cloud" src="svg/purplecloud.svg"/>
-              <img className="project-image" src="home/group-3/group-3@2x.png"/>
+              <img className="project-image transaction-home" src="home/group-3/group-3@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">Transaction Management Design</div>
@@ -170,7 +174,7 @@ class Home extends Component {
               <img className="background-cloud" src="svg/pinkcloud.svg"/>
               <div className="graphic-label">2013-present</div>
             </div>
-            <div className="text-block">
+            <div className="text-block graphic-text">
               <div className="project-title">Graphic Design Collection +</div>
               <div className="project-description">A showcase of some other projects I worked on and shipped from 2013 till now</div>
               {this._renderArrow()}
