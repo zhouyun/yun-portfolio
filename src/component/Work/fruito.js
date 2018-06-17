@@ -239,13 +239,13 @@ export class Fruito extends Component {
                 Tips for fruit <HighLightOnVisible className="highlight-fruito">reuse</HighLightOnVisible>
                 </li>
               </ol>
-              <section className="content-block" id={'introducing'}>
+              <section className="content-block" >
                 <div className="section-title">Introducing Fruito</div>
               </section>
               <p>
                 In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
               </p>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Purchase reasonably -</div>
               </section>
               <div className="section-sub-title"> Keep track of fruits </div>
@@ -260,7 +260,7 @@ export class Fruito extends Component {
               <img
               src='fruito/group-22@2x.png'/>
               </div>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Store properly -</div>
               </section>
               <div className="section-sub-title"> Give advice about how long the fruits could be kept </div>
@@ -275,7 +275,7 @@ export class Fruito extends Component {
               <img
               src='fruito/group-21@2x.png'/>
               </div>
-              <section className="content-block1" id={'into-the-details1'}>
+              <section className="content-block1" >
                 <div className="section-title1">- Eat happily -</div>
               </section>
               <div className="section-sub-title"> Interactions with the character makes eating fun </div>
