@@ -239,7 +239,7 @@ export class Fruito extends Component {
                 Tips for fruit <HighLightOnVisible className="highlight-fruito">reuse</HighLightOnVisible>
                 </li>
               </ol>
-              <section className="content-block" >
+              <section className="content-block" id={'introducing'}>
                 <div className="section-title">Introducing Fruito</div>
               </section>
               <p>
