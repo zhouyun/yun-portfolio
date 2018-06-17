@@ -191,7 +191,7 @@ export class Transaction extends Component {
 	        <p>
 	        	Based on the researches, I designed with a new feature which allows users to <HighLightOnVisible className="highlight-transaction">hover</HighLightOnVisible> on a specific category to see its spending trends instead of <HighLightOnVisible className="highlight-transaction">clicking</HighLightOnVisible> it to add a filter. It also saves time of clearing filter pool. In fact, users' interactions with the elements <HighLightOnVisible className="highlight-transaction">increased by 167%</HighLightOnVisible> on this page. On iPad, users press instead of hovering.
 	        </p>
-	        <img class="image_carousel" src="pefin/pefin_ani.gif" width="500px" ></img>
+	        <img className="image_carousel" src="pefin/pefin_ani.gif" width="500px" ></img>
 
 	         <div className="content-block" id={'making-pixels'}>
 	        	<div className="section-title">Making pixels perfect</div>

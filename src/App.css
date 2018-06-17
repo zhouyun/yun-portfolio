@@ -136,13 +136,13 @@
   transition:all .5s cubic-bezier(.55,.06,.68,.19) 0s;
 
 }
-/*圆形发散*/
+/*spread from round center*/
 @keyframes Radial {
   0%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 30%,#fff 70%);}
   30%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 50%,#fff 70%);}
   100%{background-image:radial-gradient(circle at 300px 200px,#b9d8fe 60%,#fff 70%);}
 }
-/*渐变色*/
+/*gradient color*/
 @keyframes RadialColor {
   0%{background-image:radial-gradient(#b9d8fe 30%);}
   20%{background-image:radial-gradient(#b9d8fe 50%);}
@@ -151,7 +151,7 @@
   80%{background-image:radial-gradient(#b9d8fe 100%);}
   100%{background-color: #b9d8fe;}
 }
-/*颜色从左到右平铺*/
+/*fullfill from left to right*/
 @keyframes Gradient {
   0%{background-position:100% 50%}
   50%{background-position:40% 50%}
