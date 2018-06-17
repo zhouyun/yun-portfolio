@@ -94,7 +94,7 @@ export class Fruito extends Component {
               <p>
                 In Feb, 2018, I started to work on Fruito 2.0.
               </p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long fruito-gif">
               <img
               src='fruito/group-9@2x.png'/>
               </div>

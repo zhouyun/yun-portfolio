@@ -127,11 +127,11 @@ export class Palmdrive extends Component {
 			        	As over half of the website visits are from mobile, the responsiveness of the website is important and necessary, especially for the Graduate service page which directly leads to our sales. All visitors could access our service flow easily on any devices. I also created a more <HighLightOnVisible className="highlight-palmdrive">detailed png version</HighLightOnVisible> for the sales team for a consistent user experience.
 
 			        </p>
-			        <div className="mobile" >
-			        <iframe className="image_carousel" src="https://player.vimeo.com/video/275159126?background=1" width="216" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			        <div>
+			        <iframe className="image_carousel mobile" src="https://player.vimeo.com/video/275159126?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			        </div>
-			        <div className="web" >
-					<iframe className="image_carousel" src="https://player.vimeo.com/video/275158343?background=1" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			        <div>
+					<iframe className="image_carousel web" src="https://player.vimeo.com/video/275158343?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 			        <div className="project-img-div-long">
                 <img
@@ -165,7 +165,7 @@ export class Palmdrive extends Component {
 							</p>
 
                		<div>
-					<iframe className="image_carousel" src="https://player.vimeo.com/video/275326486?background=1" width="750" height="533" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 			        <section className="content-block" id={'design-for-what-really-matters'}>
 			        	<div className="section-title">Design for what really matters</div>

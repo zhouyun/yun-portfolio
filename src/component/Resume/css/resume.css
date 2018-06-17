@@ -3,25 +3,8 @@
 	margin-left: 40%; */
   font-family: 'Montserrat', sans-serif;
 }
-.rectangle-resume {
-	margin-left: 40%;
-  margin-top: 120px;
-  text-align: center;
-  vertical-align: center;
-  line-height: normal;
-  padding: 14px;
-  width: 230px;
-  height: 49px;
-  border-radius: 24.5px;
-  border: solid 1px #44424d;
-  position: relative;
-}
 
 .resume-title {
-  width: 40%;
-	padding-left:10%;
-  height: 30px;
-	display: inline-block;
 }
 
 .resume-title-text {
@@ -33,18 +16,18 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #44424d;
+	float: left;
+    margin-left: -40%;
 }
 
 .resume-content {
-	width: 750px;
+	width: 100%;
 	display: inline-block;
 	/*padding-bottom: 39px;*/
 }
 
 .resume-total {
-	display: flex;
-	margin-top: 87px;
-	/* padding-left: 10%; */
+	margin-top: 60px;
 }
 
 .resume-content-title {

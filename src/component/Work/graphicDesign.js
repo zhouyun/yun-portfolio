@@ -154,7 +154,7 @@ export class GraphicDesign extends Component {
 	        <p>
 	        	Link Time let two strangers interact with each other despite time and location through the maze. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
 	        </p>
-          <iframe id="mazev" src="https://player.vimeo.com/video/91377740" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe className="mazev" src="https://player.vimeo.com/video/91377740" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	        <h5>I gave the maze to a friend as a gift. While enjoy creating, I also enjoy sharing which doubles the happiness:)</h5>
       </div>
     </div>

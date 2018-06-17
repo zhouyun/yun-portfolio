@@ -7,7 +7,10 @@ a {
   text-decoration: none;
   color:inherit;
 }
-
+.mazev{
+  width:750px;
+  height:420px;
+}
 a:hover
 {
 	 text-decoration:none;
@@ -53,11 +56,6 @@ p:last-of-type {
 }
 .btn-text{
   margin-top: -33px;
-}
-.fruito-display{
-  position: relative;
-  margin-top: -635px;
-  margin-left: 18px;
 }
 .image_carousel{
   display: block;
@@ -180,16 +178,23 @@ h5{
 }
 .mobile{
   margin-left: -150px;
+  width:216px; 
+  height:385px;
+  float: left;
 }
 .web{
-  margin-top: -385px;
   margin-left: 110px;
+  width: 640px;
+  height: 385px;
+}
+.high-school-web{
+  width: 750px;
+  height: 533px;
 }
 .project-img-div-long {
   margin: 40px 0px 10px 0px;
   overflow: visible;
   direction: rtl; 
-  background-color: #ffffff;
   position: relative; 
   zoom: 50%;  
 }
@@ -400,5 +405,8 @@ h3{
 
   img {
   	width: 100%;
+  }
+  .previous-page{
+    display: none;
   }
 }
