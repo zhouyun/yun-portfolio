@@ -99,7 +99,7 @@ class Home extends Component {
           <div className="Hi-Im-Yun">
             <h1><span>
               <img className="quote" src="image/desktop/quote.svg"/>
-            </span>{"Hi I'm Yun"} </h1>
+            </span>{"Hi I'm Yun"}</h1>
           </div>
           <div className="UI-designer-Be">A UX/UI designer. Believe in relationships with people. Think with writing and sketch. Learn by making stuff. Currently located in Bay Area, CA.</div>
         </div>

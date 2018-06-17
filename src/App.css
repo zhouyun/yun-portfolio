@@ -44,7 +44,7 @@
   justify-content: space-between;
 }
 .Hi-Im-Yun {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Regular', sans-serif;
   font-size: 32px;
   font-weight: 500;
   font-style: normal;
@@ -263,9 +263,9 @@
 }
 
 .project-title {
+  font-family: "Montserrat-Regular";
   font-size: 28px;
   font-weight: 500;
-  font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
@@ -283,6 +283,7 @@
 }
 
 .view-case {
+  font-family: "Montserrat-Regular";
   display: flex;
   align-items: center;
   height: 60px;
