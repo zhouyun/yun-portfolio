@@ -86,7 +86,7 @@ p:last-of-type {
   max-width: 220px;
   padding-bottom: 40px;
   font-weight: bold;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular","Montserrat";
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -210,9 +210,9 @@ h5{
   margin-top: 100px;
 }
 h3{
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular","Montserrat";
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -239,7 +239,7 @@ h3{
   line-height: normal;
   letter-spacing: normal;
   color: #44424d;
-  font-family: Montserrat-Regular;
+  font-family: "Montserrat-Regular","Montserrat";
 }
 .section-title1{
   height: 45px;
@@ -257,7 +257,7 @@ h3{
   zoom:50%;
 }
 .section-sub-title {
-  font-family: Montserrat-Regular;
+  font-family: "Montserrat-Regular","Montserrat";
 	font-size: 16px;
   font-weight: bold;
   font-style: normal;

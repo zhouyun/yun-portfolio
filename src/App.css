@@ -44,9 +44,9 @@
   justify-content: space-between;
 }
 .Hi-Im-Yun {
-  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: 'Montserrat-Regular', 'Montserrat', sans-serif;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.13;
@@ -263,9 +263,9 @@
 }
 
 .project-title {
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular","Montserrat";
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 800;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
@@ -283,13 +283,14 @@
 }
 
 .view-case {
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular","Montserrat";
   display: flex;
   align-items: center;
   height: 60px;
   margin-top: 120px;
   font-size: 14px;
   color: #44424d;
+  font-weight: 800;
 }
 
 .view-case-arrow {
@@ -468,5 +469,8 @@
     width: 300px;
     float:none !important;
     margin: 0 !important;
+  }
+  .Looking-for-full-tim{
+    width: 100% !important;
   }
 }
