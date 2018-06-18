@@ -246,7 +246,7 @@ export class Fruito extends Component {
                 In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
               </p>
               <section className="content-block1" >
-                <div className="section-title1">- Purchase reasonably -</div>
+                <div className="section-title1">-Purchase reasonably-</div>
               </section>
               <div className="section-sub-title"> Keep track of fruits </div>
               <p>
@@ -261,7 +261,7 @@ export class Fruito extends Component {
               src='fruito/group-22@2x.png'/>
               </div>
               <section className="content-block1" >
-                <div className="section-title1">- Store properly -</div>
+                <div className="section-title1">-Store properly-</div>
               </section>
               <div className="section-sub-title"> Give advice about how long the fruits could be kept </div>
               <p>
@@ -276,7 +276,7 @@ export class Fruito extends Component {
               src='fruito/group-21@2x.png'/>
               </div>
               <section className="content-block1" >
-                <div className="section-title1">- Eat happily -</div>
+                <div className="section-title1">-Eat happily-</div>
               </section>
               <div className="section-sub-title"> Interactions with the character makes eating fun </div>
               <p>
@@ -295,7 +295,7 @@ export class Fruito extends Component {
               src='fruito/group-20@2x.png'/>
               </div>
               <section className="content-block1" id={'into-the-details1'}>
-                <div className="section-title1">- Reuse wisely -</div>
+                <div className="section-title1">-Reuse wisely-</div>
               </section>
               <div className="section-sub-title"> Offer advice when fruits are stale </div>
               <p>
