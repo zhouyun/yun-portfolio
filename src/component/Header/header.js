@@ -28,6 +28,8 @@ export class Header extends Component {
       indicatorOffset: x,
       indicatorWidth: width,
     };
+
+    this.isMobile = window.innerWidth <= 760,
     this._navRoot = React.createRef();
     this._navPositioner = React.createRef();
   }
@@ -129,13 +131,26 @@ export class Header extends Component {
               }}/>
               <Nav className="m-auto" navbar>
                 <NavItem>
+                  {this.isMobile ?
                   <Link id="work" className="header-item" tag={Link} to="" onClick={this.toggle}>WORK</Link>
+                  :
+                  <Link id="work" className="header-item" tag={Link} to="">WORK</Link>
+                  }
                 </NavItem>
                 <NavItem>
+                  {this.isMobile ?
                   <Link id="about" className="header-item" tag={Link} to="about" onClick={this.toggle}>ABOUT</Link>
+                  :
+                  <Link id="about" className="header-item" tag={Link} to="about">ABOUT</Link>
+
+                  }
                 </NavItem>
                 <NavItem>
+                  {this.isMobile ?
                   <Link id="resume" className="header-item" tag={Link} to="resume" onClick={this.toggle}>RESUME</Link>
+                  :
+                  <Link id="resume" className="header-item" tag={Link} to="resume">RESUME</Link>
+                  }
                 </NavItem>
               </Nav>
             </Collapse>
