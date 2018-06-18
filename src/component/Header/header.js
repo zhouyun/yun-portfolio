@@ -129,13 +129,13 @@ export class Header extends Component {
               }}/>
               <Nav className="m-auto" navbar>
                 <NavItem>
-                  <NavLink id="work" className="header-item" tag={Link} to="/">WORK</NavLink>
+                  <Link id="work" className="header-item" tag={Link} to="" onClick={this.toggle}>WORK</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink id="about" className="header-item" tag={Link} to="/about">ABOUT</NavLink>
+                  <Link id="about" className="header-item" tag={Link} to="about" onClick={this.toggle}>ABOUT</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink id="resume" className="header-item" tag={Link} to="/resume">RESUME</NavLink>
+                  <Link id="resume" className="header-item" tag={Link} to="resume" onClick={this.toggle}>RESUME</Link>
                 </NavItem>
               </Nav>
             </Collapse>
