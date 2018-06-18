@@ -132,24 +132,24 @@ export class Header extends Component {
               <Nav className="m-auto" navbar>
                 <NavItem>
                   {this.isMobile ?
-                  <Link id="work" className="header-item" tag={Link} to="" onClick={this.toggle}>WORK</Link>
+                  <NavLink id="work" className="header-item" tag={Link} to="/" onClick={this.toggle}>WORK</NavLink>
                   :
-                  <Link id="work" className="header-item" tag={Link} to="">WORK</Link>
+                  <NavLink id="work" className="header-item" tag={Link} to="/">WORK</NavLink>
                   }
                 </NavItem>
                 <NavItem>
                   {this.isMobile ?
-                  <Link id="about" className="header-item" tag={Link} to="about" onClick={this.toggle}>ABOUT</Link>
+                  <NavLink id="about" className="header-item" tag={Link} to="/about" onClick={this.toggle}>ABOUT</NavLink>
                   :
-                  <Link id="about" className="header-item" tag={Link} to="about">ABOUT</Link>
+                  <NavLink id="about" className="header-item" tag={Link} to="/about">ABOUT</NavLink>
 
                   }
                 </NavItem>
                 <NavItem>
                   {this.isMobile ?
-                  <Link id="resume" className="header-item" tag={Link} to="resume" onClick={this.toggle}>RESUME</Link>
+                  <NavLink id="resume" className="header-item" tag={Link} to="/resume" onClick={this.toggle}>RESUME</NavLink>
                   :
-                  <Link id="resume" className="header-item" tag={Link} to="resume">RESUME</Link>
+                  <NavLink id="resume" className="header-item" tag={Link} to="/resume">RESUME</NavLink>
                   }
                 </NavItem>
               </Nav>
