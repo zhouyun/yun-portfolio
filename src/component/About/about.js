@@ -32,8 +32,8 @@ export class About extends Component {
             <p>I got my first luxury ambulance experience to the hospital the day before my National Higher Education Entrance Examination (similar to SAT test, but once a year). 😎</p>
 
      
-          <p>I don’t drink coffee that much, but let’s do bubble tea & icecream! ☕ 👉 🍦 🥤
-        </p>
+          <div className="section-sub-title-about">I don’t drink coffee that much, but let’s do icecream & bubble tea! ☕ 👉 🍦 🥤
+        </div>
         <div className="about-footer-info">
           <div className="about-footer-info-email">
             <div className="about-footer-info-name-text">

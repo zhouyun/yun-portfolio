@@ -13,7 +13,7 @@ export class Footer extends Component {
 				</p>
 
         <SNSIcon/>
-        <div className="footer-copyright">Copyright © 2018 Version 4.0 | Created by Yun Zhou with pride. Tech support by Yun's best coding pals. 😝😌🤔🙄
+        <div className="footer-copyright">Copyright © 2018 Version 5.0 | Created by Yun Zhou with pride. Tech support by Yun's best coding pals. 😝😌🤔🙄
         </div>
       </div>
     );

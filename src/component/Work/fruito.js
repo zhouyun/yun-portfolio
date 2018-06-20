@@ -98,7 +98,7 @@ export class Fruito extends Component {
               <img
               src='fruito/group-9@2x.png'/>
               </div>
-              <img className="fruito-display" src="fruito/fruito UI.gif" width="264px" ></img>
+              <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
               <section className="content-block" id={'analysing-the-problem'}>
                 <div className="section-title"> Analysing the problem </div>
               </section>
@@ -478,10 +478,10 @@ export class Fruito extends Component {
               </div>
               <div className="section-sub-title"> 6. Search to add</div>
               <p>With <HighLightOnVisible className="highlight-fruito">search auto completion</HighLightOnVisible>，it’s more convienient to add fruit.</p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/auto-search@2x.png'/>
-              </div>
+
+              <img className="image_carousel"
+              src='fruito/search auto completion.gif'width="250px"/>
+
               <div className="section-sub-title"> 7. Fruit Eating Challenge vs Data Visualization </div>
               <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to <HighLightOnVisible className="highlight-fruito">show fruits consumption history</HighLightOnVisible> in a table, rather than accomplishment badges.</p>
               <div className="project-img-div-long">
