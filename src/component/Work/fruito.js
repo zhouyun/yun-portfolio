@@ -27,7 +27,7 @@ export class Fruito extends Component {
   }
 
   render() {
-    var previous_page = "Previous page";
+    var previous_page = "Palmdrive Website";
     return (
       <div>
         <div className="work palmdrive">
@@ -104,8 +104,13 @@ export class Fruito extends Component {
               </section>
               <div className="section-sub-title">Reverse derivation</div>
               <p>
-                With no clear mission or specific goals to prevent fruits waste, I started to interview people around me to get more clues about fruits thrown away experience.
+                With no clear mission or specific goals to prevent fruits waste, I started to interview my colleagues and classmates to get more clues about fruits thrown away experience.
               </p>
+              <div className="project-img-div-long">
+              <img
+              src='fruito/persona@2x.png'/>
+              </div>
+              <h5>A persona based on Peipei</h5>
               <div className="project-img-div-long">
               <img
               src='fruito/xmind/bitmap@2x.png'/>
@@ -516,10 +521,17 @@ export class Fruito extends Component {
             </div>
         </div>
         <div className="pager-holder">
-          <div className="next-page link-to-palmdrive">
+          <div className="previous-page link-to-palmdrive">
             <Link to="/work/palmdrive">
               <div className="project-index">Next Project</div>
-              <div className="project-name">Palmdrive Website</div>
+              <div className="project-arrow-reverse"/>
+              <div className="project-name">{previous_page}</div>
+            </Link>
+          </div>
+          <div className="next-page link-to-newyear">
+            <Link to="/work/newyear">
+              <div className="project-index">Next Project</div>
+              <div className="project-name">New Year Event Sprint</div>
                       <div className="project-arrow"/>
             </Link>
           </div>

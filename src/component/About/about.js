@@ -17,7 +17,7 @@ export class About extends Component {
             <p>Learn by making stuff.</p>
             <p>Currently located in Bay Area, CA.</p>
 
-          <div className="Looking-for-full-tim"> Looking for full-time UX/UI Design opportunities!</div>
+          <div className="Looking-for-full-tim"> Looking for full-time visual UX/UI Design opportunities!</div>
 
         
         <div className="project-img-div-long">

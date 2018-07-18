@@ -47,6 +47,10 @@ export class GraphicDesign extends Component {
               anchor: "#palmdrive-go",
             },
             {
+              text: "Visual design for TheOne",
+              anchor: "#the-one",
+            },
+            {
               text: "T-shirt design",
               anchor: "#t-shirt",
             },
@@ -59,7 +63,7 @@ export class GraphicDesign extends Component {
       <div className="work graphic-design">
       	<div className="main">
       		<h3>
-      			Graphic Design Collection +
+      			Other work and experience
       		</h3>
       		<span className="december-2016">
       			2013 - present
@@ -130,30 +134,45 @@ export class GraphicDesign extends Component {
 	        </div>
 	        <h5>Responsive logo</h5>
 
-					<div className="content-block" id={'t-shirt'}>
-	        	<div className="section-title">T-shirt design for my father’s class reunion 30 years after graduation from Beihang University</div>
-	        </div>
-	        <span className="december-2016">
-      			July 2017
-      		</span>
-	        <p>
-	        	The t-shirt was a last minute design, but I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
-	        </p>
-	        <div className="project-img-div-long">
-      			<img
-	          src='graphic/t-shirt/group@2x.png'
-	        />
-	        </div>
-	        <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
-	        <div className="content-block" id={'maze'}>
-	        	<div className="section-title">Link Time</div>
-	        </div>
-	        <span className="december-2016">
-      			December 2013
-      		</span>
-	        <p>
-	        	Link Time let two strangers interact with each other despite time and location through the maze. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
-	        </p>
+          <div className="content-block" id={'the-one'}>
+            <div className="section-title" > Visual design for TheOne </div>
+          </div>
+          <span className="december-2016">
+            December 2016
+          </span>
+          <p>
+          Visual design for TheOne, an web app for constant note-taking experience on digital devices.
+          </p>
+          <div className="project-img-div-long">
+            <img
+            src='graphic/digital-reading-experience@2x.png'
+          />
+          </div>
+          <h5>Traditional vs Digital on reading and note taking experience</h5>
+          <div className="content-block" id={'t-shirt'}>
+            <div className="section-title">T-shirt design for my father’s class reunion 30 years after graduation from Beihang University</div>
+          </div>
+          <span className="december-2016">
+            July 2017
+          </span>
+          <p>
+            The t-shirt was a last minute design, but I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
+          </p>
+          <div className="project-img-div-long">
+            <img
+            src='graphic/t-shirt/group@2x.png'
+          />
+          </div>
+          <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
+          <div className="content-block" id={'maze'}>
+            <div className="section-title">Link Time</div>
+          </div>
+          <span className="december-2016">
+            December 2013
+          </span>
+          <p>
+            Link Time let two strangers interact with each other despite time and location through the maze. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.
+          </p>
           <iframe className="mazev" src="https://player.vimeo.com/video/91377740" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	        <h5>I gave the maze to a friend as a gift. While enjoy creating, I also enjoy sharing which doubles the happiness:)</h5>
       </div>

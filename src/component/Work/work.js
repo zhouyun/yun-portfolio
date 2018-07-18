@@ -30,7 +30,7 @@ export class Work extends Component {
   }
 
   render() {
-		var previous_page = "Palmdrive Website";
+		var previous_page = "Fruits Management App";
     return (
     	<div>
         <Sidebar
@@ -211,8 +211,8 @@ export class Work extends Component {
 	      	</div>
 	      </div>
 				<div className="pager-holder">
-				<div className="previous-page link-to-palmdrive">
-						<Link to="/work/Palmdrive">
+				<div className="previous-page link-to-fruito">
+						<Link to="/work/fruito">
 							<div className="project-index">Previous Project</div>
               				<div className="project-arrow-reverse"/>
              				 <div className="project-name">{previous_page}</div>
