@@ -32,7 +32,7 @@ export class GraphicDesign extends Component {
     return (
       <div>
         <Sidebar
-          title={'Transaction Management Design'}
+          title={'Other work and experience'}
           items={[
             {
               text: "Graphic design collections for Palmdrive",

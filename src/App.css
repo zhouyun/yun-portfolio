@@ -115,7 +115,7 @@
 
 .project-section {
   display: block;
-  height: 550px;
+  height: 600px;
   width: 1280px;
   margin: 30px 3%;
   width: 94%;
@@ -170,6 +170,9 @@
   zoom: 50%;
   margin-top: -900px;
   position: relative;
+}
+.project-image.bg{
+  margin-left: -200px;
 }
 .background-cloud {
   position: relative;
