@@ -201,7 +201,8 @@ h5{
   overflow: visible;
   direction: rtl; 
   position: relative; 
-  zoom: 50%;  
+  zoom: 50%; 
+  max-width: 1500px; 
 }
 
 .main {
@@ -255,6 +256,9 @@ h3{
 }
 .img{
   zoom:50%;
+}
+img{
+  max-width: 1500px;
 }
 .section-sub-title {
   font-family: "Montserrat-Regular","Montserrat";
@@ -365,9 +369,9 @@ h3{
 }
 .highlight-palmdrive,
 .link-to-palmdrive:hover .project-name{
-  background: -moz-linear-gradient(left, rgba(159,230,215,0.8) 50%, rgba(255,255,255,0) 50%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(159,230,215,0.8) 50%, rgba(255,255,255,0) 50%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(159,230,215,0.8) 50%, rgba(255,255,255,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(left, rgba(159,230,215,0.5) 50%, rgba(255,255,255,0) 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(159,230,215,0.5) 50%, rgba(255,255,255,0) 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(159,230,215,0.5) 50%, rgba(255,255,255,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-size: 600% 600%;
   -webkit-animation: Gradient 1s ease;
   -moz-animation: Gradient 1s ease;

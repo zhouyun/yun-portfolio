@@ -101,7 +101,7 @@ class Home extends Component {
               <img className="quote" src="image/desktop/quote.svg"/>
             </span>{"Hi I'm Yun"}</h1>
           </div>
-          <div className="UI-designer-Be">A UX/UI designer. Believe in relationships with people. Think with writing and sketch. Learn by making stuff. Currently located in Bay Area, CA.</div>
+          <div className="UI-designer-Be">A visual & UX designer who designs visually and logically,<br/> currently located in Bay Area, CA.</div>
         </div>
         <SNSIcon/>
         {/* <div ref={this._navPositioner} className="divider">
@@ -116,7 +116,25 @@ class Home extends Component {
                   Fruits Management App
                 </div>
               </div>*/}
-         <div className="project-section project-new-year-section">
+         
+        <div className="project-section project-palmdrive-section">
+          <Link to="/work/palmdrive">
+            <div className="img-block" >
+              <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
+              <img className="project-image palmdrive-home bg" src="home/pd/bg-pd@2x.png"/>
+              <img className="project-image palmdrive-home" src="home/pd/palmdrive@2x.png"/>
+            </div>
+            <div className="text-block">
+              <div className="project-title">Palmdrive Website</div>
+              <div className="project-description">Official website of Palmdrive</div>
+              <span className="label">Website</span>
+              <span className="label">Information Architecture</span>
+              <span className="label">Iconography</span>
+              {this._renderArrow()}
+            </div>
+          </Link>
+        </div>
+        <div className="project-section project-new-year-section">
           <Link to="/work/fruito">
             <div className="img-block">
               <img className="background-cloud greenblue-cloud" src="svg/greenbluecloud.svg"/>
@@ -124,20 +142,10 @@ class Home extends Component {
             </div>
             <div className="text-block">
               <div className="project-title">Fruits Management App</div>
-              <div className="project-description">A fruit management ios app</div>
-              {this._renderArrow()}
-            </div>
-          </Link>
-        </div>
-        <div className="project-section project-palmdrive-section">
-          <Link to="/work/palmdrive">
-            <div className="img-block" >
-              <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
-              <img className="project-image palmdrive-home" src="home/group/group@2x.png"/>
-            </div>
-            <div className="text-block">
-              <div className="project-title">Palmdrive Website</div>
-              <div className="project-description">Official website of Palmdrive</div>
+              <div className="project-description">A self-published iOS fruits management app</div>
+              <span className="label">Mobile App</span>
+              <span className="label">Product Design</span>
+              <span className="label">Interaction Design</span>
               {this._renderArrow()}
             </div>
           </Link>
@@ -151,6 +159,9 @@ class Home extends Component {
             <div className="text-block">
               <div className="project-title">New Year Event Sprint</div>
               <div className="project-description">A branding event from scratch to the end in 2 weeks</div>
+              <span className="label">Graphic Design</span>
+              <span className="label">Website</span>
+              <span className="label">Marketing</span>
               {this._renderArrow()}
             </div>
           </Link>
@@ -164,6 +175,8 @@ class Home extends Component {
             <div className="text-block">
               <div className="project-title">Transaction Management Design</div>
               <div className="project-description">A web-based financial software</div>
+              <span className="label">Website</span>
+              <span className="label">Data Visualization</span>
               {this._renderArrow()}
             </div>
           </Link>
@@ -175,8 +188,11 @@ class Home extends Component {
               <div className="graphic-label">2013-present</div>
             </div>
             <div className="text-block graphic-text">
-              <div className="project-title">Graphic Design Collection +</div>
+              <div className="project-title">Other Work and Experience</div>
               <div className="project-description">A showcase of some other projects I worked on and shipped from 2013 till now</div>
+              <span className="label">Graphic Design</span>
+              <span className="label">Branding</span>
+              <span className="label">Passion Project</span>
               {this._renderArrow()}
             </div>
           </Link>

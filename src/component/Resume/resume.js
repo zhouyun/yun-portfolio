@@ -11,7 +11,7 @@ export class Resume extends Component {
       <div className="work">
       <div className="main">
         <div className="rectangle-button">
-              <a href="resume6.4.pdf" target="blank">
+              <a href="Yun Zhou_Designer.pdf" target="blank">
               <div className="rectangle-button-bg"></div>
               <div className="btn-text">Download Resume PDF</div>
               </a>
@@ -36,7 +36,7 @@ export class Resume extends Component {
 
               <p>Establish and host in-company design workshops to help teams follow Palmdrive style guide and improve reliability on our daily feeds for over <HighLightOnVisible className="highlight-general"> 400k followers</HighLightOnVisible>.</p>
 
-              <p>Build the design team from 0 to 4 and mentor designers on user-centered design, communication, time-management and career planning.</p>
+              <p>Built the design team from 0 to 4 and mentor designers on user-centered design, communication, time-management and career planning.</p>
 
               <p>Reduced communication overhead by introducing transparent and standard work process that supported <HighLightOnVisible className="highlight-general"> 300% campaigns without new design hires</HighLightOnVisible> in 2017.</p>
 
@@ -51,7 +51,7 @@ export class Resume extends Component {
             </div>
             <div className="resume-content">
               <div className="resume-content-title">Digital Media Instructor | November 2014 – May 2015</div>
-              <div className="resume-content-location">Digital Media Instructor | November 2014 – May 2015</div>
+              <div className="resume-content-location">Girls Write Now – New York, NY</div>
               <div className="resume-content-detail">
                 <p>Collaborated with mentors and facilitators in curricular oversight and monthly
                   workshops involving video editing and programming for Girls Write Now, a non-profit
@@ -59,8 +59,8 @@ export class Resume extends Component {
                 </div>
               </div>
               <div className="resume-content">
-                <div className="resume-content-title">UX/UI Designer | June 2014 – December 2014</div>
-                <div className="resume-content-location">UX/UI Designer | June 2014 – December 2014</div>
+                <div className="resume-content-title">UX/UI Intern | June 2014 – December 2014</div>
+                <div className="resume-content-location">Pefin – New York, NY</div>
                 <div className="resume-content-detail">
                   <p>Worked on user need analysis and information architecture.<br/>
                   Fulfilled financial management website with HTML, CSS, jQuery, JavaScript and Knockout.</p>

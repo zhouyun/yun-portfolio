@@ -27,7 +27,7 @@ export class Palmdrive extends Component {
   }
 
   render() {
-		var previous_page = "Fruits Management App";
+		var previous_page = "Previous page";
     return (
     	<div>
         <Sidebar
@@ -219,17 +219,10 @@ export class Palmdrive extends Component {
 		      	</div>
 	      </div>
 				<div className="pager-holder">
-					<div className="previous-page link-to-fruito">
+					<div className="next-page link-to-fruito">
 						<Link to="/work/fruito">
-							<div className="project-index">Previous Project</div>
-              				<div className="project-arrow-reverse"/>
-             				 <div className="project-name">{previous_page}</div>
-						</Link>
-					</div>
-					<div className="next-page link-to-newyear">
-						<Link to="/work/newyear">
 							<div className="project-index">Next Project</div>
-							<div className="project-name">New Year Event Sprint</div>
+							<div className="project-name">Fruits Management App</div>
               				<div className="project-arrow"/>
 						</Link>
 					</div>

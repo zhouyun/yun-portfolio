@@ -27,7 +27,7 @@ export class Fruito extends Component {
   }
 
   render() {
-    var previous_page = "Previous page";
+    var previous_page = "Palmdrive Website";
     return (
       <div>
         <div className="work palmdrive">
@@ -98,14 +98,19 @@ export class Fruito extends Component {
               <img
               src='fruito/group-9@2x.png'/>
               </div>
-              <img className="fruito-display" src="fruito/fruito UI.gif" width="264px" ></img>
+              <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
               <section className="content-block" id={'analysing-the-problem'}>
                 <div className="section-title"> Analysing the problem </div>
               </section>
               <div className="section-sub-title">Reverse derivation</div>
               <p>
-                With no clear mission or specific goals to prevent fruits waste, I started to interview people around me to get more clues about fruits thrown away experience.
+                With no clear mission or specific goals to prevent fruits waste, I started to interview my colleagues and classmates to get more clues about fruits thrown away experience.
               </p>
+              <div className="project-img-div-long">
+              <img
+              src='fruito/persona@2x.png'/>
+              </div>
+              <h5>A persona based on Peipei</h5>
               <div className="project-img-div-long">
               <img
               src='fruito/xmind/bitmap@2x.png'/>
@@ -246,7 +251,7 @@ export class Fruito extends Component {
                 In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
               </p>
               <section className="content-block1" >
-                <div className="section-title1">- Purchase reasonably -</div>
+                <div className="section-title1">-Purchase reasonably-</div>
               </section>
               <div className="section-sub-title"> Keep track of fruits </div>
               <p>
@@ -261,7 +266,7 @@ export class Fruito extends Component {
               src='fruito/group-22@2x.png'/>
               </div>
               <section className="content-block1" >
-                <div className="section-title1">- Store properly -</div>
+                <div className="section-title1">-Store properly-</div>
               </section>
               <div className="section-sub-title"> Give advice about how long the fruits could be kept </div>
               <p>
@@ -276,7 +281,7 @@ export class Fruito extends Component {
               src='fruito/group-21@2x.png'/>
               </div>
               <section className="content-block1" >
-                <div className="section-title1">- Eat happily -</div>
+                <div className="section-title1">-Eat happily-</div>
               </section>
               <div className="section-sub-title"> Interactions with the character makes eating fun </div>
               <p>
@@ -295,7 +300,7 @@ export class Fruito extends Component {
               src='fruito/group-20@2x.png'/>
               </div>
               <section className="content-block1" id={'into-the-details1'}>
-                <div className="section-title1">- Reuse wisely -</div>
+                <div className="section-title1">-Reuse wisely-</div>
               </section>
               <div className="section-sub-title"> Offer advice when fruits are stale </div>
               <p>
@@ -478,10 +483,10 @@ export class Fruito extends Component {
               </div>
               <div className="section-sub-title"> 6. Search to add</div>
               <p>With <HighLightOnVisible className="highlight-fruito">search auto completion</HighLightOnVisible>，it’s more convienient to add fruit.</p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/auto-search@2x.png'/>
-              </div>
+
+              <img className="image_carousel"
+              src='fruito/search auto completion.gif'width="250px"/>
+
               <div className="section-sub-title"> 7. Fruit Eating Challenge vs Data Visualization </div>
               <p>While fruit eating challenge might encourage excessive fruit purchase since it was a game concept, I updated the way to <HighLightOnVisible className="highlight-fruito">show fruits consumption history</HighLightOnVisible> in a table, rather than accomplishment badges.</p>
               <div className="project-img-div-long">
@@ -516,10 +521,17 @@ export class Fruito extends Component {
             </div>
         </div>
         <div className="pager-holder">
-          <div className="next-page link-to-palmdrive">
+          <div className="previous-page link-to-palmdrive">
             <Link to="/work/palmdrive">
               <div className="project-index">Next Project</div>
-              <div className="project-name">Palmdrive Website</div>
+              <div className="project-arrow-reverse"/>
+              <div className="project-name">{previous_page}</div>
+            </Link>
+          </div>
+          <div className="next-page link-to-newyear">
+            <Link to="/work/newyear">
+              <div className="project-index">Next Project</div>
+              <div className="project-name">New Year Event Sprint</div>
                       <div className="project-arrow"/>
             </Link>
           </div>
