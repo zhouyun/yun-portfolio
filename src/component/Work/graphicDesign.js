@@ -28,35 +28,27 @@ export class GraphicDesign extends Component {
   }
 
   render() {
-    var previous_page = "Transaction Management Design";
+    var previous_page = "Pefin";
     return (
       <div>
         <Sidebar
-          title={'Other work and experience'}
+          title={'Other Work and Experience'}
           items={[
             {
-              text: "Graphic design collections for Palmdrive",
-              anchor: "#palmdrive",
+              text: "Graphic Design",
+              anchor: "#graphic-design",
             },
             {
-              text: "Wulnut English Logo and Visual Identity System",
-              anchor: "#wulnut-english",
+              text: "Logo & more",
+              anchor: "#logo-more",
             },
             {
-              text: "Palmdrive Go Logo",
-              anchor: "#palmdrive-go",
-            },
-            {
-              text: "Visual design for TheOne",
-              anchor: "#the-one",
-            },
-            {
-              text: "T-shirt design",
+              text: "T-shirt Design",
               anchor: "#t-shirt",
             },
             {
-              text: "Link Time",
-              anchor: "#maze",
+              text: "Physical Design",
+              anchor: "#physical-design",
             }
           ]}
         />
@@ -69,30 +61,40 @@ export class GraphicDesign extends Component {
       			2013 - present
       		</span>
           <p>Aside from designing for user interfaces, I also enjoy crafting <HighLightOnVisible className="highlight-graphic">brand identities, logos, illustrations and design you name it</HighLightOnVisible>. Here are a collection of design projects I love and did at work and in my spare time.</p>
-      		<div className="content-block" id={'palmdrive'}>
-	          <div className="section-title"> Graphic design collections for Palmdrive </div>
+      		<div className="content-block" id={'graphic-design'}>
+	          <div className="section-title"> 01_Graphic design </div>
 	        </div>
+          <div className="section-sub-title"> Reading and note taking experience: Traditional vs Digital</div>
+          <span className="december-2016">
+           December 2016
+          </span>
+          <div className="project-img-div-long">
+            <img className="small_pic"
+            src='graphic/digital-reading-experience@2x.png'
+          />
+          </div>
+          <div className="section-sub-title"> Graphic design collections for Palmdrive</div>
 	        <span className="december-2016">
       			2016 - present
       		</span>
       		<p>
-      			I led a design team of 4 at Palmdrive to support a good number of campaigns and events over the last two years. Clean and minimal design are applied to build a up-scale branding. The following are highlights designed on my own.
+      			Clean and minimal design are applied to build a up-scale branding. The following are highlights designed on my own.
       		</p>
 
           <div className="project-img-div-long">
-      			<img
+      			<img className="small_pic"
 	          src='graphic/group-4@2x.png'
 	        />
 	        </div>
 	        <h5>Palmdrive hiring Roll Up</h5>
 	        <div className="project-img-div-long">
-      			<img
+      			<img className="small_pic"
 	          src='graphic/group-2@2x.png'
 	        />
 	        </div>
 	        <h5>Palmdrive Undergraduate Brochure</h5>
 			   <div className="project-img-div-long">
-      			<img
+      			<img className="small_pic"
 	          src='graphic/display-2-2@2x.png'
 	        />
 	        </div>
@@ -101,9 +103,10 @@ export class GraphicDesign extends Component {
           The Thank You Card was exclusively customized for our partners, coming with the pre-ordered mooncakes. Gold foil and carving are designed to match the mooncakes packages.
           </p>
 
-      		<div className="content-block" id={'wulnut-english'}>
-	          <div className="section-title" > Wulnut English Logo and Visual Identity System (VIS) </div>
+      		<div className="content-block" id={'logo-more'}>
+	          <div className="section-title" > 02_Logo and more </div>
 	        </div>
+          <div className="section-sub-title"> Wulnut English Logo and Visual Identity System</div>
 	        <span className="december-2016">
       			December 2017
       		</span>
@@ -111,15 +114,12 @@ export class GraphicDesign extends Component {
       		Wulnut English is a fast growing startup incubated by Palmdrive, focusing on English online tutoring. After launching the VIS, the Wulnut English’s followers has bumped up 20,000 on WeChat in 3 months. <HighLightOnVisible className="highlight-graphic"> Please contact me for VIS.</HighLightOnVisible>
       		</p>
       		<div className="project-img-div-long">
-      			<img
+      			<img className="small_pic"
 	          src='graphic/stationery-mockup-02@2x.png'
 	        />
 	        </div>
 	        <h5>Wulnut English logo display</h5>
-
-				<div className="content-block" id={'palmdrive-go'}>
-	          <div className="section-title"> Palmdrive Go Logo </div>
-	        </div>
+          <div className="section-sub-title"> Palmdrive Go Logo</div>
 	        <span className="december-2016">
       			February 2018
       		</span>
@@ -128,47 +128,34 @@ export class GraphicDesign extends Component {
 	        	Palmdrive Go is a startup incubated by Palmdrive. Its goal is to build a mentor community. I had a good time playing with <HighLightOnVisible className="highlight-graphic">Bilingual Lettering</HighLightOnVisible> on the logo design.
 	        </p>
 	        <div className="project-img-div-long">
-      			<img
+      			<img className="small_pic"
 	          src='graphic/group-5@2x.png'
 	        />
 	        </div>
 	        <h5>Responsive logo</h5>
 
-          <div className="content-block" id={'the-one'}>
-            <div className="section-title" > Visual design for TheOne </div>
-          </div>
-          <span className="december-2016">
-            December 2016
-          </span>
-          <p>
-          Visual design for TheOne, an web app for constant note-taking experience on digital devices.
-          </p>
-          <div className="project-img-div-long">
-            <img
-            src='graphic/digital-reading-experience@2x.png'
-          />
-          </div>
-          <h5>Traditional vs Digital on reading and note taking experience</h5>
           <div className="content-block" id={'t-shirt'}>
-            <div className="section-title">T-shirt design for my father’s class reunion 30 years after graduation from Beihang University</div>
+            <div className="section-title">03_T-shirt design</div>
           </div>
+          <div className="section-sub-title"> Class Reunion T-shirt</div>
           <span className="december-2016">
             July 2017
           </span>
           <p>
-            The t-shirt was a last minute design, but I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
+            The t-shirt was for my father’s class reunion 30 years after graduation from Beihang University, I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
           </p>
           <div className="project-img-div-long">
-            <img
+            <img className="small_pic"
             src='graphic/t-shirt/group@2x.png'
           />
           </div>
           <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
-          <div className="content-block" id={'maze'}>
-            <div className="section-title">Link Time</div>
+          <div className="content-block" id={'physical-design'}>
+            <div className="section-title">04_Physical Design</div>
           </div>
+          <div className="section-sub-title"> Link Time</div>
           <span className="december-2016">
-            December 2013
+          December 2013
           </span>
           <p>
             Link Time let two strangers interact with each other despite time and location through the maze. The first person customizes the puzzle through adding/removing pieces and set game rules. The second person use the joystick to control the panel to solve it.

@@ -11,7 +11,7 @@ export class Resume extends Component {
       <div className="work">
       <div className="main">
         <div className="rectangle-button">
-              <a href="Yun Zhou_Designer.pdf" target="blank">
+              <a href="YunZhou_VisualUXDesigner.pdf" target="blank">
               <div className="rectangle-button-bg"></div>
               <div className="btn-text">Download Resume PDF</div>
               </a>
