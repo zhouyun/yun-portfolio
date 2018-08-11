@@ -82,6 +82,16 @@ export class Palmdrive extends Component {
 		      		<div className="rectangle-button-bg"></div>
 		      		<div className="btn-text">Go to website</div>
       				</a></div>
+      				 <div className="project-img-div-long hd">
+		                <img
+		                src='palmdrive/bg-seed@2x.png' 
+		              	/>
+		             </div>
+		              <div className="project-img-div-long">
+		                <img
+		                src='palmdrive/palmdrive-display@2x.png' 
+		              	/>
+		             </div>
 		      		<section className="content-block" id={'challenge'}>
 			          <div className="section-title"> 01_Challenge </div>
 			        </section>

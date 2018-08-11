@@ -388,7 +388,7 @@ export class Fruito extends Component {
               </div>
               <h5>Take a glimpse of the Hackathon version</h5>
               <div className="little-blue-blink">
-              <div>Let prevent fruit waste togather!<img className="lbb" src="fruito/little-blue-blink.gif" height="80px" ></img></div>
+              <div>Let‘s prevent fruit waste togather!<img className="lbb" src="fruito/little-blue-blink.gif" height="80px" ></img></div>
               </div>
 
             </div>
