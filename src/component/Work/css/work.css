@@ -8,8 +8,15 @@ a {
   color:inherit;
 }
 .mazev{
-  width:750px;
-  height:420px;
+  width:700px;
+  height:400px;
+}
+.small_pic{
+  width: 1400px;
+}
+.big_pic{
+  width: 2000px;
+  margin-right: -300px;
 }
 a:hover
 {
@@ -31,7 +38,7 @@ p:last-of-type {
 .fruito-display{
   margin-top: -635px;
   position: relative;
-  margin-left: 18px;
+  margin-left: 220px;
 }
 .rectangle-button{
   margin-top: 30px;
@@ -67,6 +74,7 @@ p:last-of-type {
   -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
   box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  margin:20px 0;
 }
 .side-bar {
   padding: 12px;
@@ -94,12 +102,13 @@ p:last-of-type {
   line-height: 1.5;
   letter-spacing: normal;
   color: #44424d;
+  margin-left: 36px;
 }
 
 .side-bar-item {
   align-items: center;
   display: flex;
-  width: 270px;
+  width: 190px;
   font-family: "Montserrat";
   font-size: 13px;
   font-weight: 500;
@@ -112,7 +121,7 @@ p:last-of-type {
 
 .side-bar-link {
   border-left: solid 2px rgba(68,66,77,0.25);
-  padding: 10px 25px 10px 25px;
+  padding: 10px 20px;
   opacity: 0.25;
 }
 .side-bar-link:hover{
@@ -132,15 +141,14 @@ p:last-of-type {
   min-width: 36px;
 }
 .display-tittle{
-  font-family: PT Serif;
+  font-family: "Montserrat-Regular","Montserrat";
   font-size: 16px;
   font-weight: normal;
-  font-style: italic;
   font-stretch: normal;
   line-height: 1.5;
-  letter-spacing: 4px;
   color: #44424d;
-  margin: 60px 0 20px 0;
+  margin: 30px 0 15px 0;
+  font-weight: bold;
 }
 /**
  * If it's already active, hover should
@@ -193,21 +201,20 @@ h5{
   height: 385px;
 }
 .high-school-web{
-  width: 750px;
-  height: 533px;
+  width: 700px;
+  height: 497px;
 }
 .project-img-div-long {
-  margin: 40px 0px 10px 0px;
+  margin: 40px 0px 20px 0px;
   overflow: visible;
   direction: rtl; 
   position: relative; 
   zoom: 50%; 
-  max-width: 1500px; 
 }
 
 .main {
 	margin-left: 456px;
-	width:75%;
+	width:700px;
   margin-top: 100px;
 }
 h3{
@@ -233,23 +240,26 @@ h3{
 }
 .section-title {
 	margin-top: 72px;
-	font-size: 24px;
+	font-size: 13px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  line-height: 1.85;
+  letter-spacing: 1.4px;
   color: #44424d;
   font-family: "Montserrat-Regular","Montserrat";
+  text-transform: uppercase;
+  margin-bottom: -60px;
 }
 .section-title1{
+  font-family: "Montserrat-Regular","Montserrat";
+  font-size: 36px;
   height: 45px;
   font-size: 32px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
-  letter-spacing: 4px;
   color: #44424d;
   margin: 30px 0 20px 0;
   display: inline;
@@ -257,19 +267,19 @@ h3{
 .img{
   zoom:50%;
 }
-img{
-  max-width: 1500px;
+.hd{
+  margin-right: -300px;
 }
 .section-sub-title {
   font-family: "Montserrat-Regular","Montserrat";
-	font-size: 16px;
+	font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #44424d;
-  margin-top: 28px;
+  margin-top: 72px;
   margin-bottom: 12px;
 }
 .previous-page {

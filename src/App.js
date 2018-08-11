@@ -125,7 +125,7 @@ class Home extends Component {
               <img className="project-image palmdrive-home" src="home/pd/palmdrive@2x.png"/>
             </div>
             <div className="text-block">
-              <div className="project-title">Palmdrive Website</div>
+              <div className="project-title">Palmdrive</div>
               <div className="project-description">Official website of Palmdrive</div>
               <span className="label">Website</span>
               <span className="label">Information Architecture</span>
@@ -141,7 +141,7 @@ class Home extends Component {
               <img className="project-image fruito-home" src="home/fruito/group-9@2x.png"/>
             </div>
             <div className="text-block">
-              <div className="project-title">Fruits Management App</div>
+              <div className="project-title">Fruito</div>
               <div className="project-description">A self-published iOS fruits management app</div>
               <span className="label">Mobile App</span>
               <span className="label">Product Design</span>
@@ -157,8 +157,8 @@ class Home extends Component {
               <img className="project-image newyear-home" src="home/group-2/group-2@2x.png"/>
             </div>
             <div className="text-block">
-              <div className="project-title">New Year Event Sprint</div>
-              <div className="project-description">A branding event from scratch to the end in 2 weeks</div>
+              <div className="project-title">New Year Event</div>
+              <div className="project-description">A branding event of Palmdrive</div>
               <span className="label">Graphic Design</span>
               <span className="label">Website</span>
               <span className="label">Marketing</span>
@@ -173,8 +173,8 @@ class Home extends Component {
               <img className="project-image transaction-home" src="home/group-3/group-3@2x.png"/>
             </div>
             <div className="text-block">
-              <div className="project-title">Transaction Management Design</div>
-              <div className="project-description">A web-based financial software</div>
+              <div className="project-title">Pefin</div>
+              <div className="project-description">Transaction management design for a web-based financial software</div>
               <span className="label">Website</span>
               <span className="label">Data Visualization</span>
               {this._renderArrow()}
