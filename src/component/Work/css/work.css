@@ -407,6 +407,74 @@ h3{
 .lbb{
   margin-top: -20px;
 }
+
+.palmdrive-intro-wrap {
+  overflow: visible;
+  position: relative; 
+  direction: rtl;
+  z-index: -1;
+}
+.palmdrive-intro-img {
+  height: 700px;
+  width: 900px;
+  margin: 41px 0px; 
+  position: relative; 
+}
+.first-word {
+  font-size: 36px;
+  font-weight: bold;
+}
+.intro-how {
+  margin-top: -680px;
+  width: 337px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #44424d;
+}
+.rectangle-division {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 90px;
+  border-left: solid 1px #44424d;
+  border-bottom: solid 1px #44424d;
+
+}
+.intro-with {
+  margin-left: 80px;
+  margin-top: -35px;
+  width: 533px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #44424d;
+}
+.green-circle {
+  width: 230px;
+  height: 230px;
+  object-fit: contain;
+  background-color: #5fbdc0;
+  border-radius: 50%;
+  margin-top: -488px;
+  margin-left: 40%;
+}
+.palmdrive-laptop {
+  margin-top: -520px;
+  margin-left: 47%;
+}
+.blue-circle {
+  margin-top: -224px;
+  margin-left: 77%;
+  width: 129px;
+  height: 129px;
+  background-color: #456cd3;
+  border-radius: 50%;
+}
+.palmdrive-browser {
+  margin-left: -20%;
+  margin-top: 332px;
+}
 @media (max-width: 767px){
   .side-bar {
     display: none;
