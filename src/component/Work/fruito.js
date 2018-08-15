@@ -2,9 +2,18 @@ import React, { Component } from 'react';
 import {Sidebar} from '../';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { HashLink as Link } from 'react-router-hash-link';
+import Slider from "react-slick";
 
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
 export class Fruito extends Component {
   componentDidMount(): void {
@@ -79,79 +88,49 @@ export class Fruito extends Component {
               <span className="december-2016">
                 March 2015 - present
               </span>
-              <p>How to prevent fruits waste?
-              Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.</p>
-              <p>In a fast-pasing world, everything seems out of control, Fruito gives your control back by making fruits management smooth, effortless and flexible.</p>
-              <div class="display-tittle">
-              My Role
-              </div>
-              <p>
-              I designed from scratch and worked along with a developer. I was in charge of the ideation, research, UX/UI design.
-              </p>
-
-              <section className="content-block" id={'intro'}>
-                <div className="section-title"> | Intro |</div>
+              <section className="content-block fruito-intro">
+                <div className="fruito-intro-wrap">
+                  <img className="fruito-intro-img" src="fruito/bg@2x.png">
+                  </img>
+                </div>
+                <div className="intro-how-fruito">
+                  <span className="first-word">How</span>  to prevent fruits waste?
+                    Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.
+                </div>
+                <div className="rectangle-division"></div>
+                <div className="intro-with"><span className="first-word">In</span> a fast-pasing world, everything seems out of control, Fruito gives your control back by making fruits management smooth, effortless and flexible.</div>
+                <div className="fruito-display-wrap">
+                  <img className="fruito-display-1 img" src="fruito/fruito-display-1@2x.png"></img>
+                  <img className="fruito-display-2 img" src="fruito/fruito-display-2@2x.png"></img>
+                </div>
+                <Slider {...settings} className="slider">
+                  <div className="slider-wrap">
+                    <img className="fruito-mobile img" src="fruito/display-1@2x.png">
+                    </img>
+                    <img className="fruito-laptop img" src="fruito/bg-1@2x.png">
+                    </img>
+                  </div>
+                  <div className="slider-wrap">
+                    <img className="fruito-mobile img" src="fruito/display-2@2x.png">
+                    </img>
+                    <img className="fruito-laptop img" src="fruito/bg-2@2x.png">
+                    </img>
+                  </div>
+                  <div className="slider-wrap">
+                    <img className="fruito-mobile img" src="fruito/display-3@2x.png">
+                    </img>
+                    <img className="fruito-laptop img" src="fruito/bg-3@2x.png">
+                    </img>
+                  </div>
+                  <div className="slider-wrap">
+                    <img className="fruito-mobile img" src="fruito/display-4@2x.png">
+                    </img>
+                    <img className="fruito-laptop img" src="fruito/bg-4@2x.png">
+                    </img>
+                  </div>
+                </Slider>
+                
               </section>
-                <section className="content-block1" >
-                <div className="section-title1">Purchase reasonably</div>
-              </section>
-              <div className="display-tittle"> Keep track of fruits </div>
-              <p>
-               with knowing what fruits they have, users could make <HighLightOnVisible className="highlight-fruito">reasonable fruits purchasing plan</HighLightOnVisible>, which save both money and time.
-              </p>
-              <div className="display-tittle"> Give advice about fruits purchase </div>
-              <p>
-               with knowing how much fruits user’s body need, they could <HighLightOnVisible className="highlight-fruito">avoid over-purchasing</HighLightOnVisible>. The app also encourages to eat seasonal fruits.
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/group-22@2x.png'/>
-              </div>
-              <section className="content-block1" >
-                <div className="section-title1">Store properly</div>
-              </section>
-              <div className="display-tittle"> Give advice about how long the fruits could be kept </div>
-              <p>
-               Users can plan their fruits eating
-              </p>
-              <div className="display-tittle"> The way to store the fruit properly </div>
-              <p>
-               Users are able to keep fruits fresh longer.
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/group-21@2x.png'/>
-              </div>
-              <section className="content-block1" >
-                <div className="section-title1">Eat happily</div>
-              </section>
-              <div className="display-tittle"> Interactions with the character makes eating fun </div>
-              <p>
-               Gamify eating fruits
-              </p>
-              <div className="display-tittle"> Remind when fruits starts to getting bad </div>
-              <p>
-               Plan eating fruits
-              </p>
-              <div className="display-tittle"> Data viz accomplishment for eating fruits </div>
-              <p>
-               Reward eating fruits
-              </p>
-              <div className="project-img-div-long">
-              <img className="small_pic"
-              src='fruito/group-20@2x.png'/>
-              </div>
-              <section className="content-block1" id={'into-the-details1'}>
-                <div className="section-title1">Reuse wisely</div>
-              </section>
-              <div className="display-tittle"> Offer advice when fruits are stale </div>
-              <p>
-               Reuse fruits in your benefits
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/i-phone-8-copy-27@2x.png'/>
-              </div>
               <section className="content-block" id={'challenge'}>
                 <div className="section-title"> | challenge |</div>
               </section>
