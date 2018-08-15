@@ -24,9 +24,9 @@ export class Resume extends Component {
             <div className="resume-content-title">Design Lead Manager | April 2016 – present</div>
             <div className="resume-content-location">Palmdrive – Sunnyvale, CA/Shanghai, China</div>
             <div className="resume-content-detail">
-              <p>In charge of <HighLightOnVisible className="highlight-general"> web pages design and design system refinement</HighLightOnVisible>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
+              <p>In charge of <HighLightOnVisible className="highlight-general"> website redesign</HighLightOnVisible>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
 
-              <p>Led <HighLightOnVisible className="highlight-general"> user experience design</HighLightOnVisible> for online products serving over 4,000 mentors and premium subscribers.</p>
+              <p>Led <HighLightOnVisible className="highlight-general"> user experience design</HighLightOnVisible> for College Application Management System for both desktop and mobile, serving over 4,000 mentors and premium subscribers, achieving over <HighLightOnVisible className="highlight-general">$16M annual revenue</HighLightOnVisible>. Created <HighLightOnVisible className="highlight-general"> design system</HighLightOnVisible>.</p>
 
               <p>Led <HighLightOnVisible className="highlight-general"> collateral materials, environmental graphics, and print advertising</HighLightOnVisible> for more than 130 branding events nationwide within one year, deeply engaging with more than 6,000 college students. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.</p>
 

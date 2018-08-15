@@ -73,10 +73,8 @@ export class Fruito extends Component {
             ]}
           />
             <div className="main">
-            <section className="content-block" id={'intro'}>
-              </section>
               <h3>
-                Fruto
+                Fruito
               </h3>
               <span className="december-2016">
                 March 2015 - present
@@ -84,8 +82,78 @@ export class Fruito extends Component {
               <p>How to prevent fruits waste?
               Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.</p>
               <p>In a fast-pasing world, everything seems out of control, Fruito gives your control back by making fruits management smooth, effortless and flexible.</p>
+              <div class="display-tittle">
+              My Role
+              </div>
+              <p>
+              I designed from scratch and worked along with a developer. I was in charge of the ideation, research, UX/UI design.
+              </p>
+
+              <section className="content-block" id={'intro'}>
+                <div className="section-title"> | Intro |</div>
+              </section>
+                <section className="content-block1" >
+                <div className="section-title1">Purchase reasonably</div>
+              </section>
+              <div className="display-tittle"> Keep track of fruits </div>
+              <p>
+               with knowing what fruits they have, users could make <HighLightOnVisible className="highlight-fruito">reasonable fruits purchasing plan</HighLightOnVisible>, which save both money and time.
+              </p>
+              <div className="display-tittle"> Give advice about fruits purchase </div>
+              <p>
+               with knowing how much fruits user’s body need, they could <HighLightOnVisible className="highlight-fruito">avoid over-purchasing</HighLightOnVisible>. The app also encourages to eat seasonal fruits.
+              </p>
+              <div className="project-img-div-long">
+              <img
+              src='fruito/group-22@2x.png'/>
+              </div>
+              <section className="content-block1" >
+                <div className="section-title1">Store properly</div>
+              </section>
+              <div className="display-tittle"> Give advice about how long the fruits could be kept </div>
+              <p>
+               Users can plan their fruits eating
+              </p>
+              <div className="display-tittle"> The way to store the fruit properly </div>
+              <p>
+               Users are able to keep fruits fresh longer.
+              </p>
+              <div className="project-img-div-long">
+              <img
+              src='fruito/group-21@2x.png'/>
+              </div>
+              <section className="content-block1" >
+                <div className="section-title1">Eat happily</div>
+              </section>
+              <div className="display-tittle"> Interactions with the character makes eating fun </div>
+              <p>
+               Gamify eating fruits
+              </p>
+              <div className="display-tittle"> Remind when fruits starts to getting bad </div>
+              <p>
+               Plan eating fruits
+              </p>
+              <div className="display-tittle"> Data viz accomplishment for eating fruits </div>
+              <p>
+               Reward eating fruits
+              </p>
+              <div className="project-img-div-long">
+              <img className="small_pic"
+              src='fruito/group-20@2x.png'/>
+              </div>
+              <section className="content-block1" id={'into-the-details1'}>
+                <div className="section-title1">Reuse wisely</div>
+              </section>
+              <div className="display-tittle"> Offer advice when fruits are stale </div>
+              <p>
+               Reuse fruits in your benefits
+              </p>
+              <div className="project-img-div-long">
+              <img
+              src='fruito/i-phone-8-copy-27@2x.png'/>
+              </div>
               <section className="content-block" id={'challenge'}>
-                <div className="section-title"> 01_challenge </div>
+                <div className="section-title"> | challenge |</div>
               </section>
               <div className="section-sub-title"> How to prevent fruit waste? </div>
               <p>
@@ -95,7 +163,7 @@ export class Fruito extends Component {
                 As we were both far from home, newly moved to New York, and had busy study schedules, we went nuts everyday. Even worse Peipei’s parent constantly pushed her to eat veggies and fruits to stay healthy. She bought them every week but she forgot to eat them from time to time. So when she pull her black bananas out of the refrigerator with a desperate howl <HighLightOnVisible className="highlight-fruito">the third time that month</HighLightOnVisible>, I decided to do something.
               </p>
                <section className="content-block" id={'research'}>
-                <div className="section-title"> 02_research </div>
+                <div className="section-title"> | research | </div>
               </section>
               <div className="section-sub-title"> Start with target audience </div>
                <p>
@@ -195,7 +263,7 @@ export class Fruito extends Component {
               src='fruito/reuse@2x.png'/>
               </div>
                <section className="content-block" id={'goal-definition-metrics'}>
-                <div className="section-title">03_Goal Definition & Metrics</div>
+                <div className="section-title">| Goal Definition & Metrics |</div>
               </section>
               <div className="section-sub-title"> Improve fruits management experience for everyone, everywhere </div>
               <p>
@@ -239,74 +307,9 @@ export class Fruito extends Component {
 
 
 
-              <p>
-                In a fast-pasing world, everything seems out of control, Fruito <HighLightOnVisible className="highlight-fruito">gives your control back</HighLightOnVisible> by making fruits management smooth, effortless and flexible.
-              </p>
-              <section className="content-block1" >
-                <div className="section-title1">Purchase reasonably</div>
-              </section>
-              <div className="display-tittle"> Keep track of fruits </div>
-              <p>
-               with knowing what fruits they have, users could make <HighLightOnVisible className="highlight-fruito">reasonable fruits purchasing plan</HighLightOnVisible>, which save both money and time.
-              </p>
-              <div className="display-tittle"> Give advice about fruits purchase </div>
-              <p>
-               with knowing how much fruits user’s body need, they could <HighLightOnVisible className="highlight-fruito">avoid over-purchasing</HighLightOnVisible>. The app also encourages to eat seasonal fruits.
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/group-22@2x.png'/>
-              </div>
-              <section className="content-block1" >
-                <div className="section-title1">Store properly</div>
-              </section>
-              <div className="display-tittle"> Give advice about how long the fruits could be kept </div>
-              <p>
-               Users can plan their fruits eating
-              </p>
-              <div className="display-tittle"> The way to store the fruit properly </div>
-              <p>
-               Users are able to keep fruits fresh longer.
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/group-21@2x.png'/>
-              </div>
-              <section className="content-block1" >
-                <div className="section-title1">Eat happily</div>
-              </section>
-              <div className="display-tittle"> Interactions with the character makes eating fun </div>
-              <p>
-               Gamify eating fruits
-              </p>
-              <div className="display-tittle"> Remind when fruits starts to getting bad </div>
-              <p>
-               Plan eating fruits
-              </p>
-              <div className="display-tittle"> Data viz accomplishment for eating fruits </div>
-              <p>
-               Reward eating fruits
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/group-20@2x.png'/>
-              </div>
-              <section className="content-block1" id={'into-the-details1'}>
-                <div className="section-title1">Reuse wisely</div>
-              </section>
-              <div className="display-tittle"> Offer advice when fruits are stale </div>
-              <p>
-               Reuse fruits in your benefits
-              </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/i-phone-8-copy-27@2x.png'/>
-              </div>
-
-
 
               <section className="content-block" id={'workflow'}>
-                <div className="section-title">04_Workflow</div>
+                <div className="section-title">| Workflow |</div>
               </section>
               <div className="section-sub-title">Start doing is more important than doing perfect.</div>
               <p>
@@ -317,7 +320,7 @@ export class Fruito extends Component {
               src='fruito/workflow@2x.png'/>
               </div>
                <section className="content-block" id={'wireframes'}>
-                <div className="section-title">05_Wireframes</div>
+                <div className="section-title">| Wireframes |</div>
               </section>
               <div className="section-sub-title">Improve fruits management experience for everyone, everywhere</div>
               <div className="display-tittle">1. How to record fruits purchase</div>
@@ -347,7 +350,7 @@ export class Fruito extends Component {
 
 
               <section className="content-block" id={'visual-design'}>
-                <div className="section-title">05_Visual Design</div>
+                <div className="section-title">| Visual Design |</div>
               </section>
               <div className="section-sub-title">Users can hate and love your design at the same time.</div>
               <p>
@@ -368,7 +371,7 @@ export class Fruito extends Component {
               </div>
               <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
                <section className="content-block" id={'work-with-developers'}>
-                <div className="section-title"> 06_Work with Developers</div>
+                <div className="section-title">| Work with Developers |</div>
               </section>
               <div className="section-sub-title">As organized as possible</div>
               <p>Our team of two are actively building Fruito 1.0 in our leisure time.</p>
@@ -378,15 +381,19 @@ export class Fruito extends Component {
               </div>
 
              <section className="content-block" id={'demo'}>
-                <div className="section-title"> 06_Demo </div>
+                <div className="section-title">| Demo |</div>
               </section>
               <div className="section-sub-title">Embrace the machine learning tech!</div>
-              <p>In July, we took <u>ATT Hackathon</u> and really had a good time working with other developers and designers. We used core ML the first time to improve the adding fruits experience.</p>
-              <div className="project-img-div-long">
+              <p>In July, we took <a href="https://www.hackathon.com/event/att-entertainment-hackathon---bay-area-46506954553"><u>ATT Hackathon</u></a> and really had a good time working with other developers and designers. We used core ML the first time to improve the adding fruits experience.</p>
+               <div className="project-img-div-long">
               <img
               src='fruito/att_bg@2x.png'/>
               </div>
               <h5>Take a glimpse of the Hackathon version</h5>
+              <div className="image_carousel screen-rec">
+              <iframe src="https://player.vimeo.com/video/284776865?autoplay=1&loop=1&autopause=0" allow="autoplay" width="240" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+
               <div className="little-blue-blink">
               <div>Let‘s prevent fruit waste togather!<img className="lbb" src="fruito/little-blue-blink.gif" height="80px" ></img></div>
               </div>

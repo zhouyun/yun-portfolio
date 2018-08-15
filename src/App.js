@@ -121,7 +121,6 @@ class Home extends Component {
           <Link to="/work/palmdrive">
             <div className="img-block" >
               <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
-              <img className="project-image palmdrive-home bg" src="home/pd/bg-pd@2x.png"/>
               <img className="project-image palmdrive-home" src="home/pd/palmdrive@2x.png"/>
             </div>
             <div className="text-block">
@@ -142,7 +141,7 @@ class Home extends Component {
             </div>
             <div className="text-block">
               <div className="project-title">Fruito</div>
-              <div className="project-description">A self-published iOS fruits management app</div>
+              <div className="project-description">An iOS fruits management app</div>
               <span className="label">Mobile App</span>
               <span className="label">Product Design</span>
               <span className="label">Interaction Design</span>

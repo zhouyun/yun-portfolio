@@ -70,7 +70,7 @@ export class Transaction extends Component {
 		      		<div className="btn-text">Go to website</div>
       				</a>
       				</div>
-      		<div id={'challenge'}>
+      		<div className="content-block" id={'challenge'}>
 	          <div className="section-title"> 01_Challenge </div>
 	        </div>
 	        <div className="section-sub-title"> UX design of transactions and data visualizing </div>

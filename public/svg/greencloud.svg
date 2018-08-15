@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="561px" height="397px" viewBox="0 0 561 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
+    <title>greencloud</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <radialGradient cx="50%" cy="45.697284%" fx="50%" fy="45.697284%" r="74.8928765%" gradientTransform="translate(0.500000,0.456973),scale(0.756584,1.000000),rotate(87.524525),translate(-0.500000,-0.456973)" id="radialGradient-1">
-            <stop stop-color="#EBEFF5" offset="0%"></stop>
-            <stop stop-color="#E4E7ED" offset="74.9985599%"></stop>
-            <stop stop-color="#BFCCE0" offset="100%"></stop>
-        </radialGradient>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M414.629388,15.0070407 C516.087388,0.714040675 585.221388,48.5680407 546.531388,141.213041 C507.841388,233.857041 380.260388,227.565041 283.541388,318.001041 C186.821388,408.437041 130.668388,374.981041 41.9583876,272.498041 C-46.7516124,170.015041 93.8603876,132.597041 125.626388,9.16104068 C157.392388,-114.273959 313.171388,29.3010407 414.629388,15.0070407 Z" id="Shape" fill="url(#radialGradient-1)" fill-rule="nonzero" transform="translate(285.224024, 164.623188) rotate(-160.000000) translate(-285.224024, -164.623188) "></path>
+        <g id="greencloud" transform="translate(-41.000000, -122.000000)" fill="#9FE6D7" fill-rule="nonzero">
+            <path d="M455.629388,137.00704 C557.087388,122.71404 626.221388,170.56804 587.531388,263.21304 C548.841388,355.85704 421.260388,349.56504 324.541388,440.00104 C227.821388,530.43704 171.668388,496.98104 82.9583872,394.49804 C-5.75161282,292.01504 134.860387,254.59704 166.626388,131.16104 C198.392388,7.72603998 354.171388,151.30104 455.629388,137.00704 Z" id="Shape" transform="translate(326.224024, 286.623187) rotate(-160.000000) translate(-326.224024, -286.623187) "></path>
+        </g>
     </g>
 </svg>
