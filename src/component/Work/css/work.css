@@ -481,6 +481,70 @@ h3{
   margin-left: -20%;
   margin-top: 332px;
 }
+
+.fruito-intro-wrap {
+  overflow: visible;
+  position: relative; 
+  z-index: -1;
+  width: 1000px;
+  margin-left: -166px;
+}
+.fruito-intro-img {
+  height: 1000px;
+  width: 900px;
+  margin: 41px 0px; 
+  position: relative; 
+}
+.intro-how-fruito {
+  margin-top: -980px;
+  width: 300px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #44424d;
+}
+.fruito-display-wrap {
+  margin-top: -450px;
+  margin-left: 42%;
+}
+.fruito-display-1 {
+  z-index: 2;
+  position: relative;
+}
+.fruito-display-2 {
+  margin-left: -440px;
+  margin-top: -200px;
+  z-index: 1;
+  position: relative;
+}
+.slider {
+  margin-left: -110px;
+  width: 784px;
+  margin-top: 50px;
+}
+.slider-wrap {
+  padding: 10%;
+}
+.slick-prev {
+
+}
+.slick-prev {
+  
+}
+.fruito-laptop {
+  margin-left: -2%;
+  width: 1448px;
+  margin-top: -882px;
+  z-index: -1;
+  position: relative;
+}
+.fruito-mobile {
+  margin-left: -13%;
+  height: 800px;
+}
+.slick-dots {
+  bottom: 100px;
+}
 @media (max-width: 767px){
   .side-bar {
     display: none;
