@@ -81,7 +81,23 @@ export class Palmdrive extends Component {
 		      		<a href="http://palmdrive.cn/">
 		      		<div className="rectangle-button-bg"></div>
 		      		<div className="btn-text">Go to website</div>
-      				</a></div>
+      				</a>
+      				</div>
+      				<section className="content-block palmdrive-intro">
+      					<div className="palmdrive-intro-wrap">
+      						<img className="palmdrive-intro-img" src="palmdrive/bg-seed@2x.png">
+      						</img>
+      					</div>
+      					<div className="intro-how"><span className="first-word">How</span> to create a platform that presents information properly on all kinds of devices, and at the same time leads potential subscribers to further contact?</div>
+      					<div className="rectangle-division"></div>
+      					<div className="intro-with"><span className="first-word">With</span> the belief of helping more Chinese students study abroad, Palmdrive website operates as an entrance for students to study abroad with free resource and high-end service.</div>
+      					<div className="green-circle"></div>
+      					<img className="palmdrive-laptop img" src="palmdrive/palmdrive-display@2x.png">
+      					</img>
+      					<div className="blue-circle"></div>
+      					<img className="palmdrive-browser img" src="palmdrive/group-copy-3@2x.png">
+      					</img>
+			        </section>
 		      		<section className="content-block" id={'challenge'}>
 			          <div className="section-title"> 01_Challenge </div>
 			        </section>
@@ -188,7 +204,7 @@ export class Palmdrive extends Component {
 		             </div>
 		             <h5>Design delivery of Graduate Service Page</h5>
 		             <div><img/></div>
-		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></iframe>
+		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></iframe>
 		             <h5>Interaction design with Flinto of High School Page</h5>
 		             <section className="content-block" id={'the-end-or-not'}>
 			          <div className="section-title"> 07_The end or not </div>
