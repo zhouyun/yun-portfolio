@@ -369,8 +369,9 @@ export class Fruito extends Component {
               src='fruito/att_bg@2x.png'/>
               </div>
               <h5>Take a glimpse of the Hackathon version</h5>
-              <div className="image_carousel screen-rec">
-              <iframe src="https://player.vimeo.com/video/284776865?autoplay=1&loop=1&autopause=0" allow="autoplay" width="240" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <div className="screen-rec">
+              <img className="iphone" src="svg/iPhoneX.svg"/>
+              <iframe className="image_carousel" src="https://player.vimeo.com/video/284776865?autoplay=1&loop=1&autopause=0" allow="autoplay" width="240" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
 
               <div className="little-blue-blink">

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {Header, Footer, SNSIcon} from './component';
+import {Header, Footer, SNSIcon, HighLightOnVisible} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume,Fruito} from './component';
 import createHashHistory from 'history/createBrowserHistory'
