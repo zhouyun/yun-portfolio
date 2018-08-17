@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GothamBook', 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -52,7 +52,7 @@
   justify-content: space-between;
 }
 .Hi-Im-Yun {
-  font-family: 'Montserrat-Regular', 'Montserrat', sans-serif;
+  font-family: 'GothamMedium', 'Montserrat-Regular', 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 800;
   font-style: normal;
@@ -64,7 +64,7 @@
 }
 
 .UI-designer-Be {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GothamBook', 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
@@ -275,7 +275,7 @@
 }
 
 .project-title {
-  font-family: "Montserrat-Regular","Montserrat";
+  font-family: 'Gotham-Bold', "Montserrat-Regular","Montserrat";
   font-size: 28px;
   font-weight: 800;
   font-stretch: normal;
@@ -296,7 +296,7 @@
 }
 
 .view-case {
-  font-family: "Montserrat-Regular","Montserrat";
+  font-family: 'Gotham-Bold', "Montserrat-Regular","Montserrat";
   display: flex;
   align-items: center;
   height: 60px;
@@ -350,7 +350,7 @@
 }
 
 .footer {
-  font-family: "Montserrat";
+  font-family: 'GothamBook', "Montserrat";
   box-sizing: border-box;
   margin-top: 48px;
   width: 100%;
