@@ -33,10 +33,10 @@ export class Palmdrive extends Component {
         <Sidebar
           title={'Palmdrive'}
           items={[
-            {
+            /*{
               text: "Intro",
               anchor: "#intro",
-            },
+            },*/
             {
               text: "Challenge",
               anchor: "#challenge",
@@ -99,33 +99,29 @@ export class Palmdrive extends Component {
       					</img>
 			        </section>
 		      		<section className="content-block" id={'challenge'}>
-			          <div className="section-title"> 01_Challenge </div>
+			          <div className="section-title">| Challenge |</div>
 			        </section>
 			        <div className="section-sub-title"> Website plays a crucial role as both displaying and selling. </div>
 		      		<p>
-		      			To understand the business model and get feedbacks to be fully prepare for the mission, I</p>
+		      		To keep up with our expanding services, I was in charge of the website redesign which aimed to</p>
 					<p>
 					•  Provide school application related resource<br/>
 					•  Introduce our service with user friendly experience
 					</p>
-					<p>
-					My work includes information architect maintain, copy editing, website design, project management and cross-teams coordinating. 
-
-					</p>
 					
 					<section className="content-block" id={'information-architecture'}>
-			          <div className="section-title"> 02_Information Architecture </div>
+			          <div className="section-title">| Information Architecture |</div>
 			        </section>
 			        <div className="section-sub-title"> Deliver scalable information architecture with every stakeholder </div>
 			        <p>
-		      			The website had some ground work before I was in charge. To keep up with our expanding services, my challenge was to create a platform which aims to</p>
+		      			To understand the <HighLightOnVisible className="highlight-fruito">business model</HighLightOnVisible> and get feedbacks to be fully prepare for the mission, I</p>
 					<p>
 					•  Interviewed our sales, marketing and service teams<br/>
 					•  Participated the sales and service training<br/>
 					•  Mentored students
 					</p>
 		      		<p>
-					All the efforts lead me to create a clear and scalable information architecture as the following. 
+					All the efforts led me to create a clear and scalable information architecture as the following. 
 					</p>
 					 <div className="project-img-div-long hd">
 		                <img
@@ -134,11 +130,11 @@ export class Palmdrive extends Component {
 		             </div>
 			       <h5>The information architecture of present Palmdrive Website</h5>
 			       <section className="content-block" id={'goal-definition-metrics'}>
-			          <div className="section-title"> 03_Goal Definition & Metrics </div>
+			          <div className="section-title">| Goal Definition & Metrics |</div>
 			        </section>
 			        <div className="section-sub-title"> Google analytics help deepen the understanding </div>
 			        <p>
-		      			Google analytics gave great hint about how visitors interacted with our website. Since visiting the Service page was the sign of being interested in our service, my first priority was to</p>
+		      			Google analytics gave a great hint about <HighLightOnVisible className="highlight-fruito">how visitors interacted</HighLightOnVisible> with our website. Since visiting the Service page was the sign of being interested in our service, my first priority was to</p>
 					<p>
 					•  Increase the traffic to the page <br/>
 					•  Decrease the bounce rate
@@ -149,7 +145,7 @@ export class Palmdrive extends Component {
 		              	/>
 		             </div>
 		             <section className="content-block" id={'wireframes-content'}>
-			          <div className="section-title"> 04_Wireframes & Content </div>
+			          <div className="section-title">| Wireframes & Content |</div>
 			        </section>
 			        <div className="section-sub-title"> Design for content </div>
 			        <p>
@@ -166,7 +162,7 @@ export class Palmdrive extends Component {
 		              	/>
 		             </div>
 		             <section className="content-block" id={'visual-design'}>
-			          <div className="section-title"> 05_Visual Design </div>
+			          <div className="section-title">| Visual Design |</div>
 			        </section>
 			        <div className="section-sub-title"> Design with flexibility </div>
 			        <p>
@@ -179,7 +175,7 @@ export class Palmdrive extends Component {
 		             <h5>Design details of Graduate Showcase Page</h5>
 		             <div className="section-sub-title"> Design for all devices </div>
 			        <p>
-		      			As over half of the website visits are from mobile, the responsiveness of the website is important and necessary.</p>
+		      			As over half of the website visits are from mobile, the <HighLightOnVisible className="highlight-fruito">responsiveness</HighLightOnVisible> of the website is important and necessary.</p>
 					 <div className="project-img-div-long">
 		                <img
 		                src='palmdrive/mobile-design@2x.png' 
@@ -187,14 +183,14 @@ export class Palmdrive extends Component {
 		             </div>
 		              <div className="section-sub-title"> Visual Consistency </div>
 			        <p>
-		      			For all the pages that I designed, I used repetitive elements to make the website as a whole.</p>
+		      			For all the pages that I designed, I used <HighLightOnVisible className="highlight-fruito">repetitive elements</HighLightOnVisible> to make the website as a whole.</p>
 					 <div className="project-img-div-long">
 		                <img
 		                src='palmdrive/visual-consistency@2x.png' 
 		              	/>
 		             </div>
 		              <section className="content-block" id={'work-with-developers'}>
-			          <div className="section-title"> 06_Work with Developers </div>
+			          <div className="section-title">| Work with Developers |</div>
 			        </section>
 			        <div className="section-sub-title"> Show every details </div>
 					 <div className="project-img-div-long">
@@ -204,10 +200,10 @@ export class Palmdrive extends Component {
 		             </div>
 		             <h5>Design delivery of Graduate Service Page</h5>
 		             <div><img/></div>
-		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></iframe>
+		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay allow="autoplay"></iframe>
 		             <h5>Interaction design with Flinto of High School Page</h5>
 		             <section className="content-block" id={'the-end-or-not'}>
-			          <div className="section-title"> 07_The end or not </div>
+			          <div className="section-title">| The end or not |</div>
 			        </section>
 			        <div className="section-sub-title"> Teamwork rocks </div>
 					 <p>Thanks to all the efforts on the new responsive and visual consistent website, the result turns out to be beyond our expectation.</p>
