@@ -76,6 +76,9 @@ p:last-of-type {
   box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
   margin:20px 0;
 }
+.hide {
+  display: none;
+}
 .side-bar {
   padding: 12px;
   border-radius: 3px;

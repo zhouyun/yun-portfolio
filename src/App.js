@@ -104,25 +104,12 @@ class Home extends Component {
           <div className="UI-designer-Be">A visual & UX designer who designs visually and logically,<br/> currently located in Bay Area, CA.</div>
         </div>
         <SNSIcon/>
-        {/* <div ref={this._navPositioner} className="divider">
-          <Link to="/work/newyear">-WORK-</Link>
-          <Link to="/about">-ABOUT-</Link>
-          <Link to="/resume">-RESUME-</Link>
-        </div> */}
-        {/*<div className="project-section">
-                <div className="img-block" src={logo}>
-                </div>
-                <div className="text-block">
-                  Fruits Management App
-                </div>
-              </div>*/}
-         
         <div className="project-section project-palmdrive-section">
           <Link to="/work/palmdrive">
             <div className="img-block" >
               <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
               <img className="project-image palmdrive-home bg" src="home/pd/bg-pd@2x.png"/>
-              <img className="project-image palmdrive-home" src="home/pd/palmdrive@2x.png"/>
+              <img className="project-image palmdrive-home palmdrive-home-device" src="home/pd/palmdrive@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">Palmdrive</div>
@@ -136,11 +123,13 @@ class Home extends Component {
         </div>
         <div className="project-section project-new-year-section">
           <Link to="/work/fruito">
-            <div className="img-block">
+            <div className="img-block-right">
               <img className="background-cloud greenblue-cloud" src="svg/greenbluecloud.svg"/>
-              <img className="project-image fruito-home" src="home/fruito/group-9@2x.png"/>
+              <img className="project-image palmdrive-home bg" src="home/fruito/bg-fruito@2x.png"/>
+              <img className="project-image fruito-home fruito-home-device1" src="home/fruito/fruito-1@2x.png"/>
+              <img className="project-image fruito-home fruito-home-device2" src="home/fruito/fruito-2@2x.png"/>
             </div>
-            <div className="text-block">
+            <div className="text-block-left">
               <div className="project-title">Fruito</div>
               <div className="project-description">A self-published iOS fruits management app</div>
               <span className="label">Mobile App</span>
@@ -153,8 +142,9 @@ class Home extends Component {
         <div className="project-section project-new-year-section">
           <Link to="/work/newyear">
             <div className="img-block">
-              <img className="background-cloud" src="svg/bluecloud.svg"/>
-              <img className="project-image newyear-home" src="home/group-2/group-2@2x.png"/>
+              <img className="background-cloud" src="svg/greenbluecloud.svg"/>
+              <img className="project-image palmdrive-home bg" src="home/nye/bg-nye@2x.png"/>
+              <img className="project-image newyear-home newyear-home-device" src="home/group-2/group-2@2x.png"/>
             </div>
             <div className="text-block">
               <div className="project-title">New Year Event</div>
@@ -168,11 +158,13 @@ class Home extends Component {
         </div>
         <div className="project-section">
           <Link to="/work/transaction">
-            <div className="img-block">
+            <div className="img-block-right">
               <img className="background-cloud purple-cloud" src="svg/purplecloud.svg"/>
-              <img className="project-image transaction-home" src="home/group-3/group-3@2x.png"/>
+              <img className="project-image palmdrive-home bg" src="home/pefin/bg-pefin@2x.png"/>
+              <img className="project-image transaction-home transaction-home-device1" src="home/pefin/pefin-1@2x.png"/>
+              <img className="project-image transaction-home transaction-home-device2" src="home/pefin/pefin-2@2x.png"/>
             </div>
-            <div className="text-block">
+            <div className="text-block-left">
               <div className="project-title">Pefin</div>
               <div className="project-description">Transaction management design for a web-based financial software</div>
               <span className="label">Website</span>
@@ -183,7 +175,7 @@ class Home extends Component {
         </div>
         <div className="project-section">
           <Link to="/work/graphic">
-            <div className="img-block" >
+            <div className="img-block img-block-origin" >
               <img className="background-cloud" src="svg/pinkcloud.svg"/>
               <div className="graphic-label">2013-present</div>
             </div>

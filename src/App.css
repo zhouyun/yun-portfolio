@@ -171,6 +171,35 @@
   margin-top: -900px;
   position: relative;
 }
+.palmdrive-home-device{
+  margin-top: -1200px;
+  margin-left: 200px;
+}
+.fruito-home-device1{
+  position: absolute;
+  right: 960px;
+  bottom: 200px;
+}
+.fruito-home-device2{
+  position: absolute;
+  right: 500px;
+  bottom: 200px;
+}
+.transaction-home-device1{
+  position: absolute;
+  right: 860px;
+  bottom: 100px;
+}
+.transaction-home-device2{
+  position: absolute;
+  right: 160px;
+  bottom: 100px;
+}
+.newyear-home-device{
+  margin-top: -1200px;
+  margin-left: 100px;
+
+}
 .project-image.bg{
   margin-left: -200px;
 }
@@ -186,11 +215,40 @@
   fill: #c5bfde;
 }
 .img-block {
+  /*float: left;*/
+  /*width: 50%;*/
+}
+.img-block {
+  position: relative;
   float: left;
   width: 50%;
+  right: 8%;
 }
+.img-block-right{
+  left: 8%;
+  position: relative;
+  float: right;
+  width: 50%;
+}
+.img-block-origin {
+  right: 0;
+}
+/*.text-block {
+  position: relative;
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 8% 0 0 4%;
+}*/
 .text-block {
   left: 8%;
+  position: relative;
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+.text-block-left {
+  /*left: 8%;*/
   position: relative;
   float: right;
   width: 50%;
@@ -421,13 +479,41 @@
     margin-left: 0px !important;
     margin-bottom: 30px;
   }
+  .project-image.bg {
+    margin-left: 0px; 
+  }
   .img-block{
     width: 100% !important;
+  }
+  .img-block-right{
+    width: 100% !important;
+  }
+  .fruito-home-device1{
+    position: absolute;
+    right: 430px;
+    bottom: 100px;
+  }
+  .fruito-home-device2{
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+  }
+  .transaction-home-device1{
+    position: absolute;
+    width: 70%;
+    right: 230px;
+    bottom: 60px;
+  }
+  .transaction-home-device2{
+    display: none;
   }
   .nav-item{
   margin: 20px 0;
   }
   .text-block{
+    width:100%;
+  }
+  .text-block-left{
     width:100%;
   }
   .project-description{
@@ -440,7 +526,15 @@
     width: 40%;
     margin-top: -600px;
   }
-  .palmdrive-home, .transaction-home, .newyear-home{
+  .palmdrive-home{
+    width: 80%;
+    margin-top: -600px;
+  }
+  .transaction-home{
+    width: 80%;
+    margin-top: -600px;
+  }
+  .newyear-home{
     width: 80%;
     margin-top: -600px;
   }

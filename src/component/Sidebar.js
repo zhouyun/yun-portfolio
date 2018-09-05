@@ -19,6 +19,26 @@ class SidebarItem extends Component {
   _getDisplayedIndex(index): string {
     return index < 10 ? `0${index}` : `${index}`;
   }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.orderScroll.bind(this));
+  }
+
+  orderScroll() {
+    const doc = document.documentElement;
+    let show = false;
+    let top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+    if( top > 1000 ) {
+      console.log(show);
+      document.getElementsByClassName("side-bar");
+      show = true;
+    } else {
+      show = false;
+    }
+    console.log(top);
+    console.log('scroll');
+    return show;
+  }
   render() {
     const {
       anchor,
@@ -117,7 +137,7 @@ export class Sidebar extends Component {
     );
 
     return (
-      <div className="side-bar">
+      <div className={"side-bar " + (this.show ? '' : 'hide')}>
         <div className="side-bar-header">
           {this.props.title}
         </div>
