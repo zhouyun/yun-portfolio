@@ -26,7 +26,8 @@ class SidebarItem extends Component {
 
   orderScroll() {
     const doc = document.documentElement;
-    let show = false;
+    let hide = false;
+    let show = true;
     let top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
     if( top > 1000 ) {
       console.log(show);
@@ -137,7 +138,7 @@ export class Sidebar extends Component {
     );
 
     return (
-      <div className={"side-bar " + (this.show ? '' : 'hide')}>
+      <div className={"side-bar " + (this.hide &&'hide')}>
         <div className="side-bar-header">
           {this.props.title}
         </div>
