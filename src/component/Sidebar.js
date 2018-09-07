@@ -30,14 +30,11 @@ class SidebarItem extends Component {
     let show = true;
     let top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
     if( top > 1000 ) {
-      console.log(show);
       document.getElementsByClassName("side-bar");
       show = true;
     } else {
       show = false;
     }
-    console.log(top);
-    console.log('scroll');
     return show;
   }
   render() {

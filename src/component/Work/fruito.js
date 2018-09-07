@@ -7,12 +7,40 @@ import Slider from "react-slick";
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
+export const SampleNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style}}
+      onClick={onClick}
+    >
+      <img className="img" src="fruito/up-1@2x.png"/>
+    </div>
+  );
+}
+
+export const SamplePrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style}}
+      onClick={onClick}
+    >
+      <img style={{ ...style, marginLeft:"-60px" }} className="img" src="fruito/up-1-copy@2x.png"/>
+    </div>
+  );
+}
+
 const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
 
 export class Fruito extends Component {
@@ -107,26 +135,49 @@ export class Fruito extends Component {
                   <div className="slider-wrap">
                     <img className="fruito-mobile img" src="fruito/display-1@2x.png">
                     </img>
-                    <img className="fruito-laptop img" src="fruito/bg-1@2x.png">
-                    </img>
+                    <div className="fruito-laptop fruito-bg-1">
+                      <div className="fruito-slick-title">Purchase reasonably</div>
+                      <div className="fruito-slick-subtitle">Keep track of fruits</div>
+                      <div className="fruito-slick-content">with knowing what fruits they have, users could make reasonable fruits purchasing plan, which save both money and time.</div>
+                      <div className="fruito-slick-subtitle">Give advice about fruits purchase</div>
+                      <div className="fruito-slick-content">with knowing how much fruits user’s body need, they could avoid over-purchasing. The app also encourages to eat seasonal fruits.</div>
+                    </div>
                   </div>
                   <div className="slider-wrap">
                     <img className="fruito-mobile img" src="fruito/display-2@2x.png">
                     </img>
-                    <img className="fruito-laptop img" src="fruito/bg-2@2x.png">
-                    </img>
+                    <div className="fruito-laptop fruito-bg-2">
+                      <div className="fruito-slick-title">Store properly</div>
+                      <div className="fruito-slick-subtitle">Give advice about how long the fruits could be kept</div>
+                      <div className="fruito-slick-content">Users can plan their fruits eating</div>
+                      <div className="fruito-slick-subtitle">The way to store the fruit properly</div>
+                      <div className="fruito-slick-content">Users are able to keep fruits fresh longer.
+                      </div>
+                      <div className="fruito-slick-subtitle">The way to store the fruit properly</div>
+                      <div className="fruito-slick-content">Users are able to keep fruits fresh longer.</div>
+                    </div>
                   </div>
                   <div className="slider-wrap">
                     <img className="fruito-mobile img" src="fruito/display-3@2x.png">
                     </img>
-                    <img className="fruito-laptop img" src="fruito/bg-3@2x.png">
-                    </img>
+                    <div className="fruito-laptop fruito-bg-3">
+                      <div className="fruito-slick-title">Eat happily</div>
+                      <div className="fruito-slick-subtitle">Interactions with the character makes eating fun</div>
+                      <div className="fruito-slick-content">Gamify eating fruits</div>
+                      <div className="fruito-slick-subtitle">Remind when fruits starts to getting bad</div>
+                      <div className="fruito-slick-content">Plan eating fruits</div>
+                      <div className="fruito-slick-subtitle">Data viz accomplishment for eating fruits</div>
+                      <div className="fruito-slick-content">Reward eating fruits</div>
+                    </div>
                   </div>
                   <div className="slider-wrap">
                     <img className="fruito-mobile img" src="fruito/display-4@2x.png">
                     </img>
-                    <img className="fruito-laptop img" src="fruito/bg-4@2x.png">
-                    </img>
+                    <div className="fruito-laptop fruito-bg-4">
+                      <div className="fruito-slick-title">Reuse wisely</div>
+                      <div className="fruito-slick-subtitle">Offer advice when fruits are stale</div>
+                      <div className="fruito-slick-content">Reuse fruits in your benefits</div>
+                    </div>
                   </div>
                 </Slider>
                 
@@ -225,23 +276,25 @@ export class Fruito extends Component {
               <p>
               The answers are categorized as beblow—
               </p>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/purchase@2x.png'/>
-              </div>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/eat@2x.png'/>
-              </div>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/store@2x.png'/>
-              </div>
-              <div className="project-img-div-long">
-              <img
-              src='fruito/reuse@2x.png'/>
-              </div>
-               <section className="content-block" id={'goal-definition-metrics'}>
+              <Slider {...settings}>
+                <div className="project-img-div-long">
+                  <img
+                src='fruito/purchase@2x.png'/>
+                </div>
+                <div className="project-img-div-long">
+                  <img
+                src='fruito/eat@2x.png'/>
+                </div>
+                <div className="project-img-div-long">
+                  <img
+                src='fruito/store@2x.png'/>
+                </div>
+                <div className="project-img-div-long">
+                  <img
+                src='fruito/reuse@2x.png'/>
+                </div>
+              </Slider>
+              <section className="content-block" id={'goal-definition-metrics'}>
                 <div className="section-title">| Goal Definition & Metrics |</div>
               </section>
               <div className="section-sub-title"> Improve fruits management experience for everyone, everywhere </div>
