@@ -204,9 +204,9 @@ export class Work extends Component {
 		        <div className="content-block" id={'teamwork'}>
 		        	<div className="section-title">05_Teamwork</div>
 		        </div>
-		        <div className="section-sub-title">Design Team X Marketing Team</div>
+		        <div className="section-sub-title">Design Team X Marketing Team X Innovators</div>
 		        <p>
-		        	Aside the New Year Event, our design team collaborated with marketing team to launch other <HighLightOnVisible className="highlight-newyear">136 branding events nationwide</HighLightOnVisible>, deeply engaging <HighLightOnVisible className="highlight-newyear">more than 6,000</HighLightOnVisible> college students. To promote those events, we created <HighLightOnVisible className="highlight-newyear">posters, brochures, H5 ads, videos, web ads, web-based games and etc</HighLightOnVisible>. This directly leads to mainland China sales revenue grew by 233% from 1 to <HighLightOnVisible className="highlight-newyear">3.33 million USD</HighLightOnVisible> in 2 years, increasing market share by 2.5%.
+		        	Aside the New Year Event, our design team collaborated with marketing team to launch other <HighLightOnVisible className="highlight-newyear">136 branding events nationwide</HighLightOnVisible>, deeply engaging <HighLightOnVisible className="highlight-newyear">more than 6,000</HighLightOnVisible> college students. Moreover, we hosted campus events with innovators like Linkedin, Mobike, Ofo, China Merchants Bank and etc. To promote those events, we created <HighLightOnVisible className="highlight-newyear">posters, brochures, H5 ads, videos, web ads, web-based games and etc</HighLightOnVisible>. This directly leads to mainland China sales revenue grew by 233% from 1 to <HighLightOnVisible className="highlight-newyear">3.33 million USD</HighLightOnVisible> in 2 years, increasing market share by 2.5%.
 		        </p>
 	      	</div>
 	      </div>

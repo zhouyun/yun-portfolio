@@ -90,7 +90,7 @@ export class Palmdrive extends Component {
       					</div>
       					<div className="intro-how"><span className="first-word">How</span> to create a platform that presents information properly on all kinds of devices, and at the same time leads potential subscribers to further contact?</div>
       					<div className="rectangle-division"></div>
-      					<div className="intro-with"><span className="first-word">With</span> the belief of helping more Chinese students study abroad, Palmdrive website operates as an entrance for students to study abroad with free resource and high-end service.</div>
+      					<div className="intro-with"><span className="display-tittle">My Role</span><br/> I collabrated with a developer and directly worked with sales, marketing and service teams. In charge of information architect, copy editing, UX/UI design, project management.</div>
       					<div className="green-circle"></div>
       					<img className="palmdrive-laptop img" src="palmdrive/palmdrive-display@2x.png">
       					</img>

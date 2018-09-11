@@ -94,11 +94,11 @@ export class Fruito extends Component {
                   </img>
                 </div>
                 <div className="intro-how-fruito">
-                  <span className="first-word">How</span>  to prevent fruits waste?
-                    Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.
+                  <span className="first-word">How</span> to prevent fruit waste? Each year, about <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>$218 billion</u></a> of food in the United States are thrown out.  Fruits and vegetable have the highest wastage rates of any food products and take <a href="https://www.newsmax.com/ScottRasmussen/consumption-household-nrdc/2017/11/17/id/826775/"><u>39%</u></a> of all the wasted food by household.
                 </div>
                 <div className="rectangle-division"></div>
-                <div className="intro-with"><span className="first-word">In</span> a fast-pasing world, everything seems out of control, Fruito gives your control back by making fruits management smooth, effortless and flexible.</div>
+                <div className="intro-with">
+                <span className="display-tittle">My Role</span><br/>I designed from scratch and worked along with a developer. I was in charge of the ideation, research, UX/UI design. </div>
                 <div className="fruito-display-wrap">
                   <img className="fruito-display-1 img" src="fruito/fruito-display-1@2x.png"></img>
                   <img className="fruito-display-2 img" src="fruito/fruito-display-2@2x.png"></img>
