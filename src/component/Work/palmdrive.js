@@ -68,7 +68,7 @@ export class Palmdrive extends Component {
           ]}
         />
 	      <div className="work palmdrive">
-		      	<div className="main">
+		      	<div className="main palmdrive-main">
 		      		<section className="content-block" id={'intro'}>
 			        </section>
 		      		<h3>
