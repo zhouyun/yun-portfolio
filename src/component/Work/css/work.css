@@ -216,7 +216,8 @@ h5{
 }
 
 .main {
-	margin-left: 456px;
+	margin-left: 406px;
+  padding-right: 40px;
 	width:700px;
   margin-top: 100px;
 }
@@ -416,7 +417,9 @@ h3{
 .lbb{
   margin-top: -20px;
 }
-
+.palmdrive-intro {
+  margin-left: 72px;
+}
 .palmdrive-intro-wrap {
   overflow: visible;
   position: relative; 
@@ -426,7 +429,7 @@ h3{
 .palmdrive-intro-img {
   height: 700px;
   width: 900px;
-  margin: 41px 0px; 
+  margin: 41px -108px; 
   position: relative; 
 }
 .first-word {
