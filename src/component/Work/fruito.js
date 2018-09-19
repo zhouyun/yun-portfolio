@@ -183,7 +183,7 @@ export class Fruito extends Component {
                 
               </section>
               <section className="content-block" id={'challenge'}>
-                <div className="section-title"> | challenge |</div>
+                <div className="section-title section-title-challenge"> | challenge |</div>
               </section>
               <div className="section-sub-title"> How to prevent fruit waste? </div>
               <p>
