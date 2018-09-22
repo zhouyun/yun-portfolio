@@ -77,6 +77,14 @@ export class Palmdrive extends Component {
 		      		<span className="december-2016">
 		      			April 2016 - present
 		      		</span>
+		      		<div className="content-label">
+		              <span className="label">Research</span>
+		              <span className="label">UX Design</span>
+		              <span className="label">Visual Design</span><br/>
+		              <span className="label">Product Management</span><br/>
+		              <span className="label">Copy Writing</span>
+		              <span className="label">Prototype</span>
+		              </div>
 		      		<div className="rectangle-button">
 		      		<a href="http://palmdrive.cn/">
 		      		<div className="rectangle-button-bg"></div>
@@ -101,7 +109,7 @@ export class Palmdrive extends Component {
       					</div>
 			        </section>
 		      		<section className="content-block" id={'challenge'}>
-			          <div className="section-title">| Challenge |</div>
+			          <div className="section-title">01_Challenge</div>
 			        </section>
 			        <div className="section-sub-title"> Website plays a crucial role as both displaying and selling. </div>
 		      		<p>
@@ -112,7 +120,7 @@ export class Palmdrive extends Component {
 					</p>
 					
 					<section className="content-block" id={'information-architecture'}>
-			          <div className="section-title">| Information Architecture |</div>
+			          <div className="section-title">02_Information Architecture</div>
 			        </section>
 			        <div className="section-sub-title"> Deliver scalable information architecture with every stakeholder </div>
 			        <p>
@@ -132,7 +140,7 @@ export class Palmdrive extends Component {
 		             </div>
 			       <h5>The information architecture of present Palmdrive Website</h5>
 			       <section className="content-block" id={'goal-definition-metrics'}>
-			          <div className="section-title">| Goal Definition & Metrics |</div>
+			          <div className="section-title">03_Goal Definition & Metrics</div>
 			        </section>
 			        <div className="section-sub-title"> Google analytics help deepen the understanding </div>
 			        <p>
@@ -147,7 +155,7 @@ export class Palmdrive extends Component {
 		              	/>
 		             </div>
 		             <section className="content-block" id={'wireframes-content'}>
-			          <div className="section-title">| Wireframes & Content |</div>
+			          <div className="section-title">04_Wireframes & Content</div>
 			        </section>
 			        <div className="section-sub-title"> Design for content </div>
 			        <p>
@@ -164,7 +172,7 @@ export class Palmdrive extends Component {
 		              	/>
 		             </div>
 		             <section className="content-block" id={'visual-design'}>
-			          <div className="section-title">| Visual Design |</div>
+			          <div className="section-title">05_Visual Design</div>
 			        </section>
 			        <div className="section-sub-title"> Design with flexibility </div>
 			        <p>
@@ -192,7 +200,7 @@ export class Palmdrive extends Component {
 		              	/>
 		             </div>
 		              <section className="content-block" id={'work-with-developers'}>
-			          <div className="section-title">| Work with Developers |</div>
+			          <div className="section-title">06_Work with Developers</div>
 			        </section>
 			        <div className="section-sub-title"> Show every details </div>
 					 <div className="project-img-div-long">
@@ -205,7 +213,7 @@ export class Palmdrive extends Component {
 		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay allow="autoplay"></iframe>
 		             <h5>Interaction design with Flinto of High School Page</h5>
 		             <section className="content-block" id={'the-end-or-not'}>
-			          <div className="section-title">| The end or not |</div>
+			          <div className="section-title">07_The end or not</div>
 			        </section>
 			        <div className="section-sub-title"> Teamwork rocks </div>
 					 <p>Thanks to all the efforts on the new responsive and visual consistent website, the result turns out to be beyond our expectation.</p>
@@ -214,7 +222,6 @@ export class Palmdrive extends Component {
 •  The pageviews increased 20% on average and up to 66% for the redesigned pages.<br/>
 •  The traffic on Service pages increased over 30%.</p>
 
-         
 		      	</div>
 	      </div>
 				<div className="pager-holder">

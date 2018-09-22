@@ -116,6 +116,14 @@ export class Fruito extends Component {
               <span className="december-2016">
                 March 2015 - present
               </span>
+              <div className="content-label">
+              <span className="label">Research</span>
+              <span className="label">UX Design</span>
+              <span className="label">Visual Design</span><br/>
+              <span className="label">Product Management</span><br/>
+              <span className="label">Copy Writing</span>
+              <span className="label">Marketing</span>
+              </div>
               <section className="content-block fruito-intro">
                 <div className="fruito-intro-wrap">
                   <img className="fruito-intro-img" src="fruito/bg@2x.png">
@@ -183,7 +191,7 @@ export class Fruito extends Component {
                 
               </section>
               <section className="content-block" id={'challenge'}>
-                <div className="section-title section-title-challenge"> | challenge |</div>
+                <div className="section-title section-title-challenge">01_challenge</div>
               </section>
               <div className="section-sub-title"> How to prevent fruit waste? </div>
               <p>
@@ -193,7 +201,7 @@ export class Fruito extends Component {
                 As we were both far from home, newly moved to New York, and had busy study schedules, we went nuts everyday. Even worse Peipei’s parent constantly pushed her to eat veggies and fruits to stay healthy. She bought them every week but she forgot to eat them from time to time. So when she pull her black bananas out of the refrigerator with a desperate howl <HighLightOnVisible className="highlight-fruito">the third time that month</HighLightOnVisible>, I decided to do something.
               </p>
                <section className="content-block" id={'research'}>
-                <div className="section-title"> | research | </div>
+                <div className="section-title">02_research</div>
               </section>
               <div className="section-sub-title"> Start with target audience </div>
                <p>
@@ -295,7 +303,7 @@ export class Fruito extends Component {
                 </div>
               </Slider>
               <section className="content-block" id={'goal-definition-metrics'}>
-                <div className="section-title">| Goal Definition & Metrics |</div>
+                <div className="section-title">03_Goal Definition & Metrics</div>
               </section>
               <div className="section-sub-title"> Improve fruits management experience for everyone, everywhere </div>
               <p>
@@ -341,7 +349,7 @@ export class Fruito extends Component {
 
 
               <section className="content-block" id={'workflow'}>
-                <div className="section-title">| Workflow |</div>
+                <div className="section-title">04_Workflow</div>
               </section>
               <div className="section-sub-title">Start doing is more important than doing perfect.</div>
               <p>
@@ -352,7 +360,7 @@ export class Fruito extends Component {
               src='fruito/workflow@2x.png'/>
               </div>
                <section className="content-block" id={'wireframes'}>
-                <div className="section-title">| Wireframes |</div>
+                <div className="section-title">05_Wireframes</div>
               </section>
               <div className="section-sub-title">Improve fruits management experience for everyone, everywhere</div>
               <div className="display-tittle">1. How to record fruits purchase</div>
@@ -382,7 +390,7 @@ export class Fruito extends Component {
 
 
               <section className="content-block" id={'visual-design'}>
-                <div className="section-title">| Visual Design |</div>
+                <div className="section-title">06_Visual Design</div>
               </section>
               <div className="section-sub-title">Users can hate and love your design at the same time.</div>
               <p>
@@ -403,7 +411,7 @@ export class Fruito extends Component {
               </div>
               <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
                <section className="content-block" id={'work-with-developers'}>
-                <div className="section-title">| Work with Developers |</div>
+                <div className="section-title">07_Work with Developers</div>
               </section>
               <div className="section-sub-title">As organized as possible</div>
               <p>Our team of two are actively building Fruito 1.0 in our leisure time.</p>
@@ -413,7 +421,7 @@ export class Fruito extends Component {
               </div>
 
              <section className="content-block" id={'demo'}>
-                <div className="section-title">| Demo |</div>
+                <div className="section-title">08_Demo</div>
               </section>
               <div className="section-sub-title">Embrace the machine learning tech!</div>
               <p>In July, we took <a href="https://www.hackathon.com/event/att-entertainment-hackathon---bay-area-46506954553"><u>ATT Hackathon</u></a> and really had a good time working with other developers and designers. We used core ML the first time to improve the adding fruits experience.</p>

@@ -66,10 +66,6 @@ export class Work extends Component {
 	      		<span className="december-2016">
 	      			December 2016
 	      		</span>
-	      		<div className="content-block" id={'challenge'}>
-		          <div className="section-title"> 01_Challenge </div>
-		        </div>
-		        <div className="section-sub-title">Team of two, 14 days, an impressive party</div>
 	      		<p>
 	      			Different from the traditional international education agency who make profit by providing studying abroad related information, <HighLightOnVisible className="highlight-newyear">Palmdrive shares it for free</HighLightOnVisible>. With the belief of helping more Chinese students study abroad, Palmdrive operates a platform for students who want to study abroad with who studied abroad or is studying abroad.
 	      		</p>
@@ -79,15 +75,23 @@ export class Work extends Component {
 	      		<p>
 							New Year Event was the first city event to offer an opportunity for Palmdrive to <HighLightOnVisible className="highlight-newyear">communicate with college students and add their belief to our brand</HighLightOnVisible>.
 	      		</p>
-		        <div className="display-tittle"> My Role </div>
+	      		<div className="display-tittle"> My Role </div>
 	      		<p>
 	      			I collaborated with Su, the event executor, since the start of the project. I delivered <HighLightOnVisible className="highlight-newyear">digital posters, website, and invitation email</HighLightOnVisible> for different platforms in 2 weeks.
 	      		</p>
-	          <div className="project-img-div-long">
+	      		<div className="project-img-div-long">
 	      			<img className="big_pic"
 		          src='image/desktop/display-1@2x.png'
 		        />
 		        </div>
+	      		<div className="content-block" id={'challenge'}>
+		          <div className="section-title"> 01_Challenge </div>
+		        </div>
+		        <div className="section-sub-title">Team of two, 14 days, an impressive party</div>
+	      		<p>
+					The whole team was me and Su, 14 days from ideation to launch, limited time and hands were our biggest challenge.
+	      		</p>
+	          
 	      		<div className="content-block" id={'visual-design'}>
 		          <div className="section-title"> 02_Visual Design </div>
 		        </div>
