@@ -97,6 +97,8 @@ export class Palmdrive extends Component {
       					<div className="blue-circle"></div>
       					<img className="palmdrive-browser img" src="palmdrive/group-copy-3@2x.png">
       					</img>
+      					<div className="palmdrive-browser palmdrive-browser-long-image img">
+      					</div>
 			        </section>
 		      		<section className="content-block" id={'challenge'}>
 			          <div className="section-title">| Challenge |</div>

@@ -103,8 +103,6 @@ export class Sidebar extends Component {
       if (ele && ele.getBoundingClientRect) {
         const anchor_offset = ele.getBoundingClientRect().top;
         if(anchor_offset > 0 && anchor_offset < 300) {
-          console.log(i);
-          console.log(anchor_offset);
           this.setState({activeIndex: i});
           return;
         }
