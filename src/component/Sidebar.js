@@ -89,11 +89,22 @@ export class Sidebar extends Component {
 
   handleScroll = (): void => {
     const numSec = document.getElementsByClassName("section-title").length;
+    const firstElem = document.getElementsByClassName("section-title")[0];
+    const firstElemTop = firstElem.offsetTop;
+
     for (let i = 1; i <= numSec; i ++) {
       const ele = document.getElementsByClassName("section-title")[i - 1];
+      const scrollTop = window.pageYOffset;
+      // if first anchor to top is less than 300, this will not fade in when scrolling up
+      if(scrollTop - firstElemTop < -300) {
+        this.setState({activeIndex: 0});
+        return;
+      }
       if (ele && ele.getBoundingClientRect) {
         const anchor_offset = ele.getBoundingClientRect().top;
         if(anchor_offset > 0 && anchor_offset < 300) {
+          console.log(i);
+          console.log(anchor_offset);
           this.setState({activeIndex: i});
           return;
         }
