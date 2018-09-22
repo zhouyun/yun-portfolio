@@ -88,9 +88,23 @@ p:last-of-type {
   left: 24px;
   -moz-transition: all 0.2s ease-out;  /* FF4+ */
   -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
-  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -webkit-transition: opacity .5s;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.2s ease-out;  /* IE10? */
   transition: all 0.2s ease-out;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .side-bar-header {
