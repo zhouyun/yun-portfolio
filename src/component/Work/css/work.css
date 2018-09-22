@@ -92,7 +92,9 @@ p:last-of-type {
   -ms-transition: all 0.2s ease-out;  /* IE10? */
   transition: all 0.2s ease-out;
 }
-
+.content-label{
+margin-top: 20px;
+}
 .side-bar-header {
   max-width: 220px;
   padding-bottom: 40px;

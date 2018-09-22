@@ -70,10 +70,7 @@ export class Transaction extends Component {
 		      		<div className="btn-text">Go to website</div>
       				</a>
       				</div>
-      		<div className="content-block" id={'challenge'}>
-	          <div className="section-title"> 01_Challenge </div>
-	        </div>
-	        <div className="section-sub-title"> UX design of transactions and data visualizing </div>
+
       		<p>
       			I worked at Pefin as a UX designer for six months, and was in charge of designing two of five core functions. One was designing the process of interacting with the transactions, the other was visualizing the trend data.
       		</p>
@@ -92,14 +89,19 @@ export class Transaction extends Component {
 	          src='pefin/group-2@2x.png'
 	        />
 	        </div>
+      		<div className="content-block" id={'challenge'}>
+	          <div className="section-title"> 01_Challenge </div>
+	        </div>
+	        <div className="section-sub-title"> I want to know how much I spend on my wedding visually.</div>
+      		<p>
+      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to <HighLightOnVisible className="highlight-transaction">figure out the logic</HighLightOnVisible> behind the chosen filters, then visualize the transactions.
+
+      		</p>
       		<div className="content-block" id={'sketch-scenarios'}>
 	          <div className="section-title"> 02_Sketch & Scenarios</div>
 	        </div>
 	        <div className="section-sub-title"> Logic comes the first. </div>
-      		<p>
-      		Based on our client’s feedback, costumed tags could be added to transactions and be used as filters to check the total amount. So my first job was to <HighLightOnVisible className="highlight-transaction">figure out the logic</HighLightOnVisible> behind the chosen filters.
-
-      		</p>
+      		
 	        <p>
 	        	To make the logic clear, I created two kinds of filter pools. One was for <HighLightOnVisible className="highlight-transaction">“Must-have” tags</HighLightOnVisible>, and the other was for <HighLightOnVisible className="highlight-transaction">“May-have” tags</HighLightOnVisible>. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
 	        </p>
