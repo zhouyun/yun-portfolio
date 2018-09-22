@@ -71,10 +71,10 @@ export class Fruito extends Component {
           <Sidebar
             title={'Fruito'}
             items={[
-              {
+            /*{
               text: "Intro",
               anchor: "#intro",
-            },
+            }*/
             {
               text: "Challenge",
               anchor: "#challenge",

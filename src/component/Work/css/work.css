@@ -598,6 +598,54 @@ display: none;
     display: none;
   }
 
+  .fruito-intro-wrap {
+    display: none;
+  }
+  .intro-how {
+    margin-top: 50px;
+  }
+  .intro-how-fruito {
+    margin-top: 50px;
+  }
+  .rectangle-division {
+    display: none;
+  }
+  .fruito-display-wrap {
+    display: none;
+  }
+  .fruito-mobile{
+    visibility: hidden;
+  }
+  .first-word {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .intro-with {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .palmdrive-intro .intro-with {
+    margin-left: -72px;
+    margin-right: 0;
+    width: 160%;
+  }
+  .palmdrive-browser {
+    margin-top: 0px;
+
+  }
+  .palmdrive-intro-wrap {
+    display: none;
+  }
+  .green-circle {
+    display: none;
+  }
+  .blue-circle {
+    display: none;
+  }
+  .palmdrive-laptop {
+    display: none;
+  }
   .main {
     margin-left: 10%;
   }

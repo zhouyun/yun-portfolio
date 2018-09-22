@@ -19,7 +19,7 @@ class SidebarItem extends Component {
   _getDisplayedIndex(index): string {
     return index < 10 ? `0${index}` : `${index}`;
   }
-  
+
   render() {
     const {
       anchor,
@@ -63,7 +63,7 @@ export class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeIndex: 1,
+      activeIndex: 0,
     };
   }
 
@@ -88,9 +88,9 @@ export class Sidebar extends Component {
   }
 
   handleScroll = (): void => {
-    const numSec = document.getElementsByClassName("content-block").length;
+    const numSec = document.getElementsByClassName("section-title").length;
     for (let i = 1; i <= numSec; i ++) {
-      const ele = document.getElementsByClassName("content-block")[i - 1];
+      const ele = document.getElementsByClassName("section-title")[i - 1];
       if (ele && ele.getBoundingClientRect) {
         const anchor_offset = ele.getBoundingClientRect().top;
         if(anchor_offset > 0 && anchor_offset < 300) {
@@ -118,7 +118,7 @@ export class Sidebar extends Component {
     );
 
     return (
-      this.state.activeIndex > 1 && <div className={"side-bar"}>
+      this.state.activeIndex >= 1 && <div className={"side-bar"}>
         <div className="side-bar-header">
           {this.props.title}
         </div>
