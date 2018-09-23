@@ -56,7 +56,6 @@
 .Hi-Im-Yun {
   font-family: 'Montserrat-Regular', 'Montserrat', sans-serif;
   font-size: 32px;
-  font-weight: 800;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.13;
@@ -64,7 +63,10 @@
   text-align: center;
   color: #44424d;
 }
-
+h1{
+  font-size: 48px;
+  font-family: 'Montserrat-Regular', 'Montserrat', sans-serif;
+}
 .UI-designer-Be {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -248,6 +250,7 @@
   float: right;
   width: 50%;
   text-align: left;
+  margin-top: 2%;
 }
 .text-block-left {
   /*left: 8%;*/
@@ -255,6 +258,7 @@
   float: right;
   width: 50%;
   text-align: left;
+  margin-top: 2%;
 }
 .greenblue-cloud{
   transform: rotate(176deg)
@@ -336,15 +340,14 @@
 
 .project-title {
   font-family: "Montserrat-Regular","Montserrat";
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 48px;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #44424d;
 }
 .project-description {
-  margin-top:20px;
+  margin-top:60px;
   margin-bottom: 50px;
   font-size: 14px;
   font-weight: 300;

@@ -113,10 +113,7 @@ class Home extends Component {
             </div>
             <div className="text-block">
               <div className="project-title">Palmdrive</div>
-              <div className="project-description">Official website of Palmdrive</div>
-              <span className="label">Website</span>
-              <span className="label">Information Architecture</span>
-              <span className="label">Iconography</span>
+              <div className="project-description">Palmdrive Website is a solution of properly presenting information about Palmdrive’s service, values and achievements on all kinds of devices, at the same time lead potential subscribers to further contact.</div>
               {this._renderArrow()}
             </div>
           </Link>
@@ -131,10 +128,8 @@ class Home extends Component {
             </div>
             <div className="text-block-left">
               <div className="project-title">Fruito</div>
-              <div className="project-description">A self-published iOS fruits management app</div>
-              <span className="label">Mobile App</span>
-              <span className="label">Product Design</span>
-              <span className="label">Interaction Design</span>
+              <div className="project-description">An IOS app gives your control back by making fruits management smooth, effortless and flexible.</div>
+             
               {this._renderArrow()}
             </div>
           </Link>
