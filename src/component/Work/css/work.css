@@ -625,11 +625,18 @@ display: none;
   height: 800px;
 }
 .slick-dots {
-  bottom: 100px;
+  bottom: 70px;
 }
 .slider-text {
   margin-left:600px;
   margin-top: 400px;
+}
+.slider2 .slick-dots {
+  bottom: -20px;
+}
+.slick-arrow-img:hover {
+  background-color: rgba(68, 66, 77, 0.12);
+  border-radius: 50%;
 }
 @media (max-width: 767px){
   .side-bar {
@@ -693,5 +700,8 @@ display: none;
   }
   .previous-page{
     display: none;
+  }
+  .slider {
+    zoom: 50%;
   }
 }

@@ -15,7 +15,7 @@ export const SampleNextArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img className="img" src="fruito/up-1@2x.png"/>
+      <img className="img slick-arrow-img" src="fruito/up-1@2x.png"/>
     </div>
   );
 }
@@ -28,7 +28,7 @@ export const SamplePrevArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img style={{ ...style, marginLeft:"-60px" }} className="img" src="fruito/up-1-copy@2x.png"/>
+      <img style={{ ...style, marginLeft:"-60px" }} className="img slick-arrow-img" src="fruito/up-1-copy@2x.png"/>
     </div>
   );
 }
@@ -276,7 +276,7 @@ export class Fruito extends Component {
               <p>
               The answers are categorized as beblow—
               </p>
-              <Slider {...settings}>
+              <Slider {...settings} className="slider2">
                 <div className="project-img-div-long">
                   <img
                 src='fruito/purchase@2x.png'/>
