@@ -95,7 +95,7 @@ p:last-of-type {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 0.8s;
 }
 
 @keyframes fadeInOpacity {
@@ -451,9 +451,9 @@ h3{
   z-index: -1;
 }
 .palmdrive-intro-img {
-  height: 700px;
-  width: 900px;
-  margin: 41px -108px; 
+  height: 682px;
+  width: 1000px;
+  margin: 41px -182px;
   position: relative; 
 }
 .first-word {
@@ -477,7 +477,12 @@ h3{
   height: 90px;
   border-left: solid 1px #44424d;
   border-bottom: solid 1px #44424d;
-
+}
+.fruito-intro .rectangle-division {
+  margin-left: 0px;
+}
+.fruito-intro .intro-with {
+  margin-left: 72px;
 }
 .intro-with {
   margin-left: 8px;
@@ -546,8 +551,8 @@ h3{
   margin-left: -166px;
 }
 .fruito-intro-img {
-  height: 1000px;
-  width: 900px;
+  height: 1053px;
+  width: 1000px;
   margin: 41px 0px; 
   position: relative; 
 }
@@ -574,12 +579,12 @@ h3{
   position: relative;
 }
 .slider {
-  margin-left: -110px;
+  margin-left: -60px;
   width: 784px;
   margin-top: 50px;
 }
 .slider-wrap {
-  padding: 10%;
+  padding: 78px;
 }
 .fruito-laptop {
   margin-left: -2%;
@@ -590,6 +595,7 @@ h3{
   position: relative;
   background-size: 720px 460px;
   padding: 80px 150px;
+  color: #44424d;
 }
 .slick-prev:before, .slick-next:before {
 display: none;
