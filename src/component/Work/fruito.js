@@ -425,15 +425,18 @@ export class Fruito extends Component {
               </section>
               <div className="section-sub-title">Embrace the machine learning tech!</div>
               <p>In July, we took <a href="https://www.hackathon.com/event/att-entertainment-hackathon---bay-area-46506954553"><u>ATT Hackathon</u></a> and really had a good time working with other developers and designers. We used core ML the first time to improve the adding fruits experience.</p>
-               <div className="project-img-div-long">
+               {/*<div className="project-img-div-long">
               <img
               src='fruito/att_bg@2x.png'/>
+              </div>*/}
+              <div className="image_carousel_fruito screen-rec">
+                <div className="image_carousel_fruito_wrap">
+                </div>
+                <div className="image_carousel_fruito_video">
+                  <iframe src="https://player.vimeo.com/video/284776865?autoplay=1&loop=1&autopause=0" allow="autoplay" width="240" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
               </div>
               <h5>Take a glimpse of the Hackathon version</h5>
-              <div className="image_carousel screen-rec">
-              <iframe src="https://player.vimeo.com/video/284776865?autoplay=1&loop=1&autopause=0" allow="autoplay" width="240" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
-
               <div className="little-blue-blink">
               <div>Let‘s prevent fruit waste togather!<img className="lbb" src="fruito/little-blue-blink.gif" height="80px" ></img></div>
               </div>
