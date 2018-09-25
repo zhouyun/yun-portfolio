@@ -678,7 +678,9 @@ display: none;
   .side-bar {
     display: none;
   }
-
+  .project-title {
+    font-size: 28px;
+  }
   .fruito-intro-wrap {
     display: none;
   }
@@ -706,6 +708,15 @@ display: none;
     margin-left: 0px;
     width: 100%;
   }
+  .green-cloud {
+    visibility: hidden;
+  }
+  .greenblue-cloud {
+    visibility: hidden;
+  }
+  .purple-cloud {
+    visibility: hidden;  
+  }
   .palmdrive-intro .intro-with {
     margin-left: -72px;
     margin-right: 0;
@@ -713,7 +724,6 @@ display: none;
   }
   .palmdrive-browser {
     margin-top: 0px;
-
   }
   .palmdrive-intro-wrap {
     display: none;
