@@ -210,7 +210,7 @@ export class Palmdrive extends Component {
 		             </div>
 		             <h5>Design delivery of Graduate Service Page</h5>
 		             <div><img/></div>
-		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay allow="autoplay"></iframe>
+		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay allow="autoplay"></iframe>
 		             <h5>Interaction design with Flinto of High School Page</h5>
 		             <section className="content-block" id={'the-end-or-not'}>
 			          <div className="section-title">07_The end or not</div>
