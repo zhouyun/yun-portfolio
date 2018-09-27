@@ -128,7 +128,7 @@ class Home extends Component {
             </div>
             <div className="text-block-left">
               <div className="project-title">Fruito</div>
-              <div className="project-description">An IOS app gives your control back by making fruits management smooth, effortless and flexible.</div>
+              <div className="project-description">An iOS app gives your control back by making fruits management smooth, effortless and flexible.</div>
              
               {this._renderArrow()}
             </div>
