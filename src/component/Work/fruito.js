@@ -188,7 +188,9 @@ export class Fruito extends Component {
                     </div>
                   </div>
                 </Slider>
-                
+                <div className="attach-to-bg">
+                <h5>Some fruits icons made by Freepik</h5>
+                </div>
               </section>
               <section className="content-block" id={'challenge'}>
                 <div className="section-title section-title-challenge">01_challenge</div>
@@ -373,14 +375,14 @@ export class Fruito extends Component {
                 To record fruits purchase, I proposed three ideas. After several testing with a developer, manual entry was adopted by fruito v1.0 since it was stable and reliable.
               </p>
               <p>
-              *In Fruito hackathon version, we changed it to <HighLightOnVisible className="highlight-fruito">camera + fruit</HighLightOnVisible>, Check the <u>prototype video</u>.
+              *In Fruito hackathon version, we changed it to <HighLightOnVisible className="highlight-fruito">camera + fruit</HighLightOnVisible>. Check the <a href="#/work/fruito#demo"><u>prototype video</u></a>.
               </p>
               <div className="display-tittle">2. How to improve the manual entry</div>
               <p>
                 To improve the experience of manual entry, I introduced tappable fruits, which works well on saving users’ time on manual entry. Moreover, tappable seasonal fruits work for a better nutrition and environment. So glad that people found it really useful for adding fruits and for protecting the planet!
               </p>
               <p>
-              Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the <u>database of United States</u> in general.
+              Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the <a href="https://docs.google.com/spreadsheets/d/1PBh_hj84I5pzB4BwmIjYsH8_cL3_Z9FTExOB29UB7J0/edit?usp=sharing"><u>database of United States</u></a> in general.
               </p>
               <div className="project-img-div-long hd">
               <img

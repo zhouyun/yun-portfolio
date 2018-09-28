@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="546" height="392" viewBox="0 0 546 392">
-    <path fill="#d3dee4" fill-rule="evenodd" d="M402.256 56.754C503.714 42.461 572.848 90.315 534.158 182.96c-38.69 92.644-166.271 86.352-262.99 176.788-96.72 90.436-152.873 56.98-241.583-45.503-88.71-102.483 51.902-139.901 83.668-263.337 31.766-123.435 187.545 20.14 289.003 5.846z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="546px" height="413px" viewBox="0 0 546 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="purplecloud" fill="#DEEAF0">
+            <path d="M402.256,56.754 C503.714,42.461 572.848,90.315 534.158,182.96 C495.468,275.604 367.887,269.312 271.168,359.748 C174.448,450.184 118.295,416.728 29.585,314.245 C-59.125,211.762 81.487,174.344 113.253,50.908 C145.019,-72.527 300.798,71.048 402.256,56.754 Z" id="Shape"></path>
+        </g>
+    </g>
 </svg>

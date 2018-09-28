@@ -128,7 +128,7 @@ class Home extends Component {
             </div>
             <div className="text-block-left">
               <div className="project-title">Fruito</div>
-              <div className="project-description">An IOS app gives your control back by making fruits management smooth, effortless and flexible.</div>
+              <div className="project-description">An iOS app gives your control back by making fruits management smooth, effortless and flexible.</div>
              
               {this._renderArrow()}
             </div>
@@ -144,9 +144,6 @@ class Home extends Component {
             <div className="text-block">
               <div className="project-title">New Year Event</div>
               <div className="project-description">A branding event of Palmdrive</div>
-              <span className="label">Graphic Design</span>
-              <span className="label">Website</span>
-              <span className="label">Marketing</span>
               {this._renderArrow()}
             </div>
           </Link>
@@ -162,8 +159,6 @@ class Home extends Component {
             <div className="text-block-left">
               <div className="project-title">Pefin</div>
               <div className="project-description">Transaction management design for a web-based financial software</div>
-              <span className="label">Website</span>
-              <span className="label">Data Visualization</span>
               {this._renderArrow()}
             </div>
           </Link>
@@ -177,9 +172,6 @@ class Home extends Component {
             <div className="text-block graphic-text">
               <div className="project-title">Other Work and Experience</div>
               <div className="project-description">A showcase of some other projects I worked on and shipped from 2013 till now</div>
-              <span className="label">Graphic Design</span>
-              <span className="label">Branding</span>
-              <span className="label">Passion Project</span>
               {this._renderArrow()}
             </div>
           </Link>
