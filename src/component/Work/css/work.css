@@ -76,6 +76,30 @@ p:last-of-type {
   box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
   margin:20px 0;
 }
+.image_carousel_fruito {
+  display: block;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
+  margin:20px 0;
+  background-image: url('/fruito/att_bg@2x.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 216px;
+}
+.image_carousel_fruito_wrap {
+  background-size: cover;
+  background-position: center;
+  background-image: url('/fruito/i-phone-x@2x.png');
+  height: 540px;
+  width: 268px;
+  z-index: 99;
+  position: relative;
+}
+.image_carousel_fruito_video {
+  margin-top: -530px;
+  margin-left: 14px;
+}
 .hide {
   display: none;
 }
