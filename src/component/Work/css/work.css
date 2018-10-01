@@ -78,9 +78,6 @@ p:last-of-type {
 }
 .image_carousel_fruito {
   display: block;
-  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.12);
   margin:20px 0;
   background-image: url('/fruito/att_bg@2x.png');
   background-size: cover;
@@ -264,7 +261,7 @@ h5{
   margin-top: 100px;
 }
 .palmdrive-main {
-  padding-right: 40px;
+
 }
 h3{
   font-family: "Montserrat-Regular","Montserrat";
@@ -477,7 +474,7 @@ h3{
 .palmdrive-intro-img {
   height: 682px;
   width: 1000px;
-  margin: 41px -182px;
+  margin: 41px -227px;
   position: relative; 
 }
 .first-word {
@@ -542,7 +539,7 @@ h3{
   border-radius: 50%;
 }
 .palmdrive-browser {
-  margin-left: -20%;
+  margin-left: -234px;
   margin-top: 332px;
 }
 .palmdrive-browser-long-image {

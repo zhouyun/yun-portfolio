@@ -204,9 +204,6 @@ h1{
   margin-left: 100px;
 
 }
-.project-image.bg{
-  margin-left: -200px;
-}
 .background-cloud {
   position: relative;
 }
@@ -278,7 +275,14 @@ h1{
 	display: block;
   zoom: 50%;
 }
-
+.float-left{
+  float:left;
+  margin-left: 4%;
+ }
+ .float-right{
+  float:right;
+  margin-right: 4%;
+ }
 .scroll-to-top-background {
   position: absolute;
   top: 0px;

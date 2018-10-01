@@ -112,12 +112,6 @@ export class Resume extends Component {
                   <p>Wuhan University – Wuhan, China</p>
                 </div>
               </div>
-              <div className="resume-content">
-                <div className="resume-content-title">Graphic Design and Speech Communication | 2016 - 2017</div>
-                <div className="resume-content-detail">
-                  <p>De Anza College – Cupertino, CA </p>
-                </div>
-              </div>
             </div>
           </div>
           </div>
