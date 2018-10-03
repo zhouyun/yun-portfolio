@@ -170,7 +170,7 @@ class Home extends Component {
               <div className="graphic-label">2013-present</div>
             </div>
             <div className="text-block graphic-text">
-              <div className="project-title">Other Work and Experience</div>
+              <div className="project-title project-title-other">Other Work and Experience</div>
               <div className="project-description">A showcase of some other projects I worked on and shipped from 2013 till now</div>
               {this._renderArrow()}
             </div>

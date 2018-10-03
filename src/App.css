@@ -587,4 +587,7 @@ h1{
   .label{
     display: none;
   }
+  .project-title-other {
+    font-size: 36px;
+  }
 }
