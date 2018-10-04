@@ -21,7 +21,7 @@ export class Resume extends Component {
             <div className="resume-title-text">Experience</div>
           </div>
           <div className="resume-content">
-            <div className="resume-content-title">Design Lead Manager | April 2016 – present</div>
+            <div className="resume-content-title">Design Lead | April 2016 – present</div>
             <div className="resume-content-location">Palmdrive – Sunnyvale, CA/Shanghai, China</div>
             <div className="resume-content-detail">
               <p>In charge of <HighLightOnVisible className="highlight-general"> website redesign</HighLightOnVisible>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
