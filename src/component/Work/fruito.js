@@ -116,7 +116,7 @@ export class Fruito extends Component {
               <span className="december-2016">
                 March 2015 - present
               </span>
-              <div className="content-label">
+              <div className="content-label content-label-fruito">
               <span className="label">Research</span>
               <span className="label">UX Design</span>
               <span className="label">Visual Design</span><br/>
@@ -344,12 +344,6 @@ export class Fruito extends Component {
                 Tips for fruit <HighLightOnVisible className="highlight-fruito">reuse</HighLightOnVisible>
                 </li>
               </ol>
-
-
-
-
-
-
               <section className="content-block" id={'workflow'}>
                 <div className="section-title">04_Workflow</div>
               </section>

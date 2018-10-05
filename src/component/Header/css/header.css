@@ -51,6 +51,12 @@
   font-family: "Montserrat";
   letter-spacing: 3px;
   font-weight: bold;
+  color: #44424d;
+  opacity: 0.5;
+}
+
+.header-item-active {
+  opacity: 1;
 }
 
 div.navbar-collapse {
