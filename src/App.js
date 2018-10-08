@@ -166,7 +166,7 @@ class Home extends Component {
         <div className="project-section">
           <Link to="/work/graphic">
             <div className="img-block img-block-origin" >
-              <img className="background-cloud" src="svg/pinkcloud.svg"/>
+              <img className="background-cloud background-cloud-pink" src="svg/pinkcloud.svg"/>
               <div className="graphic-label">2013-present</div>
             </div>
             <div className="text-block graphic-text">
