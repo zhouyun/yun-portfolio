@@ -493,6 +493,9 @@ h1{
   .img-block-right{
     width: 100% !important;
   }
+  .text-block {
+    left: 0;
+  }
   .fruito-home-device1{
     position: absolute;
     right: 430px;
@@ -535,9 +538,13 @@ h1{
     width: 80%;
     margin-top: -600px;
   }
+  .project-palmdrive-section.palmdrive-home.bg{
+    margin-top: -550px;
+  }
   .transaction-home{
-    width: 80%;
+    width: 65%;
     margin-top: -600px;
+    left: -88px;
   }
   .newyear-home{
     width: 80%;

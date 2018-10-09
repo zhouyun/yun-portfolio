@@ -722,13 +722,14 @@ display: none;
   }
   .palmdrive-browser {
     margin-top: 35px;
-    margin-left: -170px;
+    margin-left: -183px;
     width: 700px;
   }
   .palmdrive-browser-long-image {
     margin-top: -420px;
-    margin-left: -172px;
+    margin-left: -185px;
     background-size: 630px;
+    height: 380px;
     background-repeat: no-repeat;
   }
   .palmdrive-intro-img {
