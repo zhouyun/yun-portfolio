@@ -6,6 +6,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
+import ImageZoom from 'react-medium-image-zoom';
+
 export class Palmdrive extends Component {
   componentDidMount(): void {
     const parts = window.location.href.split('#');
@@ -24,6 +26,37 @@ export class Palmdrive extends Component {
       }
     }
     window.scroll({top:0});
+  }
+
+  constructor() {
+    super();
+    this.state = { currentImage: 0 };
+    this.closeLightbox = this.closeLightbox.bind(this);
+    this.openLightbox = this.openLightbox.bind(this);
+    this.gotoNext = this.gotoNext.bind(this);
+    this.gotoPrevious = this.gotoPrevious.bind(this);
+  }
+  openLightbox(event, obj) {
+    this.setState({
+      currentImage: obj.index,
+      lightboxIsOpen: true,
+    });
+  }
+  closeLightbox() {
+    this.setState({
+      currentImage: 0,
+      lightboxIsOpen: false,
+    });
+  }
+  gotoPrevious() {
+    this.setState({
+      currentImage: this.state.currentImage - 1,
+    });
+  }
+  gotoNext() {
+    this.setState({
+      currentImage: this.state.currentImage + 1,
+    });
   }
 
   render() {
@@ -134,10 +167,21 @@ export class Palmdrive extends Component {
 					All the efforts led me to create a clear and scalable information architecture as the following. 
 					</p>
 					 <div className="project-img-div-long hd">
-		                <img
-		                src='palmdrive/info-arch@2x.png' 
-		              	/>
-		             </div>
+	            {/*<img
+	            src='palmdrive/info-arch@2x.png' 
+	          	/>*/}
+	          	<ImageZoom
+				        image={{
+				          src: 'palmdrive/info-arch@2x.png',
+				          alt: 'Info Architecture',
+				        }}
+				        zoomImage={{
+				          src: 'palmdrive/info-arch@2x.png',
+				          alt: 'Info Architecture',
+				          style: { zoom:'33%' }
+				        }}
+				      />
+	         </div>
 			       <h5>The information architecture of present Palmdrive Website</h5>
 			       <section className="content-block" id={'goal-definition-metrics'}>
 			          <div className="section-title">03_Goal Definition & Metrics</div>
@@ -150,9 +194,17 @@ export class Palmdrive extends Component {
 					•  Decrease the bounce rate
 					</p>
 					 <div className="project-img-div-long">
-		                <img
+					 	<ImageZoom
+				        image={{
+				          src: 'palmdrive/behavior-flow@2x.png'
+				        }}
+				        zoomImage={{
+				          src: 'palmdrive/behavior-flow@2x.png'
+				        }}
+				      />
+		                {/*<img
 		                src='palmdrive/behavior-flow@2x.png' 
-		              	/>
+		              	/>*/}
 		             </div>
 		             <section className="content-block" id={'wireframes-content'}>
 			          <div className="section-title">04_Wireframes & Content</div>
