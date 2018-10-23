@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {Header, Footer, SNSIcon} from './component';
+import { Header, Footer, SNSIcon} from './component';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import {About, Work, Palmdrive, GraphicDesign,Transaction,Resume,Fruito} from './component';
 import createHashHistory from 'history/createBrowserHistory'
@@ -57,11 +57,50 @@ class ScrollTopTop extends Component {
   }
 }
 
+class HomeHeader extends Component {
+  constructor(props) {
+    super(props);
+    if (window.location.hash == '#/') {
+      this.state = {
+        shouldDisplay: false,
+      };
+    } else {
+      this.state = {
+        shouldDisplay: true,
+      };
+    }
+    
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this._handleScroll);
+    this._handleScroll();
+  }
+
+  componentWillUnmount(): void {
+    window.removeEventListener('scroll', this._handleScroll);
+  }
+
+  _handleScroll = (): void => {
+    if (window.location.hash !== '#/' || window.pageYOffset > 200 && !this.state.shouldDisplay) {
+      this.setState({shouldDisplay: true});
+    } else if (window.pageYOffset <= 200 && this.state.shouldDisplay) {
+      this.setState({shouldDisplay: false});
+    }
+  };
+
+  render() {
+    return (
+      this.state.shouldDisplay && <Header/>
+    );
+  }
+}
+
 const App = ({history}) => (
   <div>
     <Router location={history}>
       <div>
-        <Header/>
+        <HomeHeader/>
         <Route exact path="/" component={Home} />
         <Route path="/about/" component={About} />
         <Route path="/resume/" component={Resume} />
