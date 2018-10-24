@@ -8,6 +8,7 @@ import '../../App.css';
 
 import classnames from 'classnames';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
+import ImageZoom from 'react-medium-image-zoom';
 
 export class Work extends Component {
   componentDidMount(): void {

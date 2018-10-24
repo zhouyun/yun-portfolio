@@ -193,7 +193,7 @@ export class Palmdrive extends Component {
 					•  Increase the traffic to the page <br/>
 					•  Decrease the bounce rate
 					</p>
-					 <div className="project-img-div-long">
+					<div className="project-img-div-long">
 					 	<ImageZoom
 				        image={{
 				          src: 'palmdrive/behavior-flow@2x.png'
@@ -202,64 +202,92 @@ export class Palmdrive extends Component {
 				          src: 'palmdrive/behavior-flow@2x.png'
 				        }}
 				      />
-		                {/*<img
-		                src='palmdrive/behavior-flow@2x.png' 
-		              	/>*/}
-		             </div>
+		      </div>
 		             <section className="content-block" id={'wireframes-content'}>
 			          <div className="section-title">04_Wireframes & Content</div>
 			        </section>
 			        <div className="section-sub-title"> Design for content </div>
 			        <p>
 		      			After collecting feedbacks about what to display, I did my first proposal with stakeholders — wireframes with the optional contents. </p>
-					 <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/wireframes@2x.png' 
-		              	/>
-		             </div>
+		      <div className="project-img-div-long">
+					 	<ImageZoom
+				        image={{
+				          src: 'palmdrive/wireframes@2x.png'
+				        }}
+				        zoomImage={{
+				          src: 'palmdrive/wireframes@2x.png'
+				        }}
+				      />
+		      </div>
 		             <div><img/></div>
-		              <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/wireframes-2@2x.png' 
-		              	/>
-		             </div>
+		             <div className="project-img-div-long">
+								 	<ImageZoom
+							        image={{
+							          src: 'palmdrive/wireframes-2@2x.png'
+							        }}
+							        zoomImage={{
+							          src: 'palmdrive/wireframes-2@2x.png'
+							        }}
+							      />
+					      </div>
 		             <section className="content-block" id={'visual-design'}>
 			          <div className="section-title">05_Visual Design</div>
 			        </section>
 			        <div className="section-sub-title"> Design with flexibility </div>
 			        <p>
 		      			Since my stakeholders were from sales, marketing, service and developing teams, I offered different design with shifting priorities of requirement from each team. (Thanks to my budget-master mum, I have been practicing balancing since born.😅)</p>
-					 <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/design-detail@2x.png' 
-		              	/>
-		             </div>
+		             <div className="project-img-div-long">
+								 	<ImageZoom
+							        image={{
+							          src: 'palmdrive/design-detail@2x.png'
+							        }}
+							        zoomImage={{
+							          src: 'palmdrive/design-detail@2x.png'
+							        }}
+							      />
+					      </div>
 		             <h5>Design details of Graduate Showcase Page</h5>
 		             <div className="section-sub-title"> Design for all devices </div>
 			        <p>
 		      			As over half of the website visits are from mobile, the <HighLightOnVisible className="highlight-fruito">responsiveness</HighLightOnVisible> of the website is important and necessary.</p>
-					 <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/mobile-design@2x.png' 
-		              	/>
-		             </div>
+		      <div className="project-img-div-long">
+								 	<ImageZoom
+							        image={{
+							          src: 'palmdrive/mobile-design@2x.png'
+							        }}
+							        zoomImage={{
+							          src: 'palmdrive/mobile-design@2x.png'
+							        }}
+							      />
+					      </div>
+
 		              <div className="section-sub-title"> Visual Consistency </div>
 			        <p>
 		      			For all the pages that I designed, I used <HighLightOnVisible className="highlight-fruito">repetitive elements</HighLightOnVisible> to make the website as a whole.</p>
-					 <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/visual-consistency@2x.png' 
-		              	/>
-		             </div>
+		             <div className="project-img-div-long">
+								 	<ImageZoom
+							        image={{
+							          src: 'palmdrive/visual-consistency@2x.png'
+							        }}
+							        zoomImage={{
+							          src: 'palmdrive/visual-consistency@2x.png'
+							        }}
+							      />
+					      </div>
 		              <section className="content-block" id={'work-with-developers'}>
 			          <div className="section-title">06_Work with Developers</div>
 			        </section>
 			        <div className="section-sub-title"> Show every details </div>
-					 <div className="project-img-div-long">
-		                <img
-		                src='palmdrive/design-delivery@2x.png' 
-		              	/>
-		             </div>
+		        		<div className="project-img-div-long">
+								 	<ImageZoom
+							        image={{
+							          src: 'palmdrive/design-delivery@2x.png'
+							        }}
+							        zoomImage={{
+							          src: 'palmdrive/design-delivery@2x.png'
+							        }}
+							      />
+					      </div>
 		             <h5>Design delivery of Graduate Service Page</h5>
 		             <div><img/></div>
 		             <iframe className="image_carousel high-school-web" src="https://player.vimeo.com/video/275326486?background=1&autoplay=1&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay allow="autoplay"></iframe>
