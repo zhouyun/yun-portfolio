@@ -81,9 +81,14 @@ export class Work extends Component {
 	      			I collaborated with Su, the event executor, since the start of the project. I delivered <HighLightOnVisible className="highlight-newyear">digital posters, website, and invitation email</HighLightOnVisible> for different platforms in 2 weeks.
 	      		</p>
 	      		<div className="project-img-div-long">
-	      			<img className="big_pic"
-		          src='image/desktop/display-1@2x.png'
-		        />
+		        <ImageZoom
+                    image={{
+                      src: 'image/desktop/display-1@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'image/desktop/display-1@2x.png'
+                    }}
+                  />
 		        </div>
 	      		<div className="content-block" id={'challenge'}>
 		          <div className="section-title"> 01_Challenge </div>
@@ -110,9 +115,14 @@ export class Work extends Component {
 						To be more festive, colorful confetti was added and I finished the key visual in <HighLightOnVisible className="highlight-newyear">4 hours</HighLightOnVisible>.
 						</p>
 						<div className="project-img-div-long">
-	      			<img
-		          src='new year/artboard-16_2018-06-08/artboard-16@2x.png'
-		        />
+		        <ImageZoom
+                    image={{
+                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png'
+                    }}
+                  />
 		        </div>
 		          <div className="section-sub-title"> The design shapes for the content </div>
 
@@ -123,17 +133,27 @@ export class Work extends Component {
 							On Weibo and Wechat Moment, we used 9 images with questions to interact with our followers. <HighLightOnVisible className="highlight-newyear">9-image-display</HighLightOnVisible> forms a whole picture, leading to big visual impact.
 		        </p>
             <div className="project-img-div-long">
-              <img
-              src='new year/group@2x.png'
-            />
+            <ImageZoom
+                    image={{
+                      src: 'new year/group@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'new year/group@2x.png'
+                    }}
+                  />
             </div>
 		        <p>
 		        	After that, we posted image with little poems to express our thanks and sincere invitation on <HighLightOnVisible className="highlight-newyear">Wechat Public Account</HighLightOnVisible>. Our followers extracted the <HighLightOnVisible className="highlight-newyear">QR code</HighLightOnVisible> to take the survey and sign up for the event.
 		        </p>
 		        <div className="project-img-div-long">
-              <img
-              src='new year/group-5@2x.png'
-            />
+            <ImageZoom
+                    image={{
+                      src: 'new year/group-5@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'new year/group-5@2x.png'
+                    }}
+                  />
             </div>
 		        <p>
 		        	According to the surveys, we selected the final invitees and sent <HighLightOnVisible className="highlight-newyear">invitation emails</HighLightOnVisible> with their name and the party schedule.
