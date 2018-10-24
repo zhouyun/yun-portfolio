@@ -6,6 +6,8 @@ import Slider from "react-slick";
 
 import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
+import ImageZoom from 'react-medium-image-zoom';
+
 
 export const SampleNextArrow = (props) => {
   const { className, style, onClick } = props;
