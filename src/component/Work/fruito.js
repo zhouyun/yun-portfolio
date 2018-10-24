@@ -211,29 +211,53 @@ export class Fruito extends Component {
                <p>
                 With no clear mission or specific goals to prevent fruits waste, I started to interview my colleagues and classmates to get more clues about fruits thrown away experience.
               </p>
-               <div className="project-img-div-long">
-              <img
-              src='fruito/persona@2x.png'/>
+              <div className="project-img-div-long">
+                <ImageZoom
+                    image={{
+                      src: 'fruito/persona@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/persona@2x.png'
+                    }}
+                  />
               </div>
               <h5>A persona based on Peipei</h5>
               <div><img/></div>
               <div className="project-img-div-long">
-              <img
-              src='fruito/x_mind@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/x_mind@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/x_mind@2x.png'
+                    }}
+                  />
               </div>
                <p>
                 The interview started from why people throw fruits away. Then I got <HighLightOnVisible className="highlight-fruito">a classic story</HighLightOnVisible> about fruits —
               </p>
               <div className="project-img-div-long">
-              <img
-              src='fruito/classic_story@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/classic_story@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/classic_story@2x.png'
+                    }}
+                  />
               </div>
                <p>
                 So <HighLightOnVisible className="highlight-fruito">people don’t love fruits as much as they think</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long hd">
-              <img
-              src='fruito/emotion_map@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/emotion_map@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/emotion_map@2x.png'
+                    }}
+                  />
               </div>
               <h5>A map of the fruits eating broken into three phases: forming the eating, executing the eating and follow-up.</h5>
               <p>Peak:<br/>1. Purchasing<br/>2. Eating</p>
@@ -242,8 +266,14 @@ export class Fruito extends Component {
                <p>According to the interviews, the reasons leading to fruits thrown away turned out to be <HighLightOnVisible className="highlight-fruito">tiny but varied</HighLightOnVisible>.</p>
               <p>To understand what leads to the scenarios without stereotypes, I created a formula to help me.</p>
               <div className="project-img-div-long hd">
-              <img
-              src='fruito/math@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/math@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/math@2x.png'
+                    }}
+                  />
               </div>
               <div><img/></div>
               <p>So any reasons <HighLightOnVisible className="highlight-fruito">encouraging</HighLightOnVisible> purchasing or <HighLightOnVisible className="highlight-fruito">discouraging</HighLightOnVisible> eating, storing and reusing could cause fruit wastes</p>
@@ -326,8 +356,14 @@ export class Fruito extends Component {
               <p>I created 3 metric, time spent on purchasing fruits, frequency to eat fruits, fruits waste ratio. Each metric was measured before a tester had used the app and after.
               </p>
               <div className="project-img-div-long">
-              <img
-              src='fruito/metrics@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/metrics@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/metrics@2x.png'
+                    }}
+                  />
               </div>
               <p>
                 After all these research, the goal of the app became clear and specific. The app would help people with fruits management by giving full control of the fruits to users.
@@ -354,8 +390,14 @@ export class Fruito extends Component {
               I listed down several app features. The core was the <HighLightOnVisible className="highlight-fruito">tracking system of fruits</HighLightOnVisible>. There were two derived features, the <HighLightOnVisible className="highlight-fruito">reminder</HighLightOnVisible> and the <HighLightOnVisible className="highlight-fruito">eating summary</HighLightOnVisible>.
               </p>
               <div className="project-img-div-long">
-              <img
-              src='fruito/workflow@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/workflow@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/workflow@2x.png'
+                    }}
+                  />
               </div>
                <section className="content-block" id={'wireframes'}>
                 <div className="section-title">05_Wireframes</div>
@@ -363,8 +405,14 @@ export class Fruito extends Component {
               <div className="section-sub-title">Improve fruits management experience for everyone, everywhere</div>
               <div className="display-tittle">1. How to record fruits purchase</div>
               <div className="project-img-div-long">
-              <img
-              src='fruito/input@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/input@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/input@2x.png'
+                    }}
+                  />
               </div>
               <div><img/></div>
               <p>
@@ -381,8 +429,14 @@ export class Fruito extends Component {
               Seasonal fruits varies from place to place. The database of seasonal fruits of different areas is huge, so I started with the <a href="https://docs.google.com/spreadsheets/d/1PBh_hj84I5pzB4BwmIjYsH8_cL3_Z9FTExOB29UB7J0/edit?usp=sharing"><u>database of United States</u></a> in general.
               </p>
               <div className="project-img-div-long hd">
-              <img
-              src='fruito/wireframe@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/wireframe@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/wireframe@2x.png'
+                    }}
+                  />
               </div>
               <h5>The different greys helps me arranging the UI layers.</h5>
 
@@ -396,16 +450,21 @@ export class Fruito extends Component {
               </p>
 
               <div className="project-img-div-long">
-              <img
-              src='fruito/fruito_v1@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/fruito_v1@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/fruito_v1@2x.png'
+                    }}
+                  />
               </div>
               <div className="section-sub-title"> Learn from both the bad and the good. </div>
               <p>
                 It was nice to have so much valuable feedback that I could digest with. I have more iterations later.
               </p>
               <div className="project-img-div-long">
-              <img
-              src='fruito/ui_iteration@2x.png'/>
+                <img src="fruito/ui_iteration@2x.png"/>
               </div>
               <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
                <section className="content-block" id={'work-with-developers'}>
@@ -414,8 +473,14 @@ export class Fruito extends Component {
               <div className="section-sub-title">As organized as possible</div>
               <p>Our team of two are actively building Fruito 1.0 in our leisure time.</p>
               <div className="project-img-div-long hd">
-              <img
-              src='fruito/ui_display@2x.png'/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/ui_display@2x.png'
+                    }}
+                    zoomImage={{
+                      src: 'fruito/ui_display@2x.png'
+                    }}
+                  />
               </div>
 
              <section className="content-block" id={'demo'}>
