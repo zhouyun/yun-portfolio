@@ -6,7 +6,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import {Sidebar} from '../';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import './css/work.css';
-import ImageZoom from 'react-medium-image-zoom';
 
 export class GraphicDesign extends Component {
   componentDidMount(): void {
