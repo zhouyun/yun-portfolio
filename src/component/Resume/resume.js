@@ -21,49 +21,51 @@ export class Resume extends Component {
             <div className="resume-title-text">Experience</div>
           </div>
           <div className="resume-content">
-            <div className="resume-content-title">Design Lead Manager | April 2016 – present</div>
+            <div className="resume-content-title">Design Lead | April 2016 – present</div>
             <div className="resume-content-location">Palmdrive – Sunnyvale, CA/Shanghai, China</div>
             <div className="resume-content-detail">
-              <p>In charge of <HighLightOnVisible className="highlight-general"> website redesign</HighLightOnVisible>. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
+            <div className="resume-sub">Interaction design:</div>
+              <p>• Redesigned College Application Management System, a platform for consultants, mentors and coordinators to collaborate to help students with the application process. Serving over 4,000 mentors and premium subscribers, achieving over 16 million USD annual revenue.</p>
 
-              <p>Led <HighLightOnVisible className="highlight-general"> user experience design</HighLightOnVisible> for College Application Management System for both desktop and mobile, serving over 4,000 mentors and premium subscribers, achieving over <HighLightOnVisible className="highlight-general">$16M annual revenue</HighLightOnVisible>. Created <HighLightOnVisible className="highlight-general"> design system</HighLightOnVisible>.</p>
+              <p>• Designed College Application Assistant web app for students to arrange and follow their application process.</p>
+              <div className="resume-sub">Design system:</div>
+              <p>• Refined Palmdrive Style Guide by expanding web components and visual elements.</p>
+              <p>
+                • Designed the UI Component Gallery for College Application Assistant web app. 
+              </p>
+              <p>
+                • Designed logos and visual identity systems for in-company startups, Wulnut English, Palmdrive Go, and Palmdrive Academy. 
+              </p>
+              <div className="resume-sub">Marketing design:</div>
+              <p>• In charge of website redesign. Bounce rate decreased 10% in average and up to 75% for redesigned pages.</p>
 
-              <p>Led <HighLightOnVisible className="highlight-general"> collateral materials, environmental graphics, and print advertising</HighLightOnVisible> for more than 130 branding events nationwide within one year, deeply engaging with more than 6,000 college students. This directly leads to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.</p>
+              <p>• Led digital layouts, collateral materials, environmental graphics, and print advertising for more than 130 branding events nationwide within one year, deeply engaging with more than 6,000 college students. Directly leading to mainland China sales revenue grew by 233% from 1 to 3.33 million USD in 2 years, increasing market share by 2.5%.</p>
+              <div className="resume-sub">Other:</div>
+              <p>• Establish and host in-company design workshops and weekly design talks.</p>
 
-              <p>Support <HighLightOnVisible className="highlight-general"> social media marketing campaigns</HighLightOnVisible> with digital ad layouts across multiple platforms (Tencent WeChat, Sina Weibo, Zhihu, Toutiao).</p>
+              <p>• Build the design team from 0 to 4.</p>
 
-              <p>Designed <HighLightOnVisible className="highlight-general"> logos and visual identity systems</HighLightOnVisible> for in-company startups, Wulnut English, Palmdrive Go, and Palmdrive Academy. Supported Wulnut English campaigns with digital/print products, that contributed to a <HighLightOnVisible className="highlight-general"> 280% revenue growth</HighLightOnVisible> within one year.</p>
+              <p>• Reduced communication overhead by introducing transparent and standard work process that supported 300% campaigns without new design hires in 2017.</p>
 
-              <p>Establish and host in-company design workshops to help teams follow Palmdrive style guide and improve reliability on our daily feeds for over <HighLightOnVisible className="highlight-general"> 400k followers</HighLightOnVisible>.</p>
-
-              <p>Built the design team from 0 to 4 and mentor designers on user-centered design, communication, time-management and career planning.</p>
-
-              <p>Reduced communication overhead by introducing transparent and standard work process that supported <HighLightOnVisible className="highlight-general"> 300% campaigns without new design hires</HighLightOnVisible> in 2017.</p>
-
-              <p>Manage <HighLightOnVisible className="highlight-general"> weekly design talks</HighLightOnVisible> to share project insights, improve current design and explore design for fun.</p>
             </div>
             <div className="resume-content">
-              <div className="resume-content-title">Design Lead Manager | January 2015 – March 2016</div>
+              <div className="resume-content-title">UX/UI Designer | January 2015 – March 2016</div>
               <div className="resume-content-location">Smart Traveler – New York, NY/ Bay Area, CA</div>
               <div className="resume-content-detail">
-                <p>Created website for Chinese travelers who want to travel in the U.S. <br/>Designed logo, graphic elements for web, branding and digital/print ad layouts. <br/>Build the design team of 3 designers.</p>
+                <p>• Created website for Chinese travelers who want to travel in the U.S.</p>
+                <p>
+                • Designed logo, graphic elements for web, branding and digital/print ad layouts. </p>
+                <p>• Build the design team of 3 designers. </p>
               </div>
             </div>
-            <div className="resume-content">
-              <div className="resume-content-title">Digital Media Instructor | November 2014 – May 2015</div>
-              <div className="resume-content-location">Girls Write Now – New York, NY</div>
-              <div className="resume-content-detail">
-                <p>Collaborated with mentors and facilitators in curricular oversight and monthly
-                  workshops involving video editing and programming for Girls Write Now, a non-profit
-                  organization. </p>
-                </div>
-              </div>
+          
               <div className="resume-content">
                 <div className="resume-content-title">UX/UI Intern | June 2014 – December 2014</div>
                 <div className="resume-content-location">Pefin – New York, NY</div>
                 <div className="resume-content-detail">
-                  <p>Worked on user need analysis and information architecture.<br/>
-                  Fulfilled financial management website with HTML, CSS, jQuery, JavaScript and Knockout.</p>
+                  <p>• Worked on user need analysis and information architecture.</p>
+                  <p>• Fulfilled the financial management website with HTML, CSS, jQuery, JavaScript and Knockout.
+                  </p>
                 </div>
               </div>
             </div>
@@ -110,12 +112,6 @@ export class Resume extends Component {
                 <div className="resume-content-title">B.E. in Software Engineering | 2009 - 2013 <br/>Associated program in Finance | 2010 - 2011</div>
                 <div className="resume-content-detail">
                   <p>Wuhan University – Wuhan, China</p>
-                </div>
-              </div>
-              <div className="resume-content">
-                <div className="resume-content-title">Graphic Design and Speech Communication | 2016 - 2017</div>
-                <div className="resume-content-detail">
-                  <p>De Anza College – Cupertino, CA </p>
                 </div>
               </div>
             </div>

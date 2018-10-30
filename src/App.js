@@ -148,7 +148,7 @@ class Home extends Component {
           <Link to="/work/palmdrive">
             <div className="img-block" >
               <img className="background-cloud green-cloud" src="svg/greencloud.svg"/>
-              <img className="project-image palmdrive-home bg" src="home/pd/bg-pd@2x.png"/>
+              <img className="project-image float-left palmdrive-home bg" src="home/pd/bg-pd@2x.png"/>
               <img className="project-image palmdrive-home palmdrive-home-device" src="home/pd/palmdrive@2x.png"/>
             </div>
             <div className="text-block">
@@ -162,7 +162,7 @@ class Home extends Component {
           <Link to="/work/fruito">
             <div className="img-block-right">
               <img className="background-cloud greenblue-cloud" src="svg/greenbluecloud.svg"/>
-              <img className="project-image palmdrive-home bg" src="home/fruito/bg-fruito@2x.png"/>
+              <img className="project-image palmdrive-home float-right bg" src="home/fruito/bg-fruito@2x.png"/>
               <img className="project-image fruito-home fruito-home-device1" src="home/fruito/fruito-1@2x.png"/>
               <img className="project-image fruito-home fruito-home-device2" src="home/fruito/fruito-2@2x.png"/>
             </div>
@@ -178,7 +178,7 @@ class Home extends Component {
           <Link to="/work/newyear">
             <div className="img-block">
               <img className="background-cloud" src="svg/greenbluecloud.svg"/>
-              <img className="project-image palmdrive-home bg" src="home/nye/bg-nye@2x.png"/>
+              <img className="project-image palmdrive-home float-left bg" src="home/nye/bg-nye@2x.png"/>
               <img className="project-image newyear-home newyear-home-device" src="home/group-2/group-2@2x.png"/>
             </div>
             <div className="text-block">
@@ -192,7 +192,7 @@ class Home extends Component {
           <Link to="/work/transaction">
             <div className="img-block-right">
               <img className="background-cloud purple-cloud" src="svg/purplecloud.svg"/>
-              <img className="project-image palmdrive-home bg" src="home/pefin/bg-pefin@2x.png"/>
+              <img className="project-image palmdrive-home float-right bg" src="home/pefin/bg-pefin@2x.png"/>
               <img className="project-image transaction-home transaction-home-device1" src="home/pefin/pefin-1@2x.png"/>
               <img className="project-image transaction-home transaction-home-device2" src="home/pefin/pefin-2@2x.png"/>
             </div>
