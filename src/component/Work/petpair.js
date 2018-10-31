@@ -188,7 +188,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
           <p>
           It involves pets, shelters and adopters-to-be. 
           </p>
-          <div className="project-img-div-long">
+          <div className="project-img-div-long hd">
           <ImageZoom
                 image={{
                   src: 'petpair/triangle@2x.png'
@@ -208,7 +208,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               <div className="section-sub-title"> Start with preview</div>
               <p>
                 Since I was not familiar with how pet adoption system works, I gave myself about 1 hour to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviewers.</p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/sketches@2x.png'
@@ -228,7 +228,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
 2. People who are considering to adopt from shelters or buy from breeders. — <HighLightOnVisible className="highlight-general">Thinker</HighLightOnVisible><br/>
 3. People who have direct interactions with pets in the past. — <HighLightOnVisible className="highlight-general">Observers</HighLightOnVisible>
             </p>
-            <div className="project-img-div-long">
+            <div className="project-img-div-long hd">
             <ImageZoom
                 image={{
                   src: 'petpair/how@2x.png'
@@ -248,7 +248,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
              <p>
                Ken and Lily adopted Coco when she was 7 months. They were categorized as my Audience #1.
              </p>
-             <div className="project-img-div-long">
+             <div className="project-img-div-long hd">
              <ImageZoom
                 image={{
                   src: 'petpair/coco@2x.png'
@@ -268,7 +268,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
              <p>
                Tian and Xu bought new born Nana from a breeder. They were categorized as my Audience #2.
              </p>
-             <div className="project-img-div-long">
+             <div className="project-img-div-long hd">
              <ImageZoom
                 image={{
                   src: 'petpair/nana@2x.png'
@@ -329,7 +329,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 3. It usually happens once in a certain period of time, they will consider the second adoption after getting really acquainted with the first one. — <HighLightOnVisible className="highlight-general">low frequency</HighLightOnVisible>
 
               </p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/time@2x.png'
@@ -347,7 +347,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>
                 The features, actions and flow were already on my mind after the phases above, I did the first sketch and marked the part which needed more thoughts and feedback, then did some iterations.
               </p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/flow@2x.png'
@@ -363,7 +363,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>
                 Here is the final version after several iterations.
               </p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-all@2x.png'
@@ -379,7 +379,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>Walking through <HighLightOnVisible className="highlight-general">as a first time user</HighLightOnVisible> to the website —</p>
               <div className="display-tittle"> 1. Onboarding
               </div>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-1@2x.png'
@@ -402,7 +402,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 2. Exploring
               </div>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-2@2x.png'
@@ -423,7 +423,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 3. Collaborating
               </div>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-3@2x.png'
@@ -443,7 +443,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 4. Connecting
               </div>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-4@2x.png'
@@ -468,19 +468,10 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 2. Collaboration-trending<br/>
 3. Community
               </p>
-              <div className="project-img-div-long">
-              <ImageZoom
-                image={{
-                  src: 'petpair/questionnaire-later-copy@2x.png'
-                }}
-                zoomImage={{
-                  src: 'petpair/questionnaire-later-copy@2x.png'
-                }}
-              />
-              </div>
+              
               <div className="display-tittle">Educational</div>
               <p>While traditional questionnaire is always one way, Petpair focuses on interactivity, which automatically provides tips and adds filters, helping users learn about pet adoption. Moreover, user can play around different options to learn more, and I believe our animal friends deserve our efforts to learn how to take care of them better.</p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/educational@2x.png'
@@ -494,7 +485,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                <div className="display-tittle">Collaboration-trending</div>
               <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
               <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
                   src: 'petpair/collabration@2x.png'
@@ -505,13 +496,13 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               />
               </div>
               <div className="display-tittle">Community</div>
-              <div className="project-img-div-long">
+              <div className="project-img-div-long hd">
               <ImageZoom
                 image={{
-                  src: 'petpair/home-copy-2@2x.png'
+                  src: 'petpair/homepage@2x.png'
                 }}
                 zoomImage={{
-                  src: 'petpair/home-copy-2@2x.png'
+                  src: 'petpair/homepage@2x.png'
                 }}
               />
               </div>
@@ -522,7 +513,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p><HighLightOnVisible className="highlight-general">Youtube</HighLightOnVisible> will be a great support for pet adoption boost. <HighLightOnVisible className="highlight-general">Gmail</HighLightOnVisible> and <HighLightOnVisible className="highlight-general">Google Maps</HighLightOnVisible> are the tools involved in the system already. I don’t have a TV myself, but I know <HighLightOnVisible className="highlight-general">Google Now</HighLightOnVisible> could help to show those cute animals’ pictures that  also introduces a way to bring more observers!</p>
               <div className="display-tittle">We can have so many opportunities to connect people and animals, lead them from observer to doer. Then we are making the world a better place, especially for the animals.</div>
                <div className="little-blue-blink">Let’s just keep calm and move on.</div>
-
+               <img className="lbb" src="petpair/move-on.gif" height="120px" ></img>
 
 
 
