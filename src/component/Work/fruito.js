@@ -191,7 +191,7 @@ export class Fruito extends Component {
                   </div>
                 </Slider>
                 <div className="attach-to-bg">
-                <h5>Some fruits icons made by Freepik</h5>
+                <h5>Some fruits icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
                 </div>
               </section>
               <section className="content-block" id={'challenge'}>
