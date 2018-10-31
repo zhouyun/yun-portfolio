@@ -534,7 +534,7 @@ h3{
   border-radius: 50%;
   margin-top: -622px;
   margin-left: 46%;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 .palmdrive-laptop {
   margin-top: -520px;
@@ -564,6 +564,10 @@ h3{
 .palmdrive-browser {
   margin-left: -234px;
   margin-top: 332px;
+}
+.petpair-web{
+  margin-left: -154px;
+  margin-top: 582px;
 }
 .slider-petpair {
   margin-left: -77px;
@@ -607,7 +611,7 @@ h3{
   z-index: 1;
 }
 .petpair-browser {
-  margin-top: 332px;
+  margin-top: 251px;
 }
 @keyframes scrollPDPage {
   0% {

@@ -155,7 +155,7 @@ export class Petpair extends Component {
                 <img className="petpair-desktop img" src="petpair/desktop-pet@2x.png">
                 </img>
                 <div className="blueone"></div>
-                <img className="palmdrive-browser img" src="palmdrive/group-copy-3@2x.png">
+                <img className="petpair-web image_carousel img" src="petpair/petpair-browser@2x.png">
                 </img>
                 <Slider {...settings} className="slider-petpair">
                   <div className="petpair-browser petpair-content-1 img">
@@ -435,7 +435,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>The user can share collections via email, everyone who will live with the pet has the right and responsibility to know about it. The final vote result will show on the user’s account.</p>
               <div className="display-tittle">Summary
               </div>
-              <p>The <HighLightOnVisible className="highlight-general">collbrating system</HighLightOnVisible> was designed to serve Goal #1 and Goal #3. Getting everyone onboard is a crucial way to reduce conflicts beforehand . Moreover, the tool makes the applicable scenarios broader like dormitory pet or office pet. The adorable animals could use more hands and more space :)</p>
+              <p>The <HighLightOnVisible className="highlight-general">collbrating system</HighLightOnVisible> was designed to serve Goal #1 and Goal #3. Getting everyone onboard is a crucial way to reduce conflicts beforehand. Moreover, the tool makes the applicable scenarios broader like dormitory pet or office pet. The adorable animals could use more hands and more space :)</p>
 
 
 
