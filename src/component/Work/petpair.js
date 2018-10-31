@@ -7,6 +7,45 @@ import './css/work.css';
 import {Header, Footer, Navbar, HighLightOnVisible} from '../../component';
 
 import ImageZoom from 'react-medium-image-zoom';
+import Slider from "react-slick";
+
+
+export const SampleNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style}}
+      onClick={onClick}
+    >
+      <img className="img slick-arrow-img" src="fruito/up-1@2x.png"/>
+    </div>
+  );
+}
+
+export const SamplePrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style}}
+      onClick={onClick}
+    >
+      <img style={{ ...style, marginLeft:"-60px" }} className="img slick-arrow-img" src="fruito/up-1-copy@2x.png"/>
+    </div>
+  );
+}
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
+  };
 
 export class Petpair extends Component {
   componentDidMount(): void {
@@ -104,15 +143,9 @@ export class Petpair extends Component {
                   <span className="label">Execution</span><br/>
                   <span className="label">Writing & Page building</span><br/>
                   </div>
-              <div className="rectangle-button">
-              <a href="http://palmdrive.cn/">
-              <div className="rectangle-button-bg"></div>
-              <div className="btn-text">Go to website</div>
-              </a>
-              </div>
               <section className="content-block palmdrive-intro">
                 <div className="palmdrive-intro-wrap">
-                  <img className="palmdrive-intro-img" src="palmdrive/bg-seed@2x.png">
+                  <img className="palmdrive-intro-img" src="petpair/bg-seed@2x.png">
                   </img>
                 </div>
                 <div className="intro-how"><span className="first-word">How</span> to create an experience that will help connect people looking for a new pet with the right companion for them?</div>
@@ -124,8 +157,16 @@ export class Petpair extends Component {
                 <div className="blue-circle"></div>
                 <img className="palmdrive-browser img" src="palmdrive/group-copy-3@2x.png">
                 </img>
-                <div className="palmdrive-browser palmdrive-browser-long-image img">
-                </div>
+                <Slider {...settings} className="slider-petpair">
+                  <div className="petpair-browser petpair-content-1 img">
+                  </div>
+                  <div className="petpair-browser petpair-content-2 img">
+                  </div>
+                  <div className="petpair-browser petpair-content-3 img">
+                  </div>
+                  <div className="petpair-browser petpair-content-4 img">
+                  </div>
+                </Slider>
                 <div className="attach-to-bg">
                <h5>Icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
                 </div>
