@@ -18,7 +18,7 @@ export const SampleNextArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img className="img slick-arrow-img" src="fruito/up-1@2x.png"/>
+      <img style={{ ...style, marginLeft:"60px" }}className="img slick-arrow-img arrow-down" src="fruito/up-1@2x.png"/>
     </div>
   );
 }
@@ -31,7 +31,7 @@ export const SamplePrevArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img style={{ ...style, marginLeft:"-60px" }} className="img slick-arrow-img" src="fruito/up-1-copy@2x.png"/>
+      <img style={{ ...style, marginLeft:"-120px" }} className="img slick-arrow-img arrow-down" src="fruito/up-1-copy@2x.png"/>
     </div>
   );
 }
@@ -168,8 +168,8 @@ export class Petpair extends Component {
                   </div>
                 </Slider>
               </section>
-              <h5>Icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
               <div>
+              <h5>Icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
               <div className="display-tittle"><i>/ Thanks for the support from my recruitor Avery and interviewer Joel, so that I can make to this part. Thanks to all interviewees during my research and my tech support gal./</i></div>
 
                 <p>As part of interview process with Google, I choose <HighLightOnVisible className="highlight-general">Pet Adoption</HighLightOnVisible> from the three because I feel emotionally connected to this topic.</p>
