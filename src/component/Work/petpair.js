@@ -96,15 +96,12 @@ export class Petpair extends Component {
                 Petpair
               </h3>
               <span className="december-2016">
-                April 2016 - present
+                October 2018
               </span>
               <div className="content-label">
                   <span className="label">Research</span>
-                  <span className="label">UX Design</span>
-                  <span className="label">Visual Design</span><br/>
-                  <span className="label">Product Management</span><br/>
-                  <span className="label">Copy Writing</span>
-                  <span className="label">Prototype</span>
+                  <span className="label">UX / UI Design</span>
+                  <span className="label">Project Management</span><br/>
                   </div>
               <div className="rectangle-button">
               <a href="http://palmdrive.cn/">
