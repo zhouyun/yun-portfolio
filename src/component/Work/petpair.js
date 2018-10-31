@@ -151,10 +151,10 @@ export class Petpair extends Component {
                 <div className="intro-how"><span className="first-word">How</span> to create an experience that will help connect people looking for a new pet with the right companion for them?</div>
                 <div className="rectangle-division"></div>
                 <div className="intro-with intro-with-palmdrive"><span className="first-word">Petpair</span> helps you find the pets for you, and you for them.</div>
-                <div className="green-circle"></div>
-                <img className="palmdrive-laptop img" src="palmdrive/palmdrive-display@2x.png">
+                <div className="greenone"></div>
+                <img className="petpair-desktop img" src="petpair/desktop-pet@2x.png">
                 </img>
-                <div className="blue-circle"></div>
+                <div className="blueone"></div>
                 <img className="palmdrive-browser img" src="palmdrive/group-copy-3@2x.png">
                 </img>
                 <Slider {...settings} className="slider-petpair">
@@ -167,10 +167,8 @@ export class Petpair extends Component {
                   <div className="petpair-browser petpair-content-4 img">
                   </div>
                 </Slider>
-                <div className="attach-to-bg">
-               <h5>Icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
-                </div>
               </section>
+              <h5>Icons made by <u><a href="http://www.freepik.com" title="Freepik">Freepik</a></u></h5>
               <div>
               <div className="display-tittle"><i>/ Thanks for the support from my recruitor Avery and interviewer Joel, so that I can make to this part. Thanks to all interviewees during my research and my tech support gal./</i></div>
 

@@ -526,9 +526,24 @@ h3{
   margin-top: -488px;
   margin-left: 40%;
 }
+.blueone{
+  width: 230px;
+  height: 230px;
+  object-fit: contain;
+  background-color: #3f51b5;
+  border-radius: 50%;
+  margin-top: -622px;
+  margin-left: 46%;
+  margin-bottom: 120px;
+}
 .palmdrive-laptop {
   margin-top: -520px;
   margin-left: 47%;
+}
+.petpair-desktop{
+    margin-top: -763px;
+    margin-bottom: 400px;
+    margin-left: 47%;
 }
 .blue-circle {
   margin-top: -224px;
@@ -536,6 +551,14 @@ h3{
   width: 129px;
   height: 129px;
   background-color: #456cd3;
+  border-radius: 50%;
+}
+.greenone{
+  margin-top: -145px;
+  margin-left: 95%;
+  width: 129px;
+  height: 129px;
+  background-color: #5eebd6;
   border-radius: 50%;
 }
 .palmdrive-browser {
