@@ -177,6 +177,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 }}
               />
               </div>
+              <p>
                 Since I was not familiar with how pet adoption system works, I gave myself about <HighLightOnVisible className="highlight-general">1 hour</HighLightOnVisible> to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviewers.</p>
             <div className="section-sub-title"> Find out the audience</div>
             <p>
@@ -486,7 +487,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
 
     
-
+              </p>
             </div>
         </div>
       </div>
