@@ -542,6 +542,35 @@ h3{
   margin-left: -234px;
   margin-top: 332px;
 }
+.slider-petpair {
+  margin-left: -77px;
+  width: 700px;
+  margin-top: -633px;
+}
+.petpair-content-1 {
+  height: 998px;
+  background-image: url(/petpair/home-copy-2@2x.png);
+  position: relative;
+  z-index: 1;
+}
+.petpair-content-2 {
+  height: 998px;
+  background-image: url(/petpair/my-petpair-liked-copy-2@2x.png);
+  position: relative;
+  z-index: 1;
+}
+.petpair-content-3 {
+  height: 998px;
+  background-image: url(/petpair/my-petpair-liked-copy-3@2x.png);
+  position: relative;
+  z-index: 1;
+}
+.petpair-content-4 {
+  height: 998px;
+  background-image: url(/petpair/questionnaire-later-copy@2x.png);
+  position: relative;
+  z-index: 1;
+}
 .palmdrive-browser-long-image {
   width: 1400px;
   margin-left: -155px;
@@ -553,6 +582,9 @@ h3{
   background-size: 1400px;
   position: relative;
   z-index: 1;
+}
+.petpair-browser {
+  margin-top: 332px;
 }
 @keyframes scrollPDPage {
   0% {
