@@ -131,7 +131,8 @@ export class Petpair extends Component {
                 </div>
               </section>
               <div>
-              <div className="display-tittle"><i>/ Thanks for the support from my recruitor Avery and interviewer Joel, so that I can make to this part. /</i></div>
+              <div className="display-tittle"><i>/ Thanks for the support from my recruitor Avery and interviewer Joel, so that I can make to this part. Thanks to all interviewees during my research and my tech support gal./</i></div>
+
                 <p>As part of interview process with Google, I choose <HighLightOnVisible className="highlight-general">Pet Adoption</HighLightOnVisible> from the three because I feel emotionally connected to this topic.</p>
                 <p>I used to have a great time with two cats and one duck that my grandma rescued from  streets. However, <HighLightOnVisible className="highlight-general">we don’t have shelters in China</HighLightOnVisible>, so I am really curious about <HighLightOnVisible className="highlight-general">how shelters work</HighLightOnVisible> in pet adoption system and excited about <HighLightOnVisible className="highlight-general">what I could do to help</HighLightOnVisible> based on the exercise.</p>
               </div>
