@@ -254,7 +254,12 @@ h5{
   position: relative; 
   zoom: 50%; 
 }
-
+.petpair-project-img-div-long {
+  margin: 40px 0px 20px 0px;
+  overflow: visible;
+  direction: rtl; 
+  position: relative; 
+}
 .main {
 	margin-left: 406px;
 	width:700px;
@@ -723,6 +728,9 @@ display: none;
 }
 .slick-dots {
   bottom: 70px;
+}
+.slider-petpair .slick-dots {
+  bottom: -20px;
 }
 .slider-text {
   margin-left:600px;
