@@ -526,9 +526,24 @@ h3{
   margin-top: -488px;
   margin-left: 40%;
 }
+.blueone{
+  width: 230px;
+  height: 230px;
+  object-fit: contain;
+  background-color: #3f51b5;
+  border-radius: 50%;
+  margin-top: -622px;
+  margin-left: 46%;
+  margin-bottom: 100px;
+}
 .palmdrive-laptop {
   margin-top: -520px;
   margin-left: 47%;
+}
+.petpair-desktop{
+    margin-top: -763px;
+    margin-bottom: 400px;
+    margin-left: 47%;
 }
 .blue-circle {
   margin-top: -224px;
@@ -538,9 +553,21 @@ h3{
   background-color: #456cd3;
   border-radius: 50%;
 }
+.greenone{
+  margin-top: -145px;
+  margin-left: 95%;
+  width: 129px;
+  height: 129px;
+  background-color: #5eebd6;
+  border-radius: 50%;
+}
 .palmdrive-browser {
   margin-left: -234px;
   margin-top: 332px;
+}
+.petpair-web{
+  margin-left: -154px;
+  margin-top: 582px;
 }
 .slider-petpair {
   margin-left: -77px;
@@ -583,8 +610,11 @@ h3{
   position: relative;
   z-index: 1;
 }
+.arrow-down{
+  margin-top: 400px;
+}
 .petpair-browser {
-  margin-top: 332px;
+  margin-top: 251px;
 }
 @keyframes scrollPDPage {
   0% {

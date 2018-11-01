@@ -17,7 +17,7 @@ export const SampleNextArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img className="img slick-arrow-img" src="fruito/up-1@2x.png"/>
+      <img style={{ ...style, marginLeft:"40px" }} className="img slick-arrow-img" src="fruito/up-1@2x.png"/>
     </div>
   );
 }
@@ -30,7 +30,7 @@ export const SamplePrevArrow = (props) => {
       style={{ ...style}}
       onClick={onClick}
     >
-      <img style={{ ...style, marginLeft:"-60px" }} className="img slick-arrow-img" src="fruito/up-1-copy@2x.png"/>
+      <img style={{ ...style, marginLeft:"-100px" }} className="img slick-arrow-img" src="fruito/up-1-copy@2x.png"/>
     </div>
   );
 }
