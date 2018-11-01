@@ -196,10 +196,10 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/triangle@2x.png',
+                  src: 'petpair/triangle@3x.png',
                   alt: 'triangle',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -223,9 +223,9 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/sketches@2x.png',
+                  src: 'petpair/sketches@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -249,9 +249,9 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/how@2x.png',
+                  src: 'petpair/how@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -275,9 +275,9 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/coco@2x.png',
+                  src: 'petpair/coco@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -301,9 +301,9 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/nana@2x.png',
+                  src: 'petpair/nana@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -368,9 +368,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/time@2x.png',
+                  src: 'petpair/time@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -392,9 +392,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/flow@2x.png',
+                  src: 'petpair/flow@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -414,9 +414,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-all@2x.png',
+                  src: 'petpair/wireframe-all@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -436,9 +436,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-1@2x.png',
+                  src: 'petpair/wireframe-1@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -465,9 +465,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-2@2x.png',
+                  src: 'petpair/wireframe-2@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -492,9 +492,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-3@2x.png',
+                  src: 'petpair/wireframe-3@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -518,9 +518,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-4@2x.png',
+                  src: 'petpair/wireframe-4@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -552,9 +552,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/educational@2x.png',
+                  src: 'petpair/educational@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -572,9 +572,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/collabration@2x.png',
+                  src: 'petpair/collabration@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
@@ -589,9 +589,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/homepage@2x.png',
+                  src: 'petpair/homepage@3x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
               />
