@@ -449,7 +449,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-1-2@2x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
                 zoomImage={{
@@ -497,7 +497,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-2-2@2x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
                 zoomImage={{
@@ -542,7 +542,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-3-2@2x.png',
                   style: {
-                    width: '700px'
+                    width: '2100px'
                   }
                 }}
                 zoomImage={{
