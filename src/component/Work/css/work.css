@@ -260,6 +260,11 @@ h5{
   direction: rtl; 
   position: relative; 
 }
+.petpair-project-img-div-long-elements{
+  overflow: visible;
+  direction: rtl; 
+  position: relative; 
+}
 .main {
 	margin-left: 406px;
 	width:700px;

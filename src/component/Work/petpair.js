@@ -138,10 +138,11 @@ export class Petpair extends Component {
                 October 2018
               </span>
               <div className="content-label">
-                  <span className="label">Research</span>
-                  <span className="label">Ideation</span>
-                  <span className="label">Execution</span><br/>
-                  <span className="label">Writing & Page building</span><br/>
+                  <span className="label">Research: 3h</span>
+                  <span className="label">Ideation: 0.5h</span>
+                  <span className="label">Execution: 4.5h</span><br/>
+                  <span className="label">Writing: 3h </span>
+                  <span className="label">Page building: So shame to tell</span><br/>
                   </div>
               <section className="content-block palmdrive-intro">
                 <div className="palmdrive-intro-wrap">
@@ -189,7 +190,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
           <div className="petpair-project-img-div-long hd">
           <ImageZoom
                 image={{
-                  src: 'petpair/triangle.png',
+                  src: 'petpair/triangle@2x.png',
                   alt: 'triangle',
                   style: {
                     width: '700px'
@@ -199,7 +200,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                   src: 'petpair/triangle@3x.png',
                   alt: 'triangle',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -225,16 +226,15 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 zoomImage={{
                   src: 'petpair/sketches@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
-              <p>
-                Since I was not familiar with how pet adoption system works, I gave myself about <HighLightOnVisible className="highlight-general">1 hour</HighLightOnVisible> to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviewers.</p>
+              
             <div className="section-sub-title"> Find out the audience</div>
             <p>
-              With talking to several interviewers who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I divided the audience by levels —<br/>
+              With talking to several interviewers who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by levels —<br/>
 
               1. People who are looking for a new pet to adopt. — <HighLightOnVisible className="highlight-general">Doers</HighLightOnVisible><br/>
 2. People who are considering to adopt from shelters or buy from breeders. — <HighLightOnVisible className="highlight-general">Thinker</HighLightOnVisible><br/>
@@ -251,7 +251,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 zoomImage={{
                   src: 'petpair/how@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -277,7 +277,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 zoomImage={{
                   src: 'petpair/coco@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -303,7 +303,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 zoomImage={{
                   src: 'petpair/nana@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -324,7 +324,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                <div className="display-tittle">“Shelters are shabby and narrow, pets aren’t happy there.” — Amy, 20-25
 </div>
               <p>
-                Pets from shelters are generally healthier because they get medical checks by professionals. Also pure breeds have more possibility to get genetic defect, which may cost a lot to cure. (Also a common reason why people give up their pets.)
+                Pets from shelters are generally healthier because they get medical checks by professionals. Also pure breeds have more possibility to get ill because of genetic defect, which may cost a lot to cure. (Also a common reason why people give up their pets.)
               </p>
               <p>
                 Moreover, adopting pets from shelters cost cheaper and adopters will have a lifetime resource from the community.
@@ -370,15 +370,15 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 zoomImage={{
                   src: 'petpair/time@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
               <p>
-              <h5>
+              <p>
                 Petpair collects and processes information from other shelters’ websites for now. Although, a website will be a perfect tool for people who want to adopt pets, an app might be a better choice for shelters if they run their organizations on Petpair, since they will use it everyday.
-              </h5>
+              </p>
               <div className="section-sub-title">Sketch & user testing </div>
               <p>
                 The features, actions and flow were already on my mind after the phases above, I did the first sketch and marked the part which needed more thoughts and feedback, then did some iterations.
@@ -394,7 +394,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 zoomImage={{
                   src: 'petpair/flow@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -416,7 +416,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 zoomImage={{
                   src: 'petpair/wireframe-all@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -427,26 +427,45 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>Walking through <HighLightOnVisible className="highlight-general">as a first time user</HighLightOnVisible> to the website —</p>
               <div className="display-tittle"> 1. Onboarding
               </div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
+              <div className="petpair-project-img-div-long-elements hd">
               <ImageZoom
                 image={{
-                  src: 'petpair/wireframe-1@2x.png',
+                  src: 'petpair/wireframe-1-1@2x.png',
                   style: {
                     width: '700px'
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-1@3x.png',
+                  src: 'petpair/wireframe-1-1@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
+              <div className="petpair-project-img-div-long-elements hd">
+              <ImageZoom
+                image={{
+                  src: 'petpair/wireframe-1-2@2x.png',
+                  style: {
+                    width: '2100px'
+                  }
+                }}
+                zoomImage={{
+                  src: 'petpair/wireframe-1-2@3x.png',
+                  style: {
+                    width: '3000px'
+                  }
+                }}
+              />
+              </div>
+              </div>
               <p>After entering the homepage, a notification pops up from the bottom. It gives users the welcome and points out what the website is about. It explains why the user should do it and gives the expected time of doing the questionnaire which reduces the negative emotion to take it.</p>
-              <p> The questionnaire floats above the website and background greys out to allow the user focus on the questionnaire. To get the user start without feeling overwhelmed, the questionnaire has several most important questions.(What and how many questions will be decided after more research) Each time the user selects an option, related filters are displayed and added to future search or tips are shown below. The instant interaction helps the user understand why the question exists and what to expect in the situation. All the questions should be straightforward, but if the user need some time to think and come back to the question later, s/he can use the process indicator to anchor to the question. </p>
-              <p>After completing the questionnaire, the user gets a view with a loading indicator. The “processing time” gives feedback on the search progress which comforts the user. Moreover, the user can use the time to create an account and even become a subscriber. Then the user will get notification of the new pets matching his situation as soon as they arrive. (Cute ones gone fast!!!)  The account registration flow is pretty standard.</p>
-              <p>The user can close the view at any time</p>
+              <p> The questionnaire floats above the website and background greys out to allow the user focus on the questionnaire. To get the user start without feeling overwhelmed, the questionnaire has several most important questions. (What and how many questions will be decided after more research.) Each time the user selects an option, related filters are displayed and added to future search or tips are shown below. The instant interaction helps the user understand why the question exists and what to expect in the situation. All the questions should be straightforward, but if the user need some time to think and come back to the question later, s/he can use the process indicator to anchor to the question. </p>
+              <p>After completing the questionnaire, the user gets a view with a loading indicator. The “processing time” gives feedback on the search progress which comforts the user. Moreover, the user can use the time to create an account and even become a subscriber. Then the user will get notification of the new pets matching his or her situation as soon as they arrive. (Because cute ones gone fast!!!)  It appears as a option with good intersions of saving the user’s time and a respect for user’s efforts on the questionnaire. Also offering the user what to expect from the registration increases the trust. The account registration flow is pretty standard.
+              </p>
+              <p>The user can close the view at any time. It goes back to the homepage.</p>
               <div className="display-tittle">Summary
               </div>
               <p>The <HighLightOnVisible className="highlight-general">questionnaire system</HighLightOnVisible> was designed to serve Goal #2 mainly. Pet adoption is hard, and we are here to help you learn. Your pet and you both need that.</p>
@@ -456,25 +475,43 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 2. Exploring
               </div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
+              <div className="petpair-project-img-div-long-elements hd">
               <ImageZoom
                 image={{
-                  src: 'petpair/wireframe-2@2x.png',
+                  src: 'petpair/wireframe-2-1@2x.png',
                   style: {
                     width: '700px'
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-2@3x.png',
+                  src: 'petpair/wireframe-2-1@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
+              <div className="petpair-project-img-div-long-elements hd">
+              <ImageZoom
+                image={{
+                  src: 'petpair/wireframe-2-2@2x.png',
+                  style: {
+                    width: '2100px'
+                  }
+                }}
+                zoomImage={{
+                  src: 'petpair/wireframe-2-2@3x.png',
+                  style: {
+                    width: '3000px'
+                  }
+                }}
+              />
+              </div>
+              </div>
               <p>On the explore view, the filters created during the questionnaire are displayed. (Pet’s turn to select the user is done.) The user can also add more filters using the dropdown menu above. (Now it’s the user’s turn.) If the user is not sure about what filter s/he should add, s/he can click “not sure” button to take a more detailed questionnaire. Questions are sorted for different purpose: beginners, amateurs and pros. (A fuzzy search feature could be added as a list view menu in the future.) The filters allow the user to play around and save the results for the future. The user can change distance to refind the pets or change the sorting method to redisplay the pets. If there is no match or very few matches, some recommended pets are displayed since the user might be willing to compromise their filters to a certain extent.</p>
               <p> Each card shows the summary information of the pet, highlighting the characteristic. A video will be played after hovering on the pet profile picture, so the user will get a prominent idea about the shape, pattern, status of the pet. S/he can save the pet if s/he likes it.</p>
-              <p>The fixed next and previous buttons allow the user to browse between pets seamlessly and easily. Instead of boring the user with chunks of words, the information is customized according to the user’s situation. It provides both why the user should chose this pet and what should be paid more attention to. Pet living location and contact information are displayed at the bottom of this page. The user can click the profile to see more about the place or check the reviews on google map. </p>
+              <p>The fixed next and previous buttons allow the user to browse between pets seamlessly and easily. Instead of boring the user with chunks of words, the information is customized according to the user’s situation. It provides both why the user should chose this pet and what should be paid more attention to. Pet living location and contact information are displayed at the bottom of this page. The user can click the profile to see more about the place or check the reviews on Google Map. </p>
               <div className="display-tittle">Summary
               </div>
               <p>The <HighLightOnVisible className="highlight-general">filter system</HighLightOnVisible> was designed to serve Goal #1 mainly. With a better tool, we can serve our users and animals better.</p>
@@ -483,21 +520,39 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 3. Collaborating
               </div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
+              <div className="petpair-project-img-div-long-elements hd">
               <ImageZoom
                 image={{
-                  src: 'petpair/wireframe-3@2x.png',
+                  src: 'petpair/wireframe-3-1@2x.png',
                   style: {
                     width: '700px'
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-3@3x.png',
+                  src: 'petpair/wireframe-3-1@3x.png',
+                  style: {
+                    width: '3000px'
+                  }
+                }}
+              />
+              </div>
+              <div className="petpair-project-img-div-long-elements hd">
+              <ImageZoom
+                image={{
+                  src: 'petpair/wireframe-3-2@2x.png',
                   style: {
                     width: '2100px'
                   }
                 }}
+                zoomImage={{
+                  src: 'petpair/wireframe-3-2@3x.png',
+                  style: {
+                    width: '3000px'
+                  }
+                }}
               />
+              </div>
               </div>
               <p>Each collection is under one questionnaire with specific filters. Half of my interviewers have considered to have another pet in the future. If they move from an apartment to an house, their considerations will change, however, with the same account, they can edit filters from the past or plan to adopt for the future.</p>
               <p>The user can share collections via email, everyone who will live with the pet has the right and responsibility to know about it. The final vote result will show on the user’s account.</p>
@@ -520,7 +575,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 zoomImage={{
                   src: 'petpair/wireframe-4@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
@@ -542,7 +597,6 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               </p>
               
               <div className="display-tittle">Educational</div>
-              <p>While traditional questionnaire is always one way, Petpair focuses on interactivity, which automatically provides tips and adds filters, helping users learn about pet adoption. Moreover, user can play around different options to learn more, and I believe our animal friends deserve our efforts to learn how to take care of them better.</p>
               <div className="petpair-project-img-div-long hd">
               <ImageZoom
                 image={{
@@ -552,17 +606,15 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/educational@3x.png',
+                  src: 'petpair/educational@hd.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
               <p>While traditional questionnaire is always one way, Petpair focuses on interactivity, which automatically provides tips and adds filters, helping users <HighLightOnVisible className="highlight-general">learn about pet adoption</HighLightOnVisible>. Moreover, user can play around different options to learn more, and I believe our animal friends deserve our efforts to learn how to take care of them better.</p>
                <div className="display-tittle">Collaboration-trending</div>
-              <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
-              <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
               <div className="petpair-project-img-div-long hd">
               <ImageZoom
                 image={{
@@ -572,26 +624,29 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/collabration@3x.png',
+                  src: 'petpair/collabration@hd.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
               </div>
+              <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
+              <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
+
               <div className="display-tittle">Community</div>
               <div className="petpair-project-img-div-long hd">
               <ImageZoom
                 image={{
-                  src: 'petpair/homepage@2x.png',
+                  src: 'petpair/home@2x.png',
                   style: {
                     width: '700px'
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/homepage@3x.png',
+                  src: 'petpair/home@3x.png',
                   style: {
-                    width: '2100px'
+                    width: '3000px'
                   }
                 }}
               />
