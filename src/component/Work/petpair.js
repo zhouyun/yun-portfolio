@@ -650,6 +650,10 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldRespectMaxDimension={true}
               />
               </div>
+              <p>
+              <a target="_blank" href="https://drive.google.com/file/d/1i605FR7CiCkE8fWC4UgY_vKDAwjIykdq/view">click here to check HD</a>
+              </p>
+              
               <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
               <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
 
