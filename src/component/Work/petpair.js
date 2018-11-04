@@ -203,6 +203,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
           </div>
           <p>
@@ -229,6 +230,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               
@@ -254,6 +256,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
             </div>
             <p>
@@ -280,6 +283,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
              <p>
@@ -306,6 +310,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
              <p>
@@ -373,6 +378,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <p>
@@ -397,6 +403,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <p>
@@ -419,6 +426,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <p>The whole experience were divided into 4 parts - onboarding, exploring, collaborating and connecting.
@@ -442,6 +450,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <div className="petpair-project-img-div-long-elements hd">
@@ -449,7 +458,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-1-2@2x.png',
                   style: {
-                    width: '2100px'
+                    width: '700px'
                   }
                 }}
                 zoomImage={{
@@ -458,6 +467,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               </div>
@@ -490,6 +500,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <div className="petpair-project-img-div-long-elements hd">
@@ -497,7 +508,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-2-2@2x.png',
                   style: {
-                    width: '2100px'
+                    width: '700px'
                   }
                 }}
                 zoomImage={{
@@ -506,6 +517,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               </div>
@@ -535,6 +547,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <div className="petpair-project-img-div-long-elements hd">
@@ -542,7 +555,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 image={{
                   src: 'petpair/wireframe-3-2@2x.png',
                   style: {
-                    width: '2100px'
+                    width: '700px'
                   }
                 }}
                 zoomImage={{
@@ -551,6 +564,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               </div>
@@ -578,6 +592,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <p>The homepage highlights streaming channels for pets at the top. If adopting is not the most reasonable way for the user to have a companion or give love to animals, s/he can watch their channels, interact with them live or donate to others’ pet who needs help. The page is functioning like a Petpair Post for the community, this part could use some designer, journalist, video editors and Youtubers as volunteers. </p>
@@ -606,11 +621,13 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/educational@hd.png',
+                  src: 'petpair/educational@3x.png',
                   style: {
-                    width: '3000px'
+                    width: '4500px'
                   }
                 }}
+                shouldReplaceImage={false}
+                shouldRespectMaxDimension={true}
               />
               </div>
               <p>While traditional questionnaire is always one way, Petpair focuses on interactivity, which automatically provides tips and adds filters, helping users <HighLightOnVisible className="highlight-general">learn about pet adoption</HighLightOnVisible>. Moreover, user can play around different options to learn more, and I believe our animal friends deserve our efforts to learn how to take care of them better.</p>
@@ -626,9 +643,11 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 zoomImage={{
                   src: 'petpair/collabration@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '4500px'
                   }
                 }}
+                shouldReplaceImage={false}
+                shouldRespectMaxDimension={true}
               />
               </div>
               <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
@@ -649,6 +668,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                     width: '3000px'
                   }
                 }}
+                shouldReplaceImage={false}
               />
               </div>
               <p><HighLightOnVisible className="highlight-general">Awareness should be raised.</HighLightOnVisible> The first step we could do is to have a way to let them involve with our daily lives. My friends spend tons of time watching cats on Youtube, what if we offer them a simple way to sponsor the channel? What if we show a poster of joining party live with cute kittens as ads?  Admitting the bar of pet adoption is high, finding various ways for people to participate is the key.</p>
