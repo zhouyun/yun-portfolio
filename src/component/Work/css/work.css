@@ -888,4 +888,35 @@ display: none;
   .small_pic {
     width: 100%;
   }
+  .greenone {
+    display: none
+  }
+  .blueone {
+    display: none
+  }
+  .petpair-desktop {
+    display: none
+  }
+  .petpair-project-img-div-long {
+    margin: 40px 0px 20px 0px;
+    overflow: visible;
+    direction: ltr; 
+    position: relative; 
+    zoom: 50%; 
+  }
+  .petpair-project-img-div-long-elements{
+    overflow: visible;
+    direction: ltr; 
+    position: relative; 
+    zoom: 50%; 
+  }
+  .petpair-project-img-div-long img {
+    width: 100%;
+  }
+  .slider-petpair {
+    display: none;
+  }
+  .petpair-web {
+    margin-top: 10px;
+  }
 }
