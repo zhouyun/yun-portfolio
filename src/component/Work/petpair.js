@@ -421,9 +421,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-all@3x.png',
+                  src: 'petpair/wireframe-all@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '11327px'
                   }
                 }}
                 shouldReplaceImage={false}
