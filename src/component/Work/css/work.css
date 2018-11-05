@@ -463,7 +463,7 @@ h3{
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
-  line-height: 0.75;
+  line-height: 1;
   letter-spacing: 2px;
   color: #44424d;
   margin: 30px 0 5px 0;
@@ -752,7 +752,10 @@ display: none;
   .side-bar {
     display: none;
   }
-
+  .cat-lbb{
+    width: 144.22px;
+    height: 120px;
+  }
   .fruito-intro-wrap {
     display: none;
   }

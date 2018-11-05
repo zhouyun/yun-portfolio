@@ -683,7 +683,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p><HighLightOnVisible className="highlight-general">Youtube</HighLightOnVisible> will be a great support for pet adoption boost. <HighLightOnVisible className="highlight-general">Gmail</HighLightOnVisible> and <HighLightOnVisible className="highlight-general">Google Maps</HighLightOnVisible> are the tools involved in the system already. I don’t have a TV myself, but I know <HighLightOnVisible className="highlight-general">Google Now</HighLightOnVisible> could help to show those cute animals’ pictures that  also introduces a way to bring more observers!</p>
               <div className="display-tittle">We can have so many opportunities to connect people and animals, leading them to become doers from observers. Then we are making the world a better place, especially for the animals.</div>
                <div className="little-blue-blink">Let’s just keep calm and move on.</div>
-               <img className="lbb" src="petpair/move-on.gif" height="120px" ></img>
+               <img className="cat-lbb" src="petpair/move-on.gif" height="120px" ></img>
 
 
 
