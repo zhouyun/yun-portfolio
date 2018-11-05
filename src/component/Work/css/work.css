@@ -902,13 +902,12 @@ display: none;
     overflow: visible;
     direction: ltr; 
     position: relative; 
-    zoom: 50%; 
+    zoom: 40%; 
   }
   .petpair-project-img-div-long-elements{
     overflow: visible;
     direction: ltr; 
     position: relative; 
-    zoom: 50%; 
   }
   .petpair-project-img-div-long img {
     width: 100%;
