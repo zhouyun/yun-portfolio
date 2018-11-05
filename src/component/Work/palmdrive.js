@@ -174,11 +174,16 @@ export class Palmdrive extends Component {
 				        image={{
 				          src: 'palmdrive/info-arch@2x.png',
 				          alt: 'Info Architecture',
+				          style: {
+                    width: '700px'
+                  }
 				        }}
 				        zoomImage={{
-				          src: 'palmdrive/info-arch@2x.png',
+				          src: 'palmdrive/info-arch@3x.png',
 				          alt: 'Info Architecture',
-				          style: { zoom:'33%' }
+				          style: {
+                    width: '3000px'
+                  }
 				        }}
 				      />
 	         </div>
@@ -196,10 +201,16 @@ export class Palmdrive extends Component {
 					<div className="project-img-div-long">
 					 	<ImageZoom
 				        image={{
-				          src: 'palmdrive/behavior-flow@2x.png'
+				          src: 'palmdrive/behavior-flow@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 				        }}
 				        zoomImage={{
-				          src: 'palmdrive/behavior-flow@2x.png'
+				          src: 'palmdrive/behavior-flow@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 				        }}
 				      />
 		      </div>
@@ -212,10 +223,16 @@ export class Palmdrive extends Component {
 		      <div className="project-img-div-long">
 					 	<ImageZoom
 				        image={{
-				          src: 'palmdrive/wireframes@2x.png'
+				          src: 'palmdrive/wireframes@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 				        }}
 				        zoomImage={{
-				          src: 'palmdrive/wireframes@2x.png'
+				          src: 'palmdrive/wireframes@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 				        }}
 				      />
 		      </div>
@@ -223,10 +240,16 @@ export class Palmdrive extends Component {
 		             <div className="project-img-div-long">
 								 	<ImageZoom
 							        image={{
-							          src: 'palmdrive/wireframes-2@2x.png'
+							          src: 'palmdrive/wireframes-2@2x.png',
+							          style: {
+			                    width: '700px'
+			                  }
 							        }}
 							        zoomImage={{
-							          src: 'palmdrive/wireframes-2@2x.png'
+							          src: 'palmdrive/wireframes-2@3x.png',
+							          style: {
+			                    width: '3000px'
+			                  }
 							        }}
 							      />
 					      </div>
@@ -239,10 +262,16 @@ export class Palmdrive extends Component {
 		             <div className="project-img-div-long">
 								 	<ImageZoom
 							        image={{
-							          src: 'palmdrive/design-detail@2x.png'
+							          src: 'palmdrive/design-detail@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 							        }}
 							        zoomImage={{
-							          src: 'palmdrive/design-detail@2x.png'
+							          src: 'palmdrive/design-detail@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 							        }}
 							      />
 					      </div>
@@ -253,10 +282,16 @@ export class Palmdrive extends Component {
 		      <div className="project-img-div-long">
 								 	<ImageZoom
 							        image={{
-							          src: 'palmdrive/mobile-design@2x.png'
+							          src: 'palmdrive/mobile-design@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 							        }}
 							        zoomImage={{
-							          src: 'palmdrive/mobile-design@2x.png'
+							          src: 'palmdrive/mobile-design@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 							        }}
 							      />
 					      </div>
@@ -267,10 +302,16 @@ export class Palmdrive extends Component {
 		             <div className="project-img-div-long">
 								 	<ImageZoom
 							        image={{
-							          src: 'palmdrive/visual-consistency@2x.png'
+							          src: 'palmdrive/visual-consistency@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 							        }}
 							        zoomImage={{
-							          src: 'palmdrive/visual-consistency@2x.png'
+							          src: 'palmdrive/visual-consistency@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 							        }}
 							      />
 					      </div>
@@ -281,10 +322,16 @@ export class Palmdrive extends Component {
 		        		<div className="project-img-div-long">
 								 	<ImageZoom
 							        image={{
-							          src: 'palmdrive/design-delivery@2x.png'
+							          src: 'palmdrive/design-delivery@2x.png',
+				          style: {
+                    width: '700px'
+                  }
 							        }}
 							        zoomImage={{
-							          src: 'palmdrive/design-delivery@2x.png'
+							          src: 'palmdrive/design-delivery@3x.png',
+				          style: {
+                    width: '3000px'
+                  }
 							        }}
 							      />
 					      </div>

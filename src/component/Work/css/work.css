@@ -252,7 +252,10 @@ h5{
   overflow: visible;
   direction: rtl; 
   position: relative; 
-  zoom: 50%; 
+  /*zoom: 50%; */
+}
+.project-img-div-long img {
+  zoom: 50%;
 }
 .petpair-project-img-div-long {
   margin: 40px 0px 20px 0px;
