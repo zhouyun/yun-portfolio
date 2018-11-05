@@ -252,9 +252,11 @@ h5{
   overflow: visible;
   direction: rtl; 
   position: relative; 
-  /*zoom: 50%; */
 }
-.project-img-div-long img {
+.project-img-div-long .small_pic {
+  zoom: 50%;
+}
+.project-img-div-long .big_pic {
   zoom: 50%;
 }
 .petpair-project-img-div-long {

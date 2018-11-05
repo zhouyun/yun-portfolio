@@ -83,10 +83,16 @@ export class Work extends Component {
 	      		<div className="project-img-div-long hd">
 		        <ImageZoom
                     image={{
-                      src: 'image/desktop/display-1@2x.png'
+                      src: 'image/desktop/display-1@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
                     }}
                     zoomImage={{
-                      src: 'image/desktop/display-1@2x.png'
+                      src: 'image/desktop/display-1@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
                     }}
                   />
 		        </div>
@@ -117,10 +123,16 @@ export class Work extends Component {
 						<div className="project-img-div-long">
 		        <ImageZoom
                     image={{
-                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png'
+                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png',
+                      style: {
+		                    width: '300px'
+		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png'
+                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
                     }}
                   />
 		        </div>
@@ -135,10 +147,16 @@ export class Work extends Component {
             <div className="project-img-div-long">
             <ImageZoom
                     image={{
-                      src: 'new year/group@2x.png'
+                      src: 'new year/group@2x.png',
+                      style: {
+		                    width: '300px'
+		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/group@2x.png'
+                      src: 'new year/group@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
                     }}
                   />
             </div>
@@ -148,10 +166,16 @@ export class Work extends Component {
 		        <div className="project-img-div-long">
             <ImageZoom
                     image={{
-                      src: 'new year/group-5@2x.png'
+                      src: 'new year/group-5@2x.png',
+                      style: {
+		                    width: '300px'
+		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/group-5@2x.png'
+                      src: 'new year/group-5@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
                     }}
                   />
             </div>
