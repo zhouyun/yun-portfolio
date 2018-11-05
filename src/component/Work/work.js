@@ -80,7 +80,7 @@ export class Work extends Component {
 	      		<p>
 	      			I collaborated with Su, the event executor, since the start of the project. I delivered <HighLightOnVisible className="highlight-newyear">digital posters, website, and invitation email</HighLightOnVisible> for different platforms in 2 weeks.
 	      		</p>
-	      		<div className="project-img-div-long">
+	      		<div className="project-img-div-long hd">
 		        <ImageZoom
                     image={{
                       src: 'image/desktop/display-1@2x.png'

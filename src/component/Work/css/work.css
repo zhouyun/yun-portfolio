@@ -36,7 +36,7 @@ p:last-of-type {
 	margin-bottom: 20px;
 }
 .fruito-display{
-  margin-top: -644px;
+  margin-top: -663px;
   position: relative;
   margin-left: 220px;
 }
@@ -330,7 +330,7 @@ h3{
   zoom:50%;
 }
 .hd{
-  margin-right: -300px;
+  margin-right: -150px;
 }
 .section-sub-title {
   font-family: "Montserrat-Regular","Montserrat";
@@ -895,7 +895,7 @@ display: none;
     width: 100%;
   }
   .greenone {
-    display: none
+    display: nonef
   }
   .blueone {
     display: none
