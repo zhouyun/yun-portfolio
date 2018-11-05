@@ -161,11 +161,11 @@ export class Petpair extends Component {
                 <Slider {...settings} className="slider-petpair">
                   <div className="petpair-browser petpair-content-1 img">
                   </div>
-                  <div className="petpair-browser petpair-content-2 img">
+                  <div className="petpair-browser petpair-content-4 img">
                   </div>
                   <div className="petpair-browser petpair-content-3 img">
                   </div>
-                  <div className="petpair-browser petpair-content-4 img">
+                  <div className="petpair-browser petpair-content-2 img">
                   </div>
                 </Slider>
               </section>
@@ -429,6 +429,10 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldReplaceImage={false}
               />
               </div>
+              <h5>
+              <a target="_blank" href="https://drive.google.com/file/d/1wOynV1e0J2mDBHUZtxWyHwIJvv6mZE3V/view">CLICK HERE TO CHECK HD</a>
+              </h5>
+
               <p>The whole experience were divided into 4 parts - onboarding, exploring, collaborating and connecting.
               </p>
               <div className="section-sub-title">Going into details</div>
@@ -445,9 +449,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-1-1@3x.png',
+                  src: 'petpair/wireframe-1-1@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -462,9 +466,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-1-2@3x.png',
+                  src: 'petpair/wireframe-1-2@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -495,9 +499,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-2-1@3x.png',
+                  src: 'petpair/wireframe-2-1@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -512,9 +516,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-2-2@3x.png',
+                  src: 'petpair/wireframe-2-2@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -542,9 +546,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-3-1@3x.png',
+                  src: 'petpair/wireframe-3-1@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -559,9 +563,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-3-2@3x.png',
+                  src: 'petpair/wireframe-3-2@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -587,9 +591,9 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/wireframe-4@3x.png',
+                  src: 'petpair/wireframe-4@hd.png',
                   style: {
-                    width: '3000px'
+                    width: '5000px'
                   }
                 }}
                 shouldReplaceImage={false}
@@ -621,7 +625,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/educational@3x.png',
+                  src: 'petpair/educational@hd.png',
                   style: {
                     width: '4500px'
                   }
@@ -650,9 +654,6 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldRespectMaxDimension={true}
               />
               </div>
-              <p>
-              <a target="_blank" href="https://drive.google.com/file/d/1i605FR7CiCkE8fWC4UgY_vKDAwjIykdq/view">click here to check HD</a>
-              </p>
               
               <p>When a family decides to have a pet together, they will share the responsibility and rights. So we should <HighLightOnVisible className="highlight-general">have everyone onboard</HighLightOnVisible> to help make the best decision.</p>
               <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
@@ -667,7 +668,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                   }
                 }}
                 zoomImage={{
-                  src: 'petpair/home@3x.png',
+                  src: 'petpair/home@hd.png',
                   style: {
                     width: '3000px'
                   }
