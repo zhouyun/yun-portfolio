@@ -239,7 +239,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               With talking to several interviewers who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by levels —<br/>
 
               1. People who are looking for a new pet to adopt. — <HighLightOnVisible className="highlight-general">Doers</HighLightOnVisible><br/>
-2. People who are considering to adopt from shelters or buy from breeders. — <HighLightOnVisible className="highlight-general">Thinker</HighLightOnVisible><br/>
+2. People who are considering to have a pet, either adopting from shelters or buying from breeders. — <HighLightOnVisible className="highlight-general">Thinkers</HighLightOnVisible><br/>
 3. People who have direct interactions with pets in the past. — <HighLightOnVisible className="highlight-general">Observers</HighLightOnVisible>
             </p>
             <div className="petpair-project-img-div-long hd">
@@ -267,7 +267,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                Among the 7 interviews I did, I selected two typical ones to dive in.
              </p>
              <p>
-               Ken and Lily adopted Coco when she was 7 months. They were categorized as my Audience #1.
+               Ken and Lily adopted Coco when she was 7 months. They were categorized as my Audience #1 (Doers).
              </p>
              <div className="petpair-project-img-div-long hd">
              <ImageZoom
@@ -294,7 +294,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
 4. Videos are recommended.
              </p>
              <p>
-               Tian and Xu bought new born Nana from a breeder. They were categorized as my Audience #2.
+               Tian and Xu bought new born Nana from a breeder. They were categorized as my Audience #2 (Thinkers).
              </p>
              <div className="petpair-project-img-div-long hd">
              <ImageZoom
@@ -381,7 +381,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldReplaceImage={false}
               />
               </div>
-              <p>
+              <h5>How much time for each period</h5>
               <p>
                 Petpair collects and processes information from other shelters’ websites for now. Although, a website will be a perfect tool for people who want to adopt pets, an app might be a better choice for shelters if they run their organizations on Petpair, since they will use it everyday.
               </p>
@@ -689,7 +689,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
 
     
-              </p>
+
             </div>
         </div>
       </div>
