@@ -214,10 +214,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/persona@2x.png'
+                      src: 'fruito/persona@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/persona@2x.png'
+                      src: 'fruito/persona@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -226,10 +232,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/x_mind@2x.png'
+                      src: 'fruito/x_mind@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/x_mind@2x.png'
+                      src: 'fruito/x_mind@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -239,10 +251,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/classic_story@2x.png'
+                      src: 'fruito/classic_story@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/classic_story@2x.png'
+                      src: 'fruito/classic_story@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -252,10 +270,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long hd">
                 <ImageZoom
                     image={{
-                      src: 'fruito/emotion_map@2x.png'
+                      src: 'fruito/emotion_map@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/emotion_map@2x.png'
+                      src: 'fruito/emotion_map@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -268,10 +292,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long hd">
                 <ImageZoom
                     image={{
-                      src: 'fruito/math@2x.png'
+                      src: 'fruito/math@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/math@2x.png'
+                      src: 'fruito/math@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -358,10 +388,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/metrics@2x.png'
+                      src: 'fruito/metrics@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/metrics@2x.png'
+                      src: 'fruito/metrics@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -392,10 +428,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/workflow@2x.png'
+                      src: 'fruito/workflow@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/workflow@2x.png'
+                      src: 'fruito/workflow@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -407,10 +449,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/input@2x.png'
+                      src: 'fruito/input@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/input@2x.png'
+                      src: 'fruito/input@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -431,10 +479,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long hd">
                 <ImageZoom
                     image={{
-                      src: 'fruito/wireframe@2x.png'
+                      src: 'fruito/wireframe@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/wireframe@2x.png'
+                      src: 'fruito/wireframe@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -452,10 +506,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long">
                 <ImageZoom
                     image={{
-                      src: 'fruito/fruito_v1@2x.png'
+                      src: 'fruito/fruito_v1@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/fruito_v1@2x.png'
+                      src: 'fruito/fruito_v1@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
@@ -464,7 +524,21 @@ export class Fruito extends Component {
                 It was nice to have so much valuable feedback that I could digest with. I have more iterations later.
               </p>
               <div className="project-img-div-long">
-                <img src="fruito/ui_iteration@2x.png"/>
+                <ImageZoom
+                    image={{
+                      src: 'fruito/ui_iteration@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'fruito/ui_iteration@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
+
               </div>
               <img className="fruito-display" src="fruito/fruito UI-final.gif" width="264px" ></img>
                <section className="content-block" id={'work-with-developers'}>
@@ -475,10 +549,16 @@ export class Fruito extends Component {
               <div className="project-img-div-long hd">
                 <ImageZoom
                     image={{
-                      src: 'fruito/ui_display@2x.png'
+                      src: 'fruito/ui_display@2x.png',
+                      style: {
+                        width: '700px'
+                      }
                     }}
                     zoomImage={{
-                      src: 'fruito/ui_display@2x.png'
+                      src: 'fruito/ui_display@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
                     }}
                   />
               </div>
