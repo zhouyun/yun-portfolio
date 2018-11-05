@@ -142,7 +142,7 @@ export class Petpair extends Component {
                   <span className="label">Ideation: 0.5h</span>
                   <span className="label">Execution: 4.5h</span><br/>
                   <span className="label">Writing: 3h </span>
-                  <span className="label">Page building: So shame to tell</span><br/>
+                  <span className="label">Page building: 😂</span><br/>
                   </div>
               <section className="content-block palmdrive-intro">
                 <div className="palmdrive-intro-wrap">
