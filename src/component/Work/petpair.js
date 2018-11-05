@@ -174,7 +174,7 @@ export class Petpair extends Component {
               <div className="display-tittle"><i>/ Thanks for the support from my recruitor Avery and interviewer Joel, so that I can make to this part. Thanks to all interviewees during my research and my tech support gal./</i></div>
 
                 <p>As part of interview process with Google, I choose <HighLightOnVisible className="highlight-general">Pet Adoption</HighLightOnVisible> from the three because I feel emotionally connected to this topic.</p>
-                <p>I used to have a great time with two cats and one duck that my grandma rescued from  streets. However, <HighLightOnVisible className="highlight-general">we don’t have shelters in China</HighLightOnVisible>, so I am really curious about <HighLightOnVisible className="highlight-general">how shelters work</HighLightOnVisible> in pet adoption system and excited about <HighLightOnVisible className="highlight-general">what I could do to help</HighLightOnVisible> based on the exercise.</p>
+                <p>I used to have a great time with two cats and one duck that my grandma rescued from  streets. However, <HighLightOnVisible className="highlight-general">we don’t have shelters in China</HighLightOnVisible>, so I am really curious about <HighLightOnVisible className="highlight-general">how shelters work</HighLightOnVisible> in pet adoption system and excited about <HighLightOnVisible className="highlight-general">what I could do to help</HighLightOnVisible>.</p>
               </div>
               <section className="content-block" id={'challenge'}>
                 <div className="section-title">01_Challenge</div>
@@ -324,7 +324,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
              </p>
               <div className="display-tittle">“Old cats/dogs will never treat me as their owner.”— Ning, 25-30</div>
               <p>
-                Old animals already show their true personality. A kitten/puppy can become very different years after you buy it. (Which is often the reason why they end up in shelters.)
+                However, old animals already show their true personalities. A kitten/puppy can become very different years after you buy it. (Which is often the reason why they end up in shelters.)
               </p>
                <div className="display-tittle">“Shelters are shabby and narrow, pets aren’t happy there.” — Amy, 20-25
 </div>
@@ -332,7 +332,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
                 Pets from shelters are generally healthier because they get medical checks by professionals. Also pure breeds have more possibility to get ill because of genetic defect, which may cost a lot to cure. (Also a common reason why people give up their pets.)
               </p>
               <p>
-                Moreover, adopting pets from shelters cost cheaper and adopters will have a lifetime resource from the community.
+                Moreover, adopting pets from shelters costs cheaper and adopters will have a lifetime resource from the community.
 
               </p>
 
@@ -347,9 +347,9 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               <p>
                 
 Since it will not launch soon, I won’t dig into the metrics too much. But here comes the idea— <br/>
-1. Time spend on finding the match pets<br/>
+1. Time spend on finding the matching pets<br/>
 2. Test on shelters and shelter animals knowledge<br/>
-3. Traffic and demographics change from google analytics on this solution
+3. Monthly Active User and demographics change
 
               </p>
 
@@ -477,7 +477,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               </div>
               <p>After entering the homepage, a notification pops up from the bottom. It gives users the welcome and points out what the website is about. It explains why the user should do it and gives the expected time of doing the questionnaire which reduces the negative emotion to take it.</p>
               <p> The questionnaire floats above the website and background greys out to allow the user focus on the questionnaire. To get the user start without feeling overwhelmed, the questionnaire has several most important questions. (What and how many questions will be decided after more research.) Each time the user selects an option, related filters are displayed and added to future search or tips are shown below. The instant interaction helps the user understand why the question exists and what to expect in the situation. All the questions should be straightforward, but if the user need some time to think and come back to the question later, s/he can use the process indicator to anchor to the question. </p>
-              <p>After completing the questionnaire, the user gets a view with a loading indicator. The “processing time” gives feedback on the search progress which comforts the user. Moreover, the user can use the time to create an account and even become a subscriber. Then the user will get notification of the new pets matching his or her situation as soon as they arrive. (Because cute ones gone fast!!!)  It appears as a option with good intersions of saving the user’s time and a respect for user’s efforts on the questionnaire. Also offering the user what to expect from the registration increases the trust. The account registration flow is pretty standard.
+              <p>After completing the questionnaire, the user gets a view with a loading indicator. The “processing time” gives feedback on the search progress which comforts the user. Moreover, the user can use the time to create an account and even become a subscriber. Then the user will get notification of the new pets matching his or her situation as soon as they arrive. (Because cute ones are gone fast!!!)  It appears as a option with good intersions of saving the user’s time and a respect for user’s efforts on the questionnaire. Also offering the user what to expect from the registration increases the trust. The account registration flow is pretty standard.
               </p>
               <p>The user can close the view at any time. It goes back to the homepage.</p>
               <div className="display-tittle">Summary
@@ -681,7 +681,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle">Summary</div>
               <p><HighLightOnVisible className="highlight-general">Youtube</HighLightOnVisible> will be a great support for pet adoption boost. <HighLightOnVisible className="highlight-general">Gmail</HighLightOnVisible> and <HighLightOnVisible className="highlight-general">Google Maps</HighLightOnVisible> are the tools involved in the system already. I don’t have a TV myself, but I know <HighLightOnVisible className="highlight-general">Google Now</HighLightOnVisible> could help to show those cute animals’ pictures that  also introduces a way to bring more observers!</p>
-              <div className="display-tittle">We can have so many opportunities to connect people and animals, lead them from observer to doer. Then we are making the world a better place, especially for the animals.</div>
+              <div className="display-tittle">We can have so many opportunities to connect people and animals, leading them to become doers from observers. Then we are making the world a better place, especially for the animals.</div>
                <div className="little-blue-blink">Let’s just keep calm and move on.</div>
                <img className="lbb" src="petpair/move-on.gif" height="120px" ></img>
 
