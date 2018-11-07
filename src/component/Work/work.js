@@ -85,7 +85,7 @@ export class Work extends Component {
                     image={{
                       src: 'image/desktop/display-1@2x.png',
                       style: {
-		                    width: '700px'
+		                    width: '1000px'
 		                  }
                     }}
                     zoomImage={{
@@ -129,7 +129,7 @@ export class Work extends Component {
 		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/artboard-16_2018-06-08/artboard-16@2x.png',
+                      src: 'new year/artboard-16_2018-06-08/artboard-16@3x.png',
                       style: {
 		                    width: '700px'
 		                  }
@@ -153,7 +153,7 @@ export class Work extends Component {
 		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/group@2x.png',
+                      src: 'new year/group@3x.png',
                       style: {
 		                    width: '700px'
 		                  }
@@ -172,7 +172,7 @@ export class Work extends Component {
 		                  }
                     }}
                     zoomImage={{
-                      src: 'new year/group-5@2x.png',
+                      src: 'new year/group-5@3x.png',
                       style: {
 		                    width: '700px'
 		                  }
@@ -183,17 +183,39 @@ export class Work extends Component {
 		        	According to the surveys, we selected the final invitees and sent <HighLightOnVisible className="highlight-newyear">invitation emails</HighLightOnVisible> with their name and the party schedule.
 		        </p>
 		        <div className="project-img-div-long">
-		        <img className="small_pic"
-              src='new year/email-display@2x.png'
-            />
+		        <ImageZoom
+                    image={{
+                      src: 'new year/email-display@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'new year/email-display@3x.png',
+                      style: {
+		                    width: '300px'
+		                  }
+                    }}
+                  />
             </div>
 		        <p>
 		        	To get continuous exposure and a large audience, I also designed <HighLightOnVisible className="highlight-newyear">Countdown Posters</HighLightOnVisible> with QR code of the survey.
 		        </p>
 		         <div className="project-img-div-long">
-		        <img className="small_pic"
-              src='new year/group-2@2x.png'
-            />
+		         <ImageZoom
+                    image={{
+                      src: 'new year/group-2@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'new year/group-2@3x.png',
+                      style: {
+		                    width: '300px'
+		                  }
+                    }}
+                  />
             </div>
 		        <p>
 		        	With all the effort, we got <HighLightOnVisible className="highlight-newyear">over 200 replies</HighLightOnVisible> on the first day which was much higher than our expectation according to our previous experience.
@@ -207,9 +229,20 @@ export class Work extends Component {
 		        	We borrowed <HighLightOnVisible className="highlight-newyear">Kumamon custume</HighLightOnVisible>, which was a very popular character at that time, with the rest budget, and <HighLightOnVisible className="highlight-newyear">people love it</HighLightOnVisible>!
 		        </p>
 		        <div className="project-img-div-long">
-		        <img className="big_pic"
-              src='new year/group-3@2x.png'
-            />
+		        <ImageZoom
+                    image={{
+                      src: 'new year/group-3@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'new year/group-3@3x.png',
+                      style: {
+		                    width: '300px'
+		                  }
+                    }}
+                  />
             </div>
             <h5>Photo credit Su</h5>
 		        <p>
@@ -239,15 +272,37 @@ export class Work extends Component {
 		        	To make the event official and accessible by larger audience, I created a website for promotion and check in so we could <HighLightOnVisible className="highlight-newyear">collect the data automatically for later analytics</HighLightOnVisible>.
 		        </p>
 		        <div className="project-img-div-long">
-		        <img className="big_pic"
-              src='new year/group-4@2x.png'
-            />
+		        <ImageZoom
+                    image={{
+                      src: 'new year/group-4@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'new year/group-4@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
             </div>
 		        <p>Two weeks later, we host another New Year event at Sunnyvale.</p>
             <div className="project-img-div-long">
-              <img className="big_pic"
-              src='new year/dsc-01489_2018-06-08/dsc-01489@2x.png'
-            />
+            <ImageZoom
+                    image={{
+                      src: 'new year/dsc-01489_2018-06-08/dsc-01489@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'new year/dsc-01489_2018-06-08/dsc-01489@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
           </div>
           <h5>Photo credit Yujia</h5>
 		        <div className="content-block" id={'teamwork'}>

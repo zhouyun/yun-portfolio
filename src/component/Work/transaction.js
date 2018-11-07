@@ -85,10 +85,21 @@ export class Transaction extends Component {
       			I was in charge of improving transaction experience by <HighLightOnVisible className="highlight-transaction">introducing filters and trending data visualization</HighLightOnVisible>.
       		</p>
 
-          <div className="project-img-div-long">
-      			<img className="big_pic"
-	          src='pefin/group-2@2x.png'
-	        />
+          <div className="project-img-div-long hd">
+           <ImageZoom
+                    image={{
+                      src: 'pefin/group-2@2x.png',
+                      style: {
+		                    width: '1000px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/group-2@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
       		<div className="content-block" id={'challenge'}>
 	          <div className="section-title"> 01_Challenge </div>
@@ -106,29 +117,64 @@ export class Transaction extends Component {
 	        <p>
 	        	To make the logic clear, I created two kinds of filter pools. One was for <HighLightOnVisible className="highlight-transaction">“Must-have” tags</HighLightOnVisible>, and the other was for <HighLightOnVisible className="highlight-transaction">“May-have” tags</HighLightOnVisible>. This allowed users to choose any combination of filters. Later, we found that this system was too complicated for users, so we saved it for advanced settings.
 	        </p>
-	        <div className="project-img-div-long">
-      			<img className="big_pic"
-	          src='pefin/bitmap@2x.png'
-	        />
+	        <div className="project-img-div-long hd">
+	        <ImageZoom
+                    image={{
+                      src: 'pefin/bitmap@2x.png',
+                      style: {
+		                    width: '1000px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/bitmap@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
+
+
 	         <h5>Quick sketch for different scenarios</h5>
 			<div className="content-block" id={'wireframes'}>
 	        	<div className="section-title">03_Wireframes</div>
 	        </div>
 	        <div className="section-sub-title">Design comes the next</div>
-	         <div className="project-img-div-long">
-      			<img className="big_pic"
-	          src='pefin/bitmap/bitmap@2x.png'
-	        />
+	         <div className="project-img-div-long hd">
+	         <ImageZoom
+                    image={{
+                      src: 'pefin/bitmap/bitmap@2x.png',
+                      style: {
+		                    width: '1000px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/bitmap/bitmap@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 	        <h5>Traditional table lists and charts</h5>
 	        <p>
 	        	Based on customer research, we decided to do the transaction user interface as a table list. After studying the precedents, I found most of the table lists were boring and lacking structure, they were a <HighLightOnVisible className="highlight-transaction">web version of Excel</HighLightOnVisible>. So I transformed part of the information into a visualization that could be understood immediately so that users could focus on transactions without distraction.
 	        </p>
 	        <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='pefin/whiteboard@2x.png'
-	        />
+	        <ImageZoom
+                    image={{
+                      src: 'pefin/whiteboard@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/whiteboard@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 
 	        <div className="section-sub-title">It’s always fun to play with data</div>
@@ -136,10 +182,21 @@ export class Transaction extends Component {
 	        <p>
 	        	The webpages were designed with both <HighLightOnVisible className="highlight-transaction">bar and pie charts</HighLightOnVisible> for different needs. 90% users interacted with both pie charts and bar charts. We also had bubble charts or not for a A/B testing, and we removed it for this version.
 	        </p>
-	        <div className="project-img-div-long">
-      			<img className="big_pic"
-	          src='pefin/wireframe/bitmap@2x.png'
-	        />
+	        <div className="project-img-div-long hd">
+	        <ImageZoom
+                    image={{
+                      src: 'pefin/wireframe/bitmap@2x.png',
+                      style: {
+		                    width: '1000px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/wireframe/bitmap@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 
 	        <div className="content-block" id={'visual-design'}>
@@ -150,9 +207,20 @@ export class Transaction extends Component {
 	        	<HighLightOnVisible className="highlight-transaction">Tags shows below each transaction.</HighLightOnVisible> Users click a tag to add as a filter and edit filters by clicking bubble to enter a edit mode.
 	        </p>
 	         <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='pefin/group@2x.png'
-	        />
+	          <ImageZoom
+                    image={{
+                      src: 'pefin/group@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/group@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 	        <div className="display-tittle"> 1. Space is better than lines.</div>
 	         <p>
@@ -167,16 +235,38 @@ export class Transaction extends Component {
 	        	I made a list of colors which complemented each other nicely. Moreover, any color could be told from others easily at the same time. After tags attaching to each transaction, users tended to <HighLightOnVisible className="highlight-transaction">click tags</HighLightOnVisible> much more often than <HighLightOnVisible className="highlight-transaction">typing in a search bar</HighLightOnVisible>. While people could only added filter by typing in a search bar when using Mint, our competitive product
 	        </p>
 	        <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='pefin/ui-exhibition@2x.png'
-	        />
+	        <ImageZoom
+                    image={{
+                      src: 'pefin/ui-exhibition@2x.png',
+                      style: {
+		                    width: '700px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/ui-exhibition@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 	        <div className="section-sub-title">"Hover" is better than "click and clear"</div>
 
-	        <div className="project-img-div-long">
-      			<img className="big_pic"
-	          src='pefin/wireframe/research@2x.png'
-	        />
+	        <div className="project-img-div-long hd">
+	         <ImageZoom
+                    image={{
+                      src: 'pefin/wireframe/research@2x.png',
+                      style: {
+		                    width: '1000px'
+		                  }
+                    }}
+                    zoomImage={{
+                      src: 'pefin/wireframe/research@3x.png',
+                      style: {
+		                    width: '3000px'
+		                  }
+                    }}
+                  />
 	        </div>
 	        <div><img/></div>
 	        <p>

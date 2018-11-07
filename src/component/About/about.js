@@ -20,7 +20,7 @@ export class About extends Component {
           <div className="Looking-for-full-tim"> Looking for full-time visual UX/UI Design opportunities!</div>
 
         
-        <div className="project-img-div-long">
+        <div className="project-img-div-long slider-fruito">
             <img
             src='avata-3@2x.png'
           />

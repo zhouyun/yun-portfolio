@@ -251,7 +251,10 @@ h5{
   margin: 40px 0px 20px 0px;
   overflow: visible;
   direction: rtl; 
-  position: relative; 
+  position: relative;
+}
+.slider-fruito{
+  zoom:50%;
 }
 .project-img-div-long .small_pic {
   zoom: 50%;
@@ -911,6 +914,12 @@ display: none;
     direction: ltr; 
     position: relative; 
     zoom: 43%; 
+  }
+  .project-img-div-long{
+    zoom: 43%;
+  }
+  .hd{
+    zoom: 30%;
   }
   .petpair-project-img-div-long-elements{
     overflow: visible;

@@ -175,7 +175,7 @@ export class Palmdrive extends Component {
 				          src: 'palmdrive/info-arch@2x.png',
 				          alt: 'Info Architecture',
 				          style: {
-                    width: '2000px'
+                    width: '1000px'
                   }
 				        }}
 				        zoomImage={{
@@ -204,7 +204,7 @@ export class Palmdrive extends Component {
 				        image={{
 				          src: 'palmdrive/behavior-flow@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 				        }}
 				        zoomImage={{
@@ -226,7 +226,7 @@ export class Palmdrive extends Component {
 				        image={{
 				          src: 'palmdrive/wireframes@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 				        }}
 				        zoomImage={{
@@ -243,7 +243,7 @@ export class Palmdrive extends Component {
 							        image={{
 							          src: 'palmdrive/wireframes-2@2x.png',
 							          style: {
-			                    width: '1400px'
+			                    width: '700px'
 			                  }
 							        }}
 							        zoomImage={{
@@ -265,7 +265,7 @@ export class Palmdrive extends Component {
 							        image={{
 							          src: 'palmdrive/design-detail@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 							        }}
 							        zoomImage={{
@@ -285,7 +285,7 @@ export class Palmdrive extends Component {
 							        image={{
 							          src: 'palmdrive/mobile-design@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 							        }}
 							        zoomImage={{
@@ -305,7 +305,7 @@ export class Palmdrive extends Component {
 							        image={{
 							          src: 'palmdrive/visual-consistency@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 							        }}
 							        zoomImage={{
@@ -325,7 +325,7 @@ export class Palmdrive extends Component {
 							        image={{
 							          src: 'palmdrive/design-delivery@2x.png',
 				          style: {
-                    width: '1400px'
+                    width: '700px'
                   }
 							        }}
 							        zoomImage={{

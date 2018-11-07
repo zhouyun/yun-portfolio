@@ -70,9 +70,20 @@ export class GraphicDesign extends Component {
            December 2016
           </span>
           <div className="project-img-div-long">
-            <img className="small_pic"
-            src='graphic/digital-reading-experience@2x.png'
-          />
+           <ImageZoom
+                    image={{
+                      src: 'graphic/digital-reading-experience@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/digital-reading-experience@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
           </div>
           <div className="section-sub-title"> Graphic design collections for Palmdrive</div>
 	        <span className="december-2016">
@@ -83,21 +94,54 @@ export class GraphicDesign extends Component {
       		</p>
 
           <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='graphic/group-4@2x.png'
-	        />
+           <ImageZoom
+                    image={{
+                      src: 'graphic/group-4@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/group-4@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
 	        </div>
 	        <h5>Palmdrive hiring Roll Up</h5>
 	        <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='graphic/group-2@2x.png'
-	        />
+           <ImageZoom
+                    image={{
+                      src: 'graphic/group-2@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/group-2@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
 	        </div>
 	        <h5>Palmdrive Undergraduate Brochure</h5>
 			   <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='graphic/display-2-2@2x.png'
-	        />
+          <ImageZoom
+                    image={{
+                      src: 'graphic/display-2-2@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/display-2-2@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
 	        </div>
 	        <h5>Thank You card for mid-autumn festival</h5>
           <p>
@@ -115,9 +159,20 @@ export class GraphicDesign extends Component {
       		Wulnut English is a fast growing startup incubated by Palmdrive, focusing on English online tutoring. After launching the VIS, the Wulnut English’s followers has bumped up 20,000 on WeChat in 3 months. <HighLightOnVisible className="highlight-graphic"> Please contact me for VIS.</HighLightOnVisible>
       		</p>
       		<div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='graphic/stationery-mockup-02@2x.png'
-	        />
+          <ImageZoom
+                    image={{
+                      src: 'graphic/stationery-mockup-02@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/stationery-mockup-02@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
 	        </div>
 	        <h5>Wulnut English logo display</h5>
           <div className="section-sub-title"> Palmdrive Go Logo</div>
@@ -129,9 +184,20 @@ export class GraphicDesign extends Component {
 	        	Palmdrive Go is a startup incubated by Palmdrive. Its goal is to build a mentor community. I had a good time playing with <HighLightOnVisible className="highlight-graphic">Bilingual Lettering</HighLightOnVisible> on the logo design.
 	        </p>
 	        <div className="project-img-div-long">
-      			<img className="small_pic"
-	          src='graphic/group-5@2x.png'
-	        />
+           <ImageZoom
+                    image={{
+                      src: 'graphic/group-5@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/group-5@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
 	        </div>
 	        <h5>Responsive logo</h5>
 
@@ -146,9 +212,20 @@ export class GraphicDesign extends Component {
             The t-shirt was for my father’s class reunion 30 years after graduation from Beihang University, I am glad I could <HighLightOnVisible className="highlight-graphic">participate in my father’s youth</HighLightOnVisible> in this way.
           </p>
           <div className="project-img-div-long">
-            <img className="small_pic"
-            src='graphic/t-shirt/group@2x.png'
-          />
+           <ImageZoom
+                    image={{
+                      src: 'graphic/t-shirt/group@2x.png',
+                      style: {
+                        width: '700px'
+                      }
+                    }}
+                    zoomImage={{
+                      src: 'graphic/t-shirt/group@3x.png',
+                      style: {
+                        width: '3000px'
+                      }
+                    }}
+                  />
           </div>
           <h5>People’s names compose the number 30 with the motto of Beihang University below. </h5>
           <div className="content-block" id={'physical-design'}>

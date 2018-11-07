@@ -216,7 +216,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/persona@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -234,7 +234,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/x_mind@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -253,7 +253,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/classic_story@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -272,7 +272,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/emotion_map@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -294,7 +294,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/math@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -349,19 +349,19 @@ export class Fruito extends Component {
               The answers are categorized as beblow—
               </p>
               <Slider {...settings} className="slider2">
-                <div className="project-img-div-long">
+                <div className="project-img-div-long slider-fruito">
                   <img
                 src='fruito/purchase@2x.png'/>
                 </div>
-                <div className="project-img-div-long">
+                <div className="project-img-div-long slider-fruito">
                   <img
                 src='fruito/eat@2x.png'/>
                 </div>
-                <div className="project-img-div-long">
+                <div className="project-img-div-long slider-fruito">
                   <img
                 src='fruito/store@2x.png'/>
                 </div>
-                <div className="project-img-div-long">
+                <div className="project-img-div-long slider-fruito">
                   <img
                 src='fruito/reuse@2x.png'/>
                 </div>
@@ -390,7 +390,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/metrics@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -430,7 +430,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/workflow@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -451,7 +451,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/input@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -481,7 +481,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/wireframe@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -508,7 +508,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/fruito_v1@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -528,7 +528,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/ui_iteration@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{
@@ -551,7 +551,7 @@ export class Fruito extends Component {
                     image={{
                       src: 'fruito/ui_display@2x.png',
                       style: {
-                        width: '1400px'
+                        width: '700px'
                       }
                     }}
                     zoomImage={{

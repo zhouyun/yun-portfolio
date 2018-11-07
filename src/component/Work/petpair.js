@@ -215,7 +215,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               </section>
               <div className="section-sub-title"> Start with preview</div>
               <p>
-                Since I was not familiar with how pet adoption system works, I gave myself about 1 hour to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviewers.</p>
+                Since I was not familiar with how pet adoption system works, I gave myself about 1 hour to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviews.</p>
               <div className="petpair-project-img-div-long hd">
               <ImageZoom
                 image={{
@@ -236,7 +236,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               
             <div className="section-sub-title"> Find out the audience</div>
             <p>
-              With talking to several interviewers who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by levels —<br/>
+              With talking to several interviewees who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by motivation levels —<br/>
 
               1. People who are looking for a new pet to adopt. — <HighLightOnVisible className="highlight-general">Doers</HighLightOnVisible><br/>
 2. People who are considering to have a pet, either adopting from shelters or buying from breeders. — <HighLightOnVisible className="highlight-general">Thinkers</HighLightOnVisible><br/>
@@ -680,7 +680,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>I sincerely invite Ed Sheeran, Taylor Swift and Selena Gomez to join us! (If they are not the most popular ones, sorry I am not really familiar with American celebrities🤷.)</p>
 
               <div className="display-tittle">Summary</div>
-              <p><HighLightOnVisible className="highlight-general">Youtube</HighLightOnVisible> will be a great support for pet adoption boost. <HighLightOnVisible className="highlight-general">Gmail</HighLightOnVisible> and <HighLightOnVisible className="highlight-general">Google Maps</HighLightOnVisible> are the tools involved in the system already. I don’t have a TV myself, but I know <HighLightOnVisible className="highlight-general">Google Now</HighLightOnVisible> could help to show those cute animals’ pictures that  also introduces a way to bring more observers!</p>
+              <p><HighLightOnVisible className="highlight-general">Youtube</HighLightOnVisible> will be a great support for pet adoption boost. <HighLightOnVisible className="highlight-general">Gmail</HighLightOnVisible> and <HighLightOnVisible className="highlight-general">Google Maps</HighLightOnVisible> are the tools involved in the system already. I don’t have a TV myself, but I know <HighLightOnVisible className="highlight-general">Chromecast</HighLightOnVisible> could help to show those cute animals’ pictures that  also introduces a way to bring more observers!</p>
               <div className="display-tittle">We can have so many opportunities to connect people and animals, leading them to become doers from observers. Then we are making the world a better place, especially for the animals.</div>
                <div className="little-blue-blink">Let’s just keep calm and move on.</div>
                <img className="cat-lbb" src="petpair/move-on.gif" height="120px" ></img>
