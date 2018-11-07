@@ -175,6 +175,13 @@ export class Petpair extends Component {
 
                 <p>As part of interview process with Google, I choose <HighLightOnVisible className="highlight-general">Pet Adoption</HighLightOnVisible> from the three because I feel emotionally connected to this topic.</p>
                 <p>I used to have a great time with two cats and one duck that my grandma rescued from  streets. However, <HighLightOnVisible className="highlight-general">we don’t have shelters in China</HighLightOnVisible>, so I am really curious about <HighLightOnVisible className="highlight-general">how shelters work</HighLightOnVisible> in pet adoption system and excited about <HighLightOnVisible className="highlight-general">what I could do to help</HighLightOnVisible>.</p>
+                <p>
+                  As most of my questions about the exercise got very open-ended answers by my recruiter, I decided to follow some principles aligning with my design values —<br/>
+1. The solution should work as a helper for shelters instead of imposing financial or staff burden on them.<br/>
+2. The solution should focus on local first without losing global potentials.<br/>
+3. The solution should focus on pets matching first with consideration of user retention.
+
+                </p>
               </div>
               <section className="content-block" id={'challenge'}>
                 <div className="section-title">01_Challenge</div>
@@ -236,7 +243,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               
             <div className="section-sub-title"> Find out the audience</div>
             <p>
-              With talking to several interviewees who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by motivation levels —<br/>
+              With talking to several people who have pets, age ranging from 20 to 60, I narrowed down my audience to people who are <HighLightOnVisible className="highlight-general">comfortable searching pet adoption information online</HighLightOnVisible> when they are planning to adopt a pet. Also I categorized the audience by motivation levels —<br/>
 
               1. People who are looking for a new pet to adopt. — <HighLightOnVisible className="highlight-general">Doers</HighLightOnVisible><br/>
 2. People who are considering to have a pet, either adopting from shelters or buying from breeders. — <HighLightOnVisible className="highlight-general">Thinkers</HighLightOnVisible><br/>
@@ -346,7 +353,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               </p>
               <p>
                 
-Since it will not launch soon, I won’t dig into the metrics too much. But here comes the idea— <br/>
+Since it will not launch soon, I won’t dig into the metrics too much. But here comes the idea — <br/>
 1. Time spend on finding the matching pets<br/>
 2. Test on shelters and shelter animals knowledge<br/>
 3. Monthly Active User and demographics change
