@@ -194,7 +194,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
           <p>
           It involves pets, shelters and adopters-to-be. 
           </p>
-          <div className="petpair-project-img-div-long hd">
+          <div className="petpair-project-img-div-long">
           <ImageZoom
                 image={{
                   src: 'petpair/triangle@2x.png',
@@ -223,7 +223,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
               <div className="section-sub-title"> Start with preview</div>
               <p>
                 Since I was not familiar with how pet adoption system works, I gave myself about 1 hour to do a rough research. I made some drafts on the paper and wrote down assumptions that I felt I need more details from the interviews.</p>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/sketches@2x.png',
@@ -249,7 +249,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
 2. People who are considering to have a pet, either adopting from shelters or buying from breeders. — <HighLightOnVisible className="highlight-general">Thinkers</HighLightOnVisible><br/>
 3. People who have direct interactions with pets in the past. — <HighLightOnVisible className="highlight-general">Observers</HighLightOnVisible>
             </p>
-            <div className="petpair-project-img-div-long hd">
+            <div className="petpair-project-img-div-long">
             <ImageZoom
                 image={{
                   src: 'petpair/how@2x.png',
@@ -276,7 +276,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
              <p>
                Ken and Lily adopted Coco when she was 7 months. They were categorized as my Audience #1 (Doers).
              </p>
-             <div className="petpair-project-img-div-long hd">
+             <div className="petpair-project-img-div-long">
              <ImageZoom
                 image={{
                   src: 'petpair/coco@2x.png',
@@ -303,7 +303,7 @@ Millions of animals are currently in shelters and foster homes awaiting adoption
              <p>
                Tian and Xu bought new born Nana from a breeder. They were categorized as my Audience #2 (Thinkers).
              </p>
-             <div className="petpair-project-img-div-long hd">
+             <div className="petpair-project-img-div-long">
              <ImageZoom
                 image={{
                   src: 'petpair/nana@2x.png',
@@ -371,7 +371,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 3. It usually happens once in a certain period of time, they will consider the second adoption after getting really acquainted with the first one. — <HighLightOnVisible className="highlight-general">low frequency</HighLightOnVisible>
 
               </p>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/time@2x.png',
@@ -396,7 +396,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>
                 The features, actions and flow were already on my mind after the phases above, I did the first sketch and marked the part which needed more thoughts and feedback, then did some iterations.
               </p>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/flow@2x.png',
@@ -419,7 +419,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>
                 Here is the final version after several iterations.
               </p>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-all@2x.png',
@@ -447,7 +447,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <div className="display-tittle"> 1. Onboarding
               </div>
               <div className="petpair-project-img-div-long">
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-1-1@2x.png',
@@ -464,7 +464,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldReplaceImage={false}
               />
               </div>
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-1-2@2x.png',
@@ -497,7 +497,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <div className="display-tittle"> 2. Exploring
               </div>
               <div className="petpair-project-img-div-long">
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-2-1@2x.png',
@@ -514,7 +514,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldReplaceImage={false}
               />
               </div>
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-2-2@2x.png',
@@ -544,7 +544,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <div className="display-tittle"> 3. Collaborating
               </div>
               <div className="petpair-project-img-div-long">
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-3-1@2x.png',
@@ -561,7 +561,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
                 shouldReplaceImage={false}
               />
               </div>
-              <div className="petpair-project-img-div-long-elements hd">
+              <div className="petpair-project-img-div-long-elements">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-3-2@2x.png',
@@ -589,7 +589,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
 
               <div className="display-tittle"> 4. Connecting
               </div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/wireframe-4@2x.png',
@@ -623,7 +623,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               </p>
               
               <div className="display-tittle">Educational</div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/educational@2x.png',
@@ -643,7 +643,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               </div>
               <p>While traditional questionnaire is always one way, Petpair focuses on interactivity, which automatically provides tips and adds filters, helping users <HighLightOnVisible className="highlight-general">learn about pet adoption</HighLightOnVisible>. Moreover, user can play around different options to learn more, and I believe our animal friends deserve our efforts to learn how to take care of them better.</p>
                <div className="display-tittle">Collaboration-trending</div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/collabration@2x.png',
@@ -666,7 +666,7 @@ Since it will not launch soon, I won’t dig into the metrics too much. But here
               <p>Same as roommates, classmates and colleagues, sharing pets are also decent options. We can have a hamster, Momo raised in our classroom, 6 year old Joe and Mike will take care of him this week, and learn more about biology and parenting. We can have a cat, Fishey raised in our office, be our therapy cat, and Ken take her home this weekend.</p>
 
               <div className="display-tittle">Community</div>
-              <div className="petpair-project-img-div-long hd">
+              <div className="petpair-project-img-div-long">
               <ImageZoom
                 image={{
                   src: 'petpair/home@2x.png',
