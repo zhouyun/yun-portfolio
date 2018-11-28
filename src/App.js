@@ -144,6 +144,11 @@ class Home extends Component {
           <div className="UI-designer-Be">A visual & UX designer who designs visually and logically,<br/> currently located in Bay Area, CA.</div>
         </div>
         <SNSIcon/>
+        <div style={{fontSize: '11px',textAlign: 'center',marginTop: '50px'}}>
+          <Link style={{}} to="/">- WORK -</Link>
+          <Link style={{marginLeft: '130px'}} to="/about">- ABOUT -</Link>
+          <Link style={{marginLeft: '130px'}} to="/resume">- RESUME -</Link>
+        </div>
         <div className="project-section project-palmdrive-section">
           <Link to="/work/palmdrive">
             <div className="img-block" >
